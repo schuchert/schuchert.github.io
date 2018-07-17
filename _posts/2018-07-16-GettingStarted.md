@@ -1,5 +1,5 @@
 ---
-Title: Getting my blog Setup
+title: Getting my blog Setup
 ---
 I've again renewed my effort to get started blogging. The subject of C++ came up a few times and I decided to 
 see how much effort it would be to get some simple examples working. 

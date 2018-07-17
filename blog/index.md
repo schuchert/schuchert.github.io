@@ -1,2 +1,5 @@
-|Blog|Date|
-|[Getting My Blog Setup](/blog/getting_setup/index.html)|2018-07-16|
+<table>
+<tr><th>Title</th><th>Date Published</th></tr>
+{% for post in site.posts %}
+<tr><td><a href="{{ post.url}}">{{ post.title }}</a></td><td>{{ post.date | date: "%Y-%m-%d"}}</td>
+{% endfor %}
