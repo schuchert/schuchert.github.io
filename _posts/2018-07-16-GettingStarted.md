@@ -26,15 +26,15 @@ I had originally tried following the instructions [here](https://help.github.com
 1. I did follow [Step 1](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#step-1-create-a-local-repository-for-your-jekyll-site).
 1. Rather than following [step 2](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/#step-2-install-jekyll-using-bundler) I cloned [my github pages repo](https://github.com/schuchert/schuchert.github.io).
 1. I created a sibling directory following using the normal jekyll approach:
-~~~
+~~~console
 jekyll new jekyl-site-schuchert.github.io
 ~~~
 1. In the directory created in the previous example, I attempted to run jekyll locally:
-~~~
+~~~console
 bundle exec jekyll serve --source ../schuchert.github.io/
 ~~~
 1. For this to work I needed to add three (if I remember them all) values in _config.yml of schuchert.github.io
-~~~
+~~~yaml
 title: Brett Schuchert's Collection Of Old And Outdated Ideas
 description: >-
   Yet another attempt at a blog as well as porting of an old site
