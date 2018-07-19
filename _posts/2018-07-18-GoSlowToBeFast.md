@@ -19,7 +19,7 @@ However, for spectators, speed is interesting, and slow-driving skills are only 
 
 <aside>
 <h1>Why is riding slow harder?</h1>
-<p>Under about 12 - 15 miles an hour, you turn the front
+Under about 12 - 15 miles an hour, you turn the front
 wheel much like in a car. To go left, push forward on the right and pull on the left. It really is the same as
 a car. To turn left, you rotate the steering wheel counter clockwise. The handle bars on the motorcycle also
 turn counter clockwise if you look from aboe. This is steering. 
@@ -37,6 +37,7 @@ jumps, none of these details are relevant as a spectator.
 
 However, you are probably not here to learn about counter-steering, clutching, the three parts of a car 
 lane, the impact of wind, heat, etc. on riding.
+
 </aside>
 
 My mind then jumped to the thought of practing slow to moves fast.
