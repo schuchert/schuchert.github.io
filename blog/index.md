@@ -7,7 +7,7 @@
 {% for post in site.posts %}
 <tr {% if post.layout contains "Draft" %}class="draft"{% endif %}>
   <td><a href="{{ post.url}}">{{ post.title }} {% if post.tagline %}<span class="tagline"> - {{ post.tagline }}</span>{% endif %}</a></td>
-  <td>{{ post.date | date: "%Y-%m-%d"}}</td>
-  <td>{{ post.description }}</td>
+  <td><a href="{{ post.url}}">{{ post.date | date: "%Y-%m-%d"}}</a></td>
+  <td><a href="{{ post.url}}">{{ post.description }}</a></td>
 </tr>
 {% endfor %}
