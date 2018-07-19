@@ -3,7 +3,7 @@ title: Going slow to go fast
 layout: post
 draft: true
 description: Random thoughts about internal experience, versus external experiences
-tagline: Internal vs. external awareness
+tagline: Internal vs. External Awareness
 ---
 {::options parse_block_html="true" /}
 As I drove home today I noticed a motorcycle cop had pulled someone over. I was reminded of a motorcycle class I took 
@@ -22,7 +22,7 @@ However, for spectators, speed is interesting, and slow-driving skills are only 
 Under about 12 - 15 miles an hour, you turn the front
 wheel much like in a car. To go left, push forward on the right and pull on the left. It really is the same as
 a car. To turn left, you rotate the steering wheel counter clockwise. The handle bars on the motorcycle also
-turn counter clockwise if you look from aboe. This is steering. 
+turn counter clockwise if you look from above. This is steering. 
 
 Things change around 15 miles an hour. At this speed and above, your tires are like gyroscopes. They resist 
 turning from forward. Rather than turning the wheel left to go left (_**pulling**_ on the left handlebar), 
@@ -40,7 +40,7 @@ lane, the impact of wind, heat, etc. on riding.
 
 </aside>
 
-My mind then jumped to the thought of practing slow to moves fast.
+My mind then jumped to the thought of practicing slow to moves fast.
 
 This lead me to think about Tai Chi. I've been practicing since around August of 2015. At the beginning I was lucky
 to not bump into other people while I tried to do the form. Now I occasionally fill in for my Sifu.
@@ -101,7 +101,7 @@ quite a bit of time, and realizing that I'm going to maybe 20% merely OK at any 
 consistently.
 
 My colleague and I did this for maybe 5 minutes. I did not give him the entire list above but a much shorter list
-of things to consdier. We did this for about 5 minutes. Even 5 minutes of intentional practice like this can feel
+of things to consider. We did this for about 5 minutes. Even 5 minutes of intentional practice like this can feel
 tiring as the practice encourages presence to the current moment, which takes effort.
 </aside>
 
@@ -116,11 +116,11 @@ Once I've learned the basics of a language, I can start thinking at a higher lev
 basics like coupling and cohesion, or assignment of responsibility, the SOLID principles, deign patterns, language
 idioms, test-first, and so on.
 
-When I move to this level, I do the same thing I did at the languag level. I take time practicing techniques, 
+When I move to this level, I do the same thing I did at the language level. I take time practicing techniques, 
 problems, and even keyboard shortcuts to get this higher level of thinking connected to my kinesthetic memory.
 
 One great way to do that is is through code katas, or maybe full on programming problems. I have a few in my 
-back pocket I lean on. Having accidentally practiced repition on a single problem for years because I was
+back pocket I lean on. Having accidentally practiced repetition on a single problem for years because I was
 teaching in the 90s, I both have quite a bit of experience with particular problems. More importantly, I have
 practice practicing and learning how to make small variances in a solution to see what happens.
 
@@ -129,7 +129,7 @@ Martin Fowler, or legacy refactoring as described by Michael Feathers.
 
 Often work is too swamped to "waste" time learning the basics. However, much like luck is "good" if you
 work in a way to have enough space/flex and can respond to events, and "bad" if there's no room to breath.
-Taking time to step back and practice things slowly, deliberately, and consiouslly enables moving much more
+Taking time to step back and practice things slowly, deliberately, and continually enables moving much more
 quickly in the code base. Trying to move quickly in a code base without this practice might work, but 
 I think it'll overall be slower.
 
