@@ -1,12 +1,29 @@
 ---
 ---
-
 @import "{{ site.theme }}";
+
+.draft {
+	background-image: url({% link /assets/images/draft-160133_640.png %});
+	background-repeat: repeat;
+	background-size: contain;
+}
+
+.draft:hover {
+	background-image: none !important;
+}
 
 aside {
 	margin-bottom: 1em;
 	border-left: 3px solid white;
 	padding: 0 0 0 1em;
 	font-color: lightblue;
+
+	h1 {
+		font-size: 120%;
+	}
 }
 
+.tagline {
+	font-size: 75%;
+	font-style: italic;
+}
