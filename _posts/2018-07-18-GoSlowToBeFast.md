@@ -2,10 +2,14 @@
 title: Going slow to go fast
 layout: post
 draft: true
-description: Random thoughts about internal experience, versus external experiences
+description: >
+  Random thoughts about internal experience, versus external experiences and going slow
+  to go fast inspired by a car pulled over my a motorcycle cop.
 tagline: Internal vs. External Awareness
 ---
 {::options parse_block_html="true" /}
+
+## The Motorcycle Cop
 As I drove home today I noticed a motorcycle cop had pulled someone over. I was reminded of a motorcycle class I took 
 from the local police department around Summer of 2005. It was a great experience and one of the things that
 stuck with me was a comment from one of the officers about speed and skill.
@@ -26,7 +30,7 @@ turn counter clockwise if you look from above. This is steering.
 
 Things change around 15 miles an hour. At this speed and above, your tires are like gyroscopes. They resist 
 turning from forward. Rather than turning the wheel left to go left (_**pulling**_ on the left handlebar), 
-you deflect the front tire by_ **pushing**_ forward on the left side. This is called counter-steering.
+you deflect the front tire by _**pushing**_ forward on the left side. This is called counter-steering.
 
 At slow speeds, you also will "clutch" the bike, with the clutch variably, but partially engaged, while 
 "rolling the throttle" or while increasing the RPMs of the engine, which engages the suspension and lowers 
@@ -40,6 +44,7 @@ lane, the impact of wind, heat, etc. on riding.
 
 </aside>
 
+## Tai Chi
 My mind then jumped to the thought of practicing slow to moves fast.
 
 This lead me to think about Tai Chi. I've been practicing since around August of 2015. At the beginning I was lucky
@@ -105,6 +110,7 @@ of things to consider. We did this for about 5 minutes. Even 5 minutes of intent
 tiring as the practice encourages presence to the current moment, which takes effort.
 </aside>
 
+## My Real Job
 Back to my drive home. I was getting close to home by now, and the idea of going slow to go fast lead me to 
 think about coaching technical practices. 
 
