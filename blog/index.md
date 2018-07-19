@@ -1,5 +1,13 @@
 <table>
-<tr><th>Title</th><th>Date Published</th></tr>
+<tr>
+  <th width="35%">Title</th>
+  <th width="15%">Date Published</th>
+  <th width="50%">Description</th>
+</tr>
 {% for post in site.posts %}
-<tr><td><a href="{{ post.url}}">{{ post.title }}</a></td><td>{{ post.date | date: "%Y-%m-%d"}}</td>
+<tr {% if post.layout contains "Draft" %}class="draft"{% endif %}>
+  <td><a href="{{ post.url}}">{{ post.title }} {% if post.tagline %}<span class="tagline"> - {{ post.tagline }}</span>{% endif %}</a></td>
+  <td>{{ post.date | date: "%Y-%m-%d"}}</td>
+  <td>{{ post.description }}</td>
+</tr>
 {% endfor %}
