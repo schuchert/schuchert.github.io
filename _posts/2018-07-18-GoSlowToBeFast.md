@@ -179,7 +179,7 @@ As it turns out, refactoring techniques have come in handy as I've been experime
 I've also been apply ideas from Continuous Deployment to my post release approach.
 
 I don't have an end to this blog per se. Mostly, it's a few random associations and connections from a few domains.
-So I'll end we a few questions:
+So I'll end with a few questions:
 * What is something you do that from the outside might seem trivial, but from your internal perspective, is rich and rewarding? 
 * Is there anything for which you go slow now so that you can go fast later?
 
