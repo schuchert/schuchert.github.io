@@ -49,7 +49,7 @@ lane, the impact of wind, heat, etc. on riding.
 </aside>
 
 ## Tai Chi
-My mind then jumped to the thought of practicing slow to moves fast.
+My mind then jumped to the thought of practicing slow to move fast.
 
 This lead me to think about Tai Chi. I've been practicing since around August of 2015. 
 At the beginning I was lucky to not bump into other people while I tried to do the form. 
@@ -175,8 +175,35 @@ I've recently started blogging again, so I started capturing my thoughts.
 I have also spent a bunch of time learning about the system I'm using (Jekyll + Google pages).
 I'm combining practicing writing again, with figuring out how to customize by blog.
 
+<aside>
+# Refactoring and CD In Blogging
 As it turns out, refactoring techniques have come in handy as I've been experimenting with layouts.
 I've also been apply ideas from Continuous Deployment to my post release approach.
+
+The first thing that came up is that there's a difference between running my blog locally and on Github.
+Github pages does not support of all of Jekyll. The difference is not currently an issue, but it could
+lead to mistakes that I don't notice until after I've pushed. To address this, I added in something I'd
+say is analogous to a feature toggle. I set a post status to draft while working on it. There's
+nothing unique to that idea. In addition, I modify the CSS for draft content to make it clear that 
+this is a draft. 
+
+This offers some advantages:
+* I can push anytime I want and see how it looks "for real" versus "on my machine."
+* The content is integrated and backed up.
+* I allow people to see what I'm working on as well as how I work.
+
+It's also a bit worrying as I tend to write too much and then take too little away. I'm OK with that stress.
+
+Another thing that I've been doing when experimenting with layout is to add new layouts rather than change
+them in place. So before I understood how to pass flags into Jekyll layouts, I duplicated my post layout
+and used the duplicate. This is similar to making a new copy of a function and using it in one place but not others.
+The first step in refactoring is often one of creation rather than change or replacement. This more relevant
+in legacy refactoring than greenfield refactoring, but true nonetheless.
+
+While my blog is mostly empty and new, there are some old posts I brought into it. By adding and using the
+new layout, the old posts remain unchanged. This allows me to experiment safely and limit the size of a
+mistake while I'm learning.
+</aside>
 
 I don't have an end to this blog per se. Mostly, it's a few random associations and connections from a few domains.
 So I'll end with a few questions:
