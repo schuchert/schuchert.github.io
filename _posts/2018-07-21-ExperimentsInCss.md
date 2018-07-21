@@ -1,6 +1,5 @@
 ---
 title: Experiments in Css, making Asides collapsible 
-draft: true
 layout: post
 description: >
   A live blog that is meant to demonstrated something I want to have.

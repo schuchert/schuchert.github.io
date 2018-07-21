@@ -21,8 +21,7 @@ To be clear, he was talking about giving demonstrations. Going slow is more diff
 
 However, for spectators, speed is interesting, and slow-driving skills are only interesting to fellow riders.
 
-<aside>
-<h1>Why is riding slow harder?</h1>
+{% include aside/start id="riding" title="Why is riding slow harder?" %}
 Under about 12 - 15 miles an hour, you turn the front wheel much like in a car. 
 To go left, push forward on the right handlebar and pull on the left handlebar.  
 As with a car, to turn left, you rotate the steering wheel counter clockwise. 
@@ -45,8 +44,7 @@ jumps, none of these details are relevant as a spectator.
 
 However, you are probably not here to learn about counter-steering, clutching, the three parts of a car 
 lane, the impact of wind, heat, etc. on riding.
-
-</aside>
+{% include aside/end %}
 
 ## Tai Chi
 My mind then jumped to the thought of practicing slow to move fast.
@@ -78,8 +76,7 @@ To an onlooker, it might look like there's not much going on.
 It's not obvious. It's slow. It must be easy. 
 But the internal internal experience is nothing like the outward appearance.
 
-<aside>
-# (Standing) Wu Chi
+{% include aside/start id="wuchi" title="(Standing) Wu Chi" %}
 Early in 2018, one of the people I was coaching asked about Tai Chi. He said "teach me something." 
 I worked on showing him how to stand.
 
@@ -124,7 +121,7 @@ I did not give him the entire list above.
 In fact, I don't think I knew that list early in 2018.
 We did this for about 5 minutes. Even 5 minutes of intentional practice like this can feel
 tiring as the practice encourages presence to the current moment, which takes effort.
-</aside>
+{% include aside/end %}
 
 ## My Real Job
 Back to my drive home. I was getting close to home by now, and the idea of going slow to go fast lead me to 
@@ -175,8 +172,7 @@ I've recently started blogging again, so I started capturing my thoughts.
 I have also spent a bunch of time learning about the system I'm using (Jekyll + Google pages).
 I'm combining practicing writing again, with figuring out how to customize by blog.
 
-<aside>
-# Refactoring and CD In Blogging
+{% include aside/start id="refactoringandcd" title="Refactoring and CD in Blogging" %}
 As it turns out, refactoring techniques have come in handy as I've been experimenting with layouts.
 I've also been apply ideas from Continuous Deployment to my post release approach.
 
@@ -203,7 +199,7 @@ in legacy refactoring than greenfield refactoring, but true nonetheless.
 While my blog is mostly empty and new, there are some old posts I brought into it. By adding and using the
 new layout, the old posts remain unchanged. This allows me to experiment safely and limit the size of a
 mistake while I'm learning.
-</aside>
+{% include aside/end %}
 
 I don't have an end to this blog per se. Mostly, it's a few random associations and connections from a few domains.
 So I'll end with a few questions:
