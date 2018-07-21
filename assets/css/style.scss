@@ -80,13 +80,13 @@ input[type='checkbox'] {
   border-bottom-left-radius: 0;
 }
 
-input ~ div.collapsible-content {
+input.toggle ~ div.collapsible-content {
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 2s;
 }
 
-input:checked ~ div.collapsible-content {
+input:checked.toggle ~ div.collapsible-content {
 	transition: max-height 2s;
 	max-height: unset;
 }
