@@ -15,10 +15,23 @@ might convince myself that I don't need them.
 I'm hoping to follow some examples I found about pure CSS collapsible sections and make them work
 in Jekyll. Once I've done that, I want to make them easy to use in my blog.
 
-<aside>
-<h1>The Section In Question</h1>
+{% include aside/start id="aside-1" title="Section 1" %}
+A list of things might be split into:
+* things to like
+* things to not like
+* anything that is not in the above list
+{% include aside/end %}
+
+{% include aside/start id="aside-2" title="Section 2" %}
+A list of things might be split into:
+* things to like
+* things to not like
+* anything that is not in the above list
+{% include aside/end %}
+
+{% include aside/start id='t3' title='The Section In Question' %}
 When this blog is out of draft, this section will be here but collapsed by default. 
-</aside.
+{% include aside/end %}
 
 As the aside above says, when this blog is out of draft, the asside above will be expandable but collapsed
 by default.
