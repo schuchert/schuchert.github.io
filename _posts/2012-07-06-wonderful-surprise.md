@@ -5,7 +5,6 @@ description: "Nice feedback on a C++ book I've toyed with"
 category: 
 tags: [feedback, C++, tdd]
 ---
-{% include JB/setup %}
 I started working on a book some time back on C++ and something like OOD or TDD
 or some such theme. You can see its current state [here](http://schuchert.wikispaces.com/cpptraining.CppAndOodTheLeastYouNeedToKnow).
 I did that because at the time I was teaching C++ to C programmers at NASA and

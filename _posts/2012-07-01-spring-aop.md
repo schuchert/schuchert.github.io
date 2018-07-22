@@ -5,12 +5,6 @@ description: "Quick overview of getting Spring Aop up and running"
 category: 
 tags: [spring, aop]
 ---
-{% include JB/setup %}
-<style type="text/css">
-td, th {
-  border: solid 1px black;
-}
-</style>
 <h1>Introduction</h1>
 Many years ago I worked with [AspectJ](http://en.wikipedia.org/wiki/AspectJ) on a project to improve a part
 of an aging system. I wrote up some tutorials on that [here](http://schuchert.wikispaces.com/AspectJ+Self+Study).
