@@ -13,5 +13,16 @@ layout: default
   crossorigin="anonymous"
   async>
 </script>
-</dv>
+</div>
 
+<script>
+var input = document.querySelectorAll('.lbl-toggle');
+Array.from(input).forEach(
+  l=>l.addEventListener("keydown", e=>{ 
+    if(e.which === 13 || e.which === 32){
+      e.preventDefault(); 
+      l.click();
+    } 
+  })
+);
+</script>
