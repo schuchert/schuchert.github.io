@@ -1,3 +1,5 @@
-# [Old Wikispaces Site](/wikispaces/index.html)
-----
 # [Blog Posts](/blog/index.html)
+
+----
+
+# [Old Wikispaces Site](https://schuchert.github.io/wikispaces/index.html)
