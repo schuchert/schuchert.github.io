@@ -8,7 +8,7 @@ tags: [feedback, C++, tdd]
 I started working on a book some time back on C++ and something like OOD or TDD
 or some such theme. You can see its current state [here](http://schuchert.wikispaces.com/cpptraining.CppAndOodTheLeastYouNeedToKnow).
 I did that because at the time I was teaching C++ to C programmers at NASA and
-I wanted to have additioanl backround material for the students.
+I wanted to have additional background material for the students.
 
 As you can see by the date, I haven't done anything with it lately. I did 
 contact some publishers but nobody seemed very interested and, like with a lot 
