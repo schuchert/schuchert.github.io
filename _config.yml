@@ -9,3 +9,4 @@ plugins:
 baseurl: "/"
 url: "http://schuchert.github.io"
 repository: schuchert/schuchert.github.io
+github: [metadata]
