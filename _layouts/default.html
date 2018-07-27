@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
   </head>
@@ -28,6 +29,18 @@
             <li class="downloads"><a href="{{ site.github.tar_url }}">TAR</a></li>
             <li class="title">DOWNLOADS</li>
           {% endif %}
+	  <li><a href="{{ site.base_url }}/blog">Blog</a></li>
+	  <li><a href="{{ site.base_url }}/wikispaces/pages/home">Wikispaces</a></li>
+	  <li>
+		  <div id="searchBar">
+                      <div id="search">
+                          <form role="search" method="get" action="{{ site.baseurl }}/search/">
+                          <input id="searchString" name="searchString" placeholder="What you you looking for..." type="text">
+                          <input id="searchButton" name="googleSearchName" type="submit" value="Search">
+                          </form>
+                      </div>
+		  </div>
+          <li>
         </nav>
       </div><!-- end header -->
 
