@@ -1,9 +1,11 @@
-title: Brett Schuchert
-description: A collection of old and outdated ideas
+title: Brett L. Schuchert
+description: A collection of old and outdated ideas for someone who's memory is getting worse every year
 theme: jekyll-theme-midnight
 twitter_username: schuchert
 github_username: schuchert
 makrdown: kramdown
+kramdown: 
+  parse_block_html: true
 plugins:
   - jekyll-feed
   - jekyll-sitemap
