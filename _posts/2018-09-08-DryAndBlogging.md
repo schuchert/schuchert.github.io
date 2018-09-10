@@ -4,15 +4,12 @@ layout: post
 description: >
   Making something more useful for subsequent uses could have lead to duplication, but I'm working on reducing that.
 tagline: More usability, reducing duplication
-draft: true
 ---
-## Realization
+## Background
 
-I often write tutorials to cover what I learned because I'm better at
-remembering if I've learned something in the past that the particular 
-details of what I've learned.
-
-If I've written it, I can google for it. And I do.
+I often write tutorials to cover what I learned because while I'll probably
+forget the details, if I've written it, I'll remember that I've written
+something on the subject, and I'll google for it.
 
 <aside>
 ### Years Moved
@@ -22,40 +19,43 @@ github. Wikispaces closing down was the
 that got me to get back in to blogging.
 </aside>
 
+## Realization
+
 On a recent coaching gig I was reminded that it's common for people working
-in Java to now know how to create a project from scratch. I think this
+in Java to not know how to create a project from scratch. I think this
 is an important skill because being stopped or slowed down from 
-trying to practice like a 
+trying to practice something like a 
 [kata](https://schuchert.github.io/wikispaces/pages/SatirChangeModel.html)
 could be just enough to stop someone from giving it a try.
 
 I wrote [yet another example](https://schuchert.github.io/wikispaces/pages/java/project.from.scratch/using.gradle.html)
-of how to do that that is somewhat close to the environment the group works in.
+of how to do that using an approach that is somewhat close to the 
+environment the group works in.
 
-As I was writing this, I though to myself that I'd like to be able to just
-grab the commands and run them. Here's my thinking:
+As I wrote this, I though I'd like to be able to just grab the commands
+and run them. Here's my thinking:
 1. I remember I've written something
 1. I can find it using google
-1. I find it
-1. But it's written with details I don't need.
+1. What I find is written with details I don't need.
+1. So it's a bit more work to use it later
 
-So I wanted a summary of the steps both for myself and for someone who 
+I want a summary of the steps both for myself and for someone who 
 basically gets it but might not remember the details.
 
 If you have a look a [that example](https://schuchert.github.io/wikispaces/pages/java/project.from.scratch/using.gradle.html)
 I think you'll see that I've got a good first cut. I can copy the summary
 at the top, or I can go further into the details.
 
-I know that I update stuff and I don't like duplication. So I wondered
-how could I avoid (or at least) reduce duplication.
+I don't like duplication. So I wondered how could I avoid duplication, 
+or at least reduce it, as I update the details of that example.
 
 Here were my givens:
 1. I'm using Jekyll for github pages
 1. I don't want to have to have the same material twice if I can avoid it
 1. It would be nice to have something I could use in other places
+1. I prefer using pure css
 
-What follows is a collection of some of the things I did to make this 
-happen.
+What follows is a collection of some of the things I did to get close.
 
 ### Extract File
 
@@ -75,7 +75,8 @@ Next, I included that file twice, wrapping it with a div with a style:
 </div>
 ```
 
-Now this was itself duplicated (only difference is the class in the```div```)
+Now this was itself duplicated, notice the only difference is the class in 
+the```div```.
 ``` ruby
 <div class="show_terminal">
 {% raw %}
@@ -93,7 +94,7 @@ pure css for the formatting.
 
 So I created css ([less](https://en.wikipedia.org/wiki/Less_(stylesheet_language) example shown) to get the effect I wanted (this is the relevant styling):
 
-``` html
+``` 
 div {
     &.show_terminal {
         div.language-bash {
@@ -128,6 +129,7 @@ a parameter:
 {% endcapture %}
 {{ summary | markdownify }}
 {% endraw %}
+
 ```
 #### Using it
 ``` ruby
@@ -140,10 +142,10 @@ a parameter:
 
 Notice, this does not introduce the```section``` or the css class. After 
 some thinking, I wanted that include to stick to one thing. I also didn't
-want to inclusion of content to be coupled to its semantic context, so 
+want the inclusion of content to be coupled to its semantic context, therefore 
 * the first line introduces the semantic context
-* Next, I give it a level 2 hearer. 
-* Finally, use the file includer passing in the filename.
+* Next, I give it a level 2 header for where it resides it the context of its use
+* Finally, use include the file while passing in the filename.
 
 ### Lie Reveled
 
@@ -170,7 +172,7 @@ BUILD SUCCESSFUL in 0s
 
 The command that I display in the summary of a page is formatted using
 the bash style. The command with a prompt and its output is formatted
-with the terminal style. So I still have the duplication. But I think 
+with the terminal style. So I still have the duplication, I think 
 this is better than what I would have otherwise done.
 
 As I'm still new to using Jeykll, I'm getting the hang of using it.
@@ -184,14 +186,18 @@ Something like this:
 <span class="terminal">vagrant@vagrant-ubuntu16:~/src/smoke$</span><span class="bash"?gradle init --type java-application</span>
 ```
 
-I would do it. But I have not yet figured out that magic. 
+I would do it. But I have not yet figured out that magic. If I did all of the
+formatting by hand I probably could do that. However, I'm using the code
+formatting built into Jekyll.
 
-Assuming I figure that out, I don't duplicate that. Instead, I'll have some
-macro like:
+Assuming I figure out how to get both, I won't duplicate that. Instead, 
+I'll have some macro like:
 ```
+{% raw %}
 {$ include command_line 
   prompt="vagrant@vagrant-ubuntu16:~/src/smoke$"
   command="gradle init --type java-application" %}
+{% endraw %}
 ```
 
 But until then, I'm happy with what I've managed so far.
