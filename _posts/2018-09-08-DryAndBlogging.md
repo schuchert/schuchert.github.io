@@ -53,7 +53,7 @@ Here were my givens:
 1. I'm using Jekyll for github pages
 1. I don't want to have to have the same material twice if I can avoid it
 1. It would be nice to have something I could use in other places
-1. I prefer using pure css
+1. I prefer using pure CSS
 
 What follows is a collection of some of the things I did to get close.
 
@@ -90,9 +90,9 @@ the```div```.
 
 ### Pure CSS It Up
 While I could have used jquery or raw Javascript, I wanted to stick to
-pure css for the formatting. 
+pure CSS for the formatting. 
 
-So I created css ([less](https://en.wikipedia.org/wiki/Less_(stylesheet_language) example shown) to get the effect I wanted (this is the relevant styling):
+So I created CSS ([less](https://en.wikipedia.org/wiki/Less_(stylesheet_language) example shown) to get the effect I wanted (this is the relevant styling):
 
 ``` scss
 div {
@@ -140,7 +140,7 @@ a parameter:
 {% endraw %}
 ```
 
-Notice, this does not introduce the```section``` or the css class. After 
+Notice, this does not introduce the```section``` or the CSS class. After 
 some thinking, I wanted that include to stick to one thing. I also didn't
 want the inclusion of content to be coupled to its semantic context, therefore 
 * the first line introduces the semantic context
@@ -213,7 +213,7 @@ example will show why some of my efforts were unnecessary.
 
 ### Example Markup
 Notice that gone are the two copies of the command line. There's just one
-version.  I keep the one marked `termianl`, however `bash` would have
+version.  I keep the one marked `terminal`, however `bash` would have
 worked as well.
 ``` markdown
 {% raw %}
@@ -316,7 +316,7 @@ In fact, the ```details``` class has no special requirements regarding
 hiding anything, but I still have it identified.
 
 ## Summary
-I wanted to have a summary of detailed steps using pure css, Jekyll, and
+I wanted to have a summary of detailed steps using pure CSS, Jekyll, and
 avoding duplication.
 
 Using the tools I had and a little bit of refactoring of the structure of
