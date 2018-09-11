@@ -1,4 +1,4 @@
----
+--
 title: DRY In Blogging
 layout: post
 description: >
@@ -32,7 +32,7 @@ I wrote [yet another example](https://schuchert.github.io/wikispaces/pages/java/
 of how to do that using an approach that is somewhat close to the 
 environment the group works in.
 
-As I wrote this, I though I'd like to be able to just grab the commands
+As I wrote this, I thought I'd like to be able to just grab the commands
 and run them. Here's my thinking:
 1. I remember I've written something
 1. I can find it using google
@@ -94,7 +94,7 @@ pure css for the formatting.
 
 So I created css ([less](https://en.wikipedia.org/wiki/Less_(stylesheet_language) example shown) to get the effect I wanted (this is the relevant styling):
 
-``` 
+``` scss
 div {
     &.show_terminal {
         div.language-bash {
@@ -125,7 +125,7 @@ a parameter:
 ``` ruby
 {% raw %}
 {% capture summary %}
-	{% include_relative {{ include.filename }} %}
+  {% include_relative {{ include.filename }} %}
 {% endcapture %}
 {{ summary | markdownify }}
 {% endraw %}
@@ -155,7 +155,7 @@ the content typed twice, in differnt locations, I do still have it twice
 but in the same file, and close together.
 
 Here's an example:
-```
+``` markdown
 {% raw %}
 ~~~ bash
 gradle init --type java-application
@@ -201,3 +201,124 @@ I'll have some macro like:
 ```
 
 But until then, I'm happy with what I've managed so far.
+
+### The Rest of the Story
+
+I could some of the previous steps, but as this is as much a series 
+of notes to myself as a description of how I got to where I got, 
+I'm going to keep it.
+
+I'm using [Rogue](http://rouge.jneen.net/) with Jekyll. The following
+example will show why some of my efforts were unnecessary.
+
+#### Example Markup
+Notice that gone are the two copies of the command line. There's just one
+version.  I keep the one marked `termianl`, however `bash` would have
+worked as well.
+``` markdown
+{% raw %}
+~~~ terminal
+vagrant@vagran-ubuntu16:~/src$javac -version
+javac 1.8.0_181
+~~~
+{% endraw %}
+```
+
+#### Resulting HTML
+Rogue parsing is smart enough to identify prompts versus commands and uses
+a ```span``` to break up the one line. This is what I wanted to do and here
+it is already done.
+``` html
+{% raw %}
+<span class="gp">vagrant@vagran-ubuntu16:~/src$</span>javac <span class="nt">-version</span>
+<span class="go">javac 1.8.0_181</span>
+{% endraw %}
+```
+
+#### How Each Are Rendered
+
+After I looked at the rendered html in detail, I updated my CSS to take
+advantage of this.
+
+<section class="summary">
+##### As Summary
+~~~ terminal
+vagrant@vagran-ubuntu16:~/src$javac -version
+javac 1.8.0_181
+~~~
+</section>
+
+##### As Details
+<section class="details">
+~~~ terminal
+vagrant@vagran-ubuntu16:~/src$javac -version
+javac 1.8.0_181
+~~~
+</section>
+
+Now that I had what I wanted:
+* Works out of the box in Jekyll
+* Removed duplication of the command line summary and the detailed output
+* Pure CSS solution
+
+I then made a number of changes.
+
+#### Increase Semantic Level
+First, the class names were about implementation rather than intent.
+I updated both sections:
+
+* The class ```show_bash``` became ```summary```
+^
+``` markdown
+{% raw %}
+<section class="summary">
+## Summary of Steps
+{% include include_md_file filename="using.gradle.steps.md" %}
+{% endraw %}
+```
+
+* The class ```show_terminal``` became ```details```
+^
+``` markdown
+{% raw %}
+<section class="details">
+## Step by Step Instructions with Example Output
+{% include include_md_file filename="using.gradle.steps.md" %}
+{% endraw %}
+```
+
+#### Update the CSS Accordingly
+``` scss
+div.content {
+  section {
+    &.summary {
+      p, h3 {
+        display: none;
+      }
+      aside {
+        p, h3 {
+          display: block;
+        }
+      }
+      code {
+        span {
+          &.gp, &.go {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+In fact, the ```details``` class has no special requirements regarding
+hiding anything, but I still have it identified.
+
+## Summary
+I wanted to have a summary of detailed steps using pure css, Jekyll, and
+avoding duplication.
+
+Using the tools I had and a little bit of refactoring of the structure of
+the files, I was able to do it and in retrospect, it was intuitive...
+once I understood it.

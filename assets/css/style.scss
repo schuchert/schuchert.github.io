@@ -149,3 +149,71 @@ a.prev, a.next, a.blog {
 ul + figure {
 	margin-left: 40px;
 }
+
+section {
+	p {
+		code {
+			margin: 0;
+			padding: 0;
+		}
+	}
+}
+
+div.content {
+	section {
+		padding: .25em .25em .25em .25em;
+		margin: 0 0 1em 0;
+
+		div.language-terminal {
+			margin-bottom: 1em;
+			padding-bottom: 0em;
+		}
+
+		aside {
+			margin: 1em 0;
+		}
+		p {
+			code {
+				margin: 0;
+				padding: 0;
+			}
+		}
+
+		pre.highlight {
+			margin-bottom: 0;
+			padding-top: 0;
+			padding-bottom: 0;
+			white-space: pre-wrap;
+		}
+
+		&.summary {
+			p, h3 {
+				display: none;
+			}
+			aside {
+				p, h3 {
+					display: block;
+				}
+			}
+			code {
+				span {
+					&.gp, &.go {
+						display: none;
+					}
+				}
+			}
+		}
+
+		&.details {
+			span.gp {
+				margin-right: .75em;
+			}
+			h3 {
+				margin-bottom: .25em;
+			}
+			div.language-terminal {
+				margin-bottom: 1em;
+			}
+		}
+	}
+}
