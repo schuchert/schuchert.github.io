@@ -1,4 +1,4 @@
---
+---
 title: DRY In Blogging
 layout: post
 description: >
