@@ -64,28 +64,28 @@ views: a summary, and details. So I extracted that into its own file, which
 I happened to call `using.gradle.steps.md`.
 
 Next, I included that file twice, wrapping it with a div with a style:
-``` ruby
+``` liquid
+{%- raw -%}
 <div class="show_bash">
-{% raw %}
 {% capture summary %}
     {% include_relative {{ using.gradle.steps.md }} %}
 {% endcapture %}
 {{ summary | markdownify }}
-{% endraw %}
 </div>
+{% endraw %}
 ```
 
 Now this was itself duplicated, notice the only difference is the class in 
 the```div```.
-``` ruby
+``` liquid
+{%- raw -%}
 <div class="show_terminal">
-{% raw %}
 {% capture summary %}
     {% include_relative {{ using.gradle.steps.md }} %}
 {% endcapture %}
 {{ summary | markdownify }}
-{% endraw %}
 </div>
+{% endraw %}
 ```
 
 ### Pure CSS It Up
@@ -122,18 +122,18 @@ Noticing that there was a lot of duplication in the```div``` (later
 ```section```) definition, I extracted the common stuff and passed in
 a parameter:
 #### File Extracted: included_md_file
-``` ruby
-{% raw %}
+``` liquid
+{%- raw -%}
 {% capture summary %}
   {% include_relative {{ include.filename }} %}
 {% endcapture %}
 {{ summary | markdownify }}
 {% endraw %}
-
 ```
+
 #### Using it
-``` ruby
-{% raw %}
+``` markdown
+{%- raw -%}
 <section class="show_bash">
 ## Summary of Steps
 {% include include_md_file filename="using.gradle.steps.md" %}
@@ -155,8 +155,8 @@ the content typed twice, in differnt locations, I do still have it twice
 but in the same file, and close together.
 
 Here's an example:
-``` markdown
-{% raw %}
+``` terminal
+{%- raw -%}
 ~~~ bash
 gradle init --type java-application
 ~~~
@@ -192,9 +192,9 @@ formatting built into Jekyll.
 
 Assuming I figure out how to get both, I won't duplicate that. Instead, 
 I'll have some macro like:
-```
-{% raw %}
-{$ include command_line 
+``` liquid
+{%- raw -%}
+{% include command_line 
   prompt="vagrant@vagrant-ubuntu16:~/src/smoke$"
   command="gradle init --type java-application" %}
 {% endraw %}
@@ -216,7 +216,7 @@ Notice that gone are the two copies of the command line. There's just one
 version.  I keep the one marked `terminal`, however `bash` would have
 worked as well.
 ``` markdown
-{% raw %}
+{%- raw -%}
 ~~~ terminal
 vagrant@vagran-ubuntu16:~/src$javac -version
 javac 1.8.0_181
@@ -229,7 +229,7 @@ Rogue parsing is smart enough to identify prompts versus commands and uses
 a ```span``` to break up the one line. This is what I wanted to do and here
 it is already done.
 ``` html
-{% raw %}
+{%- raw -%}
 <span class="gp">vagrant@vagran-ubuntu16:~/src$</span>javac <span class="nt">-version</span>
 <span class="go">javac 1.8.0_181</span>
 {% endraw %}
@@ -270,7 +270,7 @@ I updated both sections:
 * The class ```show_bash``` became ```summary```
 ^
 ``` markdown
-{% raw %}
+{%- raw -%}
 <section class="summary">
 ## Summary of Steps
 {% include include_md_file filename="using.gradle.steps.md" %}
@@ -280,7 +280,7 @@ I updated both sections:
 * The class ```show_terminal``` became ```details```
 ^
 ``` markdown
-{% raw %}
+{%- raw -%}
 <section class="details">
 ## Step by Step Instructions with Example Output
 {% include include_md_file filename="using.gradle.steps.md" %}
