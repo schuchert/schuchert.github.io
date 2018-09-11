@@ -202,7 +202,7 @@ I'll have some macro like:
 
 But until then, I'm happy with what I've managed so far.
 
-### The Rest of the Story
+## The Rest of the Story
 
 I could some of the previous steps, but as this is as much a series 
 of notes to myself as a description of how I got to where I got, 
@@ -211,7 +211,7 @@ I'm going to keep it.
 I'm using [Rogue](http://rouge.jneen.net/) with Jekyll. The following
 example will show why some of my efforts were unnecessary.
 
-#### Example Markup
+### Example Markup
 Notice that gone are the two copies of the command line. There's just one
 version.  I keep the one marked `termianl`, however `bash` would have
 worked as well.
@@ -224,7 +224,7 @@ javac 1.8.0_181
 {% endraw %}
 ```
 
-#### Resulting HTML
+### Resulting HTML
 Rogue parsing is smart enough to identify prompts versus commands and uses
 a ```span``` to break up the one line. This is what I wanted to do and here
 it is already done.
@@ -235,20 +235,20 @@ it is already done.
 {% endraw %}
 ```
 
-#### How Each Are Rendered
+### How Each Are Rendered
 
 After I looked at the rendered html in detail, I updated my CSS to take
 advantage of this.
 
 <section class="summary">
-##### As Summary
+#### As Summary
 ~~~ terminal
 vagrant@vagran-ubuntu16:~/src$javac -version
 javac 1.8.0_181
 ~~~
 </section>
 
-##### As Details
+#### As Details
 <section class="details">
 ~~~ terminal
 vagrant@vagran-ubuntu16:~/src$javac -version
@@ -263,7 +263,7 @@ Now that I had what I wanted:
 
 I then made a number of changes.
 
-#### Increase Semantic Level
+### Increase Semantic Level
 First, the class names were about implementation rather than intent.
 I updated both sections:
 
@@ -287,7 +287,7 @@ I updated both sections:
 {% endraw %}
 ```
 
-#### Update the CSS Accordingly
+### Update the CSS Accordingly
 ``` scss
 div.content {
   section {
