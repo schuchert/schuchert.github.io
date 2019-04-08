@@ -36,7 +36,7 @@ div.description {
         }
     
         #searchButton {
-            paddign: 0.3em 0.6em;
+            padding: 0.3em 0.6em;
             background-color: #0B5485;
             border: 1px solid #f6f5ea;
             margin-left: 0;
@@ -77,7 +77,7 @@ input[type='checkbox'] {
 	display: block;
 	font-weight: bold;
 	font-family: monospace;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	text-transform: uppercase;
 	cursor: pointer;
 	transition: all 0.25s ease-out;
@@ -216,4 +216,8 @@ div.content {
 			}
 		}
 	}
+}
+
+img {
+    max-width: 100%;
 }
