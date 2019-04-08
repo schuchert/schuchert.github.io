@@ -2,8 +2,8 @@
 title: Going slow to go fast
 layout: post
 description: >
-  Random thoughts about internal experience, versus external experiences and going slow
-  to go fast inspired by a car pulled over my a motorcycle cop.
+  Random thoughts about internal experience, versus external experiences 
+  and going slow to go fast inspired by a car pulled over my a motorcycle cop.
 tagline: Internal vs. External Awareness
 ---
 {::options parse_block_html="true" /}
