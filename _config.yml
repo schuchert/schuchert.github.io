@@ -1,10 +1,12 @@
 title: Brett L. Schuchert
-description: A collection of old and outdated ideas for someone who's memory is getting worse every year
+description: >
+  This is an extension of my memory. I remember whether I've written
+  about something better than remembering how to do things.
 theme: jekyll-theme-midnight
 twitter_username: schuchert
 github_username: schuchert
 makrdown: kramdown
-kramdown: 
+kramdown:
   parse_block_html: true
 plugins:
   - jekyll-feed

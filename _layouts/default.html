@@ -38,8 +38,10 @@
 <div class="wrapper{%if page.draft %} draft{% endif %}">
     <section>
         <div id="title">
-            <p>{{ site.description | default: site.github.project_tagline }}</p>
-            <hr>
+            <p>
+                <img src="/assets/images/gargoyle.jpeg" alt="gargoyle image" style="padding-right: .5em;width:72;height:72px;float:left"/>
+                {{ site.description | default: site.github.project_tagline }}
+            </p>
         </div>
     </section>
 

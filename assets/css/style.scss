@@ -19,6 +19,18 @@ div.description {
 	padding: 1em 0;
 }
 
+section {
+    padding: 0;
+}
+
+div#title {
+    border-bottom: 2px solid $white;
+    margin: 0 0 .5em 0;
+    p {
+        text-align: left;
+    }
+}
+
 #searchBar {
     font-size: 80%;
     display: inline-block; 
