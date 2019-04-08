@@ -1,4 +1,7 @@
 _site/
-vendor/
+vendor
 *.swp
 .jekyll-metadata
+.idea
+site_errors
+_build

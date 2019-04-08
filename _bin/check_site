@@ -1,0 +1,17 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+DEST=$DIR/../_build
+
+cd $DIR/..
+
+bundle exec jekyll build --destination $DEST --incremental
+
+pushd $DEST;ln -s . wikispaces;popd
+
+bundle exec htmlproofer $DEST --empty-alt-ignore true --assume-extension true --disable-external true > site_errors 2>&1
+
+rm $DEST/wikispaces
