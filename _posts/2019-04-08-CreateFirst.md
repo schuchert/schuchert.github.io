@@ -1,6 +1,7 @@
 ---
 title: Create First
 layout: post
+draft: true
 description: >
   How can we clean up code in a legacy code base when continuous integration 
   is not happening? Maintain backwards compatibility by creating first.
