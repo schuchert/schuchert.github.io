@@ -12,7 +12,7 @@ refactoringDb: <a href="https://www.amazon.com/Refactoring-Databases-Evolutionar
 
 ## Summary
 
-When touching code that has a large or unknown number of consuemrs,
+When touching code that has a large or unknown number of consumers,
 start by adding rather than removing or changing.
 
 ## Background
@@ -36,7 +36,7 @@ algorithmic decision rules to specific observations of a product.
 
 So when we practice [Test Driven Development(TDD)](https://en.wikipedia.org/wiki/Test-driven_development)
 we start thinking about a small part of the problem we think
-we understand, codify it as an exerpeiment (a failing test).
+we understand, codify it as an experiment (a failing test).
 We work to make the production code pass. If, along the way,
 we took too big of a step, we might fail that experiment
 and try another. Eventually we have a complete TDD cycle.
@@ -56,7 +56,7 @@ it is a reality now.
 {% include aside/start id="continuous-integration-defined" title="Continuous Integration Defined" %}
 I also subscribe to Martin Folwer's definition of [Continuous Integration(CI)](https://martinfowler.com/articles/continuousIntegration.html).
 
-In his definition, commiters (he uses person, but a committer
+In his definition, committers (he uses person, but a committer
 might be one of: person, pair, mob) integrate their work at
 least daily, and that work is backed by a safety net of automated
 checks.
@@ -99,7 +99,7 @@ checks. Safe in this context includes:
 
 As an example of "safe" legacy refactorings, have a look at the
 [videos in this album on the subject](https://vimeo.com/manage/albums/1792554).
-Specifically, [this video](https://vimeo.com/31927512) contrsts
+Specifically, [this video](https://vimeo.com/31927512) contrasts
 getting legacy code under automated checks first by not changing
 the code at all, and then by making a few safe legacy refactorings.
 {% include aside/end %}
@@ -120,7 +120,7 @@ interact with the same underlying database
 
 The big difference here is that changes either might impact
 one group or many groups. When they might impact many groups,
-you either need to coordinate the work of multipel groups,
+you either need to coordinate the work of multiple groups,
 or you need to find an alternative way of working.
 
 The first option, coordinating the work is often called
@@ -149,7 +149,7 @@ Fixing bugs and adding features are about (hopefully)
 increasing the value a user receives from using your system.
 Whereas refactoring is about enabling doing that.
 
-The the bugfixes and features are for your users. Refactoring
+The bugfixes and features are for your users. Refactoring
 is directory for the developers and ultimately about
 maintain flow throughout the life of a project.
 {% include aside/end %}
@@ -262,7 +262,7 @@ calls, it’s OK.
 ## The First Step
 The simple idea underlying this approach is that the first step is creational,
 not destructive. Rather than killing the original method, which forces all
-clients to change, keep it in place, but it now delegats its impelementation.
+clients to change, keep it in place, but it now delegates its implementation.
 
 This is protected variation. The original method remains in place, protecting
 existing consumers from having to change. The underlying implementation
