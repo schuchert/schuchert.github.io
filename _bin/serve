@@ -6,4 +6,5 @@ rm -r $DIR/../_site 2> /dev/null
 
 cd $DIR/.. 
 
-bundle exec jekyll serve --incrementa
+bundle install
+bundle exec jekyll serve --incremental
