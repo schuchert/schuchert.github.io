@@ -2,13 +2,15 @@ title: Brett L. Schuchert
 description: >
   This is an extension of my memory. I remember whether I've written
   about something better than remembering how to do things.
-theme: jekyll-theme-midnight
 twitter_username: schuchert
+theme: jekyll-theme-midnight
 github_username: schuchert
+layout: kramdown
 makrdown: kramdown
+markdown: kramdown
 kramdown:
   parse_block_html: true
-plugins:
+plugins_dir:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-relative-links

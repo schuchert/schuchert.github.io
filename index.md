@@ -1,3 +1,8 @@
+---
+layout: post
+title: index
+date: 2019-10-27
+---
 <table>
 <tr>
   <th width="35%">Title</th>

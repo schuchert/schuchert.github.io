@@ -65,7 +65,7 @@ I happened to call `using.gradle.steps.md`.
 
 Next, I included that file twice, wrapping it with a div with a style:
 ``` liquid
-{%- raw -%}
+{% raw %}
 <div class="show_bash">
 {% capture summary %}
     {% include_relative {{ using.gradle.steps.md }} %}
@@ -78,7 +78,7 @@ Next, I included that file twice, wrapping it with a div with a style:
 Now this was itself duplicated, notice the only difference is the class in 
 the```div```.
 ``` liquid
-{%- raw -%}
+{% raw %}
 <div class="show_terminal">
 {% capture summary %}
     {% include_relative {{ using.gradle.steps.md }} %}
@@ -123,7 +123,7 @@ Noticing that there was a lot of duplication in the```div``` (later
 a parameter:
 #### File Extracted: included_md_file
 ``` liquid
-{%- raw -%}
+{% raw %}
 {% capture summary %}
   {% include_relative {{ include.filename }} %}
 {% endcapture %}
@@ -133,7 +133,7 @@ a parameter:
 
 #### Using it
 ``` markdown
-{%- raw -%}
+{% raw %}
 <section class="show_bash">
 ## Summary of Steps
 {% include include_md_file filename="using.gradle.steps.md" %}
@@ -156,7 +156,7 @@ but in the same file, and close together.
 
 Here's an example:
 ``` terminal
-{%- raw -%}
+{% raw %}
 ~~~ bash
 gradle init --type java-application
 ~~~
@@ -193,7 +193,7 @@ formatting built into Jekyll.
 Assuming I figure out how to get both, I won't duplicate that. Instead, 
 I'll have some macro like:
 ``` liquid
-{%- raw -%}
+{% raw %}
 {% include command_line 
   prompt="vagrant@vagrant-ubuntu16:~/src/smoke$"
   command="gradle init --type java-application" %}
@@ -216,7 +216,7 @@ Notice that gone are the two copies of the command line. There's just one
 version.  I keep the one marked `terminal`, however `bash` would have
 worked as well.
 ``` markdown
-{%- raw -%}
+{% raw %}
 ~~~ terminal
 vagrant@vagran-ubuntu16:~/src$javac -version
 javac 1.8.0_181
@@ -229,7 +229,7 @@ Rogue parsing is smart enough to identify prompts versus commands and uses
 a ```span``` to break up the one line. This is what I wanted to do and here
 it is already done.
 ``` html
-{%- raw -%}
+{% raw %}
 <span class="gp">vagrant@vagran-ubuntu16:~/src$</span>javac <span class="nt">-version</span>
 <span class="go">javac 1.8.0_181</span>
 {% endraw %}
@@ -270,7 +270,7 @@ I updated both sections:
 * The class ```show_bash``` became ```summary```
 ^
 ``` markdown
-{%- raw -%}
+{% raw %}
 <section class="summary">
 ## Summary of Steps
 {% include include_md_file filename="using.gradle.steps.md" %}
@@ -280,7 +280,7 @@ I updated both sections:
 * The class ```show_terminal``` became ```details```
 ^
 ``` markdown
-{%- raw -%}
+{% raw %}
 <section class="details">
 ## Step by Step Instructions with Example Output
 {% include include_md_file filename="using.gradle.steps.md" %}
