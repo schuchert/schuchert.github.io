@@ -4,6 +4,7 @@ description: >
   about something better than remembering how to do things.
 twitter_username: schuchert
 theme: jekyll-theme-midnight
+highlight: rogue
 github_username: schuchert
 layout: kramdown
 makrdown: kramdown
@@ -19,4 +20,5 @@ baseurl: "/"
 url: "http://schuchert.github.io"
 repository: schuchert/schuchert.github.io
 github: [metadata]
-
+exclude: [Gemfile,Gemfile.lock]
+include: [favico.ico]
