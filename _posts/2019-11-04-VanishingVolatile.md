@@ -6,22 +6,21 @@ description: >
     we needed to use the volatile keyword, until we didn't.
 tagile: >
     If you need to use volatile, you might be (not) solving the wrong problem.
-draft: true
 ---
 ## Overview
 
-Recently I came across a need to use volatile. At the time my 
-spider senses were tingling so I wasn't sure. Later, after confirming it 
+Recently I came across a need to use ```volatile```. At the time my 
+spider senses were tingling; I wasn't sure. Later, after confirming it 
 was necessary, we changed the code to remove the need for the keyword. What 
-follows is the same thing, a bit longer.
+follows is the same message, a bit longer.
 
 ## The Beginning
 
 A team I've been coaching was working on code that was multi-threaded.
 More on that later, but in summary:
-* One thread existed to capture log output from an application running in PCF
+* One thread existed to capture log output from an application running in PCF.
 * Another thread waited on values in that log first wait to publish a message and then wait for a result.
-* The group I was with didn't write the original solution
+* The group I was with didn't write the original solution, so while there are some automated tests, we were back-filling missing tests.
 
 As I looked at the code collecting the log lines, it looked something like 
 the following;
@@ -47,40 +46,47 @@ needed by seeing the test fail without it and pass with it.
 ## Time, as usual, to the rescue
 
 Later that evening I realized that the hunch I had was nearly correct. 
-I was thinking in terms of values rather than refernces. ```String```s are constant.
+I was thinking in terms of values rather than refernces. ```String```s are constant;
+their values do not change. in this particular case the issue was a reference
+changing versus its value.
+
 {% include aside/start id="byRefByValue" title="By Referene, By Value" %}
 My "main" language is C. I understand it the best. In C everything is 
 ```pass by value``. Don't argue with me. If you want the equivalent of pass 
 by reference, you pass the **value** of the address of the thing. A pointer.
+But it's still pass by value.
 
 In Java, it's the same thing. But when you pass a non-primitive (instance
 of a class), you pass a reference to the object. If you pass a primitive,
-just like a reference, the value is copied. 
+just like a reference, the value is copied. Unlike C++, in Java you won't be 
+passing the address of a primitive
 
 If two threads are looking at the same field and one changes it outside of
 a synchronized block, the other might not see the change, thus ```volatile```.
+In this case, ```volatile``` tells the JVM to not cache (the value of)
+a field reference. 
+
 I think what happens with references can happen with primitives, and
 that's where the Atomic types added in Java 5 greatly reduced the need for
 both the use of synchronized and situations where ```volatile``` are needed.
 {% include aside/end %}
 
-The Thread appending the logs did so by creating a new string and reassigning the field.
-
 The ```volatile``` keyword informs java to not assume values 
 are fixed. The thread waiting for the value, checking it every so often,
 got a reference the first time it ran, but never checked the reference
 again. The other thread changes the value (and reference) every chance it gets.
+
 Take a look at the following:
 ![Snapshots in Time](/assets/images/VolatileThreads.png)
 
-At Time 1, the "Log Gobbler" points to an empty string. As the main thread
+At Time 1, the ```LogGobbler``` points to an empty string. As the main thread
 starts, it picks up that reference, and caches it.
 
 Also at Time 1, the gobbler thread starts and points to the exact same
 object (a ```String```) in memory.
 
 The main thread checks the log values, waiting for a signal to that it
-OK to continue. However, since the thread assumes the underlying 
+is OK to continue. However, since the thread assumes the underlying 
 value of the field isn't changing, it keeps checking the original value.
 
 Once logs start flowing, the gobbler thread picks up all the available
