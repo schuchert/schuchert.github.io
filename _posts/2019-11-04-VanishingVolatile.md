@@ -115,12 +115,12 @@ String concatenation is inefficient. In this particular case efficiency
 doesn't matter. However, in addition to being inefficient, it makes 
 things like threading a bit more of an issue.
 
-Collecting strings in a StringBuffer is a better general solution.
+Collecting strings in a StringBuilder is a better general solution.
 As it turns out, it also resolves the need for the ```volatile``` keyword.
 
 Now the field looks like this:
 ```java
-private StringBuffer logs = new StringBuffer():
+private StringBuilder logs = new StringBuilder();
 ```
 
 Since each thread uses the same reference, and also, since that reference
