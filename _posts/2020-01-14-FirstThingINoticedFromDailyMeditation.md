@@ -43,9 +43,9 @@ Over the next 75 minutes, I memorized the remaining 25% of the form by watching 
 through visualization, under-expressed hand and foot motions, with my eyes closed. I started in the middle of video 6.
 After finishing part 6, I started on part 7. 20 minutes later, I started the last part. I kept on part 8 until I got it,
 then I worked through the new material. Immediately after my first successful completion of the
-25% I had just memorized, I felt a rush of giddiness, I'd say I was seeing starts, but that's not right, but some kind 
-of brief visual overload; At the time I thought I was momentarily in an altered state (most likely a rush of 
-adrenaline). Then I was emotionally overwhelmed for several minutes (in a good way - and this experience is
+25% I had just memorized, I felt a rush of giddiness. Additionally, I'd say I was seeing starts, but that's not right, 
+it was some kind of brief visual experience; At the time I thought I was momentarily in an altered state (most likely 
+a rush of adrenaline). Then I was emotionally overwhelmed for several minutes (in a good way - and this experience is
 what reminded me of how epiphanies have manifested in my body as they occur).
 
 That all passed. I took a moment to burn the memory into my brain. Next, I then spent the remainder of the flight 
@@ -58,21 +58,21 @@ About 11:15 PM, I went down to the open area in front of the grand ballroom. I t
 and practiced the form. I made several minor missteps (still do, probably always will), but I made it
 through the form.
 
-I had been blocked for months. I started meditating. Overall, I thought things felt a bit quieter. 
-Not "fixed" but overall reduced. Then 2 weeks in to daily meditation, bam! I memorize 25% of the form in under 
-2 hours, where the first 75% had taken me 18 months, give or take.
+I had been blocked for months. After starting meditation, things felt a bit quieter. Not "fixed" but overall reduced. 
+Then 2 weeks in to daily meditation, bam! I memorize 25% of the form in under 2 hours, where the first 75% had taken 
+me 18 months, give or take.
 
 I do not know that it was meditation that broke my internal mental block. It's just correlation. However, the more I 
-meditate, and experiment with different environments, situations, styles, the more I don't care if it's only
-correlation. 
+meditate, the less I care whether it is only correlation. 
 
 I felt a recent mental shift near the end of November 2020. It feels like I went from mostly habituated meditation 
 (I should meditate today) to wanting to meditate many days. Not every day, probably not even most days, but many days.
 I guess less like an obligation to myself because I said I'd do it, and more like time for self-care, which I
 been learning to accept is necessary.
 
-Since that flight in December 2019, I have continued to refine my understanding of the form. I'm now working on 
-Bagua circle walking, with a number of different palm changes (dragon, bear, single hook).
+Since that flight in December 2019, I have continued to refine my understanding of the both forms. For some time,
+I preferred the aesthetic of the shiny new form. Now I've applied some style from each into the other.
+I'm also working on Bagua circle walking, with a number of different palm changes (dragon, bear, single hook).
 
 That's not to say that I still don't have my bad days. I do. I've regressed a bit on Bagua for a few weeks. However,
 even after most bad days, I remember, so long as I didn't kill anybody today, tomorrow can be a better day.
