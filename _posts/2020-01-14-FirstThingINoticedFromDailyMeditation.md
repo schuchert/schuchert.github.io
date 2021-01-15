@@ -28,7 +28,6 @@ It took me months to read and digest the book. However, to summarize my journey:
 * Oh, they might actually help with chronic pain and depression (hint, they can)
 * I must get psychedelics
 * Oh, well maybe they are not so powerful without having a trained shaman/psychotherapist (I am not equating those options)
-* Meditation is another path to get to the same place
 * Oh, based on how Meditation works, it can be a path to the same thing (both psilocibin and meditation modulate the default mode network - just read the damn book)
 * I'll start meditating because I can do that now, and if the universe sends me psychedelics, I'll consider that as well
 
