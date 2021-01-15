@@ -15,10 +15,8 @@ It's better to treat "learning the form" as a journey, rather than a destination
 
 I started learning another form with Rick around 2 - 3 years ago. It is called 
 [Liuhebafa](https://en.wikipedia.org/wiki/Liuhebafa), and when I started its practice, I was drawn to its
-aesthetic compared Tai Chi. Where Tai Chi feel more martial in how it is expressed, Liuhebafa feels more 
-expansive. Many principles I learned from Tae Kwon Do directly apply to Tai Chi (the reverse is true). But
-while in every move of Liuhebafa there is a martial intent, how I've been taught to express it both seems, and
-feels more circular. 
+aesthetic compared Tai Chi. Where Tai Chi feels more martial in how I've been taught to expresse it, Liuhebafa feels 
+more expansive; How I've been taught to express it both seems, and feels more circular, and more expressive.
 
 In my probably failing memory, it took me 1.5 years to memorize the first 3/4ths of the form. From about
 50% to 75% felt like it was taking exponentially longer. I remember weeks when I was not able to

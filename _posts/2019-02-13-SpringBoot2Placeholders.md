@@ -1,4 +1,4 @@
----
+1G---
 layout: post
 title: Placeholder for future work on spring boot
 description: Quick links to some example spring boot 2 projects
