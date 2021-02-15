@@ -9,70 +9,88 @@ tags: [unix, sed, regex, non-printable]
 draft: true
 ---
 
-warning this is raw text, mostly unfomatted. That's why it's draft.
 ## Overview
-This follows [Sed Breakdown]({% post_url 2021-02-14-SedBreakdown %})
- example... We have a "text-only" csv file. BUT it's not text only.... And when this happens, it's it entirely non-obvious...
-Quick suggestion. When creating files that are meant to be text, don't use fancy tools (anything really). Because you'll likely get unprintable characters. And that will cause scripts to break in obscure ways. To see a quick fix, look at the thread...
+This follows [Sed Breakdown]({% post_url 2021-02-14-SedBreakdown %}). We start with a "text-only" csv file. But,
+spoiler alert, but it's not text only. When this happens, it's non-obvious. 
 
+Side-note. When creating files that are meant to be text, don't use fancy tools (anything really). If you do, you'll 
+likely get unprintable characters. That will case scripts to break in obscure ways. This is a quick note on one way
+to fix that.
 
-
-
-6 replies
-
-Brett Schuchert  34 minutes ago
 Here is an example file:
 Example.csv
+```
 ,,,,,,
 ,AA03-123-12,F,2021-02-03T12:13:14.567z,,,
+```
 
+Notice I just created a new spreadsheet in Numbers and then exported as CSV. It added several extra commas and such, but
+that isn't the issue we're going to solve... Once you save this file, try the following:
+```
+wc Example.csv 
+  2   2   52 /Users/bschuch2/Documents/Example.csv
+```
 
-
-
-Brett Schuchert  32 minutes ago
-Notice I just created a new spreadsheet in Numbers and then exported as CSV. It added several extra commas and such, but that isn't the issue we're going to solve... Once you save this file, try the following:
-wc Example.csv
-2       2      52 /Users/bschuch2/Documents/Example.csv
-
-
-
-
-Brett Schuchert  29 minutes ago
 That's 2 lines, 2 words, 52 characters. We only care about the 52...
-Now, we'll use sed to remove all non-printable characters directly in-place (updates file, does not echo updates lines to standard out):
-sed -i 's/[^[:print:]]//' Example.csv
-And has the file changed?
-wc Example.csv
-2       2      50 Example.csv
 
-Brett Schuchert  29 minutes ago
-But if you look at the file (attached after change):
+Now, we'll use sed to remove all non-printable characters directly in-place (updates file, does not echo updates lines 
+to standard out):
+```
+sed -i 's/[^[:print:]]//' Example.csv
+```
+Has the file changed?
 Example.csv
+```
 ,,,,,,
 ,AA03-123-12,F,2021-02-03T12:13:14.567z,,,
+```
 
+While the file looks the same, what were those 2 characters? I think ASCII 0 (null) inserted at the beginning of the 
+file to indicate it's a rich text file rather than an ASCII-based text file. 
 
-
-
-Brett Schuchert  28 minutes ago
-The file looks the same. What were those 2 characters?
-I think ASCII 0 (null) inserted at the beginning of the file to indicate it's a rich text file rather than an ASCII-based text file.
-We don't want that, so this fixes that.
-
-Brett Schuchert  20 minutes ago
 Here's a breakdown of the sed command:
-sed -i 's/[^[:print:]]//' Example.csv
--i in-place. Update the file directly rather than output a new file. OK if you have the original. The following (probably safer) option also works:
-sed 's/[^[:print:]]//' < Example.csv # this will print to the terminal
-sed 's/[^[:print:]]//' < Example.csv > Example.csv.txt # use .txt to indicate intent only
-s -> search
-first / -> beginning of what to search for
-[ -> start of group of characters
-^ -> NOT beginning of line, in [] it INVERTS the search (this means find a line that has non-printable characters - )
-[:print:] -> how you use a posix name to name a group of characters -> printable characters, letters, numbers, space, tab.
-] -> end of group
-/ -> what to replace it with
-/ -> end of search, so replace printable with non-printable...
-As written, this will find any line that has at least one non-printable character and replace it.
+* `-i`  
+  in-place. Update the file directly rather than output a new file. OK if you have the original. 
+  The following (probably safer) option also works:
+  * sed 's/[^[:print:]]//' < Example.csv  
+  This will print to the terminal
+  * sed 's/[^[:print:]]//' < Example.csv > Example.csv.txt  
+  This also print to the terminal, but then we redirect the output to a file. I used .txt to indicate intent only. 
+  unix doesn't care.
+* `s`  
+  Search
+* first `/`  
+  Beginning of what to search for
+* `[`  
+  Start of group of characters
+* `^` 
+  Not beginning of line, in [] it inverts the search (this means find a line that has non-printable characters)
+*  `[:print:]`  
+   Refer to the posix name for printable characters, e.g., letters, numbers, space, tab.
+* `]`  
+  End of group
+* `/`  
+  What to replace it with, or the start of the "to" section
+* `/`  
+  end of search, so replace non-printable characters with nothing.
+  
+As written, this will find any line that has at least one non-printable character and replace the first one.
 If the line has only printable characters, the regex doesn't match, and the original line remains unchanged.
-If the line has a non-printable character, it is removed. But only the first one. That is fine, because the problem characters are at the beginning of the file, and apparently one per line. If you want to be more aggressive, add "g" after the final /. It will replace each non-printable character in the line. In this case, the results are the same.
+If the line has a non-printable character, it is removed, but only the first one. That is fine, because the problem 
+characters are at the beginning of the file, and apparently one per line. If you want to be more aggressive, add "g" after the final /. It will replace each non-printable character in the line. In this case, the results are the same.
+
+## Conclusion
+
+Don't trust "text" files from outside. Verify they don't have unwanted characters. Here's a quick way to check using
+the commands from above:
+```bash
+wc -c < Example.csv && sed 's/[^[:print:]]//' < Example.csv | wc -c
+52
+50
+```
+While the formatting is different, you can see if anything would change by looking at the last value.
+
+Using a bit more bash, you can compare the results numerically:
+```bash
+if [[ $(wc -c < e) -ne $(sed 's/[^[:print:]]//' < e | wc -c) ]]; then echo "different";fi
+```
