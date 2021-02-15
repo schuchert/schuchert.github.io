@@ -6,10 +6,12 @@ description: >
   ourselves. How can you identify when that's an issue and how can you fix it?
 category: [Daily Tech]
 tags: [unix, sed, regex, non-printable]
+draft: true
 ---
 
+warning this is raw text, mostly unfomatted. That's why it's draft.
 ## Overview
-This follows a previous blog
+This follows [Sed Breakdown]({% post_url 2021-02-14-SedBreakdown %})
  example... We have a "text-only" csv file. BUT it's not text only.... And when this happens, it's it entirely non-obvious...
 Quick suggestion. When creating files that are meant to be text, don't use fancy tools (anything really). Because you'll likely get unprintable characters. And that will cause scripts to break in obscure ways. To see a quick fix, look at the thread...
 
