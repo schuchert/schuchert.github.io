@@ -7,17 +7,17 @@ description: >
 category: [Daily Tech]
 tags: [unix, sed, regex, non-printable]
 ---
+{::options parse_block_html="true" /}
 
 ## Overview
 This follows [Sed Breakdown]({% post_url 2021-02-14-SedBreakdown %}). We start with a "text-only" csv file. But,
 spoiler alert, but it's not text-only. When this happens, it's non-obvious. 
 
-<aside>
-### Smart Editors aren't so
-When creating files that are meant to be text, don't use fancy tools (anything really). If you do, you'll 
+{% include aside/start id="smart-files" title="Smart Editors Considered Dangerous" %}
+When creating files that are meant to be text, don't use fancy tools (anything really). If you do, you'll
 likely get unprintable characters. That will cause scripts to break in obscure ways. This is a quick note on one way
 to fix that.
-</aside>
+{% include aside/end %}
 
 Here is an example file:
 Example.csv
@@ -51,30 +51,35 @@ While the file looks the same, what were those 2 characters? I think ASCII 0 (nu
 file to indicate it's a rich text file rather than an ASCII-based text file. 
 
 Here's a breakdown of the sed command:
-* `-i`  
-  in-place. Update the file directly rather than output a new file. OK if you have the original. 
-  The following (probably safer) option also works:
-  * sed 's/[^[:print:]]//' < Example.csv  
-  This will print to the terminal
-  * sed 's/[^[:print:]]//' < Example.csv > Example.csv.txt  
-  This also print to the terminal, but then we redirect the output to a file. I used .txt to indicate intent only. 
-  unix doesn't care.
-* `s`  
-  Search
-* first `/`  
-  Beginning of what to search for
-* `[`  
-  Start of group of characters
-* `^` 
-  Not beginning of line, in [] it inverts the search (this means find a line that has non-printable characters)
-*  `[:print:]`  
-   Refer to the posix name for printable characters, e.g., letters, numbers, space, tab.
-* `]`  
-  End of group
-* `/`  
-  What to replace it with, or the start of the "to" section
-* `/`  
-  end of search, so replace non-printable characters with nothing.
+
+| Token | Description |
+| -i | In-place. Update the file directly rather than output a new file. OK if you have the original. |
+| s | Search |
+| first /| Beginning of what to search for |
+| [ | Start of group of characters |
+| ^ | Not beginning of line, in [] it inverts the search (this means find a line that has non-printable characters) |
+| [:print:] | Refer to the posix name for printable characters, e.g., letters, numbers, space, tab. |
+| ] | End of group |
+| / | What to replace it with, or the start of the "to" section |
+| / | end of search, so replace non-printable characters with nothing. |
+
+
+{% include aside/start id="vs-inline" title="Options to `-i`" %}
+If you want to preserve the original file, you have options. The following (probably safer) option also works:
+```
+sed 's/[^[:print:]]//' < Example.csv  
+```
+This will print to the terminal.
+
+Or you can redirect the output:
+
+```
+sed 's/[^[:print:]]//' < Example.csv > Example.csv.txt  
+```
+
+This also print to the terminal, but then we redirect the output to a file. I used .txt to indicate intent only. Unix
+doesn't care. 
+{% include aside/end %}
   
 As written, this will find any line that has at least one non-printable character and replace the first one.
 If the line has only printable characters, the regex doesn't match, and the original line remains unchanged.
