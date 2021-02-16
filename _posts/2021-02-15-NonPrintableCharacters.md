@@ -6,16 +6,18 @@ description: >
   ourselves. How can you identify when that's an issue and how can you fix it?
 category: [Daily Tech]
 tags: [unix, sed, regex, non-printable]
-draft: true
 ---
 
 ## Overview
 This follows [Sed Breakdown]({% post_url 2021-02-14-SedBreakdown %}). We start with a "text-only" csv file. But,
-spoiler alert, but it's not text only. When this happens, it's non-obvious. 
+spoiler alert, but it's not text-only. When this happens, it's non-obvious. 
 
-Side-note. When creating files that are meant to be text, don't use fancy tools (anything really). If you do, you'll 
-likely get unprintable characters. That will case scripts to break in obscure ways. This is a quick note on one way
+<aside>
+### Smart Editors aren't so
+When creating files that are meant to be text, don't use fancy tools (anything really). If you do, you'll 
+likely get unprintable characters. That will cause scripts to break in obscure ways. This is a quick note on one way
 to fix that.
+</aside>
 
 Here is an example file:
 Example.csv
