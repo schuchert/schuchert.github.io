@@ -120,57 +120,27 @@ I broke the line into 4 groups. The four (so-called capture) groups are:
 * capture #4, everything after the time: `\(.*\)` 
   
 Here are the actual values, when looking at the first line of the input file:
-* Group 1: `\ .*\)`  
-  before 
-* Group 2: `\([0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}\)`  
-  2020-10-09 
-* Group 3: `\([0-9]\{2\}:[0-9]\{2\}:[0-9]\{2\}[.][0-9]\{1,3\}\)`  
-  22:13:35.112 
-* Group 4: `\(.*\)`  
-  after... 
+
+| Group | Pattern | Example values |
+| 1     | `\ .*\)` | before |
+| 2     | `\([0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}\)` | 2020-10-09  |
+| 3     | `\([0-9]\{2\}:[0-9]\{2\}:[0-9]\{2\}[.][0-9]\{1,3\}\)`| 22:13:35.112  |
+| 4     | `\(.*\)`  | after... |
   
 There's a lot to unpack, so here goes. 
-* `^` and `$`   
-  Denote, respectively, the beginning of the line and the end of the line. If a
-  regex does not match, nothing happens, and sed echos the original line. Adding ^ and $ says that this entire regex
-  must consume the whole line or not match. 
-* `\(` and `\)`  
-  The beginning and ending of a capture group in sed. In some languages you use ( and ) (no starting back-slash) and if you want a literal (, you use \(. For basic sed, it is \(,
-  but even that can change if you instead use another standard (command line option). 
-* `.  
-  A wild card. Match any 1 character
-* `*`  
-A modifier, match the previous thing 0 or more times. (Note, + means 1 or more, and sometimes you escape it with \ and
-sometimes you don't - but for a given tool it is always one way or the other, never both.)
-  
-* `\(.\)`   
-Capture 0 or more of any character. 
 
-* `^\(.*\)`   
-  Same thing, but the first character must be at the beginning of the line, that is, it must be directly after the logical start of the line, or just after `^`.
-  
-* `[` and `]`   
-  Define a group of characters. For example, `[0-9]` means any digit in the set: `0 1 2 3 4 5 6 7 8 9` In some regex you have
-to escape this, in others, like sed, you do not. If you want a literal `[`, you escape it: `\[`
-  
-* `[0-9]*`   
-  zero or more digits 
-  
-* `\{` and `\}`   
-  Range modifier. Like * or plus, but specifies a number or a range. Some examples:
-  * `a\{4\}`  
-    aaaa 
-  * a{1,3}   
-    a or aa or aaa (1 to 3 a)
-  * `.\{2\}`  
-    Any 2 characters. That's a wildcard, `.` (any character), followed by a count, 2.
-* `-`   
-  * Outside of `[]`   
-    A literal dash, like the dashes in 2021-10-20
-  * Inside of `[]`  
-    Range, e.g., [a-z] a through z, [A-Z], A through Z
-* ` ` (there's a space just before that open paren)  
-  Means a literal space.
+| Character | Interpretation |
+| `^` and `$`   | Denote, respectively, the beginning of the line and the end of the line. If a regex does not match, nothing happens, and sed echos the original line. Adding ^ and $ says that this entire regex must consume the whole line or not match. |
+|`\(` and `\)`  | The beginning and ending of a capture group in sed. In some languages you use ( and ) (no starting back-slash) and if you want a literal (, you use \(. For basic sed, it is \(, but even that can change if you instead use another standard (command line option). |
+| `.` | A wild card. Match any 1 character |
+| `*` | A modifier, match the previous thing 0 or more times. (Note, + means 1 or more, and sometimes you escape it with \ and sometimes you don't - but for a given tool it is always one way or the other, never both.) |
+| `\(.\)` | Capture 0 or more of any characters. |
+| `^\(.*\)`   | Same thing, but the first character must be at the beginning of the line, that is, it must be directly after the logical start of the line, or just after `^`.|
+| `[` and `]`  | Define a group of characters. For example, `[0-9]` means any digit in the set: `0 1 2 3 4 5 6 7 8 9` In some regex you have to escape this, in others, like sed, you do not. If you want a literal `[`, you escape it: `\[`|
+| `[0-9]*`   | zero or more digits |
+| `\{` and `\}` | Range modifier. Like * or plus, but specifies a number or a range. Some examples: <br>`a\{4\}` -> aaaa <br>a{1,3} -> a or aa or aaa (1 to 3 a) <br>`.\{2\}` -> Any 2 characters. That's a wildcard, `.` (any character), followed by a count, 2.|
+| `-` | Outside of `[]` A literal dash, like the dashes in 2021-10-20 <br> Inside of `[]` Range, e.g., [a-z] a through z, [A-Z], A through Z |
+| ` ` | Means a literal space.|
    
 Putting it all together for the timestamp:
 ```bash
@@ -182,7 +152,7 @@ Putting it all together for the timestamp:
 * 2 numeric digits
 * literal `:`
 * 2 numeric digits
-* literal `.` (I visuall preer `[.]` rather than `\.` they are equivalent, however.
+* literal `.` (I usually prefer `[.]` rather than `\.` they are equivalent, however.
 * 1 to 3 numeric digits: `[0-9]\{1,3\}` 
   
 That is, a timestamp in the format of hours, minutes, seconds, and up to 3 digits for milliseconds. Or a time. 
@@ -199,22 +169,14 @@ Now on to "to" or what to replace. As a quick reminder, here's the "to" or what 
 ```
 
 Here's a detailed breakdown of what the output line looks like, when the original regular expression matches:
-* `\1`  
-  back reference. Whatever was matched by the first capture group, put it first:   
-  before 
-* `\2`  
-  back reference to the date:  
-  2021-10-08 
-* `T`  
-  A literal capital T 
-* `\3`  
-  back reference to the time in hours, minutes, seconds, milliseconds  
-  12:23:12.32
-* `Z`  
-  literal Z 
-* `\4`  
-  the rest of the line after the end of the date:  
-  &nbsp; after (Notice space is in the last group, not with the time)
+
+| Token | Description | Example |
+| \1  | Back reference. Whatever was matched by the first capture group, put it first. | before |
+| \2  | Back reference to the date. | 2021-10-08 |
+| T   | A literal capital T  | T |
+| \3  | Back reference to the time in hours, minutes, seconds, milliseconds. | 12:23:12.32 |
+| Z   | literal Z | Z |
+| \4  | The rest of the line after the end of the date. | &nbsp; after (Notice space is in the last group, not with the time)|
 
 We take:
 ```
