@@ -98,7 +98,7 @@ That's straightforward and a good option.
 If you're trying to get it to work in a spring context, it requires another
 moving part. We'll override the application-generated Clock with a test Clock.
 
-#### Create a Test Config
+### Create a Test Config
 ```java
 public class TestConfig {
     @Bean
@@ -127,7 +127,7 @@ If you take this route, then in addition to using`@Primary`, such a test would a
 ```
 {% include aside/end %}
 
-#### Oh yes, how about a test
+### Oh yes, how about a test
 ```java
 @SpringBootTest(classes = {HelloComponent.class, TestConfig.class})
 class HelloComponentTest {
