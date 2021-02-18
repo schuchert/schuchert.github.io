@@ -2,18 +2,19 @@
 layout: post
 title: "Time Travel"
 description: "Getting time under control in Spring, one way"
-tagline: "Remembering that time is often something worth raising to a domain-level concept is a recurring theme."
 category: [testing, java, time]
 tags: [java, testing, time]
 ---
 
 {::options parse_block_html="true" /}
 ## Overview
+Time is often something worth raising to a domain-level concept is a recurring theme.
+
 We've recently been doing some work where dates and times are important. We have cases where we want to verify
 that the time of creation is reflected correctly.
 
 In Java 8 there are several options. [Baeldung has a great article on those options](https://www.baeldung.com/java-override-system-time).
-What follows it taking one of the options from that article all the way into a Spring-based project.
+What follows is taking one of the options from that article all the way into a Spring-based project.
 
 ## Background
 
@@ -26,7 +27,7 @@ upon which the app is running. Tests attempt to get every dependency under the c
 the test. While not always possible, it is an ideal to strive for.
 
 {% include aside/start id="focus-depend" title="Focus and Dependencies" %}
-Generally, the more focus the test, the more likely controlling all dependencies is possible.
+Generally, the more focused the test, the more likely controlling all dependencies is possible.
 Getting all the dependencies controlled for a micro-test is generally much easier / more possible
 than for an integration test, and an integration test tends to be easier than an acceptance test.
 {% include aside/end %}
@@ -38,7 +39,7 @@ and written by its author. The new and old co-exist. But they are fairly disconn
 What follows are the moving parts to time travel in a spring-based test. 
 
 ### How to get time
-For a component that needs time, instead of using the `Date` class, a `Clock` object.
+For a component that needs time, instead of using `Date`, use`Clock`.
 For example, instead of:
 ```java
 new Date()  // harder to control
@@ -66,9 +67,12 @@ public class HelloComponent {
 ```
 
 ### Part of Application Configuration
-For systemClock this to be injected, there needs to be a bean in the Spring confiruation. The special sauce is a
-combination of `@Configuration` and a `@Bean`. This can be on its own class, or as in this example added to the 
-Application class:
+For systemClock this to be injected, there needs to be a bean in the Spring configuration. The special sauce is a
+combination of two annotations:
+* `@Configuration` enhance the Spring context with some bean instances
+* `@Bean` Define a Spring bean that can be autowired into a component
+
+This can be on its own class or, in this simple example, placed on the`@SpringBootApplication` directly.
 ```java
 @SpringBootApplication
 @Configuration
@@ -88,7 +92,7 @@ What about testing for a date that is not "now" in the real world?
 
 ### Override the Clock
 If you can get away with using a plain JUnit test, then you can construct
-your own Clock instance, and manually call the constructor of the HelloComponent.
+your own`Clock`instance, and manually call the constructor of the`HelloComponent`.
 That's straightforward and a good option.
 
 If you're trying to get it to work in a spring context, it requires another
@@ -108,7 +112,7 @@ public class TestConfig {
 ```
 
 {% include aside/start id="primary-override" title="Focused, Or Full Integration?" %}
-Note, the use of `@Primay` on this `@Bean` method is to allow for this TestConfig to work on its own, or in a larger
+Note, the use of`@Primay`on this`@Bean`method is to allow for this TestConfig to work on its own, or in a larger
 initialization context. 
 
 In the test that follows, the test limits what is in the Spring context for test execution by listing specific classes
@@ -117,7 +121,7 @@ that the test-writer knew were needed to get this test to run.
 Alternatively, you can specify the application class and get a fully initialized spring context with all the 
 project's components, controllers, services, etc. 
 
-If you take this route, then in addition to using `@Primary`, such a test would also need the annotation:
+If you take this route, then in addition to using`@Primary`, such a test would also need the annotation:
 ```java
 @TestPropertySource(properties="spring.main.allow-bean-definition-overriding=true")
 ```
