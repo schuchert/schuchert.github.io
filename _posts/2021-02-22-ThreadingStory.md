@@ -8,7 +8,7 @@ tags: [java, threading]
 
 {::options parse_block_html="true" /}
 ## Overview
-I was on an engagement around 1999 where there was a program someone and written to transfer a db/2 mainframe-based 
+I was on an engagement around 1999 where there was a program someone had written to transfer a db/2 mainframe-based 
 data set into a different SQL db. 
 
 It needed to run daily.
