@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Threading Story"
-description: "A place where I used threading to speed up a problem, and made it harder for myself.
+description: "A place where I used threading to speed up a problem, and made it harder for myself."
 category: [java]
 tags: [java, threading]
 ---
