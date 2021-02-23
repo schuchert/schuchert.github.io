@@ -38,6 +38,7 @@ creating thread pools:
 * pool 1, size 5, get a record from the db
 * pool 2, size 5, transform
 * pool 3, size 5, write to db
+
 We ran parallel transactions because the keys were guaranteed unique given the source data.
 
 ## Results
@@ -66,8 +67,8 @@ of the unit of work is all one large block of code.
 
 I would still have different functions (and maybe even different classes, depending on the particular problem). 
 
-That is, functional decomposition and decomposing work into threads has some things in common, but whereas more,
-smaller, functions is often good, nearly the opposite is true for threads because they are not a light-weight tool.
+That is, functional decomposition and decomposing work into threads have some things in common, but whereas more,
+smaller, functions are often good, nearly the opposite is true for threads because they are not a light-weight tool.
 
 Really, comparing the number of functions and number of threads is nonsensical, but then so was arbitrarily splitting
 a logical unit of work across three threads, ostensibly, so I could independently scale each of the logical blocks.
