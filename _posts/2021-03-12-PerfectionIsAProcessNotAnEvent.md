@@ -4,16 +4,14 @@ title: "Perfection Is a Journey, Not an Event"
 description: "I'm re-reading Are Your Lights On as an entirely different person. An observation."
 category: [general]
 tags: [perfection,problem]
-draft: true
 ---
 
 {::options parse_block_html="true" /}
-## There's no organization, mostly a stream of consciousness (or maybe unconsciousness)
-I'm working with some tech leads to guide them to learn about coaching their teams themselves. As a part of this,
-we are holding book clubs on several books. Right now we are reading [Are Your Lights On, Gause & Weinberg](https://leanpub.com/areyourlightson).
+## A stream of thoughts
 
-The first time I read this book was around the turn of the century. I am a different person, both figuratively and 
-literally, so while the book hasn't changed, I'm seeing much more than I did the first time.
+I'm re-reading [Are Your Lights On, Gause & Weinberg](https://leanpub.com/areyourlightson). The first time I read 
+this book was around the turn of the century. I am a different person, both figuratively and literally, so while the 
+book hasn't changed, I'm seeing much more than I did the first time.
 
 For example, this quote:
 > The really important thing in dealing with problems is to know that the question is never answered, but that 
@@ -27,13 +25,13 @@ Another way to phrase that might be: Perfection is a process, not an event. This
 as migrated from yoga to internal martial arts like Tai Chi.
 
 This seems to tie to some of my older opinions around [Plato's Theory of Formns](https://en.wikipedia.org/wiki/Theory_of_forms),
-which I summarily reject. It seems if I reject Plato's Theory of Forms, then I'd say that perfection cannot exist either.
-Perfection is a perceived characteristic of something from an observer. So it seems that perfection is a
-relationship between someone and something.
+which I summarily reject. It seems if I reject Plato's Theory of Forms, then I'd say that perfection as a thing also
+does not exist. Perfection is a perceived characteristic of something from an observer. So perfection is a
+relationship between things rather than a stand-along thing itself.
 
 Next, I jumped over to Lean thinking. In Lean, Muda (waste) is everywhere. It's safe to say that there's always 90% Muda
-in every process you follow. Once you have removed 90% of that waste, 90% of what is left over is waste. It's waste all 
-the way down, not [turtles](https://apilgriminnarnia.com/2014/03/26/turtles/), as I was lead to believe.
+in every process you follow. Once you have removed 90% of that waste, 90% of what is left over remains waste. It's waste 
+all the way down, not [turtles](https://apilgriminnarnia.com/2014/03/26/turtles/), as I was lead to believe.
 
 So what's the connection then?
 
@@ -45,16 +43,16 @@ So what's the connection then?
 * Muda is the opposite of perfection. If perfection is a journey, seems like muda removal is as well. Additionally,  
   much like you never know if the question is answered, you can also never remove all waste. That is, removing
   muda is a journey, not a destination. Muda removal is a way of being, not a goal. It's a process, not an event.
-
+  
 {% include aside/start id="design-what" title="What is Design?" %}
-As I was reviewing this, I remember how I used to describe software design:
+As I was reviewing this, how I used to define software design came back to me:
 > Software design is the art of selecting the solution that sucks the least.
 
 This tongue-in-cheek definition of design expresses a deeper truth. Design is the act of balancing constraints, with a 
 few added challenges:
-* You don't know what all the things are
+* You don't know all the things you need to balance
 * Of the things you are aware of, you probably don't know them well enough either
-* The actual cost of a decision will likely never be know accurately, but you need to keep trying...
+* The actual cost of a decision will likely never be known accurately, but you need to keep trying...
 
 Sound familiar? Seems like I was pre-destined to read this book. I know that the definition I used for design
 pre-dates reading the book because I started using it around 1992.
