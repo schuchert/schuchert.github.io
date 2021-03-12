@@ -4,10 +4,10 @@ title: "Perfection Is a Journey, Not an Event"
 description: "I'm re-reading Are Your Lights On as an entirely different person. An observation."
 category: [general]
 tags: [perfection,problem]
-draft: true
 ---
 
 {::options parse_block_html="true" /}
+## A stream of thoughts
 
 I'm re-reading [Are Your Lights On, Gause & Weinberg](https://leanpub.com/areyourlightson). The first time I read 
 this book was around the turn of the century. I am a different person, both figuratively and literally, so while the 
