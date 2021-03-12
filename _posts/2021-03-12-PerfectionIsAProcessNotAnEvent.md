@@ -17,12 +17,11 @@ For example, this quote:
 > The really important thing in dealing with problems is to know that the question is never answered, but that 
 > it doesn't matter, as long as you keep asking.
 
-The first thing I thought was: "Perfection is a Journey, not a Destination." That's a motto I picked up in the early
-days of my yoga practice. I read this book before I started practicing yoga, so I would not have thought that the first 
-time I read the book.
+The first thing that came to my mind was "Perfection is a Journey, not a Destination." That's a motto I picked up in 
+the early days of my yoga practice. I read this book before I started practicing yoga, so I would not have thought 
+that the first time I read the book.
 
-Another way to phrase that might be: Perfection is a process, not an event. This is a recurring personal theme
-as migrated from yoga to internal martial arts like Tai Chi.
+Another way to phrase that might be: Perfection is a process, not an event.
 
 This seems to tie to some of my older opinions around [Plato's Theory of Formns](https://en.wikipedia.org/wiki/Theory_of_forms),
 which I summarily reject. It seems if I reject Plato's Theory of Forms, then I'd say that perfection as a thing also
@@ -40,8 +39,8 @@ So what's the connection then?
   perceived as a problem.
 * Perfection, in yoga, problem definition, or software, is a journey, not a destination. If you want even more, 
   give [Perfect Software, by Weinberg](https://leanpub.com/perfectsoftware) a read.
-* Muda is the opposite of perfection. If perfection is a journey, seems like muda removal is as well. Additionally,  
-  much like you never know if the question is answered, you can also never remove all waste. That is, removing
+* Muda is the reflection of perfection. Since perfection is a journey, so too is muda. Additionally,  
+  much like you never know if the question is answered, you can also never remove all waste. Removing
   muda is a journey, not a destination. Muda removal is a way of being, not a goal. It's a process, not an event.
   
 {% include aside/start id="design-what" title="What is Design?" %}
