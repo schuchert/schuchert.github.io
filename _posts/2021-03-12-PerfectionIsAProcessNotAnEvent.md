@@ -8,7 +8,6 @@ draft: true
 ---
 
 {::options parse_block_html="true" /}
-## There's no organization, mostly a stream of consciousness (or maybe unconsciousness)
 I'm working with some tech leads to guide them to learn about coaching their teams themselves. As a part of this,
 we are holding book clubs on several books. Right now we are reading [Are Your Lights On, Gause & Weinberg](https://leanpub.com/areyourlightson).
 
