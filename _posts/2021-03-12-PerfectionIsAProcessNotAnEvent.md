@@ -8,11 +8,10 @@ draft: true
 ---
 
 {::options parse_block_html="true" /}
-I'm working with some tech leads to guide them to learn about coaching their teams themselves. As a part of this,
-we are holding book clubs on several books. Right now we are reading [Are Your Lights On, Gause & Weinberg](https://leanpub.com/areyourlightson).
 
-The first time I read this book was around the turn of the century. I am a different person, both figuratively and 
-literally, so while the book hasn't changed, I'm seeing much more than I did the first time.
+I'm re-reading [Are Your Lights On, Gause & Weinberg](https://leanpub.com/areyourlightson). The first time I read 
+this book was around the turn of the century. I am a different person, both figuratively and literally, so while the 
+book hasn't changed, I'm seeing much more than I did the first time.
 
 For example, this quote:
 > The really important thing in dealing with problems is to know that the question is never answered, but that 
