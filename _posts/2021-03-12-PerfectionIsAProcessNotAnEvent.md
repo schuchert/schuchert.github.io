@@ -79,5 +79,5 @@ but when we try to extend different models to an absolute, such as perfection, e
 In a sense, the first time I read the book, my lights were off. Now that I'm reading the book again so many years later,
 are my lights finally on?
 
-Nope. The idea that might lights are on is an example of journey, versus a destination. So, while my lights will
+Nope. The idea that my lights are on is an example of journey, versus a destination. So, while my lights will
 never actually be on, I'm going to keep trying. I assume once I stop doing that, I start to die?
