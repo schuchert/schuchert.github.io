@@ -40,8 +40,8 @@ So what's the connection then?
 * Perfection, in yoga, problem definition, or software, is a journey, not a destination. If you want even more, 
   give [Perfect Software, by Weinberg](https://leanpub.com/perfectsoftware) a read.
 * Muda is the reflection of perfection. Since perfection is a journey, so too is muda. Additionally, much like you 
-  never know if the question is answered, you can also never remove all waste. Removing 
-  muda is a journey, not a destination. Muda removal is a way of being, not a goal. It's a process, not an event.
+  never know if the question is answered, you can also never remove all waste. 
+  Muda removal is a way of being, not a goal.
   
 {% include aside/start id="design-what" title="What is Design?" %}
 As I was reviewing this, how I used to define software design came back to me:
