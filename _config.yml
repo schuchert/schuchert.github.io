@@ -8,7 +8,6 @@ highlight: rogue
 github_username: schuchert
 layout: kramdown
 makrdown: kramdown
-markdown: kramdown
 kramdown:
   parse_block_html: true
 plugins_dir:
