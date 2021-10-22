@@ -8,7 +8,6 @@ highlight: rogue
 github_username: schuchert
 layout: kramdown
 makrdown: kramdown
-markdown: kramdown
 kramdown:
   parse_block_html: true
 plugins_dir:
@@ -22,3 +21,4 @@ repository: schuchert/schuchert.github.io
 github: [metadata]
 exclude: [Gemfile,Gemfile.lock]
 include: [favico.ico]
+future: true

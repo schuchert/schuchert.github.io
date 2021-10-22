@@ -1,6 +1,6 @@
 After cloning the repo, you'll need to
 ~~~ bash
-sudo apt install -y ruby ruby-dev libpng-dev -y
+sudo apt install -y ruby ruby-dev libpng-dev
 ~~~
 
 Then in the home directory:
