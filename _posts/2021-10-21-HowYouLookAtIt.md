@@ -3,7 +3,7 @@ layout: post
 title: "How You Look At It"
 description: "Ostensibly, this is about how to remove a pink cast in a picture."
 category: [general]
-tags: [mental models]
+tags: [mental_models]
 draft: true
 ---
 
