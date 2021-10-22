@@ -21,3 +21,4 @@ repository: schuchert/schuchert.github.io
 github: [metadata]
 exclude: [Gemfile,Gemfile.lock]
 include: [favico.ico]
+future: true
