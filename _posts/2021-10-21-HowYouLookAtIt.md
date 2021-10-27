@@ -8,7 +8,7 @@ draft: true
 ---
 
 {::options parse_block_html="true" /}
-## "Oh, there's more pink than I realized" - The Wife
+## "Oh, there's more pink than I realized" - My wife
 
 She needed a picture as background for her Pintober series on Instagram.
 
