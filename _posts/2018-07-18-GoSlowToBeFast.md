@@ -74,7 +74,7 @@ The more I can increase the time it takes while moving continuously, and therefo
 
 To an onlooker, it might look like there's not much going on. 
 It's not obvious. It's slow. It must be easy. 
-But the internal internal experience is nothing like the outward appearance.
+But the internal experience is nothing like the outward appearance.
 
 {% include aside/start id="wuchi" title="(Standing) Wu Chi" %}
 Early in 2018, one of the people I was coaching asked about Tai Chi. He said "teach me something." 
@@ -86,11 +86,11 @@ How much is there to know about standing?!
 I'm still a beginner, but here are a few things to consider when standing:
 * Feet shoulder width apart
 * Feet parallel to each other
-* Toes just to outside of each big toe aligned with middle of ankle
+* Toes just to the outside of each big toe aligned with middle of ankle
 * Balls of feet connecting to the ground
 * Heal of feet connecting to the ground
 * Form an arch between the balls of your feet, like a Japanese bridge
-* Form an arch between the large ball of each foot and the heal of the foot
+* Form an arch between the large ball of each foot and its heal
 * Engage all five toes of each foot with the ground
 * Knees slightly bent
 * Knees pointing forward
@@ -205,4 +205,3 @@ I don't have an end to this blog per se. Mostly, it's a few random associations 
 So I'll end with a few questions:
 * What is something you do that from the outside might seem trivial, but from your internal perspective, is rich and rewarding? 
 * Is there anything for which you go slow now so that you can go fast later?
-

@@ -32,5 +32,5 @@ A list of things might be split into:
 When this blog is out of draft, this section will be here but collapsed by default. 
 {% include aside/end %}
 
-As the aside above says, when this blog is out of draft, the asside above will be expandable but collapsed
+As the aside above says, when this blog is out of draft, the aside above will be expandable but collapsed
 by default.
