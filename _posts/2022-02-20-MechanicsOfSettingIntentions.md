@@ -32,5 +32,5 @@ connections, with regular care and feeding.
 Changes will take a while to happen, but you might occasionally make a huge leap because something either got 
 reinforced, or weakened by this non DMN processing.
 
-I wrote about my first personal experience here:
-{{ site.baseurl }}{% link _posts/2021-01-14-FirstThingINoticedFromDailyMeditation.md %}
+I previously wrote about my [first personal experience](https://schuchert.github.io/dog%20walking%20deep%20thoughts/2021/01/14/FirstThingINoticedFromDailyMeditation.html).
+of such a thing happening.
