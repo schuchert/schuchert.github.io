@@ -75,16 +75,16 @@ We'll be using 8 oz mason jars, but larger is fine. You'll be using a hammer
 and a nail to punch holes in a lid, and then placing filers over those holes.
 
 ### What You Need
-* Mason jars with lids
+* [Mason jars with lids](https://www.target.com/p/ball-set-of-12-half-pint-8-oz-quilted-mason-jar/-/A-13562672#lnk=sametab)
 * Nail and Hammer
 * 8 pieces of cardboard cut into 4 x 4 squares
 * [Synthetic Filter Paper Stickers](https://www.amazon.com/gp/product/B08T1T8Z78/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
-* Ability to us hammer and nail on a stack of cardboard
+* Ability to use hammer and nail on a stack of cardboard
 
 ### Time
 15 - 20 minutes
 
-## Serialize Jars in Medium
+## Sterilize Jars in Medium
 
 Load each jar to 3/4 full. Cover jar with tin foil. Sterilize in an Insta Pot. A pressure
 cooker is fine, I just happen to have an Insta Pot.
@@ -124,8 +124,8 @@ box with 99% alcohol, use a UVC light, then put the spore in the jars.
 * Ability to use said drill
 
 ### Time
-1 hour to build the still air box (1 time only, you'll get a lot of use out of this)
-30 - 60 minutes to inoculate the jars
+* 1 hour to build the still air box (1 time only, you'll get a lot of use out of this)
+* 30 - 60 minutes to inoculate the jars
 
 ## Wait 3 - 6 Weeks
 
@@ -136,6 +136,7 @@ a heating mat with a temperature controller makes this reliable.
 * [Seeding Heating Mat](https://www.amazon.com/gp/product/B07J56XYN6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * Cardboard box
 * Room/closet with moderate temperature around 72°f, 22°c - 76°f, 24°c
+* Towel or shall shelf so jars do not touch heating mat
 
 ## Prepare bulk substrate
 
@@ -157,12 +158,12 @@ it a bit easier to work with.
 * (Optional) Bamboo from your back-yard
 
 ### Time
-About 8 hours
+About 8 hours, mostly waiting
 * 15 minutes mixing  
 * 3 hours pasteurization
 * 4 hours to cool
 
-## Mix medium into substrate
+## Mix Medium Into Substrate
 
 Back to the dry air box where you will mix the mycelium-covered grain into the bulk substrate.
 This is another place where things can go wrong, but you'll be using some familiar equipment.
