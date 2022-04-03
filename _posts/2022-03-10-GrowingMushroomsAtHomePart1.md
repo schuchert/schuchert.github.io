@@ -17,6 +17,8 @@ that might help, but probably won't hurt.
 I'm going to include links to actual things I have purchased, so you can more easily 
 replicate what I've done. Get what works for you. 
 
+Each of the next major steps (excluding getting spores) will follow.
+
 ## As Summarized as I Dare
 
 * Get spores 
