@@ -1,6 +1,5 @@
 ---
 layout: post
-draft: true
 title: "Growing Mushrooms At Home - Part 1"
 description: "Preparing to grow mushrooms, getting started, and progression of skills."
 category: [fungi]
