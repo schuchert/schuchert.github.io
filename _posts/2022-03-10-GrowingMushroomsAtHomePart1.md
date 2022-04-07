@@ -4,24 +4,25 @@ draft: true
 title: "Growing Mushrooms At Home - Part 1"
 description: "Preparing to grow mushrooms, getting started, and progression of skills."
 category: [fungi]
-tags: [mushrooms, fungi, growing, bulk-grow, bulk-substrate]
+tags: [mushrooms, fungi, growing, bulk-grow, bulk-substrate, lions-mane]
 ---
 
 ## What Is This
 
 I have managed to grow mushrooms in a home with 5 cats and a dog. Mostly reliably.
-I'm going to walk you through my current process, all of which is my conglomeration 
-of what I've read, what I remember from high school science, and other wild guesses
-that might help, but probably won't hurt.
+This will document my conglomeration of what I've read, what I remember from high 
+school science, and other wild guesses that might help, but probably won't hurt.
 
 I'm going to include links to actual things I have purchased, so you can more easily 
 replicate what I've done. Get what works for you. 
 
-Each of the next major steps (excluding getting spores) will follow.
+After Part 1, the subsequent sections will appear live as I reapply what I'm writing,
+and including pictures.
 
 ## As Summarized as I Dare
 
-* Get spores 
+This whole process takes between 12 and 7 weeks.
+* Get spores
 * Prepare growth medium 
 * Prepare jars for medium
 * Sterilize medium in jars
@@ -66,7 +67,7 @@ There are many choices, but my current choice is hard red wheat berries.
 * coffee grounds (optional)
 * stove
 * pasta strainer
-* slightly more than ability to boil water on the stove cooking skills
+* slightly more than ability-to-boil-water-on-the-stove-level cooking skills
 
 ### Time
 1 day of mostly waiting.
@@ -89,7 +90,7 @@ and a nail to punch holes in a lid, and then placing filers over those holes.
 ## Sterilize Jars in Medium
 
 Load each jar to 3/4 full. Cover jar with tin foil. Sterilize in an Insta Pot. A pressure
-cooker is fine, I just happen to have an Insta Pot.
+cooker is fine.
 
 ### What You Need
 * Tin foil
@@ -106,7 +107,7 @@ cooker is fine, I just happen to have an Insta Pot.
 ## Inoculate jars
 
 This is where things can start to go wrong. I have built a still air box for about $40, 
-use 99% isopropyl alcohol, and an uvc light.
+use 99% isopropyl alcohol, and I also use a strong uvc light.
 
 You place the spores and sterilized jars in the still air box, spray the inside of the 
 box with 99% alcohol, use a UVC light, then put the spore in the jars.
@@ -127,7 +128,7 @@ box with 99% alcohol, use a UVC light, then put the spore in the jars.
 
 ### Time
 * 1 hour to build the still air box (1 time only, you'll get a lot of use out of this)
-* 30 - 60 minutes to inoculate the jars
+* 1 hour to inoculate the jars, 10 minutes preparation, 30 minutes waiting, 20 minutes inoculating
 
 ## Wait 3 - 6 Weeks
 
@@ -138,7 +139,7 @@ a heating mat with a temperature controller makes this reliable.
 * [Seeding Heating Mat](https://www.amazon.com/gp/product/B07J56XYN6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * Cardboard box
 * Room/closet with moderate temperature around 72°f, 22°c - 76°f, 24°c
-* Towel or shall shelf so jars do not touch heating mat
+* Towel or small shelf so jars do not touch heating mat
 
 ## Prepare bulk substrate
 
@@ -194,7 +195,7 @@ You'll put your turkey container of sprouting mushrooms into a fruiting chamber,
 build. And now the manual stuff really starts.
 
 ### What You Need
-* Fruiting Chamber
+* Fruiting Chamber (another plastic box you can build)
 * Heating Mat
 * [Perlite](https://www.amazon.com/gp/product/B07S4FTPYB/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 * Distilled Water
@@ -203,7 +204,7 @@ build. And now the manual stuff really starts.
 * 4" duct for the fan
 
 ### Time
-1 - 2 more weeks
+2 - 3 more weeks
 
 ## Enjoy
 You'll have mushrooms if all has gone well. Pick and eat fresh. Or dry.
