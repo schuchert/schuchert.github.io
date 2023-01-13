@@ -5,3 +5,4 @@ vendor
 .idea
 site_errors
 _build
+.DS_Store
