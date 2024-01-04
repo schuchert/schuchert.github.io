@@ -27,11 +27,7 @@ So I kept thinking to myself, that's what I'm doing. I'm going to do this as a w
 WTaQD. I point that out in the videos. If I didn't remind myself that most of the last two weeks of November, 
 I would have stopped.
 
-{% include aside/start id="checking-versus-testing" title="Checking vs. Testing" %}
-
 > Do it for someone / something else to help trick your imposter (lovingly).
-
-{% include aside/end %}
 
 ## How did I apply lean principles?
 At the start, I had never edited videos, beyond trimming the ends. I needed a tools and techniques 
