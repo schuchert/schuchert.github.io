@@ -87,3 +87,30 @@ None of the first 19 videos have any of that. I considered going back and redoin
 
 * I like the historical record of the growth of the style
 
+
+
+## The lines
+* Stop trying to kill your ego, de-anthropomorphize it through moving meditation.
+* Make use of those 700 new neurons created by your Hippocampus every day.
+* Whatever your chaos baseline, raise above it a touch with some intentional body jirations.
+* In this time of winter blues, raise your qi with some sweet, slow moves.
+* This meat-suite we each occupy lacks user manuals. Learn to better control yours.
+* You can learn new things up until you die, but you need to participate in your life physically to do so.
+* Warning, practicing moving meditation might loosen your connection with consensus reality.
+* What are you doing reading this?! Get control of your parasympathetic nervous system.
+* You shorten you hips when you sit. You might be doing it when you stand. Avoid the walker!
+* Losing height? Want to slowly stretch your spine and get some of it back (maybe a bonus articulation)?
+* Re-train your brain by focusing on your feet. Find an event near you and join a world wide community of feet focused folk.
+* Be a ninja. Fix your posture while you sit at work. And nobody will know you're doing it.
+* The Winter Solstice approaches. Be prepared to raise you Yang side with the Swimming Dragon Diving for the Pearl of Wisdom.
+* Manipulate your Multiverse.
+* We're getting close to the Winter Solstice. Bring up some yang energy to revitalized your mid dantian.
+* Your intention informs your attention. Your attention informs your reality. One path into reality bending is through #TaiChi or #Qigong
+* This #qigong exercise will help you remain supple for the next time you break into The Time Warp Again.
+* Resist the monolith: Melted sand and corporate greed are hijacking your nervous system. Give your Vagus nerve a nice hug by practicing #TaiChi or #gigong.
+* Find new ways to pop your joints learn to twist your body like you're DNA.
+* Reclaim your attention from all the VUCA in your life through #TaiChi or #Qigong.
+* Control your body, control your mind, earn meditation points if you're into spiritual materialism.
+* As this holiday season thickens, giving your parasympathetic nervous system some attention can really keep you going. Do you believe you are worth some self car?
+* Want to learn how to better control this meat suit you occupy?
+* Would you like a way to down-regulate your sympathetic nervous system? In just a few minutes. The only equipment required is practice and presence.
