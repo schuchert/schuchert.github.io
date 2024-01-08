@@ -1,6 +1,6 @@
 ---
 layout: post
-draft: true
+draft: false
 title: "Laughing Buddha Belly"
 description: "What can you do right now, any time, to invent spaciousness."
 category: [qigong]
