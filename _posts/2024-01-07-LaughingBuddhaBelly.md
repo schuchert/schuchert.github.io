@@ -13,11 +13,10 @@ tags: [tai chi, qigong, stomach, parasympathetic, vagus nerve]
 
 ## Kudos to [Rick Krause](https://taichiokc.com/)
 
-> [!note]
 > Much of this comes from practicing Tai Chi with [Rick Krause](https://taichiokc.com/). He covers this in detail
-> his book "Laughing Buddha Tai Chi: Practical Secrets", in the chapter on Longevity Breathing.
+> in his book "Laughing Buddha Tai Chi: Practical Secrets", in the chapter on Longevity Breathing.
 
-## The Quick Version
+## Something to Try
 
 Try the following experiment:
 > Sit down (important) comfortably. Put a hand lightly on your bellybutton. Push it out with your diaphragm/stomach. 
