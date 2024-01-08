@@ -30,8 +30,8 @@ Here's a trick to give yourself a quick calming break:
 * Push, and keep your stomach out
 * Breath slowly, out breath longer than in breath
 
-The simple act of slow breathing, pushing your stomach out, is a deconstructed version of diaphragmatic breathing.
-Diaphragmatic breathing reduces stress, inflammation, and is generally relaxing and calming.
+The simple act of breathing slowly while keeping your stomach pushed out, is a deconstructed version of 
+diaphragmatic breathing. Diaphragmatic breathing reduces stress, inflammation, and is generally relaxing and calming.
 
 You can prime the pump by pushing your stomach out, and holding it out. While not as effective as coordinating 
 your breath with your diaphragm, it is a quick way to signal to the body you'd like to start to calm down.
@@ -42,3 +42,16 @@ It's a 2-way street. Much like if you smile, it will help to life your mood. If 
 tend to move your breathing to a pattern than stimulates the parasympathetic nervous system.
 
 It's also a good point of focus for practicing sitting meditation.
+
+## The Laughing Buddha
+
+![](assets/images/buddha/pexels-alberto-capparelli-6116709.jpg)
+
+The Laughing Buddha has a large, round belly. Like babies, he keeps it relaxed. Keeping your stomach relaxed is
+itself a good practice, that can often feel hard to do. However, as a practice, it's something you can do
+whenever you feel comfortable to do so. 
+
+Also, if you start practicing this now, after not too long, your brain will form a stronger association with the 
+action, pushing your stomach out, and the reaction, up-ticking the parasympathetic nervous system.
+
+With sufficient practice, you'll find it becomes easier.
