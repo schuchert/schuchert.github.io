@@ -45,7 +45,7 @@ It's also a good point of focus for practicing sitting meditation.
 
 ## The Laughing Buddha
 
-![](assets/images/buddha/pexels-alberto-capparelli-6116709.jpg)
+![](/assets/images/buddha/pexels-alberto-capparelli-6116709.jpg)
 
 The Laughing Buddha has a large, round belly. Like babies, he keeps it relaxed. Keeping your stomach relaxed is
 itself a good practice, that can often feel hard to do. However, as a practice, it's something you can do
