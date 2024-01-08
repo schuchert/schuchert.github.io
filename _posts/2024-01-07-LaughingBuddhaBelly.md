@@ -8,6 +8,9 @@ tags: [tai chi, qigong, stomach, parasympathetic, vagus nerve]
 ---
 {::options parse_block_html="true" /}
 
+![](/assets/images/buddha/pexels-alberto-capparelli-6116709.jpg)
+*Image by Alberto Capparelli*
+
 ## Kudos to [Rick Krause](https://taichiokc.com/)
 
 > [!note]
@@ -45,11 +48,10 @@ It's also a good point of focus for practicing sitting meditation.
 
 ## The Laughing Buddha
 
-![](/assets/images/buddha/pexels-alberto-capparelli-6116709.jpg)
 
 The Laughing Buddha has a large, round belly. Like babies, he keeps it relaxed. Keeping your stomach relaxed is
 itself a good practice, that can often feel hard to do. However, as a practice, it's something you can do
-whenever you feel comfortable to do so. 
+anywhere, anytime.
 
 Also, if you start practicing this now, after not too long, your brain will form a stronger association with the 
 action, pushing your stomach out, and the reaction, up-ticking the parasympathetic nervous system.
