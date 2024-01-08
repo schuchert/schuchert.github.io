@@ -35,8 +35,8 @@ diaphragmatic breathing. Diaphragmatic breathing reduces stress, inflammation, a
 You can prime the pump by pushing your stomach out, and holding it out. While not as effective as coordinating
 your breath with your diaphragm, it is a quick way to signal to the body you'd like to start to calm down.
 
-This works becuase of the mind-body connection; it's a 2-way street. Much like if you smile, 
-it will help to life your mood. If you push your stomach out, it will tend to move your breathing 
+This works because of the mind-body connection; it's a 2-way street. Much like if you smile, 
+it will help to lift your mood. If you push your stomach out, it will tend to move your breathing 
 to a pattern than stimulates the parasympathetic nervous system.
 
 It's also a good point of focus for practicing sitting meditation.
