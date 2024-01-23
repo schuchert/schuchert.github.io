@@ -62,7 +62,7 @@ What actually happened:
 
 | Value | I immediately stopped getting daily headaches, and migrants, typically, from flight. By 1.5 days later I noticed extend range of motion in my shoulders while warming up in Tai Chi that |
 | After | I still read labels nearly any time I pick something up new. Notice that I set my intention to reading lables, so I set my attention to doing so. And I made it easier for my executive function to know what was easy to eat |
-| Celebrate | I stopped having daily headaches and migraines. This negative reinforcement was enough to make it stick for 2 years. I got lucky. This is a bit off form, but the model gets you start, don't focus on the model, use the model to get results |
+| Celebrate | I stopped having daily headaches and migraines. This negative reinforcement was enough to not go off the diet for 2 years. Now I use it a a tool at times. I got lucky. This is a bit off form. The the model gets you started, but once in application, focus on the outcome, not the models |
 
 This was a jiggle. I wasn't sure what to do, so I picked this one thing. It was a mix of knowing a little about what
 is required for ketosis + reading a book years before about mindless eating, which is about changing habits SO you can 
@@ -88,7 +88,9 @@ This could be a Jiggle, or you might say it's about Organization. The categories
 the category is irrelevant.
 
 Like the first example, we managed to hit something important. We got lucky it was so early, but it's amazing what
-[a little change can do to an experience](https://youtu.be/mUWM640m3os).
+a little change can do to an experience (the image gives a physical example of the same idea):
+
+[![Thumbnail of Video in Link](/assets/images/geneal/StopPunchingYourself.JPG)(https://youtu.be/mUWM640m3os)
 
 ## Meta Change
 
