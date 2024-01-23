@@ -90,7 +90,7 @@ the category is irrelevant.
 Like the first example, we managed to hit something important. We got lucky it was so early, but it's amazing what
 a little change can do to an experience (the image gives a physical example of the same idea):
 
-[![Thumbnail of Video in Link](/assets/images/geneal/StopPunchingYourself.JPG)(https://youtu.be/mUWM640m3os)
+[![Thumbnail of Video in Link](/assets/images/geneal/StopPunchingYourself.JPG)](https://youtu.be/mUWM640m3os)
 
 ## Meta Change
 
