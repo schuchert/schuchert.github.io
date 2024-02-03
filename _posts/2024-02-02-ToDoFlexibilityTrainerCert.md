@@ -14,6 +14,7 @@ tags: [ change,flexibility,body,qigong,taichi ]
 * Name/Review Each
 * Handwrite Each
 * Identify which of these address poses in training manual poses
+
 * ### Each has technical notes
 * Capture/review terms
 * Capture/review body parts
@@ -24,16 +25,14 @@ tags: [ change,flexibility,body,qigong,taichi ]
 
 Create a 1-hour program, try it out yourself, record yourself leading someone through it (not full length for holds)
 
-What I have so far:
-
-### Tai Chi Flexibility Training Plan Homework
+### #Qigong Flow Flexibility 
 This is the contents of the practical exam I believe.
 
 * Create Program (see below)
 * Fully practice my routine (done whole thing, not full time)
 * Record version with someone in February
-* (stretch) off it as a class locally or online
-
+* Get pictures of self in poses for pose summary chart similar to happy hips
+* (stretch) offer it as a class locally or online
 
 #### The Plan - move to sub page
 
