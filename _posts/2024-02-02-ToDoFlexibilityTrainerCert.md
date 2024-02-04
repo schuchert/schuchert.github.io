@@ -25,7 +25,8 @@ tags: [ change,flexibility,body,qigong,taichi ]
 
 Create a 1-hour program, try it out yourself, record yourself leading someone through it (not full length for holds)
 
-### #Qigong Flow Flexibility 
+### #Qigong Flow Flexibility
+
 This is the contents of the practical exam I believe.
 
 * Create Program (see below)
@@ -45,6 +46,7 @@ floor.
 
 During the closing practice, part of the guidance will help the students to hone their sense of interoception,
 specifically:
+
 * the relationship between tucking the tailbone and the engagement of the heals
 * where in the body is the student feels while pushing their fontanel away from their perineum
 * the sensation around the inner-shoulders, armpits when using turtle back or medial rotation of the arms
@@ -57,13 +59,13 @@ specifically:
 | Establish Breathing + Tai Chi Breathing | 2.5 minutes |
 | Bagua Circle Walking                    | 2.5 minutes |
 
-#### Flip Flop Shoulder Squash - 20 Minutes
+#### Flip Flop Shoulder Squash - 16 Minutes
 
 | Pose              |       Time |
 |-------------------|-----------:| 
-| Rag Doll          |  5 minutes |
+| Rag Doll          |  3 minutes |
 | Recover           | 30 seconds |
-| Cliffhanger       |  5 minutes |
+| Cliffhanger       |  3 minutes |
 | Recover           | 30 seconds |
 | Pretzel Right     |  3 minutes |
 | Recover           | 30 seconds |
@@ -83,35 +85,42 @@ specifically:
 | Reset            |            |
 | Shoulder / Waist |  1 minutes |
 
-#### Open the Door to the Pelvic Floor - 17 minutes
+#### Open the Door to the Pelvic Floor - 14 minutes
 
 | Pose         |       Time |
 |--------------|-----------:| 
-| Hero         |  5 minutes | 
+| Hero         |  3 minutes | 
 | Recover      | 30 seconds |
-| Twister R    |  5 minutes |
+| Twister R    |  3 minutes |
 | Recover      | 30 seconds | 
 | Twister L    |  5 minutes | 
 | Recover      | 30 seconds |
 | Reset        |            |
 | Washer Knees | 90 seconds | 
 
-#### Closing in Opening - 5 Minutes
+#### Closing in Opening - 13 Minutes
 
-| Pose             |         Time |
-|------------------|-------------:| 
-| Bound Butter Fly |    5 minutes |
-| Switch to Supine | at 2 minutes |
-| Switch to Prone  | at 4 minutes |
+| Pose             |       Time |
+|------------------|-----------:| 
+| Blaster Right    |  3 minutes |
+| Recover          | 30 seconds | 
+| Blaster Left     |  3 minutes |        
+| Recover          | 30 seconds | 
+| Bound Butter Fly |  2 minutes |
+| Switch to Supine |  2 minutes |
+| Switch to Prone  |  1 minutes |
+| Recover          |  1 minutes |
 
 #### Finish by Rooting to the Earth
+
 This is an in place, internal moving meditation. Build Wu Chi:
+
 * Feet Parallel
 * Feet Gripping
 * Knees Bent (feet still visible)
 * Tuck tailbone, aligning perineum with bubbling well (body naturally shifts its center of weight)
 * Push Fontanel Up, engages second bow, brings chin back
-* Turtle back / medial rotate shouldes to relax chest/sternum 
+* Turtle back / medial rotate shouldes to relax chest/sternum
 * Use sternum to tuck spinal column into pelvic floor
 
 | Pose                  |      Time |
@@ -123,21 +132,25 @@ This is an in place, internal moving meditation. Build Wu Chi:
 | Final goodbyes        |      open |
 
 ## Video Practices
+
 * There are three, practice all three twice (6 hours)
 * For each, note adjustments
 * For each, note which poses are covered in the teaching manual
 
 ## Theory Exam
+
 * Review each of the 12 classes
 * Muscles, names locations, sarcomere
 * Mnemonics offered (e.g., middle, medial)
 * Body parts: ligaments, tendons, muscle, bone, fat
-* Principles: wet noodle, time under passive resistance, 
+* Principles: wet noodle, time under passive resistance,
 * guidance, boredom, parasympathetic and sympathetic nervous systems
 
 ## Training Manual Poses
+
 * Manually annotate each with options
 * Manually annotate target area (e.g., wide dog, and thoracic spine)
 
 ## Science of Stretching Program
+
 * Review the 4 weeks (all new material as I have been practicing version 1)
