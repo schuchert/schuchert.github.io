@@ -154,3 +154,25 @@ This is an in place, internal moving meditation. Build Wu Chi:
 ## Science of Stretching Program
 
 * Review the 4 weeks (all new material as I have been practicing version 1)
+
+## Break Out
+
+## Introduction - 5 minutes
+
+| [Establish Breathing](https://youtu.be/jlYTyjFm9Bo)                                                                                           | [Bagua Circule Walking](https://youtu.be/jlYTyjFm9Bo)                                                                                           |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2:30 minutes                                                                                                                                  | 2:30 minutes                                                                                                                                    |
+| [![Establish breathing](/assets/images/QigongSoS/01-EstablishingBreath-subtitled-Thumbnail.jpg){:width="50px"}](https://youtu.be/jlYTyjFm9Bo) | [![Bagua Circule Walking](/assets/images/QigongSoS/02-BaguaCircleWalking-subtitled-Thumbnail.jpg){:width="50px"}](https://youtu.be/jlYTyjFm9Bo) |
+
+## Flip Flop Shoulder Squash - 16 minutes
+
+| Rag Doll  | Cliffhanger | Pretzel L | Pretzel R | Phoenix Shoulders |
+|-----------|-------------|-----------|-----------|-------------------|
+| 3 minutes | 3 minutes   | 3 minutes | 3 minutes | 2 minutes         |
+
+#### Thoracic Fantastic - 10 Minutes
+
+| Wide Dog  | Noodle    | Shoulder / Waist |
+|-----------|-----------|------------------|
+| 5 minutes | 3 minutes | 1 minutes        |
+
