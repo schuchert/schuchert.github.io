@@ -9,11 +9,59 @@ tags: [ change,flexibility,body,qigong,taichi ]
 
 ## Review 12 YB Chapters
 
+Wet Noodle
+Time Under Passive Resistance
+Breathing 4:8
+
 ### Each has 3 poses
 
-* Name/Review Each
-* Handwrite Each
-* Identify which of these address poses in training manual poses
+TEACH Most Acessible First
+
+#### Chapter 1
+* Moon Squats
+
+#### Chapter 2
+* Blaster (L/R)
+* Butterfly
+
+#### Chapter 3
+* Double Pigeon, seated half (L/R)
+* Shoulder Pow (L/R)
+* Hero Pose
+
+#### Chapter 4
+* Pigeon Modified for kneed problems (L/R)
+* Plough Pose
+
+#### Chapter 5
+* Jackknife Blaster (L/R)
+* Noodle
+* Pretzel Arms (L/R)
+
+#### Chapter 6
+* Side leg stretch (L/R)
+* Wild thing pose (L/R)
+* Flamenco (L/R Up/Out/In)
+* Short Dog
+* Cat Cow Breathing
+
+#### Chapter 7
+* Wide Dog (this was a big one)
+* Passive Squat
+* Twister (L/R)
+
+#### Chapter 8
+* Frog (half frog), Prone (L/R)
+* Pigeon (L/R)
+* Twisted Pigeon (L/R)
+* Blaster Pose (L/R)
+* Twisteed
+
+#### Name/Review Each
+
+#### Handwrite Each
+
+#### Identify which of these address poses in training manual poses
 
 * ### Each has technical notes
 * Capture/review terms
