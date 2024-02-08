@@ -55,7 +55,7 @@ TEACH Most Acessible First
 * Pigeon (L/R)
 * Twisted Pigeon (L/R)
 * Blaster Pose (L/R)
-* Twisteed
+* Twisted Blaster
 
 #### Name/Review Each
 
