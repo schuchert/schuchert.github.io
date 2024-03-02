@@ -143,16 +143,44 @@ specifically:
 
 #### Open the Door to the Pelvic Floor - 14 minutes
 
-| Pose         |       Time |
-|--------------|-----------:| 
-| Hero         |  3 minutes | 
-| Recover      | 30 seconds |
-| Twister R    |  3 minutes |
-| Recover      | 30 seconds | 
-| Twister L    |  5 minutes | 
-| Recover      | 30 seconds |
-| Reset        |            |
-| Washer Knees | 90 seconds | 
+**Option 1**
+
+| Pose                |       Time |
+|---------------------|-----------:|
+| Hero                |  3 minutes |
+| Recover             | 30 seconds |
+| Twister R           |  3 minutes |
+| Recover             | 30 seconds |
+| Twister L           |  5 minutes |
+| Recover             | 30 seconds |
+| Reset               |            |
+| Supine Washer Knees | 90 seconds |
+
+**Option 2**
+
+| Pose                |       Time |
+|---------------------|-----------:|
+| Hero                |  3 minutes |
+| Recover             | 30 seconds |
+| Side Leg R          |  3 minutes |
+| Recover             | 30 seconds |
+| Side Leg L          |  5 minutes |
+| Recover             | 30 seconds |
+| Reset               |            |
+| Seated Washer Knees | 90 seconds |
+
+**Option 3**
+
+| Pose                |       Time |
+|---------------------|-----------:|
+| Hero                |  3 minutes |
+| Recover             | 30 seconds |
+| Wide Leg R          |  3 minutes |
+| Recover             | 30 seconds |
+| Wide Leg L          |  5 minutes |
+| Recover             | 30 seconds |
+| Reset               |            |
+| Seated Washer Knees | 90 seconds |
 
 #### Closing in Opening - 13 Minutes
 
@@ -176,7 +204,7 @@ This is an in place, internal moving meditation. Build Wu Chi:
 * Knees Bent (feet still visible)
 * Tuck tailbone, aligning perineum with bubbling well (body naturally shifts its center of weight)
 * Push Fontanel Up, engages second bow, brings chin back
-* Turtle back / medial rotate shouldes to relax chest/sternum
+* Turtle back / medial rotate shoulders to relax chest/sternum
 * Use sternum to tuck spinal column into pelvic floor
 
 | Pose                  |      Time |
@@ -236,9 +264,9 @@ This is an in place, internal moving meditation. Build Wu Chi:
 
 ## Open the Door to the Pelvic Floor - 14 minutes
 
-| [Hero](https://youtu.be/a_tKPYHpP30)                                                                        | [Twister Right](https://youtu.be/duU1USVqFkQ?t=18&si=cPa9dT9geGXWBRzc)                                                                                       | [Twister Left](https://youtu.be/duU1USVqFkQ?t=237&si=8cbwSyNV0CEI_XNv)                                                                                       | [Washer Knees](https://youtu.be/duU1USVqFkQ?t=450&si=4fr94U_toGQ8qrrj)                                                                                       |
-|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 3 minutes                                                                                                   | 3 minutes                                                                                                                                                    | 3 minutes                                                                                                                                                    | 90 seconds                                                                                                                                                   |
+| [Hero](https://youtu.be/a_tKPYHpP30)                                                                        | [Twister Right](https://youtu.be/duU1USVqFkQ?t=18&si=cPa9dT9geGXWBRzc)                                                                                       | [Twister Left](https://youtu.be/duU1USVqFkQ?t=237&si=8cbwSyNV0CEI_XNv)                                                                  | [Washer Knees](https://youtu.be/duU1USVqFkQ?t=450&si=4fr94U_toGQ8qrrj)                                                                  |
+|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| 3 minutes                                                                                                   | 3 minutes                                                                                                                                                    | 3 minutes                                                                                                                               | 90 seconds                                                                                                                              |
 | [![Hero](/assets/images/QigongSoS/11-HeroPose-Thumbnail.jpg){:width="100px"}](https://youtu.be/a_tKPYHpP30) | [![Twister Right](/assets/images/QigongSoS/12-14_TwiserLR_WasherKnees-Thumbnail.jpg){:width="100px"}](https://youtu.be/duU1USVqFkQ?t=18&si=cPa9dT9geGXWBRzc) | [![Twister Left](/assets/images/QigongSoS/12_Twister_left.JPG){:width="100px"}](https://youtu.be/duU1USVqFkQ?t=237&si=8cbwSyNV0CEI_XNv) | [![Washer Knees](/assets/images/QigongSoS/13_washer_knees.JPG){:width="100px"}](https://youtu.be/duU1USVqFkQ?t=450&si=4fr94U_toGQ8qrrj) 
 
 ## Closing in Opening - 13 Minutes
