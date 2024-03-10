@@ -4,6 +4,14 @@
 $white: white;
 $black: black;
 
+a {
+	color: lightskyblue;
+}
+
+ul li {
+	list-style-type: circle;
+}
+
 .draft {
 	background-image: url({% link /assets/images/draft-160133_640.png %});
 	background-repeat: repeat;
