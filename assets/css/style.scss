@@ -62,7 +62,10 @@ div#title {
 	}
 }
 
-#searchBar {
+#header {
+	border-bottom: unset;
+}
+.searchBar {
     font-size: 80%;
     display: inline-block; 
     float: right;
