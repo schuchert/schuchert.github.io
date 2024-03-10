@@ -2,21 +2,24 @@
 layout: post
 draft: false
 title: "Science of Stretching for Tai Chi and Bagua"
-description: "A series of deep stretches from that should generally help someone practicing Tai Chi or Bagua"
+description: "Deep stretches for Tai Chi, Bagua, Qigong."
 category: [ gigong ]
-tags: [ bagua,taichi, body,qigong,scienceofstretching ]
+tags: [ bagua,taichi,body,qigong,scienceofstretching ]
 ---
 
- [![Video](/assets/images/QigongSoS/SoSTaiChi_YouTube_v1.png){:width="100px"}](https://youtu.be/oSMTAt8FxNE) 
+### Principles 
+* Wet Noodle - relax, let gravity to the work
+* Passive Tension over time (2 - 5 minutes)
+* Breathe to Relax (4:8 breathing)
 
-## Calm Mind / Warm Spine - 5 minutes
+### Calm Mind / Warm Spine - 5 minutes
 
 | Pose                                                                     |      Time |
 |--------------------------------------------------------------------------|----------:|
 | [Establish Breathing](https://www.youtube.com/watch?v=oSMTAt8FxNE)       | 2 minutes |
 | [Circle Walking](https://youtu.be/oSMTAt8FxNE?t=141&si=Nu-jhWOJ8jTKZm16) | 2 minutes |
 
-## Flip Flop Shoulder Squash - 16 Minutes
+### Flip Flop Shoulder Squash - 16 Minutes
 
 | Pose                                                                                 |      Time |
 |--------------------------------------------------------------------------------------|----------:| 
@@ -26,7 +29,7 @@ tags: [ bagua,taichi, body,qigong,scienceofstretching ]
 | [Pretzel Left](https://youtu.be/oSMTAt8FxNE?t=1255&si=d06li4gPOE4YP8-_)              | 3 minutes |
 | (Reset) [Phoenix Shoulders](https://youtu.be/oSMTAt8FxNE?t=1466&si=OxSxcPT1XzDYCN-v) | 2 minutes |
 
-## Thoracic Fantastic - 10 Minutes
+### Thoracic Fantastic - 10 Minutes
 
 | Pose                                                                                |      Time |
 |-------------------------------------------------------------------------------------|----------:| 
@@ -34,7 +37,7 @@ tags: [ bagua,taichi, body,qigong,scienceofstretching ]
 | [Noodle](https://youtu.be/oSMTAt8FxNE?t=1866&si=is1ChDfRYGtFFmNN)                   | 3 minutes |
 | (Reset) [Shoulder / Waist](https://youtu.be/oSMTAt8FxNE?t=2112&si=HKgNyz972IpsibkC) |  1 minute |
 
-## Open the Door to the Pelvic Floor - 14 minutes
+### Open the Door to the Pelvic Floor - 14 minutes
 
 | Pose                                                                                   |      Time |
 |----------------------------------------------------------------------------------------|----------:|
@@ -44,10 +47,11 @@ tags: [ bagua,taichi, body,qigong,scienceofstretching ]
 | (Reset) [Supine Washer Knees](https://youtu.be/oSMTAt8FxNE?t=2960&si=_y01xVUZQk2YFRCI) | 2 minutes |
 
 ### Options: Replace Twister with:
+
 * Side Leg Left/Right
 * Wide Leg Left/Right
 
-## Closing in Opening - 13 Minutes
+### Closing in Opening - 13 Minutes
 
 | Pose                                                                        |      Time |
 |-----------------------------------------------------------------------------|----------:| 
@@ -55,11 +59,16 @@ tags: [ bagua,taichi, body,qigong,scienceofstretching ]
 | [Blaster Right](ihttps://youtu.be/oSMTAt8FxNE?t=3334&si=KTc6bvB685dU1LTj)   | 3 minutes |
 | [Bound Butter Fly](https://youtu.be/oSMTAt8FxNE?t=3504&si=bX7BEaVbB_IbcKwq) | 5 minutes |
 
-## Root And Gather Energy
+### Root And Gather Energy
 
-| Pose                                                                             |      Time |
-|----------------------------------------------------------------------------------|----------:|
+| Pose                                                                             |     Time |
+|----------------------------------------------------------------------------------|---------:|
 | [Wu Chi](https://youtu.be/oSMTAt8FxNE?t=3986&si=aD6yRqo9mQPg1CaA)                | 1 minute |
-| Engaging Pelvic Floor                                                            |  1 minute |
-| [Gathering Clouds](https://youtu.be/oSMTAt8FxNE?t=4110&si=qNQtx-k7kZcWysjb)      |  1 minute |
-| [Bathing in the Spring](https://youtu.be/oSMTAt8FxNE?t=4179&si=pd2J_46zKkqAjz8X) |  1 minute |
+| Engaging Pelvic Floor                                                            | 1 minute |
+| [Gathering Clouds](https://youtu.be/oSMTAt8FxNE?t=4110&si=qNQtx-k7kZcWysjb)      | 1 minute |
+| [Bathing in the Spring](https://youtu.be/oSMTAt8FxNE?t=4179&si=pd2J_46zKkqAjz8X) | 1 minute |
+
+| Video                                                                                                                    |                                                                                                                                                      This Page |
+|:-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| [![](/assets/images/QigongSoS/SoSTaiChi_YouTube_v1.png){:width="100px"}](https://youtu.be/oSMTAt8FxNE "Video of Series") | [![](/assets/images/QigongSoS/SoSTaiChiOutline.png){:width="100px"}](https://schuchert.github.io/gigong/2024/03/02/SoSTaiChiSequence.html) |
+
