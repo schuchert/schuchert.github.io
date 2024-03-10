@@ -7,7 +7,7 @@ layout: default
     </div>
     {% if page.tagline %}
     <div class="tagline">
-            {{ page.tagline | strip }}
+        {{ page.tagline | strip }}
     </div>
     {% endif %}
     {% if page.description %}
@@ -41,27 +41,21 @@ layout: default
     </div>
 
     <div class="span4">
-        <h4>Published</h4>
-        <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
-
-        {% unless page.tags == empty %}
-        <h4>Tags</h4>
-        <ul class="tag_box">
-            {% assign tags_list = page.tags %}
-        </ul>
-        {% endunless %}
+        <h4>Published
+            <span class="date">{{ page.date | date_to_long_string }}</span>
+        </h4>
     </div>
 </div>
 
 <script>
-var input = document.querySelectorAll('.lbl-toggle');
-Array.from(input).forEach(
-  l=>l.addEventListener("keydown", e=>{ 
-    if(e.which === 13 || e.which === 32){
-      e.preventDefault(); 
-      l.click();
-    } 
-  })
-);
+    var input = document.querySelectorAll('.lbl-toggle');
+    Array.from(input).forEach(
+        l => l.addEventListener("keydown", e => {
+            if (e.which === 13 || e.which === 32) {
+                e.preventDefault();
+                l.click();
+            }
+        })
+    );
 
 </script>

@@ -32,6 +32,10 @@ section {
     padding: 0;
 }
 
+.span4 {
+	padding-top: 2em;
+}
+
 @media print
 {
 	@page {
@@ -39,21 +43,13 @@ section {
 		margin: 1em;
 	}
 	html, body {
-		width: 210mm;
 		font-size: 13pt;
 		background: #FFF;
 		overflow: visible;
 		margin:  1em;
 	}
-	body {
-		padding-top: 15mm;
-	}
 
-	div#license {
-		display: none;
-	}
-
-	#pagination, #license {
+	.pagination, .license {
 		visibility: hidden;
 		display: none;
 	}

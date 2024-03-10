@@ -7,6 +7,8 @@ category: [ gigong ]
 tags: [ bagua,taichi, body,qigong,scienceofstretching ]
 ---
 
+ [![Video](/assets/images/QigongSoS/SoSTaiChi_YouTube_v1.png){:width="100px"}](https://youtu.be/oSMTAt8FxNE) 
+
 ## Calm Mind / Warm Spine - 5 minutes
 
 | Pose                                                                     |      Time |
@@ -61,4 +63,3 @@ tags: [ bagua,taichi, body,qigong,scienceofstretching ]
 | Engaging Pelvic Floor                                                            |  1 minute |
 | [Gathering Clouds](https://youtu.be/oSMTAt8FxNE?t=4110&si=qNQtx-k7kZcWysjb)      |  1 minute |
 | [Bathing in the Spring](https://youtu.be/oSMTAt8FxNE?t=4179&si=pd2J_46zKkqAjz8X) |  1 minute |
-
