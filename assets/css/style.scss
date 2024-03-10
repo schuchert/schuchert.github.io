@@ -8,8 +8,9 @@ a {
 	color: lightskyblue;
 }
 
-ul li {
-	list-style-type: circle;
+ul, li {
+	list-style-type: square;
+	list-style-image: unset;
 }
 
 .draft {
@@ -31,12 +32,38 @@ section {
     padding: 0;
 }
 
+@media print
+{
+	@page {
+		size: auto;
+		margin: 1em;
+	}
+	html, body {
+		width: 210mm;
+		font-size: 13pt;
+		background: #FFF;
+		overflow: visible;
+		margin:  1em;
+	}
+	body {
+		padding-top: 15mm;
+	}
+
+	div#license {
+		display: none;
+	}
+
+	#pagination, #license {
+		visibility: hidden;
+		display: none;
+	}
+}
+
 div#title {
-    border-bottom: 2px solid $white;
-    margin: 0 0 .5em 0;
-    p {
-        text-align: left;
-    }
+	margin: 0 0 .5em 0;
+	p {
+		text-align: left;
+	}
 }
 
 #searchBar {

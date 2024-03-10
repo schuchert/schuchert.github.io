@@ -9,40 +9,39 @@ tags: [ bagua,taichi, body,qigong,scienceofstretching ]
 
 ## Calm Mind / Warm Spine - 5 minutes
 
-| Pose                                                                     |        Time |
-|--------------------------------------------------------------------------|------------:|
-| [Establish Breathing](https://www.youtube.com/watch?v=oSMTAt8FxNE)       | 2.5 minutes |
-| [Circle Walking](https://youtu.be/oSMTAt8FxNE?t=141&si=Nu-jhWOJ8jTKZm16) | 2.5 minutes |
+| Pose                                                                     |      Time |
+|--------------------------------------------------------------------------|----------:|
+| [Establish Breathing](https://www.youtube.com/watch?v=oSMTAt8FxNE)       | 2 minutes |
+| [Circle Walking](https://youtu.be/oSMTAt8FxNE?t=141&si=Nu-jhWOJ8jTKZm16) | 2 minutes |
 
 ## Flip Flop Shoulder Squash - 16 Minutes
 
-| Pose                                                                                |      Time |
-|-------------------------------------------------------------------------------------|----------:| 
-| [Rag Doll](https://youtu.be/oSMTAt8FxNE?t=355&si=Zu9Cdj2OoOBFWbm1)                  | 3 minutes |
-| [Cliffhanger](https://youtu.be/oSMTAt8FxNE?t=761&si=m4dNBDFFjruALYtN)               | 3 minutes |
-| [Pretzel Right](https://youtu.be/oSMTAt8FxNE?t=1031&si=giM8soHqH-tlyCWV)            | 3 minutes |
-| [Pretzel Left](https://youtu.be/oSMTAt8FxNE?t=1255&si=d06li4gPOE4YP8-_)             | 3 minutes |
-| (Reset)[Phoenix Shoulders](https://youtu.be/oSMTAt8FxNE?t=1466&si=OxSxcPT1XzDYCN-v) | 2 minutes |
+| Pose                                                                                 |      Time |
+|--------------------------------------------------------------------------------------|----------:| 
+| [Rag Doll](https://youtu.be/oSMTAt8FxNE?t=355&si=Zu9Cdj2OoOBFWbm1)                   | 3 minutes |
+| [Cliffhanger](https://youtu.be/oSMTAt8FxNE?t=761&si=m4dNBDFFjruALYtN)                | 3 minutes |
+| [Pretzel Right](https://youtu.be/oSMTAt8FxNE?t=1031&si=giM8soHqH-tlyCWV)             | 3 minutes |
+| [Pretzel Left](https://youtu.be/oSMTAt8FxNE?t=1255&si=d06li4gPOE4YP8-_)              | 3 minutes |
+| (Reset) [Phoenix Shoulders](https://youtu.be/oSMTAt8FxNE?t=1466&si=OxSxcPT1XzDYCN-v) | 2 minutes |
 
 ## Thoracic Fantastic - 10 Minutes
 
-| Pose                                                                               |      Time |
-|------------------------------------------------------------------------------------|----------:| 
-| [Wide Dog](https://youtu.be/oSMTAt8FxNE?t=1582&si=uvGxmLJRoJEaotaE)                | 5 minutes |
-| [Noodle](https://youtu.be/oSMTAt8FxNE?t=1866&si=is1ChDfRYGtFFmNN)                  | 3 minutes |
-| (Reset)[Shoulder / Waist](https://youtu.be/oSMTAt8FxNE?t=2112&si=HKgNyz972IpsibkC) |  1 minute |
+| Pose                                                                                |      Time |
+|-------------------------------------------------------------------------------------|----------:| 
+| [Wide Dog](https://youtu.be/oSMTAt8FxNE?t=1582&si=uvGxmLJRoJEaotaE)                 | 5 minutes |
+| [Noodle](https://youtu.be/oSMTAt8FxNE?t=1866&si=is1ChDfRYGtFFmNN)                   | 3 minutes |
+| (Reset) [Shoulder / Waist](https://youtu.be/oSMTAt8FxNE?t=2112&si=HKgNyz972IpsibkC) |  1 minute |
 
 ## Open the Door to the Pelvic Floor - 14 minutes
 
-| Pose                                                                                  |       Time |
-|---------------------------------------------------------------------------------------|-----------:|
-| [Hero](https://youtu.be/oSMTAt8FxNE?t=2230&si=tEd-xEINC-Ks5XLF)                       |  3 minutes |
-| [Twister R](https://youtu.be/oSMTAt8FxNE?t=2507&si=ExAGeQUnN4RbPcls)                  |  3 minutes |
-| [Twister L](https://youtu.be/oSMTAt8FxNE?t=2750&si=AU3VYsUfAnzGtHe0)                  |  3 minutes |
-| (Reset)[Supine Washer Knees](https://youtu.be/oSMTAt8FxNE?t=2960&si=_y01xVUZQk2YFRCI) | 90 seconds |
+| Pose                                                                                   |      Time |
+|----------------------------------------------------------------------------------------|----------:|
+| [Hero](https://youtu.be/oSMTAt8FxNE?t=2230&si=tEd-xEINC-Ks5XLF)                        | 3 minutes |
+| [Twister R](https://youtu.be/oSMTAt8FxNE?t=2507&si=ExAGeQUnN4RbPcls)                   | 3 minutes |
+| [Twister L](https://youtu.be/oSMTAt8FxNE?t=2750&si=AU3VYsUfAnzGtHe0)                   | 3 minutes |
+| (Reset) [Supine Washer Knees](https://youtu.be/oSMTAt8FxNE?t=2960&si=_y01xVUZQk2YFRCI) | 2 minutes |
 
-Options: Replace Twister with:
-
+### Options: Replace Twister with:
 * Side Leg Left/Right
 * Wide Leg Left/Right
 
@@ -54,13 +53,12 @@ Options: Replace Twister with:
 | [Blaster Right](ihttps://youtu.be/oSMTAt8FxNE?t=3334&si=KTc6bvB685dU1LTj)   | 3 minutes |
 | [Bound Butter Fly](https://youtu.be/oSMTAt8FxNE?t=3504&si=bX7BEaVbB_IbcKwq) | 5 minutes |
 
-## Finish by Rooting to the Earth
+## Root And Gather Energy
 
 | Pose                                                                             |      Time |
 |----------------------------------------------------------------------------------|----------:|
-| [Wu Chi](https://youtu.be/oSMTAt8FxNE?t=3986&si=aD6yRqo9mQPg1CaA)                | 1 minutes |
+| [Wu Chi](https://youtu.be/oSMTAt8FxNE?t=3986&si=aD6yRqo9mQPg1CaA)                | 1 minute |
 | Engaging Pelvic Floor                                                            |  1 minute |
 | [Gathering Clouds](https://youtu.be/oSMTAt8FxNE?t=4110&si=qNQtx-k7kZcWysjb)      |  1 minute |
 | [Bathing in the Spring](https://youtu.be/oSMTAt8FxNE?t=4179&si=pd2J_46zKkqAjz8X) |  1 minute |
-| Final goodbyes                                                                   |      open |
 
