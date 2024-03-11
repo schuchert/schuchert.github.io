@@ -7,10 +7,12 @@ category: [ gigong ]
 tags: [ bagua,taichi,body,qigong,scienceofstretching ]
 ---
 
-### Principles 
-* Wet Noodle - relax, let gravity to the work
-* Passive Tension over time (2 - 5 minutes)
-* Breathe to Relax (4:8 breathing)
+### Before You Begin
+* Principle: Wet Noodle - relax, let gravity to the work
+* Principle: Passive Tension over time (2 - 5 minutes) 
+* Principle: Breathe to Relax (4:8 breathing)         
+* Recommendation: Joint Pain/Stabby pain Bad, back off(slowly)
+* Recommendation: Focus on how the stretch feels, and where it is, not what it looks like
 
 ### Calm Mind / Warm Spine - 5 minutes
 
@@ -68,7 +70,7 @@ tags: [ bagua,taichi,body,qigong,scienceofstretching ]
 | [Gathering Clouds](https://youtu.be/oSMTAt8FxNE?t=4110&si=qNQtx-k7kZcWysjb)      | 1 minute |
 | [Bathing in the Spring](https://youtu.be/oSMTAt8FxNE?t=4179&si=pd2J_46zKkqAjz8X) | 1 minute |
 
-| Video                                                                                                                    |                                                                                                                                                      This Page |
-|:-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Video                                                                                                                    |                                                                                                                                  This Page |
+|:-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------:|
 | [![](/assets/images/QigongSoS/SoSTaiChi_YouTube_v1.png){:width="100px"}](https://youtu.be/oSMTAt8FxNE "Video of Series") | [![](/assets/images/QigongSoS/SoSTaiChiOutline.png){:width="100px"}](https://schuchert.github.io/gigong/2024/03/02/SoSTaiChiSequence.html) |
 
