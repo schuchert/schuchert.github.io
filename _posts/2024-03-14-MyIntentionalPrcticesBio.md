@@ -55,12 +55,14 @@ He is taking Flexibility Coach in March 2024, and in preparation for that, found
 his back, related to falling off a train bridge in 1980. This unknown block made it difficult to engage his 
 pelvic floor, made bridge pose difficult, and several other issues.
 
-One final piece that is crucial to his practice is his definition of "intentional practice." For him, anything
+One final practice at the core of all of these practices is his definition of "intentional practice." For him, anything
 you choose to do, no matter how long, is intentional. This ties into software development and gets to batch size.
 At times in his life, anything less than 30 minutes wasn't enough time. Now, it is intention. A few minutes of qigong
-while cooking is far better than not doing it.
+while cooking is far better than not doing it. When you start micro-practicing, you are reinforcing your attention,
+which then builds up into your intention.
 
 You are always practicing something. If you practice watching TV and eating potato chips, your attention becomes your 
 intention. On the other hand, if a practice is improving your lived experience, then continue doing it. We tend to
-continue doing what we do, but we can use our attention to set our intention, and vice versa. The more you do without
-intention, the more that becomes your attention. Shift your attention, to set your intention.
+continue doing what we do, but we can use our attention to shift our intention, and we can use our intention to
+shift out attention. The more you do without intention, the more that becomes your attention. Shift your attention, 
+to set your intention. Set your attention, to improve your attention.
