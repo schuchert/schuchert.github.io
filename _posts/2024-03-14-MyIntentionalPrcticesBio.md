@@ -14,9 +14,6 @@ This is Brett's core belief, and a good summary of his approach to life.
 Brett is a professional software developer and practices several forms of intentional body work. He mixes yoga,
 tai chi, conjoint family therapy, system thinking, and lean software into his daily life. 
 
-Brett currently practices several internal martial arts, yoga, and deep flexibility training. All of these are 
-ultimately a form a moving meditation, and he also practices sitting meditation. 
-
 For the past decade he has been a student of [Rick Krause](https://taichiokc.com/), which he continues to this day. 
 Rick teaches a mix of qigong, tai chi, liehubafa, and bagwa. At the turn of the century he started practicing yoga,
 learning for a number of years from Valerie Love. In the early 90s he picked up Taekwondo.
