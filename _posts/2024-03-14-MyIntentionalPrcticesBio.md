@@ -33,8 +33,8 @@ He started teaching computer literacy courses in 1985, which required studying a
 with Weinberg lead him to study work of Virginia Satir, a person who created conjoint family theory, both under 
 Weinberg and The Satir Institute of the South East.
 
-In 1989, he started practicing Taekwondo. He accidentally discovered fixing your body can fix your mind, fixing 
-your mind, can fix your body. This, with yoga and the models of Weinberg and Satir, forms the basis of how he
+In 1989, he started practicing Taekwondo. It was by accident that he discovered fixing your body can fix your mind, 
+and fixing your mind, can fix your body. This, with yoga and the models of Weinberg and Satir, forms the basis of how he
 approaches life. 
 
 At the turn of the century, he started practicing hot, dynamic yoga. Early on, he experienced so-called "issues in his
