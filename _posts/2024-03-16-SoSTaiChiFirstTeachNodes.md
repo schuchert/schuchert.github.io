@@ -20,6 +20,7 @@ tags: [ bagua,taichi,body,qigong,scienceofstretching ]
 * Did eventually moderate my tone a bit, and did slow down.
 * Repeated the principles (and on the handout) - good
 * Avoid talking about how long I do the poses, it's factual, I'm trying to be helpful (I hope), but it sets up what we are doing as less, and it's not. It's a stepping stone to improvement. 
+* My body feels great, but it takes me effort to get out of the poses, so this "weakness" is helpful for students.
 
 ## [Getting Organized](https://youtu.be/ezhKxmoe3Bw?t=0&si=I9lzQlrKclN_BlmN)
 * Slow down talking
@@ -76,18 +77,84 @@ that myself enough, I'll start now for next time.
 * Good - how to get out of poses
 * Good stabby pain/area pain - it was based on a question
 * Showing what I like to do after - maybe emphasize - this is an option
-## [Wide Dog](https://youtu.be/ezhKxmoe3Bw?t=1389&si=oeitwgmDlUsHDfoo)
-* 
-## [Twister Left](https://youtu.be/ezhKxmoe3Bw?t=1799&si=gSt2SUK545aB-CQ5)
 
+## [Wide Dog](https://youtu.be/ezhKxmoe3Bw?t=1389&si=oeitwgmDlUsHDfoo)
+* Sloppy intro
+* Way too wide for Wide dog
+* Good on discussing modification
+* Again, showing by touching, but verbalize it
+* Good - checking on touching
+* Story - doing it and targeting back of legs, then brought up engaging the pelvic floor - really did my legs, and calves especially, much looser from years of stair master
+* Based on question / talking about this not being yoga - student talked about micro bends, which is great to engage, and why we do not want to do that
+* Emphasize Heals On The Ground
+* Yang of yoga vs. yin of what we are doing ++
+* mentioned indoor rock climbing, but probably not a good analogy for most
+* Good commentary on nervous system
+* Did mention that I can feel this pose on the ground, but I need to use lateral rotation, which is sending mixed messages to nervous system.
+
+## [Twister Left](https://youtu.be/ezhKxmoe3Bw?t=1799&si=gSt2SUK545aB-CQ5)
 ## [Twister Right](https://youtu.be/ezhKxmoe3Bw?t=2030&si=Yp0c6Qb_LOGqGPv4)
+* Video Comment: Got label wrong, both show twister left - won't fix
+
+* I think this one I did well in terms of starting with accessible version
+* Good commentary on directing hand to outside of leg
+* Don't mention pulling leg, said it better later, but don't encourage yang stuff
+* Continue repeating principles, good
+* Mentioned interoception - keep doing that - mindful meditation using interoception to distract yourself
+* Mentioned finding pulse in body - good distraction, and fun to do
+* Good to mention feel of side we just twisted, it really does feel thinner
+* Kissed Ripley, do love having her here. 
+* Story about ego-ing through pose, ignoring pinch. True story, good to mention.
 
 ## [Washer Knees](https://youtu.be/ezhKxmoe3Bw?t=2174&si=ErOF2DEkTAeiLK0V)
+* This is a reset pose. 
+* Mentioned transition/reset poses - more detail maybe? Sooner?
 
 ## [Blaster Right](https://youtu.be/ezhKxmoe3Bw?t=2249&si=bhG8sqishmkh5Aec)
+* Again, more accessible version of poses first
+* Good commentary on pressure pose
+* Mentioned asymmetrical
+* Decent instruction I think
+* Mention plantar flexion on back foot
+* Again, mentioning how long I do the pose, reduce that
+* Talked about using blanket to help me relax
+* Reminder on rotating foot
+* Good - mentioned how rotating foot moves where feel goes
+* Good - showing how I got out of pose
 
 ## [Blaster Left](https://youtu.be/ezhKxmoe3Bw?t=2401&si=vo69RdK3dd-3rXO1)
+* Good, but remind about foot rotation
+* Someone got cramps, good discussion on it
+* Good story about stair master and tight calves
+* Good mentioned empty stepping - which we practiced in class before
+* Good, mention paying down future pain
+* Good, how this has worked for me
+* Good, how to get out of pose
 
 ## [Butterfly](https://youtu.be/ezhKxmoe3Bw?t=2621&si=xUVRPTX6b-tiGZ5-)
+* Good on fist distance
+* Good, looking forward for lower back
+* Good on using block to help with back
+* Good adjustments 
+* Bad, block doesn't work well for this - and started to get cramp in calf
+* Good (I think) showing how I've used prayer palms to help gravity pull, and avoided discussing physics 
+* Good - showing pillows and how the fold forward
+* Again, when demoing physically, use your words :-) 
+* Good, mention not pulling
+* Good, working/relaxing mixed message
+* Covered principles again
+* Good on mentioning we are not trying to look good, we are going for feel
+* Good, talking about intention and congruence
+* Good, mentioned my C4 - or bad, too much?
+* Mentioned calf cramp
+* Explained not to use reps and its impact on time
+* "Drizzle shoulder blades down"
 
 ## [Pins & Needles -student question](https://youtu.be/ezhKxmoe3Bw?t=2895&si=XuLQR9xZayioExS2)
+* Asked about observations, gave demo to someone with ankle problems
+* Good - mentioned 
+* Curl toes - dorsiflexion - missed opportunity
+* Good - mention using wall to keep knees from sliding too much
+* Student asked - "What have I done to you for you to show me this pose?" )
+* Tied it back to tai chi
+* Did mention how to work into slowly
