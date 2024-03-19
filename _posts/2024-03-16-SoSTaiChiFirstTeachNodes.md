@@ -96,6 +96,8 @@ that myself enough, I'll start now for next time.
 ## [Twister Right](https://youtu.be/ezhKxmoe3Bw?t=2030&si=Yp0c6Qb_LOGqGPv4)
 * Video Comment: Got label wrong, both show twister left - won't fix
 
+* **START High and Go Low**
+* Show highly accessible version first, then work your way down as options
 * I think this one I did well in terms of starting with accessible version
 * Good commentary on directing hand to outside of leg
 * Don't mention pulling leg, said it better later, but don't encourage yang stuff
