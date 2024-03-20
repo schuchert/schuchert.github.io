@@ -1,7 +1,7 @@
 ---
 layout: post
 draft: false
-title: SoS for Tai Chi Post Notes
+title: SoS for Tai Chi Post Notes Day 3
 description: "Collecting notes from day 3, focusing on Accessible and working way lower, remember, feel, and noodle, I personally find doing several of the poses in another option improve the pose, when I don't this, it's my ego 'OH, look how stretchy I am' - doesn't help."
 category: [ sos ]
 tags: [ scienceofstretching ]
