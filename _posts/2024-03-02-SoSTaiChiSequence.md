@@ -123,7 +123,8 @@ This is an intense pose targeting your shoulders and thoracic spine extension.
 ### Hero / Lightning Bolt
 ![](/assets/images/QigongSoS/11-HeroPose-Thumbnail.jpg){: .img-float-right}
 
-This is a both a hamstring stretch, and it might target your knees.
+This is a both a hamstring stretch, and it might target your knees. And your spine. Compound (multiple stretches),
+and complex (more than 6 muscles).
 
 * Option: Sit on a low bench, place your legs on the sides, feet back, pointing
 * Option: Put a rolled towel under your ankles, pillows between your bum and your feet
