@@ -37,14 +37,26 @@ section {
   padding-top: 2em;
 }
 
+.img-float-right {
+  width: 100px;
+  float: right;
+  padding-left: 1em;
+}
+
 @media print {
   @page {
     size: auto;
-    margin: 1em;
+    margin: .5em;
+  }
+  header, footer {
+    display: none;
+  }
+  .pagebreakafter {
+    page-break-after: always;
   }
 
-  .pagebreak {
-    page-break-after: always;
+  .pagebreakbefore {
+    page-break-before: always;
   }
 
   html, body {
@@ -55,8 +67,9 @@ section {
     margin: 1em;
   }
 
-  h1, h2, h3, h4, tr, td, a, ul, li, {
+  p, h1, h2, h3, h4, tr, td, a, ul, li {
     color: black;
+    overflow: visible;
   }
 
   div.description {
@@ -282,6 +295,10 @@ div.content {
       }
     }
   }
+}
+
+p img {
+  padding-right: 1em;
 }
 
 img {
