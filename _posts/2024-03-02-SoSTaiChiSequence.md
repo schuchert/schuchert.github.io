@@ -172,7 +172,7 @@ An asymmetrical passive twist, to really release your lower back.
 * Option: Legs crossed, up against a wall/chair/coffee table 
 * Option: Legs crossed, as many pillows as you need to relax
 * Option: Legs all the way to the ground
-* 
+
 ### Wide Dog
 ![](/assets/images/QigongSoS/08-WideDog-subtitled-Thumbnail.jpg){: .img-float-right}
 
