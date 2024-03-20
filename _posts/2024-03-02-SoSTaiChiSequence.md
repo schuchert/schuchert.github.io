@@ -131,10 +131,12 @@ This is a both a hamstring stretch, and it might target your knees.
 * Option: Spread your feet and allow your bum to eventually rest on the floor
 
 **Bum soundly on floor**
+**Knees feel good**
+Note, Lucas mostly does not go to final option.
 * Option: Bum soundly on the floor, put your hands behind your, fingers pointing back, and lean back a bit
 * Option: Bum on floor, reach arms behind you, lower to your elbows
 * Option: Bum on floor, leann back onto your elbows, using a pillow on your back
-* Option: Bum on floor, lay onto your back 
+* Option: Bum on floor, lay onto your back, knees might float up, muscle spindles - don't fight it!!!
 
 ### Noodle
 ![](/assets/images/QigongSoS/09-Noodle-subtitled-Thumbnail.jpg){: .img-float-right}
