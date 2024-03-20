@@ -155,7 +155,7 @@ An asymmetrical pose that might stretch your shoulders, and your shoulder blades
 * Option: Lay on your stomach
 
 ### Rag Doll
-![](/assets/images/QigongSoS/03-RagDoll.JPG){: .img-float-right}
+![](/assets/images/QigongSoS/03-Ragdoll.JPG){: .img-float-right}
 
 This is targeting the back of your spine, and it may target the back of you legs. If you feel any pain in your lower
 back, bend your knees. Regardless, keep your knees bent.
