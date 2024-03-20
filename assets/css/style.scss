@@ -42,6 +42,11 @@ section {
     size: auto;
     margin: 1em;
   }
+
+  .pagebreak {
+    page-break-after: always;
+  }
+
   html, body {
     font-size: 12pt;
     font-color: black;
