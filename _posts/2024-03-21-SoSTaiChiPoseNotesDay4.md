@@ -33,7 +33,7 @@ Demonstrate this pose and then guide. Why?
 
 Setting Up:
 * Bench at top of mat
-* Lie on your back, head close to bench (about an arm length? check, I was too close, my shins were on bench today)
+* Lie on your back (supine), head close to bench (about an arm length? check, I was too close, my shins were on bench today)
 * Arms at your side, hands near hips
 * Lift your hips
 * Place palms on your hip, lock elbows map
