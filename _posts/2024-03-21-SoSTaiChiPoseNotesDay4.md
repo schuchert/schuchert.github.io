@@ -35,6 +35,8 @@ Setting Up:
 * Bench at top of mat
 * Lie on your back (supine), head close to bench (about an arm length? check, I was too close, my shins were on bench today)
 * Arms at your side, hands near hips
+* Feet flat on your mat
+* Press with your feet
 * Lift your hips
 * Place palms on your hip, lock elbows map
 * Lift your legs until they are pointing to the sky (plantar flexion ankles)
