@@ -15,7 +15,6 @@ Props to consider
 Where?
 * Target is bra line
 
-
 Setup
 * Bench, stack of pillows
 * Back towards bench
