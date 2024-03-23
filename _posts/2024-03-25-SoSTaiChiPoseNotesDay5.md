@@ -8,10 +8,13 @@ tags: [ scienceofstretching ]
 ---
 
 ## Noodle
+Props to consider
+* Use a bench / stool, arm of a couch
+* Stack of pillows, lots of pillows
 
-* Use a bench
-* Stack of pillows
+Where?
 * Target is bra line
+
 
 Setup
 * Bench, stack of pillows
