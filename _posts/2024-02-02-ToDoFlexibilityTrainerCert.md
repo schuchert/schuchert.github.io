@@ -65,6 +65,18 @@ TEACH Most Acessible First
 * Blaster Pose (L/R)
 * Twisted Blaster
 
+#### Chapter 9
+* Reverse Dog (new teacher setup, 2 mats, crossed, different colors)
+* Block Bridge
+* Block Noodle
+ 
+#### Chapter 10 - injuries, these are modifications
+* Passive squat using a stool
+
+#### Chapter 11
+
+#### Chapter 12
+
 #### Name/Review Each
 
 #### Handwrite Each
@@ -107,113 +119,6 @@ specifically:
 * where in the body is the student feels while pushing their fontanel away from their perineum
 * the sensation around the inner-shoulders, armpits when using turtle back or medial rotation of the arms
 * the circular pattern of feet, knees, hips, fontanel, medial rotation, spinal column/pelvic floor lock in / Rooting.
-
-#### Calm Mind / Warm Spine - 5 minutes
-
-| Pose                                    |        Time |
-|-----------------------------------------|------------:|
-| Establish Breathing + Tai Chi Breathing | 2.5 minutes |
-| Bagua Circle Walking                    | 2.5 minutes |
-
-#### Flip Flop Shoulder Squash - 16 Minutes
-
-| Pose              |       Time |
-|-------------------|-----------:| 
-| Rag Doll          |  3 minutes |
-| Recover           | 30 seconds |
-| Cliffhanger       |  3 minutes |
-| Recover           | 30 seconds |
-| Pretzel Right     |  3 minutes |
-| Recover           | 30 seconds |
-| Pretzel Left      |  3 minutes |
-| Recover           | 30 seconds |
-| Reset             |            |
-| Phoenix Shoulders |  2 minutes |
-
-#### Thoracic Fantastic - 10 Minutes
-
-| Pose             |       Time |
-|------------------|-----------:| 
-| Wide Dog         |  5 minutes |
-| Recover          | 30 seconds |
-| Noodle           |  3 minutes |
-| Recover          | 30 seconds |
-| Reset            |            |
-| Shoulder / Waist |  1 minutes |
-
-#### Open the Door to the Pelvic Floor - 14 minutes
-
-**Option 1**
-
-| Pose                |       Time |
-|---------------------|-----------:|
-| Hero                |  3 minutes |
-| Recover             | 30 seconds |
-| Twister R           |  3 minutes |
-| Recover             | 30 seconds |
-| Twister L           |  5 minutes |
-| Recover             | 30 seconds |
-| Reset               |            |
-| Supine Washer Knees | 90 seconds |
-
-**Option 2**
-
-| Pose                |       Time |
-|---------------------|-----------:|
-| Hero                |  3 minutes |
-| Recover             | 30 seconds |
-| Side Leg R          |  3 minutes |
-| Recover             | 30 seconds |
-| Side Leg L          |  5 minutes |
-| Recover             | 30 seconds |
-| Reset               |            |
-| Seated Washer Knees | 90 seconds |
-
-**Option 3**
-
-| Pose                |       Time |
-|---------------------|-----------:|
-| Hero                |  3 minutes |
-| Recover             | 30 seconds |
-| Wide Leg R          |  3 minutes |
-| Recover             | 30 seconds |
-| Wide Leg L          |  5 minutes |
-| Recover             | 30 seconds |
-| Reset               |            |
-| Seated Washer Knees | 90 seconds |
-
-#### Closing in Opening - 13 Minutes
-
-| Pose             |       Time |
-|------------------|-----------:| 
-| Blaster Right    |  3 minutes |
-| Recover          | 30 seconds | 
-| Blaster Left     |  3 minutes |        
-| Recover          | 30 seconds | 
-| Bound Butter Fly |  2 minutes |
-| Switch to Supine |  2 minutes |
-| Switch to Prone  |  1 minutes |
-| Recover          |  1 minutes |
-
-#### Finish by Rooting to the Earth
-
-This is an in place, internal moving meditation. Build Wu Chi:
-
-* Feet Parallel
-* Feet Gripping
-* Knees Bent (feet still visible)
-* Tuck tailbone, aligning perineum with bubbling well (body naturally shifts its center of weight)
-* Push Fontanel Up, engages second bow, brings chin back
-* Turtle back / medial rotate shoulders to relax chest/sternum
-* Use sternum to tuck spinal column into pelvic floor
-
-| Pose                  |      Time |
-|-----------------------|----------:|
-| Wu Chi                | 1 minutes |
-| Engaging Pelvic Floor |  1 minute |
-| Gathering Clouds      |  1 minute |
-| Bathing the Spring    |  1 minute |
-| Final goodbyes        |      open |
 
 ## Video Practices
 
