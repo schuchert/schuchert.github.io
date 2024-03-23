@@ -100,6 +100,18 @@ Options:
 Personal observations:
 * Feel your knees! Make sure your are not torquing / twisting your knee.
 
+### Flamenco 3
+* Bring leg back up
+* Switch your hands, from right to left, on the strap
+* Lower your right leg to the left
+* (Learned from yoga) Before rotation, I lift my bum, and shift my left bum to the right a bit, improves the (axial) rotation
+* Hips off ground is going to happen
+
+Options:
+* Support right foot with stool
+* Support right foot with blocks
+* I use a meditation pillow, which I never use for actual meditation
+
 ## Half Fish / Heart Opening - transition
 * Seated position, legs in front
 * Reach back with both hands
