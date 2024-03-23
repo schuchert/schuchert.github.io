@@ -2,14 +2,14 @@
 layout: post
 draft: false
 title: SoS for Tai Chi Post Notes Day 3
-description: "Collecting notes from day 3, focusing on Accessible and working way lower, remember, feel, and noodle, I personally find doing several of the poses in another option improve the pose, when I don't this, it's my ego 'OH, look how stretchy I am' - doesn't help."
+description: "Collecting notes from day 3, Double Pigeon, Shoulder Pow, Cliffhanger, Lightning Bolt"
 category: [ sos ]
 tags: [ scienceofstretching ]
 ---
 
 ## General
 Work from where you are. Something is better than nothing. Along with training your nervous system, you are training
-your monkey brain to slow down. Be ok with progress, any progress, rather than prefection, which blocks you from
+your monkey brain to slow down. Be ok with progress, any progress, rather than perfection, which blocks you from
 doing the pose because you "can't do it right."
 
 * Recommend/Good: Start right for asymmetrical poses so second is always left

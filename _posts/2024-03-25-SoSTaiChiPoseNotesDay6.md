@@ -2,7 +2,7 @@
 layout: post
 draft: false
 title: SoS Teacher Training Notes Day 6
-description: "Collecting notes from day 6, blockhead, wild thing"
+description: "Collecting notes from day 6, Side Leg, Wild Thing, Short Dog, Cat/Cow, Flamenco 1/2/3, Half Fish/Heart Opening"
 category: [ sos ]
 tags: [ scienceofstretching ]
 ---

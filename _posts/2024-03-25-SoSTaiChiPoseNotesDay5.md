@@ -2,7 +2,7 @@
 layout: post
 draft: false
 title: SoS Teacher Training Notes Day 5
-description: "Collecting notes from day 4, Pigeon upright, plough"
+description: "Collecting notes from day 5, Noodle, Pretzel Arms, Jackknife Blaster"
 category: [ sos ]
 tags: [ scienceofstretching ]
 ---

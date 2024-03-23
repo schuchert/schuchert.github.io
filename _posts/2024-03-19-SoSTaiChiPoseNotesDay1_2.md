@@ -2,7 +2,7 @@
 layout: post
 draft: false
 title: SoS for Tai Chi Post Notes Days 1, 2
-description: "Collecting notes from first two days, focusing on Accessible and working way lower, remember, feel, and noodle, I personally find doing several of the poses in another option improve the pose, when I don't this, it's my ego 'OH, look how stretchy I am' - doesn't help."
+description: "Collecting notes from first two days, Moon Squats, Blaster, Butterfly"
 category: [ sos ]
 tags: [ scienceofstretching ]
 ---
