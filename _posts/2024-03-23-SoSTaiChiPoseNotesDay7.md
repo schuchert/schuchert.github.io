@@ -2,7 +2,7 @@
 layout: post
 draft: false
 title: SoS Teacher Training Notes Day 7
-description: "Collecting notes from day 7, Wide Dog"
+description: "Collecting notes from day 7, Wide Dog, Passive Squat, Twister"
 category: [ sos ]
 tags: [ scienceofstretching ]
 ---
