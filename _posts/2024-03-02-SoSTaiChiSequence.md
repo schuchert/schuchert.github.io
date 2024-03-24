@@ -28,9 +28,13 @@ tags: [ bagua,taichi,body,qigong,scienceofstretching ]
 | Pose                                                                                 |      Time |
 |--------------------------------------------------------------------------------------|----------:| 
 | [Rag Doll](https://youtu.be/oSMTAt8FxNE?t=355&si=Zu9Cdj2OoOBFWbm1)                   | 3 minutes |
+| Arch your back, chest to the sky| integrate |
 | [Cliffhanger](https://youtu.be/oSMTAt8FxNE?t=761&si=m4dNBDFFjruALYtN)                | 3 minutes |
+| Elbws under shoulders, push your shoulders up| integrate |
 | [Pretzel Right](https://youtu.be/oSMTAt8FxNE?t=1031&si=giM8soHqH-tlyCWV)             | 3 minutes |
+| Head on hands, rest and feel | integrate |
 | [Pretzel Left](https://youtu.be/oSMTAt8FxNE?t=1255&si=d06li4gPOE4YP8-_)              | 3 minutes |
+| Head on hands, rest and feel | integrate |
 | (Reset) [Phoenix Shoulders](https://youtu.be/oSMTAt8FxNE?t=1466&si=OxSxcPT1XzDYCN-v) | 2 minutes |
 
 ### Thoracic Fantastic - 10 Minutes
@@ -38,7 +42,9 @@ tags: [ bagua,taichi,body,qigong,scienceofstretching ]
 | Pose                                                                                |      Time |
 |-------------------------------------------------------------------------------------|----------:| 
 | [Wide Dog](https://youtu.be/oSMTAt8FxNE?t=1582&si=uvGxmLJRoJEaotaE)                 | 5 minutes |
+| Hands on opposite shouldrs, give yourself a hug | integrate |
 | [Noodle](https://youtu.be/oSMTAt8FxNE?t=1866&si=is1ChDfRYGtFFmNN)                   | 3 minutes |
+| Stand up and shake it out | integrate 
 | (Reset) [Shoulder / Waist](https://youtu.be/oSMTAt8FxNE?t=2112&si=HKgNyz972IpsibkC) |  1 minute |
 
 ### Open the Door to the Pelvic Floor - 14 minutes
@@ -46,8 +52,11 @@ tags: [ bagua,taichi,body,qigong,scienceofstretching ]
 | Pose                                                                                   |      Time |
 |----------------------------------------------------------------------------------------|----------:|
 | [Hero/Lightning Bolt](https://youtu.be/oSMTAt8FxNE?t=2230&si=tEd-xEINC-Ks5XLF)         | 3 minutes |
+| On hands and knees, point one leg back at a time                         | integrate |
 | [Twister Right](https://youtu.be/oSMTAt8FxNE?t=2507&si=ExAGeQUnN4RbPcls)               | 3 minutes |
+| Pause for moment, notice any differences in your lower back?                           |
 | [Twister Left](https://youtu.be/oSMTAt8FxNE?t=2750&si=AU3VYsUfAnzGtHe0)                | 3 minutes |
+| Pause for moment, notice any differences in your lower back?                           |
 | (Reset) [Supine Washer Knees](https://youtu.be/oSMTAt8FxNE?t=2960&si=_y01xVUZQk2YFRCI) | 2 minutes |
 
 ### Options: Replace Twister with:
@@ -60,8 +69,11 @@ tags: [ bagua,taichi,body,qigong,scienceofstretching ]
 | Pose                                                                        |      Time |
 |-----------------------------------------------------------------------------|----------:| 
 | [Blaster Left](https://youtu.be/oSMTAt8FxNE?t=3027&si=lfquTlPr-lxtygTe)     | 3 minutes |        
+| Child's pose back and forth                                                 | integrate |
 | [Blaster Right](ihttps://youtu.be/oSMTAt8FxNE?t=3334&si=KTc6bvB685dU1LTj)   | 3 minutes |
+| Child's pose back and forth                                                 | integrate |
 | [Bound Butter Fly](https://youtu.be/oSMTAt8FxNE?t=3504&si=bX7BEaVbB_IbcKwq) | 5 minutes |
+| Legs in front, hands behind you, fingers pointing back                      | integarte |
 
 ### Root And Gather Energy
 
