@@ -9,6 +9,71 @@ tags: [ scienceofstretching ]
 
 # Placeholder for March 2024 Class
 
+## Wide Dog
+
+Like short dog, feet wide, target between shoulders
+
+Props:
+* Stool
+* Blocks
+
+Setup:
+* Kneel near stool
+* Hands on stool
+* Prop up into down dog
+* Feet wider than mat or even wider
+* Knees bent if pinching in back
+* Play around and get target into shoulders (didn't do this for 2 years, huge change for me)
+
+Options:
+* Stool
+* Lower to blocks
+* Lower to ground (I can hold this, but I cannot traget my shoulders, I stick to option 1)
+
+## Passive Squat
+
+Props:
+* blocks
+
+Setup:
+* Two blocks on the floor (long way)
+* Sit on the blocks
+* Feet out a bit
+* Feet turned out a bit (10 - 12 degrees), wider might torque knees
+* Wiggle arms between your legs (not trying to press)
+* Hands on ground, palms up
+
+Options:
+* 2 Blocks
+* 1 Block
+* No blocks
+* Might use mat under heals
+
+## Twister
+Supine passive twist. Expect spinal articulations (pops)
+
+Props: 
+* Maybe bench or blankets
+
+Setup:
+* Lie on your back on your mat (supine)
+* Hook left foot under knee
+* Place right hand on outside of left knee
+* Twist to your right
+* Place hands in a T to your sides
+
+Options:
+* Hook foot
+* Left leg over right leg (left hamstrings on right quads) - keep right hand on outside of leg, left leg out perpendicular
+* Left leg over and left foot under leg (this isn't important, took me 6ish months, and I had to lose weight to do it), hand remains on knee
+* If knees don't go over, might use blanket, stool to not twist too far
+
+Warnings:
+* Come out slowly, this is a deep stretch of the QL (lower back)
+* I take 30 - 60 seconds to come out after a 5 minute hold
+
+----
+
 # Notes from 2022 SoS Teacher Training
 Warning: This is me working ahead using the notes from the last class, my guess is we will workshop different poses
 on our day 7. Even so, the instruction and content might be for a different day, but the information should be correct.
