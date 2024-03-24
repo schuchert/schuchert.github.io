@@ -23,7 +23,7 @@ tags: [ bagua,taichi,body,qigong,scienceofstretching ]
 | [Circle Walking](https://youtu.be/oSMTAt8FxNE?t=141&si=Nu-jhWOJ8jTKZm16) | 2 minutes |
 | Moon Squats | 2 minutes |
 
-### Flip Flop Shoulder Squash - 16 Minutes
+### Flip Flop Shoulder Squash - 15 Minutes
 
 | Pose                                                                                 |      Time |
 |--------------------------------------------------------------------------------------|----------:| 
@@ -35,7 +35,7 @@ tags: [ bagua,taichi,body,qigong,scienceofstretching ]
 | Head on hands, rest and feel                                                         | integrate |
 | [Pretzel Left](https://youtu.be/oSMTAt8FxNE?t=1255&si=d06li4gPOE4YP8-_)              | 3 minutes |
 | Head on hands, rest and feel                                                         | integrate |
-| (Reset) [Phoenix Shoulders](https://youtu.be/oSMTAt8FxNE?t=1466&si=OxSxcPT1XzDYCN-v) | 2 minutes |
+| (Reset) [Phoenix Shoulders](https://youtu.be/oSMTAt8FxNE?t=1466&si=OxSxcPT1XzDYCN-v) | 1 minutes |
 
 ### Thoracic Fantastic - 10 Minutes
 
@@ -47,7 +47,7 @@ tags: [ bagua,taichi,body,qigong,scienceofstretching ]
 | Stand up and shake it out | integrate 
 | (Reset) [Shoulder / Waist](https://youtu.be/oSMTAt8FxNE?t=2112&si=HKgNyz972IpsibkC) |  1 minute |
 
-### Open the Door to the Pelvic Floor - 14 minutes
+### Open the Door to the Pelvic Floor - 13 minutes
 
 | Pose                                                                                   |      Time |
 |----------------------------------------------------------------------------------------|----------:|
@@ -57,14 +57,14 @@ tags: [ bagua,taichi,body,qigong,scienceofstretching ]
 | Pause for moment, notice any differences in your lower back?                           |
 | [Twister Left](https://youtu.be/oSMTAt8FxNE?t=2750&si=AU3VYsUfAnzGtHe0)                | 3 minutes |
 | Pause for moment, notice any differences in your lower back?                           |
-| (Reset) [Supine Washer Knees](https://youtu.be/oSMTAt8FxNE?t=2960&si=_y01xVUZQk2YFRCI) | 2 minutes |
+| (Reset) [Supine Washer Knees](https://youtu.be/oSMTAt8FxNE?t=2960&si=_y01xVUZQk2YFRCI) | 1 minutes |
 
 ### Options: Replace Twister with:
 
 * Side Leg Left/Right
 * Wide Leg Left/Right
 
-### Closing in Opening - 13 Minutes
+### Closing in Opening - 10 Minutes
 
 | Pose                                                                        |      Time |
 |-----------------------------------------------------------------------------|----------:| 
@@ -72,8 +72,8 @@ tags: [ bagua,taichi,body,qigong,scienceofstretching ]
 | Child's pose back and forth                                                 | integrate |
 | [Blaster Right](ihttps://youtu.be/oSMTAt8FxNE?t=3334&si=KTc6bvB685dU1LTj)   | 3 minutes |
 | Child's pose back and forth                                                 | integrate |
-| [Bound Butter Fly](https://youtu.be/oSMTAt8FxNE?t=3504&si=bX7BEaVbB_IbcKwq) | 5 minutes |
-| Legs in front, hands behind you, fingers pointing back, heart to sky        | integrate |
+| [Bound Butterfly](https://youtu.be/oSMTAt8FxNE?t=3504&si=bX7BEaVbB_IbcKwq) | 3 minutes |
+| Legs front, hands behind, fingers pointing back, heart to sky        | integrate |
 
 ### Root And Gather Energy
 
