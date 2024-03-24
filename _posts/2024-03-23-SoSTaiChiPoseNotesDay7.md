@@ -96,6 +96,7 @@ Options:
 * You might use a stool to keep from going too far over (or a pile of blankets - my go to)
 
 Observation:
+
 In this style of practice it is hard to do twists. Hard to be passive in a twist, we often use
 muscular strength to achieve axial rotation. Using muscles stimulates the sympathetic nervous system. We are
 trying to use Yang to achieve Yin. And from a survival basis, the sympathetic nervous system is going to win.
@@ -104,6 +105,7 @@ parasympathetic nervous system takes a minimum (average/typical) of 20 minutes t
 response has kicked it. It takes that amount of time to clear the various stress hormones injected into the bloodstream.
 
 Personal Experience:
-** TAKE time getting out of this. It would be easy after doing this pose to tear your QL (Quadratus Lumborum) if you
-turn back too fast. In a 5-minute twister, I take 30 - 45 seconds to come out. You cannot come out too slowly. **
+
+TAKE time getting out of this. It would be easy after doing this pose to tear your lower back / QL (Quadratus Lumborum) 
+if you turn back too fast. In a 5-minute twister, I take 30 - 45 seconds to come out. You cannot come out too slowly. 
 
