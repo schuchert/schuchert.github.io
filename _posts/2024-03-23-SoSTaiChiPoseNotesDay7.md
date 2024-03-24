@@ -7,7 +7,7 @@ category: [ sos ]
 tags: [ scienceofstretching ]
 ---
 
-# Placeholder for March 2024 Class
+# March 2024 Class
 
 ## Wide Dog
 
@@ -74,7 +74,7 @@ Warnings:
 
 ----
 
-# Notes from 2022 SoS Teacher Training
+# 2022 SoS Teacher Training
 Warning: This is me working ahead using the notes from the last class, my guess is we will workshop different poses
 on our day 7. Even so, the instruction and content might be for a different day, but the information should be correct.
 
