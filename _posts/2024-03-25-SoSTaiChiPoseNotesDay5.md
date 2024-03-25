@@ -7,6 +7,8 @@ category: [ sos ]
 tags: [ scienceofstretching ]
 ---
 
+{% include SoSMindMapLink %}
+
 ## Noodle
 Props to consider
 * Use a bench / stool, arm of a couch

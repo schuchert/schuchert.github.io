@@ -6,6 +6,7 @@ description: "Collecting notes from first two days, Moon Squats, Blaster, Butter
 category: [ sos ]
 tags: [ scienceofstretching ]
 ---
+{% include SoSMindMapLink %}
 
 ## General
 * Good: start accessible and go to less

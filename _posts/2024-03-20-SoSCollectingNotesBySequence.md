@@ -7,6 +7,8 @@ category: [ sos ]
 tags: [ scienceofstretching ]
 ---
 
+{% include SoSMindMapLink %}
+
 ## Common
 ### Closing
 * Return to a seated position

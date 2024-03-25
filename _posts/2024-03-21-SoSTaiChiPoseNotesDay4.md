@@ -6,6 +6,7 @@ description: "Collecting notes from day 4, Pigeon upright, plough"
 category: [ sos ]
 tags: [ scienceofstretching ]
 ---
+{% include SoSMindMapLink %}
 
 ## Pigeon
 Asymmetrical pose, so 3 minutes means it'll take 6 in a class.

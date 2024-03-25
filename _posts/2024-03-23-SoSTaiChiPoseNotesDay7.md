@@ -7,6 +7,8 @@ category: [ sos ]
 tags: [ scienceofstretching ]
 ---
 
+{% include SoSMindMapLink %}
+
 # March 2024 Class
 
 ## Wide Dog

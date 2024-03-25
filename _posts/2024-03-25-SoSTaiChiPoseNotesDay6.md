@@ -7,6 +7,8 @@ category: [ sos ]
 tags: [ scienceofstretching ]
 ---
 
+{% include SoSMindMapLink %}
+
 ## Side Leg Pose - asymmetrical
 
 Props:

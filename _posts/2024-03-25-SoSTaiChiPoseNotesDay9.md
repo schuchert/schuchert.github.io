@@ -7,6 +7,8 @@ category: [ sos ]
 tags: [ scienceofstretching ]
 ---
 
+{% include SoSMindMapLink %}
+
 ** These are taken from the last class offering, so far things have been the same**
 
 ## New Stuff in Clinic 

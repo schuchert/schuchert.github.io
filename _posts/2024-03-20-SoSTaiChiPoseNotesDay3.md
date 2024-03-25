@@ -7,6 +7,8 @@ category: [ sos ]
 tags: [ scienceofstretching ]
 ---
 
+{% include SoSMindMapLink %}
+
 ## General
 Work from where you are. Something is better than nothing. Along with training your nervous system, you are training
 your monkey brain to slow down. Be ok with progress, any progress, rather than perfection, which blocks you from
