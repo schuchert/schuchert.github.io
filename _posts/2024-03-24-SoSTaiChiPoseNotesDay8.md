@@ -2,7 +2,7 @@
 layout: post
 draft: false
 title: SoS Teacher Training Notes Day 8
-description: "Collecting notes from day 8, Frog 1, Frog 2/Half Frog, Pigeon, Twisted Pigeon, Blaster, Blaster Twist, Fallen Blaster"
+description: "Collecting notes from day 8, Frog 1, Frog 2/Half Frog, Pigeon, Fallen Pigeon, Twisted Pigeon, Blaster, Blaster Twist, Fallen Blaster"
 category: [ sos ]
 tags: [ scienceofstretching ]
 ---
@@ -18,12 +18,86 @@ Accessible - we reject structural limitation, if your student don't choose to mo
 
 ## Frog 1
 
-# Frog 2 / Half Frog
-## Pigeon
-## Twisted Pigeon
-## Blaster
-## Blaster Twist
-## Fallen Blaster
+Props:
+* Pillows
+* Slippery pads / towels - you want your knees rests to easily slide out
+
+Setup
+* Blocks in front (or stool) - stool may be too high, remember, it's the feels
+* Padding that can slide (a pillow with a towel under it)
+* Place pads outside the mat, aligned with your knees
+* Put left knee on left mat
+* Put right knee
+* Keep hips above knees
+* Hands below shoulders
+* Slide your legs out slowly
+* As you stay in the pose, keep pushing your knees out
+* Keep hips above
+* Key is knees moving out, NOT chest to ground (you'll likely loose it)
+
+Options
+* Arms locked out
+* Forearms on ground
+
+# Frog 2 / Half Frog - asymmetrical
+Props:
+* Strap (if you can make a loop, convenient)
+
+Setup:
+* Strap (if you can, make a loop) on right side
+* Put strap on side you are working (right to start)
+* Lie prone (on your stomach)
+* Swing strap around your right ankle
+* Get into Sphinx, heart open
+* Shift left hand to right hand for balance
+* Use hands to pull strap, brining your foot towards your hips (flexing/bending)
+* Grab strap with both hands, keep heart elevated
+
+Options (when foot gets close to hip:
+* Reach back with right hand, on inside of foot, grab ankle, pull
+* Rotate hands to get palm on top of foot, fingers pointing forward, push
+
+## Pigeon (upright)
+Props
+* Pillows
+* Stool/Bench/Couch/Blocks
+* Strap
+
+Setup
+* Stack of pillows in middle of mat
+* Stool in front of you / or blocks
+
+Pose
+* Knees on or just behind pillows
+* Hands on mat (child crawling)
+* Swing right leg to right hand
+* Hands on stool
+* Slide right foot to left side
+* Make sure knee is pointing toward corner of mat, does not need to be parallel/aligned with front of mat
+* Arms on stool
+
+## Fallen Pigeon - asymmetrical
+Setup:
+* Start in pigeon, upright.
+* Lower your torso to the ground, arms forward.
+
+Moves stretch from back to front leg.
+
+## Twisted Pigeon - asymmetrical
+From fallen pigeon, slide right arm across matt, open chest to left side, reach left arm to the sky.
+
+To go deeper
+* Go up to elbow/on blocks & rotate
+* Point right arm up, right hand in a fist (yang), place left hand palm (ying) on right hand
+
+## Blaster - asymmetrical
+P
+
+
+## Blaster Twist - asymmetrical
+
+ 
+## Fallen Blaster - asymmetrical
 
 
 # Notes on poses from the 2022 SoS Teacher Training
