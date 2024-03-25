@@ -91,14 +91,24 @@ To go deeper
 * Point right arm up, right hand in a fist (yang), place left hand palm (ying) on right hand
 
 ## Blaster - asymmetrical
-P
+Props:
+* Pillows
+* Stool / block
+
+Setup:
+* Pillows middle of mat
+* 
+
+TBD
 
 
 ## Blaster Twist - asymmetrical
 
+TBD
  
 ## Fallen Blaster - asymmetrical
 
+TBD
 
 # Notes on poses from the 2022 SoS Teacher Training
 
