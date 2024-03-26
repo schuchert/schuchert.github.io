@@ -118,12 +118,18 @@ Options:
 * Arms on knee and wrist
 
 ## Blaster Twist - asymmetrical
+A variation on Blaster. Twist towards the forward arm. Your torso is not upright, it's up to 45 degrees forward 
+(approximately), much further and you are in fallen blaster.
 
+Options:
+* Right hand on right knee Left arm on blocks/stool, rotation to the right
+* Right hand behind you on your back, left forearm on blocks (might add block since your forearm is longer than a block, you'll be going a bit lower)
+* If you go much lower, you're getting into fallen blaster
 
- 
 ## Fallen Blaster - asymmetrical
-
-TBD
+A variation on blaster twist. Torso lower, back hips on padding. Tends to shift pose from back leg/quads (in extension), to 
+front leg/hamstrings (in flexion). When you rotate in this version your back hip will be all the way on your 
+pillows.
 
 # Notes on poses from the 2022 SoS Teacher Training
 
