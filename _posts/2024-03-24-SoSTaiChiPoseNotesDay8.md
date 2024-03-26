@@ -119,7 +119,8 @@ Options:
 
 ## Blaster Twist - asymmetrical
 A variation on Blaster. Twist towards the forward arm. Your torso is not upright, it's up to 45 degrees forward 
-(approximately), much further and you are in fallen blaster.
+(approximately), much further, and you are in fallen blaster. The more you twist, the more likely your front leg
+ will flop out, hold the leg (at keen/foot) to keep that from happening.
 
 Options:
 * Right hand on right knee Left arm on blocks/stool, rotation to the right
