@@ -81,7 +81,7 @@ Pose
 ## Fallen Pigeon - asymmetrical
 Setup:
 * Start in pigeon, upright.
-* Lower your torso to the ground, arms forward.
+* Lower your torso to the ground, arms forward, forward, forward
 
 Moves stretch from back to front leg.
 
@@ -98,15 +98,28 @@ Props:
 * Stool / block
 
 Setup:
-* Pillows middle of mat
-* 
+* Pillow middle of mat (cushion for knee)
+* Stool in front of pillows
+* Get on all fours like a child crawling, knees in front of pillows, facing stool
+* Curl toes under
+* Up into a down dog
+* Swing right food around to where your right hand is
+* Push foot forward until it is under or in front of knee
+* Turn foot out up to 45 degrees
+* Slide back leg towards back of ma, 
+* Point toes
+* Set back knee on pillow
+* Arms on stool, chest upright
+* Settle your torso into your groin
+* Melt your groin towards the mat
 
-TBD
-
+Options:
+* Use blocks instead, keeping torso upright
+* Arms on knee and wrist
 
 ## Blaster Twist - asymmetrical
 
-TBD
+
  
 ## Fallen Blaster - asymmetrical
 
