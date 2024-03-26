@@ -9,11 +9,11 @@ tags: [ scienceofstretching ]
 
 {% include SoSMindMapLink %}
 
-** These are taken from the last class offering, so far things have been the same**
+# 2024 Class
 
-## New Stuff in Clinic 
-* Use two mats, in a cross, different colors. Allows you to swap angles without having to move your mat
-* The first pose is about extension of the writes, he reviews that
+Same list, see below
+
+# 2022 Class
 
 ## Reverse Dog
 Warning: Highly leverages, you can get to 10/10 very quickly
