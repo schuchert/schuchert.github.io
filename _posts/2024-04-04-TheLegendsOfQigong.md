@@ -2,13 +2,10 @@
 layout: post
 draft: false
 title: The Legends of Qigong
-description: "From Rick J Krause. The Legends of Qigong."
+description: "A legendary history of Qigong from its inception until today. Written by my friend, mentor, sufi, (and legend) Rick J Krause."
 category: [ taichi ]
 tags: [ taichi, qigong ]
 ---
-
-# THE LEGENDS OF QIGONG
-Witten by [Rick J. Krause](https://taichiokc.com).
 
 Archaeological evidence suggests that Qigong developed from Shaman practices in central China approximately 7000 years
 ago. This is seen in pictures on early pottery from about 5000 BC. However, the Chinese often do not distinguish
@@ -77,3 +74,6 @@ brocade, as well as Tai Chi Chuan and Bagua Chang. Now there is a cornucopia of 
 through meditation and exercise the world over.
 
 This is a brief history, but I hope it illustrates the legendary development of Qigong in China. Be well!!
+
+## [Rick J. Krause](https://taichiokc.com)
+![](/assets/images/qrcodes/TaiChiOkcQrCode.png){:width="200px"}
