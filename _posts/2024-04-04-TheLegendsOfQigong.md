@@ -28,18 +28,18 @@ he found the monks were in poor health from sitting excessively. They sat for lo
 translating Buddhist texts from Sanskrit into Chinese. Ta-Mo sought a remedy to help these monks. To do this, Ta-Mo
 integrated Buddhist mindfulness and Taoist Qigong and self-defense exercises. This allowed the monks to meditate, to
 exercise, and to learn to defend themselves against robbers, all at the same time. This gave birth to Zen/Chan and also
-too much of the Chinese martial arts.
+to much of the Chinese martial arts.
 
 Legend has it that at some time during the 13th century, a Taoist monk named Chang San-Seng came to study at the Shaolin
 Temple. After he studied at the temple, he went back to live at a mountain Taoist retreat. Here, he had an enlightening
 experience while watching a crane and a snake fight. The crane was very yang, while the snake was very yin. From this
 new insight, it is said he came up with a new development in Qigong. This new development is today called Tai Chi Chuan.
-Tai Chi Chuan, Qigong is different from the Shaolin practices, although it developed out of the Shaolin temple
+Tai Chi Chuan Qigong is different from the Shaolin practices, although it developed out of the Shaolin temple
 exercises. It was, however, innovative. Chang San-Seng used stillness and yielding in order to control an opponent and
 to promote health by balancing and harmonizing yin and yang. Tai Chi Qigong used yielding in order to overcome the
 unyielding. It is an excellent example of Taoist Qigong yin-yang practice. This practice is often called Wu-Wei in
 China. It means doing by not doing. It is like pulling against someone with a rope, they are attached to the other side
-and they are pulling against you. And then you let go of the rope and they fall down. So, this is an example of Wu-Wei.
+and are pulling against you. When you let go of the rope, they fall down. So, this is an example of Wu-Wei.
 This has led to the development of the esoteric or inner school of mindful QiGong martial arts.
 
 Next, let's look at what happened to the development of Tai Chi Qigong in China. It appears that there was a synthetic
@@ -69,7 +69,7 @@ him to awaken him for dinner Yang, without waking, kicked the poor man onto the 
 
 Yang Lu Ta-Un’s firstborn son died early from that plague of youth, suicide. We still deal with this today. His youngest
 son, however, Yang Chien-You who lived from 1839 until 1917 taught the Tai Chi Qigong art to his son, Yang Chen Fu. Yang
-Chen Fu has popularized the art and it is taught and practiced all over the world.
+Chen Fu has popularized the art, and it is taught and practiced all over the world.
 
 So in China today, there are hundreds of different Qigong exercises systems. This includes meditative, health, and
 martial exercises. Some of these exercises are Ta-Mo's exercises, which founded Zen, there is also the eight pieces of
@@ -77,52 +77,3 @@ brocade, as well as Tai Chi Chuan and Bagua Chang. Now there is a cornucopia of 
 through meditation and exercise the world over.
 
 This is a brief history, but I hope it illustrates the legendary development of Qigong in China. Be well!!
-
-{% include SoSMindMapLink %}
-
-# 2024 Class
-
-Same as 2022.
-
-# 2022 Class
-
-## Bound Butterfly - seated
-
-Props:
-
-* Strap
-* Pillow or block
-
-Setup:
-
-* Put a loop in your strap big enough to go around your back and reach to your feet, the heals of which are 4 fists away
-  from your groin
-* Sit in butterfly
-* One at a time, grab a foot and put it into the strap
-* In a sitting position keeps your feet from sliding away
-
-Pose:
-
-* Butterfly, but with a strap around your waist
-
-## Supine (bound) Butterfly
-
-This is where the strap plays a bigger part. Also, in my experience, what worked sitting is too long for supine, but
-play with size of the loop.
-
-Setup:
-
-* Feet already bound
-* Lean back
-
-Tends to target inner thighs.
-
-## Prone (bound) Butterfly
-
-Now you are on your stomach. The strap keeps the feet from sliding, and the knees are nearly like side/box splits.
-
-Setup:
-
-* Back into a sitting position
-* Roll to a side and get your knees pushing out to the side
-* Elbows/chest to ground
