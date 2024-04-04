@@ -2,7 +2,7 @@
 layout: post
 draft: false
 title: The Legends of Qigong
-description: "A legendary history of Qigong from its inception until today. Written by my friend, mentor, sufi, (and legend) Rick J Krause."
+description: "A legendary history of Qigong from its inception until today. Written by my friend, mentor, sufi, and legend, Rick J Krause."
 category: [ taichi ]
 tags: [ taichi, qigong ]
 ---
