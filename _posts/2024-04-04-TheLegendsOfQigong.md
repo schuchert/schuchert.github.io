@@ -8,7 +8,7 @@ tags: [ taichi, qigong ]
 ---
 
 # THE LEGENDS OF QIGONG
-Witten by [Rick J. Krause]((https://taichiokc.com).
+Witten by [Rick J. Krause](https://taichiokc.com).
 
 Archaeological evidence suggests that Qigong developed from Shaman practices in central China approximately 7000 years
 ago. This is seen in pictures on early pottery from about 5000 BC. However, the Chinese often do not distinguish
