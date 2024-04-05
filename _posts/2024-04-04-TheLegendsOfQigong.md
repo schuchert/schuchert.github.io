@@ -9,6 +9,8 @@ tags: [ taichi, qigong ]
 
 {::options parse_block_html="true" /}
 
+![](/assets/images/History of Qigong.jpeg){:width="100%"}
+
 Archaeological evidence suggests that Qigong developed from Shaman practices in central China approximately 7000 years
 ago. This is seen in pictures on early pottery from about 5000 BC. However, the Chinese often do not distinguish
 precisely between factual and legendary evidence. So, here we are going to focus principally on the legendary history
