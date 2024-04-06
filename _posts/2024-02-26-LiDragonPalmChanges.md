@@ -10,7 +10,7 @@ tags: [ bagua,body,qigong,taichi ]
 ## Palm Changes
 1. Single
 2. Double
-3. Single Ship
+3. Single Whip
 4. Sword Hand
 5. Grinding Body
 6. Kicking Blocking
@@ -78,7 +78,22 @@ The basis of the previous ones, unlike Master Wong, there is no "clearing the pl
 
 ### Lifting
 
-To be learned
+Version 1:
+* Co-step, twist, lift with inside hand
+* Step through
+* Press up with pisiform bone
+* Step up cover with outside hand
+* Scissors step with spear hand
+* Co-outside, grab twist and finish
+
+Version 2:
+* Same as version 1, but three step-through, press up
+
+Version 3:
+* Similar to 1, step through, press up twice
+* Skip cover, instead step through spear hand
+* Finish same
+
 
 ## Deep Twisting
 
