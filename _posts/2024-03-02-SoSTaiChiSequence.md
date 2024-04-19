@@ -96,7 +96,7 @@ without too much effort, you are not too deep. If you struggle to talk, probably
 
 In general, start higher up, and work your way lower as you practice pose over multiple sessions.
 
-For example, I use a bench or table for Rag Doll. I can hold the pose with my hands on the floor, but I tend to target
+For example, I use a bench or table for Wide Dog. I can hold the pose with my hands on the floor, but I tend to target
 the backs of my legs. To get my shoulders targeted, I can externally rotate my arms, but then my arms are yang,
 and the rest of my body is yin, I'm confusing my nervous systems.
 
@@ -112,7 +112,7 @@ The front leg is in flexion, stretching the hamstrings. Back leg is in extension
 * Option: Use a pillow under your back leg
 * Option: Arms locked out to support you
 * Option: Lower to your forearms
-* Option: Lower to your chest
+* Option: Lower to your chest, arms reaching forward
 
 ### Bound Butter Fly
 ![](/assets/images/QigongSoS/16_Butterfly.JPG){: .img-float-right}
@@ -125,12 +125,15 @@ Both legs are in external/lateral rotation, souls of feet together. This opens u
 ### Cliffhanger
 {: .pagebreakbefore}
 ![](/assets/images/QigongSoS/04-Cliffhanger_subtitled-Thumbnail.jpg){: .img-float-right}
+![](/assets/images/QigongSoS/04_Cliffhanger_with_blocks.png){: .img-float-right}
 
 This is an intense pose targeting your shoulders and thoracic spine extension.
 
+* Option: Two Blocks, shoulder width, elbows up on blocks, hands in prayer, thumbs to spine
+  * Blocks offer three different levels, on the lowest level, you might reach your third eye to the floor
 * Option: Kneeling next to a wall, fingertips just touching the wall, place your hands up the wall and fall in to your shoulders and spine
 * Option: Laying on your stomach, with a pillow under your chest
-* Option: Laying on your stomach
+* Option: Laying on your stomach, up against the wall
 
 ### Hero / Lightning Bolt
 ![](/assets/images/QigongSoS/11-HeroPose-Thumbnail.jpg){: .img-float-right}
