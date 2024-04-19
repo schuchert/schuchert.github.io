@@ -87,7 +87,6 @@ tags: [ bagua,taichi,body,qigong,scienceofstretching ]
 | Video                                                                                                                    |                                                                                                                                  This Page |
 |:-------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------:|
 | [![](/assets/images/QigongSoS/SoSTaiChi_YouTube_v1.png){:width="100px"}](https://youtu.be/oSMTAt8FxNE "Video of Series") | [![](/assets/images/QigongSoS/SoSTaiChiOutline.png){:width="100px"}](https://schuchert.github.io/gigong/2024/03/02/SoSTaiChiSequence.html) |
-{: .pagebreakafter}
 
 ## Pose Options
 Remember, when we are working on deep flexibility, going deeper might actually reduce the effectiveness of a pose.
@@ -102,6 +101,7 @@ and the rest of my body is yin, I'm confusing my nervous systems.
 
 A key idea: It's how it feels, now how it looks. Going deeper is often exactly what you do not what to do.
 
+{: .pagebreakbefore}
 ### Blaster
 ![](/assets/images/QigongSoS/14_15_Blaster.JPG){: .img-float-right}
 
@@ -123,7 +123,6 @@ Both legs are in external/lateral rotation, souls of feet together. This opens u
 * Option: Use pillows or block under your bum to be able to lean forward and get your weight into your lap
 
 ### Cliffhanger
-{: .pagebreakbefore}
 ![](/assets/images/QigongSoS/04-Cliffhanger_subtitled-Thumbnail.jpg){: .img-float-right}
 ![](/assets/images/QigongSoS/04_Cliffhanger_with_blocks.png){: .img-float-right}
 
@@ -136,6 +135,7 @@ This is an intense pose targeting your shoulders and thoracic spine extension.
 * Option: Laying on your stomach, up against the wall
 
 ### Hero / Lightning Bolt
+{: .pagebreakbefore}
 ![](/assets/images/QigongSoS/11-HeroPose-Thumbnail.jpg){: .img-float-right}
 
 This is a both a hamstring stretch, and it might target your knees. And your spine. Compound (multiple stretches),
@@ -160,9 +160,9 @@ Note, Lucas mostly does not go to final option.
 This is a passive back bend trying to target the thoracic spine. Use more as many pillows as you need to be comfortable
 and get a nice gentle arch in your back. Adjust to avoid pinching in your lower back.
 
+* Option: Blocks under your back with several pillows
 * Option: Use a bench/stool with several pillows
 * Option: Use the arm of a couch, again several pillows
-* Option: Blocks under your back with several pillows
 
 ### Pretzel
 {: .pagebreakbefore}
