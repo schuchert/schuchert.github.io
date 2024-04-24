@@ -22,7 +22,7 @@ Next, we started getting into what we really wanted to work on. We spend some ti
 and verified a few things about how far we had gotten. Then we decided it was time to do a quick planning session.
 
 ## Plan Plan Plan
-We spent maybe 30 minutes working on a decision tree for the new feature. We deferred several details for
+We spent maybe 30 minutes working on a discovery tree for the new feature. We deferred several details for
 later. We have an approach to maintain trunk-based development. We made several guesses, and then asked for
 some confirmation. 
 
@@ -30,7 +30,7 @@ We had enough certain stuff to work on, so there was plenty of time to wait for 
 
 ## The Build Failed
 
-Having just finished a first pass at a decision tree, we noticed the last build had failed. We could not deploy to 
+Having just finished a first pass at a discovery tree, we noticed the last build had failed. We could not deploy to 
 the Google Play Console, the Apple App store was fine (though we suspect that might change the next day).
 
 Here’s the thread of events leading to that state:
