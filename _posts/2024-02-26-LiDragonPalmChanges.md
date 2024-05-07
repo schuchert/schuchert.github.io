@@ -97,4 +97,8 @@ Version 3:
 
 ## Deep Twisting
 
-To be learned
+* Co - outside
+* Grab & cover
+* Deep open coat to opposite side
+* Lift arm first (protect head)
+* 450 degree turn
