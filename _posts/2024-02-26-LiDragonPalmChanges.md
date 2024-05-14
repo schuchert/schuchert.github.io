@@ -94,6 +94,8 @@ Version 3:
 * Skip cover, instead step through spear hand
 * Finish same
 
+Version 4:
+* Same as 2, but using an Xing Yi step
 
 ## Deep Twisting
 
