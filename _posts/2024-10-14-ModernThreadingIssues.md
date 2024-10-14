@@ -1,7 +1,7 @@
 ---
 layout: post
 draft: true
-title: Moder Threading Issues
+title: Modern Threading Issues
 description: While most modern stacks handle multiple users well, especially when those users do not share data, there are still cases where knowledge of parallel/threading issues is still good to keep in mind.
 category: [ software ]
 tags: [ threading ]
