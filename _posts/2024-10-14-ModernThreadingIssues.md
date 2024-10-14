@@ -162,4 +162,4 @@ We took different approaches:
 * Make the loading part of a parent-child relationship, such that the child doesn't render until the parent is ready
 
 Once you've discovered an issue with shared data, there are many approaches you might take to address it. We've seen
-5 examples and 5 different approaches to specific problems. Are there any examples you've come acorss?
+5 examples and 5 different approaches to specific problems. Are there any examples you've come across?
