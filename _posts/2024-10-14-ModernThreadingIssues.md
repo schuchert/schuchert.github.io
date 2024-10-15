@@ -17,7 +17,7 @@ the multi-user stuff" for you.
 
 ## Problems
 There are a number of issues to keep in mind when dealing with threaded implementations:
-* Data Integrity
+* [Data Integrity](#recent-data-integrity-issues)
 * [Deadlock](https://en.wikipedia.org/wiki/Deadlock_(computer_science))
 * [Livelock](https://en.wikipedia.org/wiki/Deadlock_(computer_science)#Livelock)
 * [Starvation](https://en.wikipedia.org/wiki/Starvation_(computer_science))
