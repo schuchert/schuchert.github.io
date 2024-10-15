@@ -41,11 +41,11 @@ There's nothing inherently problematic with these kinds of system. If two users 
 likely no data integrity issues. However, what happens when multiple users do depend on shared data?
 
 Here are a number of examples that came up during development:
-* Joining a Game
-* Working on a shared Design
-* Players working in parallel to create a deck of cards
-* Double deleting of resources on re-render using a 2D Library in React-Native
-* Loading Icon Resources
+* [Joining a Game](#joining-a-game)
+* [Working on a shared Design](#working-on-a-shared-design)
+* [Players working in parallel to create a deck of cards](#players-working-in-parallel-to-create-a-deck-of-cards)
+* [Double deleting of resources on re-render using a 2D Library in React-Native](#double-deleting-of-resources-on-re-render-using-a-2d-library-in-react-native)
+* [Loading Icon Resources](loading-icon-resources)
 
 We'll look at each one of these in a bit more detail.
 
