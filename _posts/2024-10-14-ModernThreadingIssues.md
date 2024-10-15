@@ -18,14 +18,16 @@ the multi-user stuff" for you.
 ## Problems
 There are a number of issues to keep in mind when dealing with threaded implementations:
 * Data Integrity
-* Deadlock
-* Livelock
-* Starvation
+* [Deadlock](https://en.wikipedia.org/wiki/Deadlock_(computer_science))
+* [Livelock](https://en.wikipedia.org/wiki/Deadlock_(computer_science)#Livelock)
+* [Starvation](https://en.wikipedia.org/wiki/Starvation_(computer_science))
 
 We'll focus on data integrity here. The other three are well addressed by understanding a few fundamental algorithms:
-* Producers / Consumers - deadlock
-* Readers / Writers - starvation
-* Dining Philosophers livelock
+* [Producers / Consumers](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem)
+* [Readers / Writers](https://en.wikipedia.org/wiki/Readers%E2%80%93writers_problem)
+* [Dining Philosophers](https://en.wikipedia.org/wiki/Dining_philosophers_problem)
+
+These three algorithms capture most situations that you're likely to encounter.
 
 ## Recent Data Integrity Issues
 In the past few years we've come across a number of situations where a multi-user system had potential data integrity
