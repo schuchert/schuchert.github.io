@@ -7,7 +7,7 @@ category: [ software ]
 tags: [ threading ]
 ---
 
-{::options parse_block_html="true" /}
+{% include toc %}
 
 ## Background
 A few decades ago I contributed two chapters on Threading to Clean Code. There's an upcoming reprint of that book
