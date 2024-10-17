@@ -10,7 +10,7 @@ tags: [ threading ]
 {% include toc %}
 
 ## Background
-A few decades ago I contributed two chapters on Threading to Clean Code. There's an upcoming reprint of that book
+A few decades ago I contributed two chapters to Clean Code, both on Threading. There's an upcoming reissue of that book
 for its 15th Anniversary, and it brought that subject to my mind. I have not directly worked on multithreaded code in 
 well over a decade. However, many of the problems and issues still exist in modern systems, even ones that handle "all 
 the multi-user stuff" for you.
@@ -27,11 +27,12 @@ We'll focus on data integrity here. The other three are well addressed by unders
 * [Readers / Writers](https://en.wikipedia.org/wiki/Readers%E2%80%93writers_problem)
 * [Dining Philosophers](https://en.wikipedia.org/wiki/Dining_philosophers_problem)
 
-These three algorithms capture most situations that you're likely to encounter.
+These three algorithms capture most situations that you're likely to encounter, as mentioned in the first edition
+of Clean Code.
 
 ## Recent Data Integrity Issues
 In the past few years we've come across a number of situations where a multi-user system had potential data integrity
-issues. All of these share in common multiple simultaneous users (parallel), doing something that updated shared
+issues. All of these systems have multiple simultaneous users (parallel), doing something that updated shared
 data. 
 
 All of these examples come from two different multi-user systems based in React-Native. All of them also use 
@@ -40,12 +41,13 @@ AWS Lambdas for a back-end, and storage in some data store.
 There's nothing inherently problematic with these kinds of system. If two users do not share data, then there are
 likely no data integrity issues. However, what happens when multiple users do depend on shared data?
 
-Here are a number of examples that came up during development:
-* [Joining a Game](#joining-a-game)
-* [Working on a shared Design](#working-on-a-shared-design)
-* [Players working in parallel to create a deck of cards](#players-working-in-parallel-to-create-a-deck-of-cards)
-* [Double deleting of resources on re-render using a 2D Library in React-Native](#double-deleting-of-resources-on-re-render-using-a-2d-library-in-react-native)
-* [Loading Icon Resources](loading-icon-resources)
+Here are a number of examples that came up during development on these systems:
+cool
+* {% include li-link title="Joining a Game" %}
+* {% include li-link title="Working on a shared Design" %}
+* {% include li-link title="Players working in parallel to create a deck of cards" %}
+* {% include li-link title="Double deleting of resources on re-render using a 2D Library in React-Native" %}
+* {% include li-link title="Loading Icon Resources" %}
 
 We'll look at each one of these in a bit more detail.
 
