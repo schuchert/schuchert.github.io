@@ -62,7 +62,7 @@ function updateTestScript() {
 }
 
 function writeJestConfig() {
-  cat > jest.config.ts << EOF
+  cat > jest.config.ts <<- EOF
 		module.exports = {
 		  preset: 'ts-jest',
 		  testEnvironment: 'node',
