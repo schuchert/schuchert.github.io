@@ -2,7 +2,7 @@
 layout: post
 draft: true
 title: Modern Threading Issues
-description: While most modern stacks handle multiple users well, especially when those users do not share data, there are still cases where knowledge of parallel/threading issues is still good to keep in mind.
+description: Modern stacks handle multiple users well when those users do not share data, there are still cases where knowledge of parallel/threading issues is still good to keep in mind.
 category: [ software ]
 tags: [ threading ]
 ---
@@ -10,10 +10,10 @@ tags: [ threading ]
 {% include toc %}
 
 ## Background
-A few decades ago I contributed two chapters to Clean Code, both on Threading. There's an upcoming reissue of that book
-for its 15th Anniversary, and it brought that subject to my mind. I have not directly worked on multithreaded code in 
-well over a decade. However, many of the problems and issues still exist in modern systems, even ones that handle "all 
-the multi-user stuff" for you.
+A few decades ago I contributed two chapters to Clean Code, both on Threading. There's an upcoming second edition of 
+that book for its 15th Anniversary, and it brought that subject to my mind. I have not directly worked on multithreaded 
+code in well over a decade. However, many of the problems and issues still exist in modern systems, even ones that 
+handle "all the multi-user stuff" for you.
 
 ## Problems
 There are a number of issues to keep in mind when dealing with threaded implementations:
@@ -32,17 +32,15 @@ of Clean Code.
 
 ## Recent Data Integrity Issues
 In the past few years we've come across a number of situations where a multi-user system had potential data integrity
-issues. All of these systems have multiple simultaneous users (parallel), doing something that updated shared
+issues. All of these systems have multiple simultaneous users (parallel), doing something that updates shared
 data. 
 
-All of these examples come from two different multi-user systems based in React-Native. All of them also use 
-AWS Lambdas for a back-end, and storage in some data store.
-
-There's nothing inherently problematic with these kinds of system. If two users do not share data, then there are
-likely no data integrity issues. However, what happens when multiple users do depend on shared data?
+These examples come from two different multi-user systems based in React-Native. All of them also use AWS Lambdas for 
+a back-end, and storage in some data store. There's nothing inherently problematic with these kinds of system. If two 
+users do not share data, then there are likely no data integrity issues. However, what happens when multiple users do 
+depend on shared data?
 
 Here are a number of examples that came up during development on these systems:
-cool
 * {% include li-link title="Joining a Game" %}
 * {% include li-link title="Working on a shared Design" %}
 * {% include li-link title="Players working in parallel to create a deck of cards" %}
@@ -52,33 +50,42 @@ cool
 We'll look at each one of these in a bit more detail.
 
 ### Joining a Game
-We have a system that allows players to log into a game. A typical game had a limit of 6 players, so after the
-6th player joins, subsequent attempts to join the game are rejected. Each player is assigned a role, numbered 1 - 6.
+Imagine mobile-games platform used for training workshops. Students log into a game. One game had a limit of 6 players, 
+so after the 6th player joins, subsequent attempts to join the game are rejected. Each player is assigned a role, 
+numbered 1 - 6.
 
 The back-end system uses DynamoDb, which gives eventually consistent results.
 
 For a number of months we've had an occasional kerfuffle where it seems we were losing players. It turned out to 
-be an issue with when we decided to assign player roles. Just joining a game did not cause data integrity issues. 
-However, in the original implementation, we combined joining a game, with assigning roles to players.
+be an issue with when we decided to assign player roles, as well as even having players immediately join a game. 
+In the original implementation, we combined logging in, with joining a game, and assigning roles to players. 
+Assigning players games and roles, along with eventual consistency in DynamoDB, lead to users getting the same roles, 
+or the game overfilling.
 
-Occasionally, two players would log in close enough to each other such that they'd both be assigned the same role.
-
-While it would have been possible rewrite how we interacted with DynamoDB, we had a desire to change how players
-joined a particular game anyway, so we changed the when we assigned players roles.
+While it was possible to rewrite how we interacted with DynamoDB, there was another desired change that predated 
+discovering this defect. That change would make the original problem go away by separating logging in with joining 
+a game, and subsequent role assignment.
 
 The original issue was assigning roles to multiple users joining a game from multiple mobile clients, that is, in
-parallel. To fix this, we first we expanded the domain. Rather than players joining a game directly, Players instead 
+parallel. To fix this, we first we expanded the domain. Rather than players joining a game at login time, Players 
 join a waiting room. Later, the administrator creates games and then issues a request to assign all waiting players to 
 games.
 
-This separated the multi-thread-safe part of the work, joining a game, from the not multi-thread-save part of the work, 
-assigning user roles. Players instead joined a waiting room, which was thread/parallel-safe.
+This took something that was not safe without transaction isolation, both joining a game, and role assignment, from
+being executed potentially in parallel, to being executed later from a single thread / issued by a single user. The
+original implementation was not an essential part of how we wanted the game to work, it was one of the first ideas
+on how to handle multiple games going on at the same time.
 
-The administrator created empty games, then assigned players to games. Since there is only one administrator, this
-took the not multi-thread-save part of the code, and ran it in one thread.
+One of the side effects of that approach was that the administrator would create games ahead of time, and then tell
+specific people to log into specific games. Users would enter their name, a game name, and a game password. It was 
+common for communication issues, causing people to join the wrong game.
 
-In this case, the desire to introduce a waiting room pre-dated the discovery of the defect. However, discovery of the
-bug, raised the priority of moving to a waiting room.
+After the change, all Players join a waiting room, the name of which is the administrators email address, provided 
+in a pull-down list. So rather than game name, user name, password, players selected a waiting room name, and 
+provided their name.
+
+This separated the multi-thread-safe part of the work, getting into the system, from the not multi-thread-save part 
+of the work, joining a specific game, and assigning user roles. 
 
 ### Working on a shared Design
 Next up, a system allowing the shared-creation of a design for installation/updating of a commercial security system. 
@@ -93,16 +100,17 @@ the system, the likelihood of it happening was small.
 
 Pre-existing in the system was the need to select an Element to edit them. This became a natural place to lock 
 an element. We use a flag on the element for whether it is locked. Any attempt to lock when already locked fails and 
-informs the user that the element is locked. Upon deselection, the element's lock is released.
+informs the user that the element is locked. Upon deselection, the element's lock is released. We chose a flag
+on an element, rather than locking the element in the database, because the latter would require long-lived 
+transactions. 
 
 With proper transaction isolation, this is a clean, safe solution to the particular problem.
 
 ### Players working in parallel to create a deck of cards
-This is an example of an anti-case. We have another mobile game we use for our workshops where we allow small groups of
-players to compete in creating a deck of cards. 
+This is an example of an anti-case. Imagine a second mobile-game which allows small groups of players to compete 
+in creating a deck of cards with certain characteristics. 
 
-In this case, we have up to 4 people creating a deck of cards. Those players are likely remote, but working together.
-They certainly might be in a room where they can communicate, but they might not be. 
+In this case, we have up to 4 people creating a deck of cards. Those players might be remote, local, colocated, or not.
 
 What happens if 2 players create the same card?
 
@@ -129,16 +137,18 @@ we started doing this, we found that Skia was frequently crashing.
 
 What ultimately caused this was rendering the Skia view before we had finished loading. In React-native,
 this is normal. It re-renders the view. However, since Skia has its own rendering thread, when React-Native
-re-rendered the view at an unexpected time, Skia would start to delete, then delete again the same resources. 
-Deleting already-deleted memory killed Skia and required restarting the application. 
+re-rendered the view at an unexpected time, Skia would start to delete, then re-delete the same resources. 
+Deleting already-deleted memory killed Skia and required restarting the application.
 
 The solution for this was to not render the Skia view until loading was done. We had well-defined locations where 
-we needed Skia to be rending and where it was not. We make sure to:
+we needed Skia to be rending and where it was not required. We make sure to:
 * Only render the Skia view when loading was complete, otherwise render an empty view
 * Any time we issued a change that caused a re-render of the skia view, we first cleared a setting, which would cause the Skia view to stop being rendered
 * Then we'd set a new value, causing everything to be rendered fresh
 
-The end solution resulted in cleaner code overall.
+The end solution resulted in cleaner code overall. The solution was to allow for "parallel" rendering threads only
+when a design was loaded. No design? No Skia rendering. Design? Skia rendering. Any time we changed designs, we
+first set state to stop rendering Skia, loaded the design, and upon completion, begin using Skia again.
 
 ### Loading Icon Resources
 Another issue we encountered was indeterminate load ordering of resources. We had an issue with the order in which 
