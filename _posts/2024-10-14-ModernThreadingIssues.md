@@ -35,19 +35,17 @@ In the past few years we've come across a number of situations where a multi-use
 issues. All of these systems have multiple simultaneous users (parallel), doing something that updates shared
 data. 
 
-These examples come from two different multi-user systems based in React-Native. All of them also use AWS Lambdas for 
+These examples come from two different multi-user systems based in React-Native. They use AWS Lambdas for 
 a back-end, and storage in some data store. There's nothing inherently problematic with these kinds of system. If two 
 users do not share data, then there are likely no data integrity issues. However, what happens when multiple users do 
 depend on shared data?
 
-Here are a number of examples that came up during development on these systems:
+The examples are:
 * {% include li-link title="Joining a Game" %}
 * {% include li-link title="Working on a shared Design" %}
 * {% include li-link title="Players working in parallel to create a deck of cards" %}
 * {% include li-link title="Double deleting of resources on re-render using a 2D Library in React-Native" %}
 * {% include li-link title="Loading Icon Resources" %}
-
-We'll look at each one of these in a bit more detail.
 
 ### Joining a Game
 Imagine mobile-games platform used for training workshops. Students log into a game. One game had a limit of 6 players, 
@@ -59,11 +57,11 @@ The back-end system uses DynamoDb, which gives eventually consistent results.
 For a number of months we've had an occasional kerfuffle where it seems we were losing players. It turned out to 
 be an issue with when we decided to assign player roles, as well as even having players immediately join a game. 
 In the original implementation, we combined logging in, with joining a game, and assigning roles to players. 
-Assigning players games and roles, along with eventual consistency in DynamoDB, lead to users getting the same roles, 
-or the game overfilling.
+Assigning players to games and roles, along with eventual consistency in DynamoDB, lead to users getting the same 
+roles, or games overfilling.
 
 While it was possible to rewrite how we interacted with DynamoDB, there was another desired change that predated 
-discovering this defect. That change would make the original problem go away by separating logging in with joining 
+discovering this defect. That change would make the original problem disappear by separating logging in with joining 
 a game, and subsequent role assignment.
 
 The original issue was assigning roles to multiple users joining a game from multiple mobile clients, that is, in
@@ -80,16 +78,16 @@ One of the side effects of that approach was that the administrator would create
 specific people to log into specific games. Users would enter their name, a game name, and a game password. It was 
 common for communication issues, causing people to join the wrong game.
 
-After the change, all Players join a waiting room, the name of which is the administrators email address, provided 
-in a pull-down list. So rather than game name, user name, password, players selected a waiting room name, and 
+After the change, all Players join a waiting room, the name of which is the administrator's email address, provided 
+in a pull-down list. So rather than game name, username, password, players selected a waiting room name, and 
 provided their name.
 
-This separated the multi-thread-safe part of the work, getting into the system, from the not multi-thread-save part 
+This separated the multi-thread-safe part of the work, getting into the system, from the not multi-thread-safe part 
 of the work, joining a specific game, and assigning user roles. 
 
 ### Working on a shared Design
-Next up, a system allowing the shared-creation of a design for installation/updating of a commercial security system. 
-For this system, we used a Relational Database.
+Next up, a system allowing the shared-creation of a design for the installation/updating of a commercial security 
+system. For this system, we used a Relational Database.
 
 Such a plan has dozens of images, each image might have several elements, that might be connected. How do you make sure 
 that multiple people can work on the same design at the same time, without conflict?
@@ -98,7 +96,7 @@ For this particular domain, the number of users on a design is generally under 5
 different parts of an overall design. So while the possibility of conflict was there, given the typical use of 
 the system, the likelihood of it happening was small.
 
-Pre-existing in the system was the need to select an Element to edit them. This became a natural place to lock 
+Pre-existing in the system was the need to select an Element to edit it. This became a natural place to lock 
 an element. We use a flag on the element for whether it is locked. Any attempt to lock when already locked fails and 
 informs the user that the element is locked. Upon deselection, the element's lock is released. We chose a flag
 on an element, rather than locking the element in the database, because the latter would require long-lived 
@@ -107,22 +105,24 @@ transactions.
 With proper transaction isolation, this is a clean, safe solution to the particular problem.
 
 ### Players working in parallel to create a deck of cards
-This is an example of an anti-case. Imagine a second mobile-game which allows small groups of players to compete 
-in creating a deck of cards with certain characteristics. 
+This is an example of an anti-case, we chose to not solve the problem. Imagine a second mobile-game which allows 
+small groups of players to compete in creating a deck of cards with certain characteristics. 
 
-In this case, we have up to 4 people creating a deck of cards. Those players might be remote, local, colocated, or not.
-
+In this case, we have up to 4 people creating a deck of cards. Those players might be remote, local, colocated, or not. 
 What happens if 2 players create the same card?
 
 Players attempt to create a deck with certain characteristics. If they happen to get duplicate cards, the instructor
-rejects their deck. However, when this happens, the team can clean up their deck and resubmit it. 
+rejects their deck. However, when this happens, the team can clean up their deck and resubmit it. Also, that kind
+of thing happening can lead to good discussions about collaboration and communication, so trying to make sure it
+doesn't happen reduces the value of the experience.
 
 In this case, there's a shared resource, the deck of cards. The addition of cards is done in parallel. There can
 be a "data integrity" issue, duplicated work, but the end result is easy to recover from, all done through human 
 interaction.
 
-Early on we realized this was a potential issue. When we thought through solutions, we decided to play it by ear.
-An instructor can run the game in different ways, with different rules. So this was a false positive.
+Early on we realized this was a potential issue. When we thought through solutions, we decided to leave the potential
+in the game. An instructor can run the game in different ways, with different rules. So in this case, the solution
+wsa to leave it as is.
 
 ### Double deleting of resources on re-render using a 2D Library in React-Native
 We were using React-Native, with React-Native-Web, to produce a web and mobile application for a customer. We 
@@ -138,7 +138,8 @@ we started doing this, we found that Skia was frequently crashing.
 What ultimately caused this was rendering the Skia view before we had finished loading. In React-native,
 this is normal. It re-renders the view. However, since Skia has its own rendering thread, when React-Native
 re-rendered the view at an unexpected time, Skia would start to delete, then re-delete the same resources. 
-Deleting already-deleted memory killed Skia and required restarting the application.
+Deleting already-deleted memory killed Skia and required restarting the application. This wasn't an issue with 
+Skia, it was how we were using it.
 
 The solution for this was to not render the Skia view until loading was done. We had well-defined locations where 
 we needed Skia to be rending and where it was not required. We make sure to:
@@ -151,9 +152,9 @@ when a design was loaded. No design? No Skia rendering. Design? Skia rendering. 
 first set state to stop rendering Skia, loaded the design, and upon completion, begin using Skia again.
 
 ### Loading Icon Resources
-Another issue we encountered was indeterminate load ordering of resources. We had an issue with the order in which 
-icons were loaded. It was possible to load a design into the system before the code to load the icons had started 
-executing. When this happened, we'd have to re-load the design, or have several missing icons.
+We had an issue with the order in which icons were loaded. It was possible to load a design into the system before the 
+code to load the icons had started executing. When this happened, we'd have to re-load the design, or have several 
+missing icons.
 
 Since the resources were needed by other parts of the system, we moved them into a so-called provider in React-Native.
 Then, any code that might cause a design to be loading always executed under that provider, that is, there was a 
@@ -166,15 +167,15 @@ a single place, and we removed duplication.
 ## Sharing Data
 In all of these examples, there's some issue with sharing data:
 
-* Allowing players to join and get a role assigned in parallel, with an eventually consistent database
+* Allowing players to join a specific game, and get a role assigned in parallel, with an eventually consistent database
 * Allowing editing of a shared design, by multiple users in parallel
 * Allowing players to create cards in parallel
-* Multiple, dependent rendering loops that are not coordinated
+* Multiple, dependent rendering loops that are not coordinated, with other asynchronous activity impacting them
 * Not controlling the execution / loading of resources explicitly in an asynchronous environment
 
 We took different approaches for each of these problems:
 * Isolate the non thread-safe code and execute it later in a single thread - isolate and separate
-* Locking objects with a flag, using a relational database - optimistic locking
+* Locking objects with a flag, using a relational database
 * Do nothing, a human can choose to reject or accept based on the current rules of the game
 * Avoid using the second rendering thread until it's actually needed, and clear it before clearing everything else
 * Make the loading part of a parent-child relationship, such that the child doesn't render until the parent is ready
