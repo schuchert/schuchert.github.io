@@ -1,6 +1,6 @@
 ---
 layout: post
-draft: true
+draft: false
 title: Modern Threading Issues
 description: Modern stacks handle multiple users well when those users do not share data, there are still cases where knowledge of parallel/threading issues is still good to keep in mind.
 category: [ software ]
