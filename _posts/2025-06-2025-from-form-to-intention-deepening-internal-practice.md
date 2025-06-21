@@ -13,7 +13,7 @@ insights and writing support from an AI assistant.
 ## Summary
 
 This article explores the relationship between internal martial arts and deep flexibility work in cultivating focused
-intention through mindful movement, breathwork, and emotional awareness—bringing clarity and presence to both practice
+intention through mindful movement, breathwork, and emotional awareness-bringing clarity and presence to both practice
 and daily life, embodying the principle: as you move, so you live.
 
 ## Copy the Form
@@ -128,10 +128,7 @@ and expressions, and the ability to select and embody them consciously.
 Start by copying the form, then layer in intention, and finally seek the archetypal expression behind each movement.
 Practice each variation deliberately, integrate them, and let your understanding deepen through direct experience. Over
 time, your practice will become not just a series of movements, but a living ritual—an ongoing dialogue between body,
-mind, emotion, and the deeper currents of energy and intention that shape your art and your life. By aligning your
-emotional state, softening your ego, working from where you are, and committing to regular, mindful practice, you not
-only refine your art but also support your focus, resilience, and long-term health—benefiting both mind and body in
-profound and lasting ways.
+mind, emotion, and the deeper currents of energy and intention that shape your art and your life. 
 
 ## References
 
@@ -141,7 +138,7 @@ profound and lasting ways.
 4. [PubMed: Cardiac torsion and electromagnetic fields](https://pubmed.ncbi.nlm.nih.gov/15823696/)
 5. [ScienceDirect: Cardiac torsion and electromagnetic fields](https://www.sciencedirect.com/science/article/abs/pii/S0306987705000368)
 6. [PubMed: Electromagnetic fields - do they pose a cardiovascular risk?](https://pubmed.ncbi.nlm.nih.gov/37159854/)
-7. [YogaBody: Science of Stretching](https://www.yogabody.com/science-of-stretching/)
+7. [YogaBody: Science of Stretching](https://www.yogabody.com/stretching/)
 8. [Frontiers in Human Neuroscience: Slow Breathing and Autonomic Function](https://www.frontiersin.org/articles/10.3389/fnhum.2014.00217/full)
 9. [Harvard Health: Relaxation techniques: Breath control helps quell errant stress response](https://www.health.harvard.edu/mind-and-mood/relaxation-techniques-breath-control-helps-quell-errant-stress-response)
 10. [Health benefits of hard martial arts in adults: a systematic review (PubMed)](https://pubmed.ncbi.nlm.nih.gov/29157151/)
