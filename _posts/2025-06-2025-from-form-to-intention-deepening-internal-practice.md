@@ -1,7 +1,7 @@
 ---
 layout: post
 draft: false
-title: From Form to Intention: Deepening Internal Practice
+title: "From Form to Intention: Deepening Internal Practice"
 description: A practical guide to deepening internal martial arts and stretching practice by integrating intention, emotional coherence, ego awareness, and evidence-based health benefits.
 category: [ self ]
 tags: [ ]
