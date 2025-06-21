@@ -7,6 +7,9 @@ category: [ self ]
 tags: [ ]
 ---
 
+Note: This article was created in collaboration with Perplexity AI, combining personal experience with research-backed
+insights and writing support from an AI assistant.
+
 > And the practice was with intention.  
 > And the intention was with the practitioner.  
 > And the intention was the way.
