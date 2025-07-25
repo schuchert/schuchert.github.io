@@ -7,4 +7,4 @@ rm -r $DIR/../_site 2> /dev/null
 cd $DIR/.. 
 
 bundle install
-bundle exec jekyll serve --incremental
+bundle exec jekyll serve --incremental --port 5500

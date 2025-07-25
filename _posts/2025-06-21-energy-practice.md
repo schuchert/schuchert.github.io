@@ -2,7 +2,7 @@
 layout: post
 draft: true
 title: "Energy Practice: Blending Ritual Visualization, Qi Exercises, and Total Breath"
-description: "ombining the subtle energy work from Ritual: An Essential Grimoire, foundational qi exercises from Rick Krause, and the clinically researched "total breath" from The Healing Power of the Breath"
+description: 'Combining the subtle energy work from Ritual: An Essential Grimoire, foundational qi exercises from Rick Krause, and the clinically researched "total breath" from The Healing Power of the Breath'
 category: [ self ]
 tags: [ ]
 ---
