@@ -1,13 +1,11 @@
 ---
 layout: post
 draft: false
-title: "Undo Sitting All Day"
+title: "Undo Sitting All Day: 5-Day Science of Stretching Plan"
 description: 'A 5-day sequence of deep flexibility poses that will help reverse the damage your body takes from sitting all day.'
 category: [ self ]
 tags: [ deep flexibility ]
 ---
-
-# Undo Sitting All Day: 5‑Day Science of Stretching Plan
 
 ## Purpose
 Use this 5‑day rotation to systematically counteract the negative effects of prolonged sitting.  
