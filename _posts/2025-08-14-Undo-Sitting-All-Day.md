@@ -56,3 +56,4 @@ hips, spine, hamstrings, shoulders, and chest.
 - **Total Breathing**
 - **Half Pigeon** – 2–5 min each side
 - **Double Pigeon** – 2–5 min each side  
+- **Butterfly** - 3 - 5 mins
