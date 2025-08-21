@@ -97,4 +97,5 @@ createSrc
 createTest
 updateTsConfig
 initGit
+npm test
 ```
