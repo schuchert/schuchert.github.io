@@ -76,7 +76,7 @@ function writeJestConfig() {
 	EOF
 }
 
-initializeProject() {
+function initializeProject() {
   mkdir $NAME
   cd $NAME
 
@@ -86,10 +86,15 @@ initializeProject() {
   npm install jest ts-jest @types/jest --save-dev
 }
 
+function updateTsConfig {
+  sed -i '' 's/"types": \[\],/"types": ["node", "jest"],/g' tsconfig.json
+}
+
 initializeProject
 updateTestScript
 writeJestConfig
 createSrc
 createTest
+updateTsConfig
 initGit
 ```
