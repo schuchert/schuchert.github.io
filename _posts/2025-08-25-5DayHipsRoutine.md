@@ -35,76 +35,76 @@ transitions when helpful, and finishes with 2–3 long-hold stretches in the Sci
 
 **Strength:**
 
-| Psoas Hold | 2 - 4 reps, each side| 30 - 60 seconds|
-| Floor Sliding Mountain Climbers | 2 reps, each side | 10 - 50 steps|
+| Psoas Hold | 2 - 4 reps, each side | 30 - 60 seconds |
+| Floor Sliding Mountain Climbers | 2 reps, each side | 10 - 50 steps |
 
 **Stretches:**
 
-| Blaster| each side| 5 min per side|
-| Pigeon| each side| 5 min per side|
+| Blaster | each side | 5 min per side |
+| Pigeon | each side | 5 min per side |
 
 ### Day 2
 
 **Strength:**
 
-| Lunge - each side| 2 sets| 5 - 10 per side|
-| Straight Leg Raise| 2 - 4 reps, each side| 30 - 60 seconds hold|
+| Lunge - each side | 2 sets | 5 - 10 per side |
+| Straight Leg Raise | 2 - 4 reps, each side | 30 - 60 seconds hold |
 
 **Transition:**
 
-| Knee to Chest Stretch | each side| 3 - 5 times each|
+| Knee to Chest Stretch | each side | 3 - 5 times each |
 
 **Stretches:**
 
-| Jackknife Blaster| each side| 5 mins each|
-| Butterfly| each side| 5 mins each|
+| Jackknife Blaster | each side | 5 mins each |
+| Butterfly | | 5 mins |
 
 ### Day 3
 
 **Strength:**
 
-| Half Kneeling Hip Flexor Stretch | 2 - 5 reps, each side| 30 - 60 seconds a side|
-| Psoas Hold | 3 - 5 reps, each side| 30 - 60 seconds a side|
+| Half Kneeling Hip Flexor Stretch | 2 - 5 reps, each side | 30 - 60 seconds a side |
+| Psoas Hold | 3 - 5 reps, each side | 30 - 60 seconds a side |
 
 **Transition:**
 
-| Bridge | 3 - 5 reps| 30 - 120 seconds|
+| Bridge | 3 - 5 reps | 30 - 120 seconds |
 
 **Stretches:**
 
-| Blaster| each side| 5 mins|
-| Half Happy Baby| each side| 5 mins|
+| Blaster | each side | 5 mins |
+| Half Happy Baby | each side | 5 mins |
 
 ### Day 4
 
 **Strength:**
 
-| Floor Sliding Mountain Climbers | 2 reps| 30 steps each side|
-| Straight Leg Raise| 2 - 4 reps, each side| 30 - 60 seconds hold|
+| Floor Sliding Mountain Climbers | 2 reps | 30 steps each side |
+| Straight Leg Raise | 2 - 4 reps, each side | 30 - 60 seconds hold |
 
 **Transition:**
 
-| Bridge | 3 - 5 reps| 30 - 120 seconds|
+| Bridge | 3 - 5 reps | 30 - 120 seconds |
 
 **Stretches:**
 
-| Jackknife Blaster| each side| 5 mins each|
-| Pigeon| each side| 5 min per side|
+| Jackknife Blaster | each side | 5 mins each |
+| Pigeon | each side | 5 min per side |
 
 ### Day 5
 
 **Strength:**
 
-| Lunge | each side, 2 sets| 5 - 10 per side|
-| Half Kneeling Hip Flexor Stretch | 2 - 5 reps, each side| 30 - 60 seconds a side|
+| Lunge | each side, 2 sets | 5 - 10 per side |
+| Half Kneeling Hip Flexor Stretch | 2 - 5 reps, each side | 30 - 60 seconds a side |
 
 **Transition:**
 
-| Knee to Chest | each side| 3 - 5 times each|
+| Knee to Chest | each side | 3 - 5 times each |
 
 **Stretches:**
 
-| Butterfly| each side| 5 mins each|
-| Happy Baby|| 5 mins|
+| Butterfly | each side | 5 mins each |
+| Happy Baby | | 5 mins |
 
 ---
