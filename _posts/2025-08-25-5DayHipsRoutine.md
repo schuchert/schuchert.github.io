@@ -104,7 +104,8 @@ transitions when helpful, and finishes with 2–3 long-hold stretches in the Sci
 
 **Stretches:**
 
-| Butterfly | each side | 5 mins each |
-| Happy Baby | | 5 mins |
+| Happy Baby | 5 mins |
+| Butterfly | 5 mins |
+| Passive Squat1G/ | 5 mins |
 
 ---
