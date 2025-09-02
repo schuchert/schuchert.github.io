@@ -107,5 +107,3 @@ transitions when helpful, and finishes with 2–3 long-hold stretches in the Sci
 | Happy Baby | 5 mins |
 | Butterfly | 5 mins |
 | Passive Squat | 5 mins |
-
----
