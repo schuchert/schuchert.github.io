@@ -9,17 +9,18 @@ tags: [ deep flexibility ]
 
 Poses to add, along with notes.
 
-Straight Leg Runner's Lunge 3 mins x (r/l) Soleus Muscle
-
+**Straight Leg Runner's Lunge 3 mins x (r/l) Soleus Muscle**
 - Forearms on wall
 - Back leg, heal down, angled, front leg on ball of foot, or even turned in, no pressure on front
 - Weight in rear heal
-  Knee to Wall Lunge 3 minx x (r/s)
+
+**Knee to Wall Lunge 3 minx x (r/s)**
 - Do not allow knee to fall in.
 - Back leg at 90 degrees
 - Front leg, kneed over toes
 - Weight in front heal
-  Banded Warrior Lunge Soleus muscle
+
+**Banded Warrior Lunge Soleus muscle**
 - Band around front ankle, under back foot, held on shoulder
 - Front foot pointing forward, knee over toe, do not allow knee to fall in, out is OK
 - Back leg at 90 degrees
