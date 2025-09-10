@@ -48,8 +48,3 @@ Poses to add, along with notes.
 | Flamenco A                  | 5 mins x (r/l) | Hamstrings, Inner Thighs, Glutes, Hips, Calves, Lower Back                  |
 | Twister                     | 5 mins x (r/l) | Hamstrings, Obliques, Side Body, Lower Back, Spine                          |
 | Forward Fold                | 5 mins         | Hamstrings, Calves, Glutes, Lower Back, Spine, Neck, Shoulders              |
-
-Note: Calves / ankles
-This includes up to three different muscles: Soleus, Gastrocnemius, Plantaris. A given stretch that lists calves /
-ankles might not hit all three. This could be in general, or how you position your body. A mix of different stretches
-will increase the chances of stretching all three.
