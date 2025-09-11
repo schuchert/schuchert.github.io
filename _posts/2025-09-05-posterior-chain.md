@@ -34,17 +34,17 @@ Poses to add, along with notes.
 - Feet hip width / Warrior 1
 - Targets Soleus - because knee bent
 
-| Pose                        | Time                                                                                  | Area Targeted / You might feel a stretch in                                 |
-|-----------------------------|---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| Wide Dog                    | 5 mins &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Shoulders, Trapezius, Abductors, Lower Back, Hips, Inner Thighs, Hamstrings |
-| Hangman                     | 5 mins                                                                                | Shoulders, Trapezius, Upper Chest, Armpits, Upper Back, Lats                |
-| Pretzel Arms                | 5 mins x (r/l)                                                                        | Shoulders, Chest, Upper Back, Arms, Triceps                                 |
-| Straight Leg Runner's Lunge | 3 mins x (r/l)                                                                        | Gastrocnemius, Plantaris                                                    |
-| Knee to Wall Lunge          | 3 mins x (r/l)                                                                        | Soleus                                                                      |
-| Banded Warrior Lunge        | 3 mins x (r/l)                                                                        | Soleus                                                                      |
-| Pins and Needles            | 5 mins                                                                                | Calves/Ankles, Shins, Toes, Shoulders, Wrists                               |
-| Rag Doll                    | 5 mins                                                                                | Spine, Hamstrings, Lower Back, Calves, Ankles, Neck, Shoulders              |
-| Pigeon                      | 5 mins x (r/l)                                                                        | Hip Flexors, Gluteus Maximus, Piriformis, Adductor Magnus, Hamstrings       |
-| Flamenco A                  | 5 mins x (r/l)                                                                        | Hamstrings, Inner Thighs, Glutes, Hips, Calves, Lower Back                  |
-| Twister                     | 5 mins x (r/l)                                                                        | Hamstrings, Obliques, Side Body, Lower Back, Spine                          |
-| Forward Fold                | 5 mins                                                                                | Hamstrings, Calves, Glutes, Lower Back, Spine, Neck, Shoulders              |
+| Pose                        | Time                          | Area Targeted / You might feel a stretch in                                 |
+|-----------------------------|-------------------------------|-----------------------------------------------------------------------------|
+| Wide Dog                    | 5 mins                        | Shoulders, Trapezius, Abductors, Lower Back, Hips, Inner Thighs, Hamstrings |
+| Hangman                     | 5 mins                        | Shoulders, Trapezius, Upper Chest, Armpits, Upper Back, Lats                |
+| Pretzel Arms                | 5&nbsp;mins&nbsp;x&nbsp;(r/l) | Shoulders, Chest, Upper Back, Arms, Triceps                                 |
+| Straight Leg Runner's Lunge | 3 mins x (r/l)                | Gastrocnemius, Plantaris                                                    |
+| Knee to Wall Lunge          | 3 mins x (r/l)                | Soleus                                                                      |
+| Banded Warrior Lunge        | 3 mins x (r/l)                | Soleus                                                                      |
+| Pins and Needles            | 5 mins                        | Calves/Ankles, Shins, Toes, Shoulders, Wrists                               |
+| Rag Doll                    | 5 mins                        | Spine, Hamstrings, Lower Back, Calves, Ankles, Neck, Shoulders              |
+| Pigeon                      | 5 mins x (r/l)                | Hip Flexors, Gluteus Maximus, Piriformis, Adductor Magnus, Hamstrings       |
+| Flamenco A                  | 5 mins x (r/l)                | Hamstrings, Inner Thighs, Glutes, Hips, Calves, Lower Back                  |
+| Twister                     | 5 mins x (r/l)                | Hamstrings, Obliques, Side Body, Lower Back, Spine                          |
+| Forward Fold                | 5 mins                        | Hamstrings, Calves, Glutes, Lower Back, Spine, Neck, Shoulders              |
