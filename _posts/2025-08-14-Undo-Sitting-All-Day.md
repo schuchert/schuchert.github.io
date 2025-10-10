@@ -19,22 +19,22 @@ hips, spine, hamstrings, shoulders, and chest.
 
 ### Day 1 — Hip Flexors + Piriformis
 
-- **Blaster** – 3 min each side
-- **Jackknife Blaster** – 3 min each side
-- **Half Happy Baby** – 3 min each side
+- [**Blaster**](https://youtube.com/shorts/Nvy20NbOdII?feature=share) – 3 min each side
+- [**Jackknife Blaster**](https://youtube.com/shorts/NimTkxmisP8?feature=share) – 3 min each side
+- [**Half Happy Baby**](https://youtube.com/shorts/0Ar6hl5DBgk?feature=share) – 3 min each side
 
 ### Day 2 — Lumbar Extension + Twist
 
-- **Butterfly** – 5 min
-- **Sphinx** – 2 min
-- **Twister** – 4 min each side
+- [**Butterfly**](https://youtube.com/shorts/RQVhvsrA9OQ?feature=share) – 5 min
+- [**Sphinx**](https://youtube.com/shorts/F3Ax16kIF7s?feature=share) – 2 min
+- [**Twister**](https://youtube.com/shorts/eeEZFKGECQ0?feature=share) – 4 min each side
 - **Butterfly Twist** – cool down / transition
 
 ### Day 3 — Chest/Shoulders + Hamstrings Intro
 
-- **Hangman** – 5 min
-- **Pretzel Arms** - 5 mins each side
-- **Wide Dog** – 5 min
+- [**Cliffhanger**](https://youtube.com/shorts/8b93l_BBSX8?feature=share) – 5 min
+- [**Pretzel Arms**](https://youtube.com/shorts/vPqvD-a5qgo?feature=share) - 5 mins each side
+- [**Wide Dog**](https://youtube.com/shorts/wqastIH5StE?feature=share)– 5 min
 
 ### Day 4 — Hamstring Intensive
 
