@@ -38,10 +38,10 @@ hips, spine, hamstrings, shoulders, and chest.
 
 ### Day 4 — Hamstring Intensive
 
-- **Rag Doll** – 3 min
-- **Flamenco A** – 2 min each side
-- **Flamenco B** – 2 min each side
-- **Flamenco C** – 2 min each side
+- [**Rag Doll**](https://youtube.com/shorts/74gQu7OlSiA?feature=share) – 3 min
+- [**Flamenco A**](https://youtube.com/shorts/WqcgSYBzgxU?feature=share) – 2 min each side
+- [**Flamenco B**](https://youtube.com/shorts/962zigfXdIk?feature=share) – 2 min each side
+- [**Flamenco C**](https://youtube.com/shorts/4WuJE2fd1rk?feature=share) – 2 min each side
 
 ### Day 5 — Mixed Deep Hip Openers
 
