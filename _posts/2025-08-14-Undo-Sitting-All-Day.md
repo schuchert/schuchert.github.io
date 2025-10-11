@@ -57,3 +57,77 @@ hips, spine, hamstrings, shoulders, and chest.
 - **Half Pigeon** – 2–5 min each side
 - **Double Pigeon** – 2–5 min each side  
 - **Butterfly** - 3 - 5 mins
+
+## TL;DR
+
+This entire section is co-created using Perplexity.ai.
+
+### Day 4
+#### Rag Doll Pose
+
+**Description:**  
+Standing forward fold with arms relaxed and spine lengthening down.
+
+**Primary Muscles Stretched:**
+* **Hamstrings** (Biceps femoris, Semitendinosus, Semimembranosus)
+* **Calves** (Gastrocnemius, Soleus)
+* **Spinal Erectors** (Erector spinae group)
+* **Gluteus Maximus**
+* **Upper Back** (Rhomboids, Trapezius)
+* **Neck Muscles** (Upper trapezius, Levator scapulae)
+* **Adductors** (Gracilis, Adductor magnus)
+* **Hips** (through flexion and passive abduction)
+
+---
+
+#### Flamenco A Pose
+
+**Description:**  
+Supine, one leg extended on the floor, the other lifted straight and pulled gently toward the body.
+
+**Primary Muscles Stretched:**
+* **Hamstrings** (Biceps femoris, Semitendinosus, Semimembranosus)
+* **Calves** (Gastrocnemius, Soleus, with dorsiflexion)
+* **Adductors** (Gracilis, Adductor magnus)
+* **Hip Flexors** (Iliopsoas, Rectus femoris — of the extended floor leg)
+* **Gluteus Maximus**
+* **Piriformis and External Rotators**
+* **Lower Back** (Erector spinae, Quadratus lumborum—decompression)
+
+---
+
+#### Flamenco B Pose
+
+**Description:**  
+Supine, raised leg is abducted (opened outward to the side), knee straight.
+
+**Primary Muscles Stretched:**
+* **Hamstrings** (same as above)
+* **Adductors** (Gracilis, Adductor longus, Adductor brevis, Adductor magnus, Pectineus)
+* **Hip Abductors** (Gluteus medius, Gluteus minimus, Tensor fascia lata—stabilizing)
+* **Calves** (as above)
+* **Obturator Internus and Sartorius** (depending on rotation/abduction)
+* **Lower Back/Obliques** (mild stabilizing or stretching)
+
+---
+
+#### Flamenco C Pose (Twist Variation)
+
+**Description:**  
+Supine, one leg straight, the other allowed to fall across to the opposite side, twisting at the waist.
+
+**Primary Muscles Stretched:**
+* **Erector Spinae** (thoracic and lumbar)
+* **Obliques** (External and Internal)
+* **Quadratus Lumborum**
+* **Gluteus Maximus, Medius, and Minimus** (especially crossing leg)
+* **Piriformis and Deep Hip Rotators**
+* **Iliotibial Band (ITB)**
+* **Hamstrings** (emphasis on lateral biceps femoris)
+* **Tensor Fascia Lata**
+* **Pectoralis Major and Minor** (with arms open or cactus position)
+* **Calves** (maintained in extended leg)
+
+---
+
+> **Hold all poses for 2–5 minutes per side to facilitate deep, lasting muscle and fascial changes per Science of Stretching guidelines.**
