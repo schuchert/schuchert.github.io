@@ -45,7 +45,7 @@ hips, spine, hamstrings, shoulders, and chest.
 
 ### Day 5 — Mixed Deep Hip Openers
 
-- **Blaster** – 4 min each side
+- [**Blaster**](https://youtube.com/shorts/Nvy20NbOdII?feature=share) – 3 min each side
 - **Pigeon Pose** – 4 min each side
 - **Happy Baby** - 3 mins
 
@@ -56,7 +56,7 @@ hips, spine, hamstrings, shoulders, and chest.
 - **Total Breathing**
 - **Half Pigeon** – 2–5 min each side
 - **Double Pigeon** – 2–5 min each side  
-- **Butterfly** - 3 - 5 mins
+- [**Butterfly**](https://youtube.com/shorts/RQVhvsrA9OQ?feature=share) – 5 min
 
 ## TL;DR
 
