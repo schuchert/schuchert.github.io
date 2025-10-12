@@ -46,7 +46,7 @@ hips, spine, hamstrings, shoulders, and chest.
 ### Day 5 — Mixed Deep Hip Openers
 
 - [**Blaster**](https://youtube.com/shorts/Nvy20NbOdII?feature=share) – 3 min each side
-- **Pigeon Pose** – 4 min each side
+- [**Pigeon Pose**](https://youtube.com/shorts/aGNJrrbM0eM?feature=share) – 4 min each side
 - **Happy Baby** - 3 mins
 
 ---
@@ -54,7 +54,7 @@ hips, spine, hamstrings, shoulders, and chest.
 ## Things you can do While Sitting
 
 - **Total Breathing**
-- **Half Pigeon** – 2–5 min each side
+- [**Half Pigeon**](https://youtube.com/shorts/rAkCTgxvxr4?feature=share) – 2–5 min each side
 - **Double Pigeon** – 2–5 min each side  
 - [**Butterfly**](https://youtube.com/shorts/RQVhvsrA9OQ?feature=share) – 5 min
 
