@@ -49,7 +49,6 @@ hips, spine, hamstrings, shoulders, and chest.
 | **Pigeon** |4 mins. each side | [Detail](#pigeon) | [**Video**](https://youtube.com/shorts/aGNJrrbM0eM?feature=share) |
 | **Happy Baby** | 3 mins.|  [Detail](#happy-baby) |[**Video**](https://youtube.com/shorts/DvZQzBx-HX8?feature=share) |
 
----
 
 ## Things you can do While Sitting
 
