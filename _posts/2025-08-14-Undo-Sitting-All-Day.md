@@ -47,7 +47,7 @@ hips, spine, hamstrings, shoulders, and chest.
 
 - [**Blaster**](https://youtube.com/shorts/Nvy20NbOdII?feature=share) – 3 min each side
 - [**Pigeon Pose**](https://youtube.com/shorts/aGNJrrbM0eM?feature=share) – 4 min each side
-- **Happy Baby** - 3 mins
+- [**Happy Baby**](https://youtube.com/shorts/DvZQzBx-HX8?feature=share) - 3 mins
 
 ---
 
@@ -55,7 +55,7 @@ hips, spine, hamstrings, shoulders, and chest.
 
 - **Total Breathing**
 - [**Half Pigeon**](https://youtube.com/shorts/rAkCTgxvxr4?feature=share) – 2–5 min each side
-- **Double Pigeon** – 2–5 min each side  
+- [**Double Pigeon**](https://youtube.com/shorts/1-5M2AvfpS0?feature=share) – 2–5 min each side  
 - [**Butterfly**](https://youtube.com/shorts/RQVhvsrA9OQ?feature=share) – 5 min
 
 ## TL;DR
