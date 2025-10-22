@@ -25,9 +25,9 @@ tags: [deep flexibility]
 | Pancake                        | 10 Mins. w/PNF optional |
 
 Times listes are the recommended maximum time. Generally, 2 minutes is enoguht time to
-get into the pose, calm the nervious system, and get lasting structural change. After 5 
+get into the pose, calm the nervious system, and get lasting structural change. After 5
 minutes, you might find your time better spent a different pose. The final pose is longer
-because it's a huge pose with different kinds of stretching going on, while involving 
+because it's a huge pose with different kinds of stretching going on, while involving
 a large group of tighly intertwined muscles in the hips, and pelvic floor.
 
 If you're unable to make the maximum time, try to work up to 2 minutes by adding 5 seconds
@@ -37,26 +37,30 @@ fatigue, use props, make adjustments, to enable to you to rest in the pose.
 ### Side Splits Warmup
 
 #### Cassock Squats – 3 sets of 8-12 reps
-*Muscles Strengthened and Stretched:*  
-* Adductors (inner thighs)  
-* Glutes  
-* Hamstrings  
-* Quadriceps  
-* Ankles and calves  
-* Core stability  
 
-*Why:*  
+_Muscles Strengthened and Stretched:_
+
+- Adductors (inner thighs)
+- Glutes
+- Hamstrings
+- Quadriceps
+- Ankles and calves
+- Core stability
+
+_Why:_  
 Builds frontal plane mobility, strength, and neuromuscular control. Improves hip, knee, and ankle mobility while strengthening adductors — essential for safe, controlled side split progress.
 
 ---
 
 #### Horse Stance – 3 sets of 60 secs
-*Muscles Strengthened:*  
-* Adductors  
-* Glutes  
-* Vastus medialis oblique (VMO)  
 
-*Why:*  
+_Muscles Strengthened:_
+
+- Adductors
+- Glutes
+- Vastus medialis oblique (VMO)
+
+_Why:_  
 Builds active strength and endurance in hip adductors, key for holding leg positions in splits. Enhances pelvic stability with anterior pelvic tilt.
 
 ---
@@ -157,36 +161,6 @@ Comprehensive stretch for side splits—integrates hamstrings and adductors with
 
 ---
 
-## Suggested Improvements for Side Splits Progression
-
-### Critical Additions
-
-#### 1. Horse Stance – 3 sets of 60 sec (after Pancake)
-
-_Muscles Strengthened:_  
-Adductors, glutes, vastus medialis oblique (VMO)
-
-_Why:_  
-Builds active range strength—critical for holding your legs apart under load.
-
-**Technique Tip:**  
-Wide squat with anterior pelvic tilt and toes forward. Gradually widen stance over sessions.
-
----
-
-#### 2. Active Side Split Holds – 1–2 mins (Finisher)
-
-_Instructions:_
-
-- Contract glutes until shaking to PNF into deeper range.
-- Relax and sink deeper.
-- Repeat 3–5 times, then hold at max depth.
-
-_Why:_  
-Retrains the nervous system to allow deeper range and stabilizes active end-range control.
-
----
-
 ## Technique and Biomechanics
 
 ### Hip Positioning
@@ -202,14 +176,3 @@ Retrains the nervous system to allow deeper range and stabilizes active end-rang
 - Hold deep end-range positions **1–2 minutes** for maximal adductor adaptation.
 - Combine **active** (horse stance, lifts) and **passive** stretches for neural retraining.
 - Progress gradually—widen stance and deepen holds over weeks, not days.
-
----
-
-## Summary
-
-This finalized program integrates:
-
-- Posterior chain warm-up
-- Thoracic mobility
-- Progressive adductor loading (bent to straight knee)
-- Active end-range control
