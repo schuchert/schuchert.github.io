@@ -24,8 +24,42 @@ tags: [deep flexibility]
 | Side Angle Left                | 5 Mins.                 |
 | Pancake                        | 10 Mins. w/PNF optional |
 
-The times listed are the upper limit. If you're unable to get to the time
+Times listes are the recommended maximum time. Generally, 2 minutes is enoguht time to
+get into the pose, calm the nervious system, and get lasting structural change. After 5 
+minutes, you might find your time better spent a different pose. The final pose is longer
+because it's a huge pose with different kinds of stretching going on, while involving 
+a large group of tighly intertwined muscles in the hips, and pelvic floor.
+
+If you're unable to make the maximum time, try to work up to 2 minutes by adding 5 seconds
+each time you practice the pose. Keep upping your time to get to 5 minutes. If the issue is
+fatigue, use props, make adjustments, to enable to you to rest in the pose.
+
 ### Side Splits Warmup
+
+#### Cassock Squats – 3 sets of 8-12 reps
+*Muscles Strengthened and Stretched:*  
+* Adductors (inner thighs)  
+* Glutes  
+* Hamstrings  
+* Quadriceps  
+* Ankles and calves  
+* Core stability  
+
+*Why:*  
+Builds frontal plane mobility, strength, and neuromuscular control. Improves hip, knee, and ankle mobility while strengthening adductors — essential for safe, controlled side split progress.
+
+---
+
+#### Horse Stance – 3 sets of 60 secs
+*Muscles Strengthened:*  
+* Adductors  
+* Glutes  
+* Vastus medialis oblique (VMO)  
+
+*Why:*  
+Builds active strength and endurance in hip adductors, key for holding leg positions in splits. Enhances pelvic stability with anterior pelvic tilt.
+
+---
 
 #### Rag Doll – 5 mins
 
