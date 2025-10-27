@@ -42,6 +42,13 @@ tags: [deep flexibility]
 * Turn around, block and grab
 * Hide the flower
 
+## Grinding
+* Double Palm Change
+* Ball of rear foot, block side and head
+* Groin strike
+* Same thing other side
+* Hide the flower
+
 ## Return to Source
 * Double Palm Change
 * Heal strike, turn around, chin grab
