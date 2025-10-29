@@ -1,8 +1,8 @@
 ---
 layout: post
 draft: true
-title: "Side Splits Routine"
-description: "A sequence of strenghtening, balancing, and flexibilty that will help you move towards side splits."
+title: "Master Wu's Dragon Palm Changes"
+description: "A sequence of Bagua palm changes, using dragon palms."
 category: [self]
 tags: [deep flexibility]
 ---

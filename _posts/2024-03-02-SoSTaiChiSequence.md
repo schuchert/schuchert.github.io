@@ -8,6 +8,8 @@ tags: [ bagua,taichi,body,qigong,scienceofstretching ]
 ---
 {::options parse_block_html="true" /}
 
+> There is a new version of this series, [go here]({% post_url 2025-10-29-SosTaiChiBaguaV2 %})
+
 ### Before You Begin
 * Principle: Wet Noodle - relax, let gravity to the work
 * Principle: Passive Tension over time (2 - 5 minutes) 
