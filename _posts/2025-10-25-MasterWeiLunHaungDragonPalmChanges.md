@@ -9,11 +9,11 @@ tags: [ deep flexibility ]
 
 ## General
 
-* Palm Changes 2 - 8 start with palm change 2
+* Palm Changes 2 - 8 start with palm change 1
 * Each palm changes end with the same sequence
 * Palm change 3 "turns the wheel" to switch to the other side
 
-* ## Single Palm Change
+## Single Palm Change
 * Cut and clear the pie
     * Chop across the body with your inside hand, palm up
     * Sweep across your inside palm with your outside palm, facing away from the body
