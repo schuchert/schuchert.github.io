@@ -1,6 +1,6 @@
 ---
 layout: post
-draft: true
+draft: false
 title: "SoS for Tai Chi and Bagua, V2"
 description: 'Updated version of <a href="https://schuchert.github.io/gigong/2024/03/02/SoSTaiChiSequence.html">This Routine</a>'
 category: [ self ]
