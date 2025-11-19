@@ -20,17 +20,20 @@ The key challenge is the initial lift, demanding strong triceps and deltoids to 
 support the body weight.
 
 * **Pike Push-Ups:** The foundational exercise for developing vertical pushing strength.  
+  *Note:* Downdog -> on elbows -> Downdog
   *Method:* Start in Downward Dog. Lower head toward the floor by bending elbows, then press back up.  
   *Rationale:* Mimics the inverted pressing action required in Wheel.  
   *Recommendation:* Include both straight pike push-ups and variations with feet elevated to increase intensity
   gradually.
 
-* **Dolphin Pose Holds & Push-Ups:**  
+* **Dolphin Pose Holds & Push-Ups:**
+  *Note:* Downdog on forearms, toes to shoulders
   *Method:* From forearm plank, walk feet toward elbows to raise hips high. Hold or press from forearms to hands.  
   *Rationale:* Strengthens rotator cuff, scapular stabilizers, and thoracic extension.  
   *Modification:* Use wall support for holds if shoulder mobility is limited.
 
 * **Tricep Dips:**  
+  *Note:* Reverse Chair Push-up
   *Method:* On a chair or bench, lower hips by bending elbows back, then press up.  
   *Rationale:* Builds essential elbow locking strength.  
   *Safety:* Keep elbows close to sides to protect shoulder joints.
@@ -41,11 +44,13 @@ Active spinal extension from back muscles (erector spinae, multifidi) is critica
 collapsing into lumbar compression.
 
 * **Dynamic Locust Pose (Salabhasana):**  
+  *Note:* Flying
   *Method:* Lie prone, inhale to lift upper chest, arms, and legs; pulse gently up and down.  
   *Benefit:* Builds endurance and control of spinal extenders across thoracic and lumbar regions.  
   *Progression:* Add small holds at the peak for isometric strengthening.
 
 * **Cobra Pose Push-Ups:**  
+  *Note:* Cobra, brestbone to sky and back
   *Method:* From prone position, hands under shoulders, lift chest primarily with back muscles; lower down slowly.  
   *Benefit:* Teaches motor control to initiate extension safely without lumbar "hinging."
 
@@ -77,6 +82,7 @@ Leg strength powers the pose by driving the hips upward and forward, protecting 
 The wrists bear significant load in deep extension; conditioning is essential to avoid pain or injury.
 
 * **Tabletop Wrist Leans:**  
+  *Note:* Reverse Dog
   *Method:* Hands and knees, lean weight forward past fingertips, then rock back.  
   *Benefit:* Builds joint tolerance and tendon strength.  
   *Progression:* Gradually increase lean duration and repetitions.
@@ -86,6 +92,7 @@ The wrists bear significant load in deep extension; conditioning is essential to
   *Benefit:* Warms forearm muscles and tendons, enhancing joint protection.
 
 * **Wrist Extensor Stretch and Strengthening:**  
+  *Note:* Flip/Flop Wrist/Reverse
   *Recommendation:* Add gentle wrist extensor stretches and strengthening exercises against light resistance bands to
   balance flexibility and strength.
 
