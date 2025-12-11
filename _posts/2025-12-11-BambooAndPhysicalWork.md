@@ -7,6 +7,11 @@ category: [ self ]
 tags: [ practices ]
 ---
 
+----
+This is a revised version of [An Original Blog Post](https://blog.objectmentor.com/articles/2011/05/24/bamboo-reminds-me-of-a-time-when).
+Updated and expanded using some more recent writings and using Perplexity.io as an assistant.
+----
+
 In 2009, I planted an eight-foot by two-foot plot of bamboo and made a decision I would later regret. After digging down
 two feet into the ground, a brutal thirteen-hour process that moved 32 cubic feet of dirt and clay, I surrounded most of
 the bed with protective lining to contain the invasive species. But instead of lining the front completely, I left it
