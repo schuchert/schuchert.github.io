@@ -59,8 +59,7 @@ that cause the practice to lose its teeth.
 
 This doesn't mean you never adapt. It means you first understand deeply, then you have direct experience with the
 unmodified approach, and only then, armed with knowledge of both the practice's intentions and your actual challenges,
-do
-you thoughtfully adapt.
+do you thoughtfully adapt.
 
 How do you recognize when you're resisting change rather than thoughtfully rejecting an idea? I learned this from
 practicing yoga. When you pause and bring awareness to the moment, you can notice the felt sense of resistance. This is
