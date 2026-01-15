@@ -1,6 +1,6 @@
 ---
 layout: post
-draft: true
+draft: false
 title: "Neck Adjacent: Standard Sequence"
 description: 'Neck-Adjacent: Standard Sequence relieves neck tension through shoulder, upper back, and spine stretches. Minimal 11-min version; full 30-min with warm-up/close. Science of Stretching-inspired, Tai Chi-aligned. Consistent practice builds control.'
 category: self
@@ -31,9 +31,9 @@ before bed.
 
 ### Warm-Up (3-5 min)
 
-1. **Shake**: Feet parallel (~hip width), knees bent, sacrum tucked (heel pressure via ligaments). Bounce full body,
+1. [**Shake**](https://www.youtube.com/watch?v=ISYSE-CL2Eo): Feet parallel (~hip width), knees bent, sacrum tucked (heel pressure via ligaments). Bounce full body,
    eyes lead breath (inhale 6/exhale 6, mouth open).
-2. **Neck Mobility**: Eyes lead head up/down/sides, then circles (slow on tender spots).
+2. [**Neck Mobility**](https://www.youtube.com/shorts/Xv3NIGQFUsA): Eyes lead head up/down/sides, then circles (slow on tender spots).
 3. **Isometrics (30s each)**: Right/left hand to head side; both hands front/back; upward (tuck tailbone, fontanelle up,
    grip toes).
 4. **Reset**: Partial forward fold (arms on thighs), relax spine. Alt: Supine knees up.
@@ -44,12 +44,12 @@ before bed.
 
 ### Stretches Expanded (8-20 min)
 
-| Pose                         | Setup                                                                                                        | Hold    | Targets & Tips                                         |
-|------------------------------|--------------------------------------------------------------------------------------------------------------|---------|--------------------------------------------------------|
-| Cliffhanger                  | Prone, head to wall, arms overhead >shoulder width. Drop chest/shoulders. Toes curled. Clean hands for grip. | 2-5 min | Shoulders/traps. Post-3.5 min: Exit slow vs spasm.     |
-| Pretzel Arms (Right Forward) | Prone, right arm forward of left (elbows cross), chin on right arm. Pillow optional.                         | 2-5 min | Diagonal shoulder blades. Breathe through awkwardness. |
-| Pretzel Arms (Left Forward)  | Prone, left arm forward of right (elbows cross), chin on left arm. Pillow optional.                          | 2-5 min | Diagonal shoulder blades. Breathe through awkwardness. |
-| Wide Dog                     | Wide feet, narrow/elevated hands, knees bent, sternum to floor btwn blades.                                  | 2-5 min | Upper back/hamstrings. Props for balance.              |
+| Pose                                                                       | Setup                                                                                                        | Hold    | Targets & Tips                                         |
+|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------|--------------------------------------------------------|
+| [Cliffhanger](https://www.youtube.com/shorts/4cJs_dZvKcw)                  | Prone, head to wall, arms overhead >shoulder width. Drop chest/shoulders. Toes curled. Clean hands for grip. | 2-5 min | Shoulders/traps. Post-3.5 min: Exit slow vs spasm.     |
+| [Pretzel Arms (Right Forward)](https://www.youtube.com/shorts/8-FAo_kR-7E) | Prone, right arm forward of left (elbows cross), chin on right arm. Pillow optional.                         | 2-5 min | Diagonal shoulder blades. Breathe through awkwardness. |
+| [Pretzel Arms (Left Forward)](https://www.youtube.com/shorts/8-FAo_kR-7E)  | Prone, left arm forward of right (elbows cross), chin on left arm. Pillow optional.                          | 2-5 min | Diagonal shoulder blades. Breathe through awkwardness. |
+| [Wide Dog](https://www.youtube.com/shorts/WOwpC2vFmEk)                     | Wide feet, narrow/elevated hands, knees bent, sternum to floor btwn blades.                                  | 2-5 min | Upper back/hamstrings. Props for balance.              |
 
 ### Closing (2 min)
 
