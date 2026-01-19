@@ -2,7 +2,7 @@
 layout: post
 draft: true
 title: "Neck Isometrics and Wu Chi: Full body engagement"
-description: 'What happens when you introduce Wu Chi (the stance before Tai Chi) and then use isometrics to help build your neck strength? You get your core engaged, and this exercise goes from great for the next to great for the core."0
+description: 'What happens when you introduce Wu Chi (the stance before Tai Chi) and then use isometrics to help build your neck strength? You get your core engaged, and this exercise goes from great for the next to great for the core.'
 category: self
 tags: [ neck-pain-relief, shoulder-mobility, upper-back-stretch, tai-chi, vagus-nerve ]
 ---
