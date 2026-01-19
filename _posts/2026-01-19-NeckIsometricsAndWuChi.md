@@ -12,16 +12,32 @@ tags: [ neck-pain-relief, shoulder-mobility, upper-back-stretch, tai-chi, vagus-
 This sequence starts with establishing Wh Chi. Establishing Wu Chi engages your ligaments and turns a good exercise
 into a whole body exercise.
 
+| Activity                                          | Verbal Queues                                                            | Repetitions | Time            |
+|---------------------------------------------------|--------------------------------------------------------------------------|-------------|-----------------|
+| Wu Chi                                            | * Feet Parallel, hip width <br/> * Knees bent <br/> * Sacrum down        | 1           | 1 min.          |
+| Shaking                                           | * Maintain Bow 1 <br/> * Gently shake body <br/> * Where is your breath? | 1           | 1 - 4 mins.     |
+| Rolling Shoulders Forward / Backwards             | foo                                                                      | 1 - 3       | 1 min.          |
+| Rolling Shoulders Alternating Forward / Backwards | foo                                                                      | 1 - 3       | 1 min.          |
+| Eye leading Head Right to Left                    | foo                                                                      | 1           | 1 min.          |
+| Eye leading Head Up and Down                      | foo                                                                      | 1           | 1 min.          |
+| Eye leading Head Clockwise / Counter Clockwise    | foo                                                                      | 1           | 1 min.          |
+| Neck Isometrics: Right / Left                     | foo                                                                      | 1 - 3       | 30 - 60 seconds |
+| Neck Isometrics: Forward / Backwards              | foo                                                                      | 1 - 3       | 30 - 60 seconds |
+| Neck Isometrics: Up                               | foo                                                                      | 1 - 3       | 30 - 60 seconds |
+| Reset: Forward Fold | foo | 1 | 1 min |
 ### Note on Breathing
-Throughout this practice, strive for 5 breaths per minute (or 3.8 if you are above 6' 2"). During stretching, we strive for 4:8 ratio, but 6:6 is a 
+
+Throughout this practice, strive for 5 breaths per minute (or 3.8 if you are above 6' 2"). During stretching, we strive
+for 4:8 ratio, but 6:6 is a
 good default for this practice, and qi gong in general, unless otherwise instructed. Also, breath into your diaphragm.
 
 What to keep track of:
-* 5 symmetrical breaths a minute
-* Breath into your diaphragm 
 
-5 breaths per minute tends to balance your sympathetic and parasympathetic systems, that is, it's Adaptogenic. If you are
-in an elevated state, it'll calm you down. If you are a bit out of it, it'll wake you up.
+* 5 symmetrical breaths a minute
+* Breath into your diaphragm
+
+5 breaths per minute tends to balance your sympathetic and parasympathetic systems, that is, it's Adaptogenic. If you
+are in an elevated state, it'll calm you down. If you are a bit out of it, it'll wake you up.
 
 Breathing into your diaphragm stimulates the vagus neve that enervates your stomach, which will tend to have a
 calming effect.
@@ -29,10 +45,13 @@ calming effect.
 ### Getting Present
 
 * Establish Bow 1
-  * **Feet hip-width apart, parallel**: Creates even weight distribution across both feet, preventing forward lean or sway
-  * **Knees slightly bent (soft, not locked)**: Allows controlled forward fold without joint stress, maintains postural stability
-  * **Sacrum tucked/pushed down**: Levels pelvis to protect lower back, prevents arching that strains lumbar during forward hinge
-  * **Breathe in to start**: Diaphragmatic breath coordinates with slow forward hinge on exhale
+    * **Feet hip-width apart, parallel**: Creates even weight distribution across both feet, preventing forward lean or
+      sway
+    * **Knees slightly bent (soft, not locked)**: Allows controlled forward fold without joint stress, maintains
+      postural stability
+    * **Sacrum tucked/pushed down**: Levels pelvis to protect lower back, prevents arching that strains lumbar during
+      forward hinge
+    * **Breathe in to start**: Diaphragmatic breath coordinates with slow forward hinge on exhale
 * [Shaking](#shaking)
     * While keeping bow 1 engaged, gently bound up and down
 
@@ -41,15 +60,15 @@ calming effect.
 * Reestablish Bow 1
 * Rolling shoulders forward/backward/alternating forward/alternating backward
 * Bow 1 + Extending Neck / Bow 2
-  * Everything from Bow 1
-  * **Spine long, crown of head lifted**: Maintains neutral spine alignment from base of skull through tailbone
-  * **Shoulders relaxed away from ears**: Prevents compensatory tension in neck/traps during arm movement
-  * **Arms hang naturally**: Palms face thighs, elbows soft—ready position before extending forward and down
-  * **Gaze forward or slightly down**: Keeps neck neutral, avoids craning
+    * Everything from Bow 1
+    * **Spine long, crown of head lifted**: Maintains neutral spine alignment from base of skull through tailbone
+    * **Shoulders relaxed away from ears**: Prevents compensatory tension in neck/traps during arm movement
+    * **Arms hang naturally**: Palms face thighs, elbows soft—ready position before extending forward and down
+    * **Gaze forward or slightly down**: Keeps neck neutral, avoids craning
 * Eye-leading neck movement - Right / Left
-  * Move eyes to right, move your head to follow your eyes.
-  * Move eyes to left, move your head to follow your eyes.
-  * Repeat several times
+    * Move eyes to right, move your head to follow your eyes.
+    * Move eyes to left, move your head to follow your eyes.
+    * Repeat several times
 * Reset / Reestablish Bow 1: Extending Neck / Bow 2
 * Eye-leading neck movement - Up / Down
     * Move eyes up, move your head to follow your eyes.
@@ -64,40 +83,43 @@ calming effect.
 ### Activate the neck and torso
 
 * Establish Bow 1 / Bow 2
-  * Bow 1
-    * **Feet hip-width apart, parallel**: Creates even weight distribution across both feet, preventing forward lean or sway
-    * **Knees slightly bent (soft, not locked)**: Allows controlled forward fold without joint stress, maintains postural stability
-    * **Sacrum tucked/pushed down**: Levels pelvis to protect lower back, prevents arching that strains lumbar during forward hinge
-    * **Breathe in to start**: Diaphragmatic breath coordinates with slow forward hinge on exhale
-  * Bow 2
-    * **Spine long, crown of head lifted**: Maintains neutral spine alignment from base of skull through tailbone
-    * **Shoulders relaxed away from ears**: Prevents compensatory tension in neck/traps during arm movement
-    * **Arms hang naturally**: Palms face thighs, elbows soft—ready position before extending forward and down
-    * **Gaze forward or slightly down**: Keeps neck neutral, avoids craning
+    * Bow 1
+        * **Feet hip-width apart, parallel**: Creates even weight distribution across both feet, preventing forward lean
+          or sway
+        * **Knees slightly bent (soft, not locked)**: Allows controlled forward fold without joint stress, maintains
+          postural stability
+        * **Sacrum tucked/pushed down**: Levels pelvis to protect lower back, prevents arching that strains lumbar
+          during forward hinge
+        * **Breathe in to start**: Diaphragmatic breath coordinates with slow forward hinge on exhale
+    * Bow 2
+        * **Spine long, crown of head lifted**: Maintains neutral spine alignment from base of skull through tailbone
+        * **Shoulders relaxed away from ears**: Prevents compensatory tension in neck/traps during arm movement
+        * **Arms hang naturally**: Palms face thighs, elbows soft—ready position before extending forward and down
+        * **Gaze forward or slightly down**: Keeps neck neutral, avoids craning
 * Neck Isometrics Right / Left
-  * Maintain 30+ seconds per side
-  * While maintaining Wu Chi, press your head to the right, into your right palm
-  * While maintaining Wu Chi, press your head to the left, into your left palm
+    * Maintain 30+ seconds per side
+    * While maintaining Wu Chi, press your head to the right, into your right palm
+    * While maintaining Wu Chi, press your head to the left, into your left palm
 * Reset / Reestablish Bow 1 / Bow 2
 * Neck Isometrics Forward / Backward
-  * Use both hands, interlaced, to maintain symmetry both in the hold, and for targeting muscles on the back 
-  * Maintain 30+ seconds per side
-  * While maintaining Wu Chi, press your head forward into your interlaced hands
-  * While maintaining Wu Chi, press your head backwards into your interlaced hands
+    * Use both hands, interlaced, to maintain symmetry both in the hold, and for targeting muscles on the back
+    * Maintain 30+ seconds per side
+    * While maintaining Wu Chi, press your head forward into your interlaced hands
+    * While maintaining Wu Chi, press your head backwards into your interlaced hands
 * Relax
 
 ### Compress and Release the Spine
 
 * Reestablish Bow 1 / Bow 2
 * Neck Isometrics Up
-  * Maintain 30+ seconds
-  * Press your head up into both of your hands
-  * Repeat
+    * Maintain 30+ seconds
+    * Press your head up into both of your hands
+    * Repeat
 * Reset: forward fold
-  * Feet parallel, hip width
-  * Knees deeply bent
-  * Forearms on thighs for support (optional)
-  * Forward fold, relaxing your spine after having just compressed it
+    * Feet parallel, hip width
+    * Knees deeply bent
+    * Forearms on thighs for support (optional)
+    * Forward fold, relaxing your spine after having just compressed it
 
 ## Notes
 
@@ -107,12 +129,14 @@ calming effect.
 
 **Bow 1: Pelvis & Below**: Foundation: feet hip/parallel, knees soft, sacrum tucked, feel pressure in heals
 
-**Bow 2: Extended Spine + Pelvic Floor Reset**: Posterior chain: spine long, shoulders relaxed, arms natural  
+**Bow 2: Extended Spine + Pelvic Floor Reset**: Posterior chain: spine long, shoulders relaxed, arms natural
 
 **Bow 3: Arms Arched**: Upper integration (not used here)
 
 ### Shaking
+
 Here are the befits of shaking while keeping Bow 1 engaged:
+
 * **Stimulates joints**: Gentle, rhythmic whole‑body shaking likely produces small, repeated excursions at many joints,
   similar to light bouncing or low‑impact exercise, which helps maintain joint lubrication and comfort. [1][2][3] (
   supported by general low‑impact exercise research; exact shaking protocol is my application)
@@ -141,39 +165,39 @@ Here are the befits of shaking while keeping Bow 1 engaged:
 
 2. **Low Impact Exercise to Protect Your Joints**  
    _Sunny Health & Fitness (2024)_  
-   https://sunnyhealthfitness.com/blogs/health-wellness/low-impact-exercises-for-joint-health 
+   https://sunnyhealthfitness.com/blogs/health-wellness/low-impact-exercises-for-joint-health
 
 3. **8 Ways Exercise Helps Your Joints**  
    _Arthritis Foundation (2026)_  
-   https://www.arthritis.org/health-wellness/healthy-living/physical-activity/getting-started/8-ways-exercise-helps-joints 
+   https://www.arthritis.org/health-wellness/healthy-living/physical-activity/getting-started/8-ways-exercise-helps-joints
 
 4. **Activate Your Lymphatic System Naturally with Exercise**  
    _Lymphatic Therapy Services (2025)_  
-   https://lymphatictherapyservices.com/simple-exercise-to-activate-lymphatic-system/ 
+   https://lymphatictherapyservices.com/simple-exercise-to-activate-lymphatic-system/
 
 5. **What Exercise Is Best For Lymphatic Drainage?**  
    _Mobile PTW (2026)_  
-   https://mobileptw.com/blog/what-exercise-is-best-for-lymphatic-drainage 
+   https://mobileptw.com/blog/what-exercise-is-best-for-lymphatic-drainage
 
 6. **The effect of Tai Chi and Qigong practice on depression and anxiety**  
    _Complementary Therapies in Clinical Practice (2014)_  
-   https://www.sciencedirect.com/science/article/abs/pii/S1755296614000465 
+   https://www.sciencedirect.com/science/article/abs/pii/S1755296614000465
 
 7. **The Effect of Qigong on Depressive and Anxiety Symptoms**  
    _PMC (2013)_  
-   https://pmc.ncbi.nlm.nih.gov/articles/PMC3671670/ 
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC3671670/
 
 8. **Adaptations of mouse skeletal muscle to low intensity vibration training**  
    _PMC (2011)_  
-   https://pmc.ncbi.nlm.nih.gov/articles/PMC3630262/ 
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC3630262/
 
 9. **Can Vibration Plates Improve Your Fitness?**  
    _University Hospitals (2025)_  
-   https://www.uhhospitals.org/blog/articles/2025/04/can-vibration-plates-improve-your-fitness 
+   https://www.uhhospitals.org/blog/articles/2025/04/can-vibration-plates-improve-your-fitness
 
 10. **Effects of Health Qigong Exercises on Relieving Symptoms**  
     _PMC (2016)_  
-    https://pmc.ncbi.nlm.nih.gov/articles/PMC5116525/ 
+    https://pmc.ncbi.nlm.nih.gov/articles/PMC5116525/
 
 11. **Effects of health qigong exercise on upper extremity muscle activity**  
     _Frontiers (2023)_  
