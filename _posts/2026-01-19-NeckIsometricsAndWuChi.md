@@ -60,16 +60,16 @@ into a whole body exercise.
     * **Shoulders relaxed away from ears**: Prevents compensatory tension in neck/traps during arm movement
     * **Arms hang naturally**: Palms face thighs, elbows soft—ready position before extending forward and down
     * **Gaze forward or slightly down**: Keeps neck neutral, avoids craning
-* Neck Isometrics R/L
+* Neck Isometrics Right / Left
   * Maintain 30+ seconds per side
   * While maintaining Wu Chi, press your head to the right, into your right palm
   * While maintaining Wu Chi, press your head to the left, into your left palm
 * Reset / Reestablish Bow 1 / Bow 2
-* Neck Isometrics F/B
-  * Use both hands to maintain symmetry both in the hold, and for targeting muscles on the back symmetrically
+* Neck Isometrics Forward / Backward
+  * Use both hands, interlaced, to maintain symmetry both in the hold, and for targeting muscles on the back 
   * Maintain 30+ seconds per side
-  * While maintaining Wu Chi, press your head forward into both of your hands
-  * While maintaining Wu Chi, press your head forward into both of your hands
+  * While maintaining Wu Chi, press your head forward into your interlaced hands
+  * While maintaining Wu Chi, press your head backwards into your interlaced hands
 * Relax
 
 ### Compress and Release the Spine
@@ -87,12 +87,18 @@ into a whole body exercise.
 
 ## Notes
 
-### Shaking
+### Definitions
+#### Three Bows (from Sufi Rick Krause, [Tai Chi OkC](taichiokc.com))
+**Bow 1: Pelvis & Below** – Foundation: feet hip/parallel, knees soft, sacrum tucked, feel pressure in heals
+**Bow 2: Extended Spine + Pelvic Floor Reset** – Posterior chain: spine long, shoulders relaxed, arms natural  
+**Bow 3: Arms Arched** – Upper integration (not used here)
 
+### Shaking
+Here are the befits of shaking while keeping Bow 1 engaged:
 * **Stimulates joints**: Gentle, rhythmic whole‑body shaking likely produces small, repeated excursions at many joints,
   similar to light bouncing or low‑impact exercise, which helps maintain joint lubrication and comfort. [1][2][3] (
   supported by general low‑impact exercise research; exact shaking protocol is my application)
-
+* 
 * **Helps move things into and through your lymphatic system**: Light, rhythmic muscle activity and body movement are
   known in general to assist lymph transport, and shaking qigong sources describe this as a key benefit, though my exact
   form has not been directly tested. [4][5] (supported by exercise physiology)
