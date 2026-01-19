@@ -24,7 +24,8 @@ into a whole body exercise.
 | Neck Isometrics: Right / Left                     | foo                                                                      | 1 - 3       | 30 - 60 seconds |
 | Neck Isometrics: Forward / Backwards              | foo                                                                      | 1 - 3       | 30 - 60 seconds |
 | Neck Isometrics: Up                               | foo                                                                      | 1 - 3       | 30 - 60 seconds |
-| Reset: Forward Fold | foo | 1 | 1 min |
+| Reset: Forward Fold                               | foo                                                                      | 1           | 1 min           |
+
 ### Note on Breathing
 
 Throughout this practice, strive for 5 breaths per minute (or 3.8 if you are above 6' 2"). During stretching, we strive
