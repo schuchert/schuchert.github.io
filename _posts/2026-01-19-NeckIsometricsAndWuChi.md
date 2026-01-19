@@ -12,6 +12,20 @@ tags: [ neck-pain-relief, shoulder-mobility, upper-back-stretch, tai-chi, vagus-
 This sequence starts with establishing Wh Chi. Establishing Wu Chi engages your ligaments and turns a good exercise
 into a whole body exercise.
 
+### Note on Breathing
+Throughout this practice, strive for 5 breaths per minute (or 3.8 if you are above 6' 2"). During stretching, we strive for 4:8 ratio, but 6:6 is a 
+good default for this practice, and qi gong in general, unless otherwise instructed. Also, breath into your diaphragm.
+
+What to keep track of:
+* 5 symmetrical breaths a minute
+* Breath into your diaphragm 
+
+5 breaths per minute tends to balance your sympathetic and parasympathetic systems, that is, it's Adaptogenic. If you are
+in an elevated state, it'll calm you down. If you are a bit out of it, it'll wake you up.
+
+Breathing into your diaphragm stimulates the vagus neve that enervates your stomach, which will tend to have a
+calming effect.
+
 ### Getting Present
 
 * Establish Bow 1
