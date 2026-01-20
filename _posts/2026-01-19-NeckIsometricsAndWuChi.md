@@ -12,19 +12,21 @@ tags: [ neck-pain-relief, shoulder-mobility, upper-back-stretch, tai-chi, vagus-
 This sequence starts with establishing Wh Chi. Establishing Wu Chi engages your ligaments and turns a good exercise
 into a whole body exercise.
 
-| Activity                                          | Verbal Queues                                                            | Repetitions | Time            |
-|---------------------------------------------------|--------------------------------------------------------------------------|-------------|-----------------|
-| Wu Chi                                            | * Feet Parallel, hip width <br/> * Knees bent <br/> * Sacrum down        | 1           | 1 min.          |
-| Shaking                                           | * Maintain Bow 1 <br/> * Gently shake body <br/> * Where is your breath? | 1           | 1 - 4 mins.     |
-| Rolling Shoulders Forward / Backwards             | foo                                                                      | 1 - 3       | 1 min.          |
-| Rolling Shoulders Alternating Forward / Backwards | foo                                                                      | 1 - 3       | 1 min.          |
-| Eye leading Head Right to Left                    | foo                                                                      | 1           | 1 min.          |
-| Eye leading Head Up and Down                      | foo                                                                      | 1           | 1 min.          |
-| Eye leading Head Clockwise / Counter Clockwise    | foo                                                                      | 1           | 1 min.          |
-| Neck Isometrics: Right / Left                     | foo                                                                      | 1 - 3       | 30 - 60 seconds |
-| Neck Isometrics: Forward / Backwards              | foo                                                                      | 1 - 3       | 30 - 60 seconds |
-| Neck Isometrics: Up                               | foo                                                                      | 1 - 3       | 30 - 60 seconds |
-| Reset: Forward Fold                               | foo                                                                      | 1           | 1 min           |
+| Activity                                          | Verbal Queues                                                     | Repetitions | Time            |
+|---------------------------------------------------|-------------------------------------------------------------------|-------------|-----------------|
+| Wu Chi                                            | * Feet Parallel, hip width <br/> * Knees bent <br/> * Sacrum down | 1           | 1 min.          |
+| Shaking                                           | * Arms hang loose like wet noodles, let them flop naturally       | 1           | 1 - 4 mins.     |
+| Rolling Shoulders Forward / Backwards             | Move your shoulders in large, slow circles.                       | 8 f/b       | 1 min.          |
+| Rolling Shoulders Alternating Forward / Backwards | Move even slower through tightness.                               | 1 - 3       | 1 min.          |
+| Eye leading Head Right to Left                    | foo                                                               | 1           | 1 min.          |
+| Eye leading Head Up and Down                      | foo                                                               | 1           | 1 min.          |
+| Eye leading Head Clockwise / Counter Clockwise    | foo                                                               | 1           | 1 min.          |
+| Noodly Arms                                       | foo                                                               | 1           | 30 seconds      |
+| Shoulder / Waist                                  | foo                                                               | 1           | 30 seconds      |
+| Neck Isometrics: Right / Left                     | foo                                                               | 1 - 3       | 30 - 60 seconds |
+| Neck Isometrics: Forward / Backwards              | foo                                                               | 1 - 3       | 30 - 60 seconds |
+| Neck Isometrics: Up                               | foo                                                               | 1 - 3       | 30 - 60 seconds |
+| Reset: Forward Fold                               | foo                                                               | 1           | 1 min           |
 
 ### Note on Breathing
 
@@ -97,6 +99,8 @@ calming effect.
         * **Shoulders relaxed away from ears**: Prevents compensatory tension in neck/traps during arm movement
         * **Arms hang naturally**: Palms face thighs, elbows soft—ready position before extending forward and down
         * **Gaze forward or slightly down**: Keeps neck neutral, avoids craning
+* Noodly Arms
+* Shoulder / Waist
 * Neck Isometrics Right / Left
     * Maintain 30+ seconds per side
     * While maintaining Wu Chi, press your head to the right, into your right palm
