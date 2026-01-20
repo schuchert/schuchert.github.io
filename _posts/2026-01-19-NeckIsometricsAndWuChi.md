@@ -31,8 +31,8 @@ into a whole body exercise.
 ### Note on Breathing
 
 Throughout this practice, strive for 5 breaths per minute (or 3.8 if you are above 6' 2"). During stretching, we strive
-for 4:8 ratio, but 6:6 is a
-good default for this practice, and qi gong in general, unless otherwise instructed. Also, breath into your diaphragm.
+for 4:8 ratio, but 6:6 is a good default for this practice, and qi gong in general, unless otherwise instructed. Also,
+breath into your diaphragm.
 
 What to keep track of:
 
@@ -44,6 +44,14 @@ are in an elevated state, it'll calm you down. If you are a bit out of it, it'll
 
 Breathing into your diaphragm stimulates the vagus neve that enervates your stomach, which will tend to have a
 calming effect.
+
+### Definitions
+
+| Term  | Definition                           | Queues                                                                                                 |
+|-------|--------------------------------------|--------------------------------------------------------------------------------------------------------|
+| Bow 1 | Feet to Pelvis                       | Feet hip with, parallel. Knees Bent. Sacrum Tucked. Feel weight in heals and maybe hipflexors engaged. |
+| Bow 2 | Perineum to Fontanel / Spinal Column | Sacrum Tucked (ties to bow 1). Push fontanel up, which brings the chin in. Rotate arms toward center (medially). Sink sternum into pelvic floor. Notice even more heal pressure. |
+| Bow 3 | Arms, shoulders to hands             | Arms curved as if holding a large ball. |
 
 ### Getting Present
 
@@ -100,7 +108,17 @@ calming effect.
         * **Arms hang naturally**: Palms face thighs, elbows soft—ready position before extending forward and down
         * **Gaze forward or slightly down**: Keeps neck neutral, avoids craning
 * Noodly Arms
+    * Keep gaze forward.
+    * Start twisting your torso from the feet
+    * Avoid twisting your knees
+    * Allow arms to flop loose
 * Shoulder / Waist
+  * Keep gaze forward
+  * Hands pointing up, elbows at 90 degrees
+  * Twist chest, waist / hips together
+  * Twist only Shoulders
+  * Twist only Waist / Hips
+  * Twist waist/hips opposite shoulders
 * Neck Isometrics Right / Left
     * Maintain 30+ seconds per side
     * While maintaining Wu Chi, press your head to the right, into your right palm
