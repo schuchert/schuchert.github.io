@@ -17,12 +17,12 @@ comprehensive way to learn how to tune your body actively, read on. But, serious
 This practice helps you migrate from **'Passenger'** to **'Somatic Calibrator.'** This is a transition from treating
 your body as a "no-access" autonomic system to becoming an active participant in your own calibration.
 
-Most of us live as passengers in our own body. We experience the bumps in the road, the stress, the stiffness, the 
+Most of us live as passengers in our own body. We experience the bumps in the road, the stress, the stiffness, the
 accumulation internal clutter, stiffness, and strains of daily life. We might know how to soothe them, but what about
 fixing them, or at least get them better managed?
 
-The Paradox Engine is a **Somatic Cheat Code** for your nervous system. It is a way to practice, and think about 
-practice, that slowly over time helps you learn how to understand what does and does not work for you. 
+The Paradox Engine is a **Somatic Cheat Code** for your nervous system. It is a way to practice, and think about
+practice, that slowly over time helps you learn how to understand what does and does not work for you.
 
 It does this by generating combinations of ideas that will give you enough unexpected observations that you'll learn
 how to better calibrate your body, and diagnose what you are likely doing unaware that results in some symptom.
@@ -37,7 +37,7 @@ can you turn those things you are doing now into your practice? Can you do HIIT 
 yard? Yes you can, if you take the time to align, coordinate, and inhabit that activity.
 
 This is a whole-body practice, and just to be clear, your brain is in your body, so whole body practice includes
-from about 3 feet outside your body all the way into the center. Beyond that, you'll have tools to clearly 
+from about 3 feet outside your body all the way into the center. Beyond that, you'll have tools to clearly
 delineate where you do and do not want to put your time and energy.
 
 ### How to Use This Tool
@@ -119,7 +119,7 @@ When you are ready to "Shake the Reality" of your practice, use the dice to gene
 | 8  | Inhabit    | 8  | Network       |
 | 9  | Withdraw   | 9  | Transact      |
 | 10 | Mu (Null)  | 10 | Egregore      |
-| -- | --         | 11 | X-Factor      |
+| -- | --         | 11 | Xenobiotic    |
 | -- | --         | 12 | Terminate     |
 
 **The Persistence Modifier:** Roll **1d4** (or 1d10) to determine how long to stay "stuck" in the generated state (
@@ -147,6 +147,7 @@ To integrate a session of the Paradox Engine, use this three-part boot sequence:
 * **MU (Movable Awareness):** The Singularity. True freedom is the ability to move into the null state at will.
 
 #### Verbs (1-10):
+
 1. Shake (Description: Kinetic dither to break surface tension. Example: Qigong shaking/vibrational resets.)
 2. Breath (Description: Ratiometric power supply regulating the noise floor. Example: Box breathing/reverses.)
 3. Align (Description: Geometric integration of skeletal frame. Example: Zhan Zhuang/pole-standing.)
@@ -159,6 +160,7 @@ To integrate a session of the Paradox Engine, use this three-part boot sequence:
 10. Mu (Description: The zero-point where observer/observed vanish. Example: Shikantaza/Zazen emptiness.)
 
 #### Contexts (1-12):
+
 1. Self (The primary simulation environment/internal framework.)
 2. Engine (The source of Qi; the seat of kinetic power.)
 3. Liquid (Fluid systems; CSF, blood, and interstitial flow.)
@@ -169,7 +171,7 @@ To integrate a session of the Paradox Engine, use this three-part boot sequence:
 8. Network (The mycelial system of bio-electric signals.)
 9. Transact (Intentional energy exchange across the boundary.)
 10. Egregore (Collective thought-forms/fixed mental patterns.)
-11. X-Factor (Emergence of unpredictable variables/basic goodness.)
+11. Xenobiotic (External chemical [or thought] that has some impact in the body.)
 12. Terminate (The intentional exit or reset of a cycle.)
 
 ---
