@@ -111,7 +111,7 @@ When you are ready to "Shake the Reality" of your practice, use the dice to gene
 |----|------------|----|---------------|
 | 1  | Shake      | 1  | Self          |
 | 2  | Breath     | 2  | Engine        |
-| 3  | Align      | 3  | Liquid        |
+| 3  | Abide      | 3  | Liquid        |
 | 4  | Stabilize  | 4  | Firmware      |
 | 5  | Expand     | 5  | Mu (Null)     |
 | 6  | Coordinate | 6  | Context       |
@@ -150,7 +150,7 @@ To integrate a session of the Paradox Engine, use this three-part boot sequence:
 
 1. Shake (Description: Kinetic dither to break surface tension. Example: Qigong shaking/vibrational resets.)
 2. Breath (Description: Ratiometric power supply regulating the noise floor. Example: Box breathing/reverses.)
-3. Align (Description: Geometric integration of skeletal frame. Example: Zhan Zhuang/pole-standing.)
+3. Abide (Description: Spending time experiencing something, probably a bit of discomfort. Example: Shaking for 10 minutes.)
 4. Stabilize (Description: Setting internal gimbals against a load. Example: 27-node stack calibration.)
 5. Expand (Description: Increasing grid compliance for more space. Example: Sphere-expanding visualizations.)
 6. Coordinate (Description: Multithreading somatic sub-routines. Example: Moving 3 joints in 3 rhythms.)

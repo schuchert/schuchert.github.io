@@ -11,3 +11,4 @@
   <td><a href="{{ post.url}}">{{ post.description }}</a></td>
 </tr>
 {% endfor %}
+</table>
