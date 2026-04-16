@@ -33,36 +33,42 @@ Pool: Roll one d12, divide by 4 (1 -4 becomes 1, 5-8 becomes 2, etc.) Roll that 
 
 ## Try It Out
 
-Click the button to generate a random verb-context pair:
+{::options parse_block_html="true" /}
 
-  <div style="margin: 20px 0; padding: 20px; border: 2px solid #333; border-radius: 8px; background: #f5f5f5;">                                                                                                                                            
-    <button id="rollButton" style="padding: 10px 20px; font-size: 16px; cursor: pointer; background: #0066cc; color: white; border: none; border-radius: 4px;">                                                                                            
-      Roll the Dice                                                                                                                                                                                                                                        
-    </button>                                                                                                                                                                                                                                              
-    <div id="result" style="margin-top: 15px; font-size: 18px; font-weight: bold; min-height: 30px;"></div>                                                                                                                                                
-  </div>                                                                                                                                                                                                                                                   
+<div style="margin: 20px 0; padding: 20px; border: 2px solid #333; border-radius: 8px; background: #f5f5f5;">
+  <div style="display: flex; gap: 15px; margin-bottom: 15px;">
+    <button id="rollVerb" style="padding: 10px 20px; font-size: 16px; cursor: pointer; background: #0066cc; color: white; border: none; border-radius: 4px;">
+      Roll Verb (d10)
+    </button>
+    <button id="rollContext" style="padding: 10px 20px; font-size: 16px; cursor: pointer; background: #cc6600; color: white; border: none; border-radius: 4px;">
+      Roll Context (d12)
+    </button>
+  </div>
+  <div id="verbResult" style="margin-top: 10px; font-size: 18px; font-weight: bold; min-height: 25px;"></div>
+  <div id="contextResult" style="margin-top: 10px; font-size: 18px; font-weight: bold; min-height: 25px;"></div>
+</div>
 
-  <script>                                                                                                                                                                                                                                                 
-  const verbs = [                                                                                                                                                                                                                                          
-    "Discover", "Transform", "Challenge", "Navigate", "Innovate",                                                                                                                                                                                          
-    "Create", "Explore", "Defend", "Unite", "Rebel"                                                                                                                                                                                                        
-  ];                                                                                                                                                                                                                                                       
-                                                                                                                                                                                                                                                           
-  const contexts = [                                                                                                                                                                                                                                       
-    "the ancient prophecy", "a hidden truth", "technological advancement",                                                                                                                                                                                 
-    "political intrigue", "natural disaster", "personal redemption",                                                                                                                                                                                       
-    "cultural conflict", "scientific breakthrough", "moral dilemma",                                                                                                                                                                                       
-    "supernatural force", "economic collapse", "forbidden knowledge"                                                                                                                                                                                       
-  ];                                                                                                                                                                                                                                                       
-                                                                                                                                                                                                                                                           
-  document.getElementById('rollButton').addEventListener('click', function() {                                                                                                                                                                             
-    const verbRoll = Math.floor(Math.random() * 10);                                                                                                                                                                                                       
-    const contextRoll = Math.floor(Math.random() * 12);                                                                                                                                                                                                    
-                                                                                                                                                                                                                                                           
-    const verb = verbs[verbRoll];                                                                                                                                                                                                                          
-    const context = contexts[contextRoll];                                                                                                                                                                                                                 
-                                                                                                                                                                                                                                                           
-    document.getElementById('result').textContent = `${verb} ${context}`;                                                                                                                                                                                  
-  });                                                                                                                                                                                                                                                      
-  </script>                                                                                                                                                                                                                                                
+<script>
+const verbs = [
+  "Shake", "Breath", "Abide", "Stabilize", "Expand",
+  "Coordinate", "Engage", "Inhabit", "Withdraw", "Mu (Null)"
+];
+
+const contexts = [
+  "Self", "Engine", "Liquid", "Firmware", "Mu (Null)", "Context",
+  "Other", "Network", "Transact", "Egregore", "Xenobiotic", "Terminate"
+];
+
+document.getElementById('rollVerb').addEventListener('click', function() {
+  const roll = Math.floor(Math.random() * 10) + 1;
+  const verb = verbs[roll - 1];
+  document.getElementById('verbResult').textContent = `Verb: ${roll} - ${verb}`;
+});
+
+document.getElementById('rollContext').addEventListener('click', function() {
+  const roll = Math.floor(Math.random() * 12) + 1;
+  const context = contexts[roll - 1];
+  document.getElementById('contextResult').textContent = `Context: ${roll} - ${context}`;
+});
+</script>                                                                                                                                                                                                                                                
              

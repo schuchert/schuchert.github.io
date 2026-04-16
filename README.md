@@ -1,14 +1,23 @@
-After cloning the repo, you'll need to
+## Setup
+
+Install Ruby and dependencies:
 ~~~ bash
-sudo apt install -y ruby ruby-dev libpng-dev
+brew install rbenv ruby-build
+rbenv init
+rbenv install 3.4.5
+rbenv global 3.4.5
+gem install bundler
 ~~~
 
-Then in the home directory:
+After `rbenv init`, restart your terminal or add rbenv to your shell profile.
+
+## Run
+
 ~~~ bash
 _bin/serve
-~~~ bash
+~~~
 
-This does the following for you:
+This runs:
 ~~~ bash
 bundle install
 bundle exec jekyll serve --incremental
