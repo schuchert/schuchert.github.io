@@ -35,20 +35,31 @@ Pool: Roll one d12, divide by 4 (1 -4 becomes 1, 5-8 becomes 2, etc.) Roll that 
 ## Try It Out
 
 {::nomarkdown}
+<!-- Section 1: Single Paradox -->
 <div style="margin: 20px 0; padding: 20px; border: 2px solid #333; border-radius: 8px; background: #f5f5f5;">
-  <div style="display: flex; gap: 15px; margin-bottom: 15px;">
-    <button id="rollParadox" style="padding: 10px 20px; font-size: 16px; cursor: pointer; background: #009900; color: white; border: none; border-radius: 4px;">
-      Paradox
-    </button>
-    <button id="rollVerb" style="padding: 10px 20px; font-size: 16px; cursor: pointer; background: #0066cc; color: white; border: none; border-radius: 4px;">
-      Roll Verb (d10)
-    </button>
-    <button id="rollContext" style="padding: 10px 20px; font-size: 16px; cursor: pointer; background: #cc6600; color: white; border: none; border-radius: 4px;">
-      Roll Context (d12)
-    </button>
-  </div>
-  <div id="verbResult" style="margin-top: 10px; font-size: 18px; font-weight: bold; min-height: 25px; color: #000;"></div>
-  <div id="contextResult" style="margin-top: 10px; font-size: 18px; font-weight: bold; min-height: 25px; color: #000;"></div>
+  <h3 style="margin-top: 0; color: #333;">Section 1: Single Paradox</h3>
+  <button id="rollParadox" style="padding: 10px 20px; font-size: 16px; cursor: pointer; background: #009900; color: white; border: none; border-radius: 4px; margin-bottom: 15px;">
+    Paradox
+  </button>
+  <div id="paradoxResult" style="font-size: 18px; font-weight: bold; min-height: 25px; color: #000;"></div>
+</div>
+
+<!-- Section 2: Gary Larson (4 pairs) -->
+<div style="margin: 20px 0; padding: 20px; border: 2px solid #333; border-radius: 8px; background: #f5f5f5;">
+  <h3 style="margin-top: 0; color: #333;">Section 2: Gary Larson (4 Pairs)</h3>
+  <button id="rollGaryLarson" style="padding: 10px 20px; font-size: 16px; cursor: pointer; background: #0066cc; color: white; border: none; border-radius: 4px; margin-bottom: 15px;">
+    Gary Larson
+  </button>
+  <div id="garyLarsonResult" style="font-size: 18px; font-weight: bold; color: #000;"></div>
+</div>
+
+<!-- Section 3: Random Rolls (1-20 pairs) -->
+<div style="margin: 20px 0; padding: 20px; border: 2px solid #333; border-radius: 8px; background: #f5f5f5;">
+  <h3 style="margin-top: 0; color: #333;">Section 3: Random Chaos (1-20 Pairs)</h3>
+  <button id="rollRandom" style="padding: 10px 20px; font-size: 16px; cursor: pointer; background: #cc6600; color: white; border: none; border-radius: 4px; margin-bottom: 15px;">
+    Roll Random (1-20)
+  </button>
+  <div id="randomResult" style="font-size: 18px; font-weight: bold; color: #000;"></div>
 </div>
 
 <script>
@@ -63,25 +74,56 @@ Pool: Roll one d12, divide by 4 (1 -4 becomes 1, 5-8 becomes 2, etc.) Roll that 
     "Other", "Network", "Transact", "Egregore", "Xenobiotic", "Terminate"
   ];
 
-  document.getElementById('rollParadox').addEventListener('click', function() {
+  // Helper function to generate a single paradox
+  function generateParadox() {
     const verbRoll = Math.floor(Math.random() * 10) + 1;
     const contextRoll = Math.floor(Math.random() * 12) + 1;
     const verb = verbs[verbRoll - 1];
     const context = contexts[contextRoll - 1];
-    document.getElementById('verbResult').textContent = 'Verb: ' + verbRoll + ' - ' + verb;
-    document.getElementById('contextResult').textContent = 'Context: ' + contextRoll + ' - ' + context;
+    return {
+      verbRoll: verbRoll,
+      verb: verb,
+      contextRoll: contextRoll,
+      context: context
+    };
+  }
+
+  // Section 1: Single Paradox
+  document.getElementById('rollParadox').addEventListener('click', function() {
+    const paradox = generateParadox();
+    document.getElementById('paradoxResult').innerHTML =
+      `<div>Verb: ${paradox.verbRoll} - ${paradox.verb}</div>
+       <div>Context: ${paradox.contextRoll} - ${paradox.context}</div>`;
   });
 
-  document.getElementById('rollVerb').addEventListener('click', function() {
-    const roll = Math.floor(Math.random() * 10) + 1;
-    const verb = verbs[roll - 1];
-    document.getElementById('verbResult').textContent = 'Verb: ' + roll + ' - ' + verb;
+  // Section 2: Gary Larson (4 pairs)
+  document.getElementById('rollGaryLarson').addEventListener('click', function() {
+    let result = '';
+    for (let i = 1; i <= 4; i++) {
+      const paradox = generateParadox();
+      result += `<div style="margin-bottom: 10px; padding: 10px; background: #fff; border-radius: 4px;">
+                   <strong>Pair ${i}:</strong><br>
+                   Verb: ${paradox.verbRoll} - ${paradox.verb}<br>
+                   Context: ${paradox.contextRoll} - ${paradox.context}
+                 </div>`;
+    }
+    document.getElementById('garyLarsonResult').innerHTML = result;
   });
 
-  document.getElementById('rollContext').addEventListener('click', function() {
-    const roll = Math.floor(Math.random() * 12) + 1;
-    const context = contexts[roll - 1];
-    document.getElementById('contextResult').textContent = 'Context: ' + roll + ' - ' + context;
+  // Section 3: Random (1-20 pairs)
+  document.getElementById('rollRandom').addEventListener('click', function() {
+    const numPairs = Math.floor(Math.random() * 20) + 1;
+    let result = `<div style="margin-bottom: 10px; color: #666;">Rolling ${numPairs} pairs...</div>`;
+
+    for (let i = 1; i <= numPairs; i++) {
+      const paradox = generateParadox();
+      result += `<div style="margin-bottom: 8px; padding: 8px; background: #fff; border-radius: 4px;">
+                   <strong>Pair ${i}:</strong>
+                   Verb: ${paradox.verbRoll} - ${paradox.verb} |
+                   Context: ${paradox.contextRoll} - ${paradox.context}
+                 </div>`;
+    }
+    document.getElementById('randomResult').innerHTML = result;
   });
 })();
 </script>
