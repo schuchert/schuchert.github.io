@@ -1,6 +1,6 @@
 ---
 layout: post
-draft: true
+draft: false
 title: "The Paradox Engine"
 description: 'A randomization tool I use to mix up my somatic practices.'
 category: self

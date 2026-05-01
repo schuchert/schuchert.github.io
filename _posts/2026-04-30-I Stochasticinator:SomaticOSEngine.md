@@ -1,6 +1,6 @@
 ---
 layout: post
-draft: true
+draft: false
 title: "I Stochasticinator: Somatic OS Engine"
 description: 'A stochastic discovery tool for translating I Ching hexagrams into systemic somatic practice through four analytical lenses.'
 category: self
