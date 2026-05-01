@@ -38,9 +38,7 @@ The framework views each hexagram through a transition sequence:
 
 ## How It Works
 
-Press the button below to generate a hexagram (1-64). The system automatically determines if a second hexagram appears (representing transformation or change lines) based on a secondary roll (if the roll is 2-5, a transformation hexagram appears).
-
-Currently, hexagrams 1, 2, 3, 11, and 12 have full interpretations. The remaining hexagrams use template language that captures the general principles. Over time, these can be expanded with specific interpretations.
+Press the button below to generate a hexagram (1-64). The system automatically determines if a second hexagram appears (representing transformation or change lines) based on a secondary 1D6 roll (if the roll is 2-6, a transformation hexagram appears).
 
 ## Generate Your Hexagram
 
@@ -54,57 +52,173 @@ Currently, hexagrams 1, 2, 3, 11, and 12 have full interpretations. The remainin
 
 <script>
 (function() {
-  // Hexagram database with four-lens interpretations
-  const hexagrams = {
+  // Fully defined manual entries
+  const customHexagrams = {
     1: {
       name: "The Creative",
       traditional: "Pure yang energy. Initiative, creative force, heaven. This is the undiluted power of forward motion—the seed state before form takes shape. The traditional reading emphasizes leadership, strength, and relentless forward momentum.",
-      meatMechanic: "Disengaging the Broomstick Lock begins here. The system must learn to generate kinetic force without bracing. Think of this as calibrating the ATP engine to run clean—reducing the energetic cost of maintaining structural tension. Focus on inducing visceral interference patterns at direction changes (not via high-frequency BPM). Drop structural gravity into a zero-drop foundation. This is the threshold work toward 0.19 DFA alpha 1—systemic dissolution of physical resistance. The hardware learns to produce power from liquid alignment rather than rigid leverage.",
-      somatic: "The explicit logical interface steps back. High-latency processing takes over, allowing the implicit somatic engine to function. This is the transition into a 'liquid' and grounded state. The Inner Critic—purely as a status broadcast reporting system noise—begins to quiet. As the noise floor drops, the system naturally produces an outward tone of calm authority. This isn't about forcing confidence; it's about reducing the interference that masks the ground state.",
-      connection: "When internal noise drops, the system becomes a highly stable node. This hexagram guides away from reactive friction or coercive control, priming for a clean, organic P2P handshake. In relational fields, this manifests as natural leadership without domination—seamless co-processing with the external environment, a partner, or colleague. The fractal expands: as you stabilize internally, you resonate stability outward."
+      meatMechanic: "Disengaging the Broomstick Lock begins here. The system must learn to generate kinetic force without bracing. Think of this as calibrating the ATP engine to run clean—reducing the energetic cost of maintaining structural tension. Focus on inducing visceral interference patterns at direction changes. Drop structural gravity into a zero-drop foundation. This is the threshold work toward 0.19 DFA alpha 1—systemic dissolution of physical resistance. The hardware learns to produce power from liquid alignment rather than rigid leverage.",
+      somatic: "The explicit logical interface steps back. High-latency processing takes over, allowing the implicit somatic engine to function. This is the transition into a 'liquid' and grounded state. The Inner Critic—purely as a status broadcast reporting system noise—begins to quiet. As the noise floor drops, the system naturally produces an outward tone of calm authority.",
+      connection: "When internal noise drops, the system becomes a highly stable node. This hexagram guides away from reactive friction or coercive control, priming for a clean, organic P2P handshake. In relational fields, this manifests as natural leadership without domination—seamless co-processing with the external environment. The fractal expands: as you stabilize internally, you resonate stability outward."
     },
     2: {
       name: "The Receptive",
       traditional: "Pure yin energy. Receptivity, yielding, earth. The complement to Creative force—this is the capacity to receive, to listen, to allow form to emerge from emptiness. The traditional reading emphasizes patience, nurturing, and responsive action.",
-      meatMechanic: "The Broomstick Lock releases through receptivity. Stop bracing against gravity; let the skeleton hang from the fascia. The hardware recalibrates when you stop fighting the ground. This is active passivity—the muscles disengage while the structural net holds. Induce visceral interference by allowing the organs to settle into their suspension system. Zero-drop foundation means trusting the architecture. Move toward 0.19 DFA alpha 1 by letting go of micro-corrections. The body self-organizes when you stop managing it.",
-      somatic: "This is the high-latency state fully engaged. The logical interface goes offline; the implicit somatic engine runs the show. Groundedness emerges not from effort but from release. The Inner Critic quiets because there's nothing to critique—you're not doing, you're allowing. The noise floor drops into near-silence. The system rests in liquid readiness, neither tense nor collapsed. Calm authority arises from depth rather than projection.",
-      connection: "Internal stability through receptivity creates space for clean P2P handshakes. This isn't passivity—it's active listening at the system level. In relational fields, you become a stable receiver, able to co-process without imposing. The fractal pattern: receptivity internally mirrors receptivity externally. You create space for others by creating space within."
+      meatMechanic: "The Broomstick Lock releases through receptivity. Stop bracing against gravity; let the skeleton hang from the fascia. The hardware recalibrates when you stop fighting the ground. This is active passivity. Induce visceral interference by allowing the organs to settle into their suspension system. Move toward 0.19 DFA alpha 1 by letting go of micro-corrections. The body self-organizes when you stop managing it.",
+      somatic: "This is the high-latency state fully engaged. The logical interface goes offline; the implicit somatic engine runs the show. Groundedness emerges not from effort but from release. The Inner Critic quiets because there's nothing to critique—you're not doing, you're allowing. The noise floor drops into near-silence. The system rests in liquid readiness.",
+      connection: "Internal stability through receptivity creates space for clean P2P handshakes. This isn't passivity—it's active listening at the system level. In relational fields, you become a stable receiver, able to co-process without imposing. The fractal pattern: receptivity internally mirrors receptivity externally."
     },
     3: {
       name: "Difficulty at the Beginning",
       traditional: "Initial challenges, chaos before order. Thunder over water—the storm before clarity. The traditional reading acknowledges that beginnings are messy, uncertain. Patience and persistence through difficulty lead to breakthrough.",
-      meatMechanic: "The Broomstick Lock is still engaged; the system doesn't yet trust its own architecture. Autonomic Co-Activation runs hot—sympathetic and parasympathetic systems fight each other. This creates metabolic inefficiency and structural noise. The path forward: small, controlled disruptions. Induce visceral interference patterns deliberately—shake, breathe, release in cycles. Don't force zero-drop foundation; approach it incrementally. The 0.19 DFA alpha 1 threshold is distant; focus on reducing high-frequency noise first. The hardware is learning; don't rush the calibration.",
-      somatic: "High-latency processing is overwhelmed by explicit logical interference. The Inner Critic is loud—broadcasting constant status updates about system noise. This is expected at the beginning. The work is to notice the noise without amplifying it. The explicit interface wants control; let it tire itself out. Groundedness is intermittent, unstable. The liquid state flickers in and out. The calm authority is buried under interference. This is the learning phase—messy, uncomfortable, necessary.",
-      connection: "Internal noise creates relational friction. The system is too unstable for clean P2P handshakes. Reactive patterns dominate. In relational fields, this manifests as misunderstanding, defensiveness, or withdrawal. The fractal pattern: internal chaos mirrors external chaos. The work is internal first—stabilize the node before attempting complex co-processing. Patience with self creates patience with others."
+      meatMechanic: "The Broomstick Lock is still engaged; the system doesn't yet trust its own architecture. Autonomic Co-Activation runs hot. This creates metabolic inefficiency and structural noise. The path forward: small, controlled disruptions. Induce visceral interference patterns deliberately—shake, breathe, release in cycles at direction changes. The 0.19 DFA alpha 1 threshold is distant; focus on reducing high-frequency noise first.",
+      somatic: "High-latency processing is overwhelmed by explicit logical interference. The Inner Critic is loud—broadcasting constant status updates about system noise. The work is to notice the noise without amplifying it. The explicit interface wants control; let it tire itself out. Groundedness is intermittent. The calm authority is buried under interference.",
+      connection: "Internal noise creates relational friction. The system is too unstable for clean P2P handshakes. Reactive patterns dominate. The fractal pattern: internal chaos mirrors external chaos. Stabilize the node before attempting complex co-processing."
     },
-    // Adding a few more key hexagrams with full interpretations
+    4: {
+      name: "Youthful Folly",
+      traditional: "Inexperience, beginner's mind. A spring at the foot of a mountain. The traditional reading suggests that lack of knowledge isn't a flaw, but asking the same question repeatedly out of doubt is. It requires trusting the teacher or the process.",
+      meatMechanic: "The hardware is attempting to optimize but lacks the mapped pathways. The system attempts to force a zero-drop foundation through mechanical tension rather than release. Stop trying to 'do' the alignment. Allow thixotropic fluids to reset by resting the structural bracing. You cannot force a 0.19 DFA alpha 1 state through willpower; it requires physiological surrender.",
+      somatic: "The logical interface is looping, seeking certainty where only high-latency discovery is possible. The Inner Critic broadcasts high noise regarding 'doing it wrong.' Shift from the explicit 'Brett' interface to the implicit somatic engine. Groundedness here means accepting the 'not-knowing' state without spiking sympathetic arousal.",
+      connection: "The P2P handshake is hesitant. The system is pinging external nodes for validation rather than co-processing. The fix is to stop transmitting and start receiving. Allow the relational field to stabilize without needing to control the output."
+    },
+    5: {
+      name: "Waiting (Nourishment)",
+      traditional: "Calculated delay, gathering strength. Water in the clouds. The traditional reading advises against premature action. True waiting is an active state of gathering resources and maintaining readiness.",
+      meatMechanic: "A masterclass in Autonomic Co-Activation management. The body must hold potential energy without slipping into the Broomstick Lock. Maintain liquid alignment. Use subtle visceral interference at the breath's turnaround points to keep the fascia fluid while stationary. Keep the engine idling clean near the 0.19 threshold.",
+      somatic: "High-latency processing at its peak. The explicit interface is quiet, observing the accumulation of potential. The Inner Critic broadcasts a low, steady hum, verifying readiness. You are grounded, heavy, but entirely liquid. Tone is a byproduct of this immense, unexpressed potential.",
+      connection: "A paused P2P handshake. You are in the network but not actively routing packets. The relational field feels the weight of your presence. This is the fractal expanse of patience—internal non-action creating a stable gravity well externally."
+    },
     11: {
       name: "Peace",
       traditional: "Heaven and earth in harmony. Communication flows freely. The traditional reading emphasizes balance, prosperity, and natural order. This is the state where yin and yang complement rather than oppose.",
-      meatMechanic: "The Broomstick Lock is released. Autonomic Co-Activation is balanced—sympathetic and parasympathetic systems work in tandem rather than opposition. The hardware runs cool and efficient. Visceral interference patterns are minimal; direction changes feel smooth. Zero-drop foundation is achieved—the skeleton hangs naturally from the fascial net. The 0.19 DFA alpha 1 threshold is reached or approached—systemic resistance dissolves. The body moves with liquid efficiency. ATP consumption drops. The engine runs in optimal range.",
-      somatic: "High-latency processing is fully online. The explicit logical interface runs quietly in the background. Groundedness is stable and effortless. The Inner Critic is silent—system noise is at baseline. The liquid state is the default. Calm authority radiates naturally, not from effort but from system coherence. This is the low-friction state. Movement, thought, and presence integrate seamlessly.",
-      connection: "Internal stability creates clean relational fields. P2P handshakes are smooth and organic. Co-processing with others happens naturally—no forcing, no friction. In relational contexts, this manifests as easy collaboration, mutual understanding, and shared flow. The fractal pattern: internal peace mirrors external peace. The system resonates harmony outward."
+      meatMechanic: "The Broomstick Lock is released. Autonomic Co-Activation is balanced—sympathetic and parasympathetic systems work in tandem rather than opposition. Visceral interference patterns are minimal; direction changes feel smooth. Zero-drop foundation is achieved. The 0.19 DFA alpha 1 threshold is reached—systemic resistance dissolves. The engine runs in optimal range.",
+      somatic: "High-latency processing is fully online. The explicit logical interface runs quietly in the background. Groundedness is stable and effortless. The Inner Critic is silent—system noise is at baseline. The liquid state is the default. Calm authority radiates naturally, from system coherence.",
+      connection: "Internal stability creates clean relational fields. P2P handshakes are smooth and organic. Co-processing with others happens naturally—no forcing, no friction. The fractal pattern: internal peace mirrors external peace. The system resonates harmony outward."
     },
     12: {
       name: "Standstill",
       traditional: "Obstruction, stagnation. Heaven and earth don't communicate. The traditional reading warns of blocked energy, isolation, and the need for patience. This is a time to conserve energy rather than push forward.",
-      meatMechanic: "The Broomstick Lock is fully engaged. Autonomic Co-Activation is dysregulated—fight or flight dominates, or the system collapses into freeze. Structural tension is high. Visceral interference patterns are chaotic and constant. Zero-drop foundation is lost—the body braces against itself. The 0.19 DFA alpha 1 threshold is far off—systemic resistance is maxed out. The hardware runs hot and inefficient. Recovery starts with acknowledging the lock, not forcing release. Small disruptions: shake, breathe, release incrementally.",
-      somatic: "The explicit logical interface is in overdrive, drowning out high-latency processing. The Inner Critic is blaring—constant status broadcasts about system noise. Groundedness is lost. The liquid state is inaccessible. The system is rigid, reactive, stuck. Calm authority is buried. The work here is to stop fighting the stagnation. Notice it, accept it, then introduce small perturbations. Don't force flow; create conditions for flow to return.",
-      connection: "Internal stagnation blocks external connection. P2P handshakes fail. Relational friction is high. Misunderstanding, conflict, or withdrawal dominate. The system is too noisy for clean co-processing. The fractal pattern: internal blockage mirrors external blockage. The work is to stabilize internally first. Reduce system noise before attempting relational repair. Patience and self-compassion create space for reconnection."
+      meatMechanic: "The Broomstick Lock is fully engaged. Autonomic Co-Activation is dysregulated. Structural tension is high. Visceral interference patterns are chaotic and constant. Zero-drop foundation is lost. The 0.19 DFA alpha 1 threshold is far off. Recovery starts with acknowledging the lock, not forcing release. Small disruptions: shake, breathe, release incrementally.",
+      somatic: "The explicit logical interface is in overdrive, drowning out high-latency processing. The Inner Critic is blaring—constant status broadcasts about system noise. Groundedness is lost. The liquid state is inaccessible. The system is rigid, reactive, stuck. Create conditions for flow to return.",
+      connection: "Internal stagnation blocks external connection. P2P handshakes fail. Relational friction is high. The system is too noisy for clean co-processing. The fractal pattern: internal blockage mirrors external blockage. Reduce system noise before attempting relational repair."
     },
-    // Placeholder for remaining hexagrams - this would continue to 64
-    // For demonstration purposes, I'm including a template structure
+    63: {
+      name: "After Completion",
+      traditional: "Order achieved, a delicate balance. Water over fire. The traditional reading warns that the moment of perfect completion is also the beginning of decay. Vigilance is required to maintain the state.",
+      meatMechanic: "The 0.19 DFA alpha 1 state is achieved. The Zero-drop foundation is perfect. However, the system naturally seeks entropy. The work here is micro-calibration. Notice the very first subtle bracing of the Broomstick Lock trying to re-engage as the nervous system anticipates the next cycle.",
+      somatic: "The liquid state is fully realized, but the explicit logical interface is trying to 'capture' or 'record' the success, threatening to pull you out of high-latency processing. The Inner Critic broadcasts a false positive. Maintain groundedness by letting go of the need to maintain it.",
+      connection: "The P2P handshake is flawless, but the system assumes the connection is static. Realize that co-processing requires continuous, dynamic re-negotiation. The fractal pattern is complete, meaning it must now begin to break apart to form the next iteration."
+    },
+    64: {
+      name: "Before Completion",
+      traditional: "The threshold of change. Fire over water. The traditional reading indicates that conditions are right, but the final step has not yet been taken. Careful, deliberate action is required to cross the river.",
+      meatMechanic: "The system is vibrating on the edge of the 0.19 DFA alpha 1 threshold. Autonomic Co-Activation is highly sensitive. Do not force the final release into the Zero-drop foundation. Utilize gentle visceral interference patterns to ease the thixotropic shift. The hardware is primed but requires explicit permission to drop.",
+      somatic: "High-latency processing is spooling up. The 'Brett' interface is holding the final procedural checks. The Inner Critic is broadcasting the final pre-flight noise assessment. Tone is sharp, focused, heavily grounded but still withholding the final liquid drop.",
+      connection: "The P2P handshake is initiating, awaiting the final ACK packet. The relational field is charged with potential. The fractal pattern is drawn but not yet filled. Execute the final transition into the 11 state."
+    }
   };
 
-  // Fill in remaining hexagrams with template (you can expand these later)
-  for (let i = 4; i <= 64; i++) {
-    if (!hexagrams[i]) {
-      hexagrams[i] = {
-        name: `Hexagram ${i}`,
-        traditional: `Traditional interpretation for hexagram ${i}. This represents a specific archetypal pattern of change and stability. The classical texts provide guidance on navigating this particular configuration of yin and yang.`,
-        meatMechanic: `The Broomstick Lock engages or releases according to this hexagram's pattern. Autonomic Co-Activation shifts toward balance or imbalance. Work with visceral interference patterns at direction changes. Calibrate toward zero-drop foundation. The 0.19 DFA alpha 1 threshold guides the hardware toward systemic dissolution of resistance. The body learns through this particular configuration.`,
-        somatic: `The explicit logical interface and implicit somatic engine find their balance here. High-latency processing comes online or offline as needed. Groundedness fluctuates or stabilizes. The Inner Critic broadcasts system noise status. The liquid state emerges or recedes. Calm authority develops through this particular pattern of internal organization.`,
-        connection: `Internal noise floor affects relational capacity. P2P handshakes are influenced by this configuration. The system's ability to co-process with external environments, partners, or colleagues follows this hexagram's pattern. The fractal expands: internal resonance creates external resonance according to this specific archetypal template.`
+  // Base dictionary for all 64 standard names and traditional meanings
+  const baseDictionary = {
+    1: ["The Creative", "Pure yang energy. Initiative, creative force, heaven."],
+    2: ["The Receptive", "Pure yin energy. Receptivity, yielding, earth."],
+    3: ["Difficulty at the Beginning", "Initial challenges, chaos before order."],
+    4: ["Youthful Folly", "Inexperience, beginner's mind. Trusting the process."],
+    5: ["Waiting (Nourishment)", "Calculated delay, gathering strength for the right moment."],
+    6: ["Conflict", "Friction, opposition, arguing. Seeking mediation over victory."],
+    7: ["The Army", "Discipline, organized force, strategic movement."],
+    8: ["Holding Together", "Unification, seeking complementary alliances."],
+    9: ["Small Taming", "Gentle restraint, accumulating small victories over time."],
+    10: ["Treading", "Conduct, careful steps, stepping on the tail of the tiger."],
+    11: ["Peace", "Harmony, heaven and earth communicating perfectly."],
+    12: ["Standstill", "Stagnation, blocked energy, temporary separation."],
+    13: ["Fellowship", "Community, shared goals, organizing in the open."],
+    14: ["Great Possession", "Abundance, wealth, holding power with modesty."],
+    15: ["Modesty", "Humility, leveling extremes, the mountain within the earth."],
+    16: ["Enthusiasm", "Inspiration, gathering energy, the thunder responding to the earth."],
+    17: ["Following", "Adaptation, moving with the current rather than against it."],
+    18: ["Work on What Has Been Spoiled", "Repair, fixing systemic decay, ancestral healing."],
+    19: ["Approach", "Advancement, the rise of positive energy, spring approaching."],
+    20: ["Contemplation", "Viewing objectively, seeing the macro pattern."],
+    21: ["Biting Through", "Overcoming obstacles, decisive action, establishing justice."],
+    22: ["Grace", "Beauty, form, the aesthetic presentation of inner truth."],
+    23: ["Splitting Apart", "Deterioration, stripping away the obsolete."],
+    24: ["Return", "The turning point, the darkest hour passing, renewal."],
+    25: ["Innocence", "Unexpected outcomes, acting without hidden motives."],
+    26: ["Great Taming", "Holding massive potential energy, restraint of the strong."],
+    27: ["Corners of the Mouth", "Nourishment, paying attention to what enters and exits the system."],
+    28: ["Preponderance of the Great", "Structural stress, the ridgepole sagging under weight."],
+    29: ["The Abysmal", "Deep water, navigating danger through constant flow."],
+    30: ["The Clinging", "Fire, illumination, finding the proper fuel to burn."],
+    31: ["Influence", "Mutual attraction, the spark of initial connection."],
+    32: ["Duration", "Consistency, endurance, the stable marriage of forces."],
+    33: ["Retreat", "Strategic withdrawal, pulling back to preserve strength."],
+    34: ["Great Power", "Raw strength, avoiding the trap of ramming the hedge."],
+    35: ["Progress", "Rapid expansion, clarity, the sun rising over the earth."],
+    36: ["Darkening of the Light", "Concealing one's brilliance in hostile environments."],
+    37: ["The Family", "Internal structure, roles, the foundation of macro society."],
+    38: ["Opposition", "Polarity, finding unity in divergence."],
+    39: ["Obstruction", "A physical block, needing to pivot rather than push."],
+    40: ["Deliverance", "Release of tension, untying the knot, a thunderstorm clearing the air."],
+    41: ["Decrease", "Simplification, removing excess to find the core."],
+    42: ["Increase", "Expansion, blessing, pouring from the full to the empty."],
+    43: ["Breakthrough", "Resolution, the water bursting the dam, stating truth openly."],
+    44: ["Coming to Meet", "Unexpected encounters, a powerful external element entering."],
+    45: ["Gathering Together", "Massing of forces, finding the central unifying principle."],
+    46: ["Pushing Upward", "Vertical growth, the tree rising from the earth."],
+    47: ["Oppression", "Exhaustion, the lake dried up, relying on inner strength."],
+    48: ["The Well", "The inexhaustible source, foundational truth that does not change."],
+    49: ["Revolution", "Molting, shedding the old skin, a systemic paradigm shift."],
+    50: ["The Cauldron", "Transformation, alchemy, cooking raw elements into higher sustenance."],
+    51: ["The Arousing", "Shock, sudden thunder, waking up the dormant system."],
+    52: ["Keeping Still", "Meditation, the mountain, stopping the internal dialogue."],
+    53: ["Development", "Gradual progress, the tree growing step by step on the mountain."],
+    54: ["The Marrying Maiden", "Subordinate position, recognizing where one lacks leverage."],
+    55: ["Abundance", "Peak energy, the zenith of the cycle, acting with full clarity."],
+    56: ["The Wanderer", "Moving through foreign environments, maintaining low overhead."],
+    57: ["The Gentle", "Wind, wood, penetrating slowly and persistently."],
+    58: ["The Joyous", "Lake, communication, finding the joy in shared exchange."],
+    59: ["Dispersion", "Dissolving blockages, ice melting over water."],
+    60: ["Limitation", "Boundaries, defining the edges of the container."],
+    61: ["Inner Truth", "Absolute sincerity, the hollow center that resonates."],
+    62: ["Preponderance of the Small", "Focusing on details, the flying bird leaving only its shadow."],
+    63: ["After Completion", "Order achieved, the fragile balance requiring vigilance."],
+    64: ["Before Completion", "The final threshold, gathering momentum for the final leap."]
+  };
+
+  const fullHexagrams = {};
+
+  // Build out the 64 database dynamically
+  for (let i = 1; i <= 64; i++) {
+    if (customHexagrams[i]) {
+      fullHexagrams[i] = customHexagrams[i];
+    } else {
+      // Randomized template generators to ensure varied but accurate vocabulary for non-customized hexagrams
+      const mmVariations = [
+        `The Broomstick Lock negotiates alignment here. Autonomic Co-Activation requires tuning. Focus on visceral interference patterns to reset the fascia. Approach the 0.19 DFA alpha 1 threshold slowly.`,
+        `Hardware dynamics shift under this pattern. Acknowledge structural noise without forcing the zero-drop foundation. Thixotropic fluids need time to adjust. Track telemetry for autonomic balance.`,
+        `A complex systemic transition. The body must unlearn rigid mechanical leverage. Induce visceral interference at direction changes. The 0.19 DFA alpha 1 state acts as the attractor point for this phase.`
+      ];
+      
+      const somVariations = [
+        `The logical interface steps back, prioritizing high-latency processing. The Inner Critic broadcasts status updates as the noise floor fluctuates. Groundedness must be maintained through the transition.`,
+        `The liquid state is challenged by explicit cognitive overriding. Acknowledge the 'Brett' interface but do not let it drive. Groundedness and tone calibrate based on your ability to sit with the noise.`,
+        `High-latency processing metabolizes this specific energy. The Inner Critic's broadcast provides vital diagnostics. Find the liquid state amidst the structural shift.`
+      ];
+      
+      const connVariations = [
+        `P2P handshakes depend on your internal stability. The fractal pattern projects this exact state outward. Ensure the node is clean before attempting complex relational co-processing.`,
+        `Relational fields mirror the internal friction or flow of this hexagram. Maintain a grounded node. System-to-system communication requires dropping coercive control.`,
+        `The systemic resonance of this state deeply affects the P2P handshake. Stabilize the internal architecture before routing outward. The fractal expands from your baseline.`
+      ];
+
+      fullHexagrams[i] = {
+        name: baseDictionary[i][0],
+        traditional: `${baseDictionary[i][1]} The classical texts provide guidance on navigating this particular configuration of yin and yang.`,
+        meatMechanic: mmVariations[i % 3],
+        somatic: somVariations[(i + 1) % 3],
+        connection: connVariations[(i + 2) % 3]
       };
     }
   }
@@ -113,10 +227,9 @@ Currently, hexagrams 1, 2, 3, 11, and 12 have full interpretations. The remainin
     // Generate primary hexagram (1-64)
     const primaryHexagram = Math.floor(Math.random() * 64) + 1;
 
-    // Roll to determine if there's a secondary hexagram
-    // If roll is 2-5, generate a second hexagram
+    // Secondary roll: 1D6. If 2-6 (inclusive), generate secondary hexagram
     const secondaryRoll = Math.floor(Math.random() * 6) + 1;
-    const hasSecondary = (secondaryRoll >= 2 && secondaryRoll <= 5);
+    const hasSecondary = (secondaryRoll >= 2 && secondaryRoll <= 6);
     const secondaryHexagram = hasSecondary ? Math.floor(Math.random() * 64) + 1 : null;
 
     return { primary: primaryHexagram, secondary: secondaryHexagram };
@@ -154,12 +267,12 @@ Currently, hexagrams 1, 2, 3, 11, and 12 have full interpretations. The remainin
 
   document.getElementById('generateHexagram').addEventListener('click', function() {
     const result = generateHexagram();
-    const primaryData = hexagrams[result.primary];
+    const primaryData = fullHexagrams[result.primary];
 
     let html = displayHexagram(result.primary, primaryData, false);
 
     if (result.secondary) {
-      const secondaryData = hexagrams[result.secondary];
+      const secondaryData = fullHexagrams[result.secondary];
       html += displayHexagram(result.secondary, secondaryData, true);
       html += `<div style="margin-top: 20px; padding: 15px; background: #ffffcc; border-radius: 4px; border: 2px solid #cc6600;">
         <strong>Note on Transformation:</strong> The primary hexagram represents your current state. The secondary hexagram indicates the direction of change—where the system is migrating. Study both patterns as a continuous flow from one configuration to another.
@@ -170,5 +283,4 @@ Currently, hexagrams 1, 2, 3, 11, and 12 have full interpretations. The remainin
   });
 })();
 </script>
-{:/nomarkdown}                                                                                                                                                                                                                                                
-             
+{:/nomarkdown}
