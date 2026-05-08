@@ -13,18 +13,143 @@ it generates a systemic transition state using a 1D64 baseline roll, with a 5/6 
 transformation hexagram.
 
 {::nomarkdown}
-<div style="margin: 20px 0; padding: 20px; border: 2px solid #333; border-radius: 8px; background: #f5f5f5;">
-  <button id="generateHexagram" style="padding: 15px 30px; font-size: 18px; cursor: pointer; background: #009900; color: white; border: none; border-radius: 4px; margin-bottom: 20px; font-weight: bold;">
-    Engage Stochastic Roll
-  </button>
-  <div id="hexagramResult" style="font-size: 16px; line-height: 1.6; color: #000;">
-    <em>Awaiting system input...</em>
+<style>
+.hexagram-oracle {
+  --bg: #f5f5f5;
+  --panel: #ffffff;
+  --text: #111111;
+  --border: #333333;
+  --primary: #009900;
+  --secondary: #cc6600;
+  --traditional: #009900;
+  --meat: #cc0000;
+  --somatic: #0066cc;
+  --connection: #9900cc;
+  --drift-bg: #ffffcc;
+  --button-text: #ffffff;
+
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@media (prefers-color-scheme: dark) {
+  .hexagram-oracle {
+    --bg: #1a1a1a;
+    --panel: #232323;
+    --text: #e8e8e8;
+    --border: #666666;
+    --primary: #7fd67f;
+    --secondary: #ffaa55;
+    --traditional: #7fd67f;
+    --meat: #ff6b6b;
+    --somatic: #6bb0ff;
+    --connection: #c98dff;
+    --drift-bg: #2d2a16;
+    --button-text: #111111;
+  }
+}
+
+.hexagram-oracle__roll {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  background: var(--primary);
+  color: var(--button-text);
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.hexagram-oracle__roll:hover,
+.hexagram-oracle__roll:focus-visible {
+  filter: brightness(0.92);
+}
+
+.hexagram-oracle__result {
+  color: var(--text);
+}
+
+.hexagram__title {
+  margin-bottom: 5px;
+}
+.hexagram--primary > .hexagram__title {
+  color: var(--primary);
+  margin-top: 0;
+}
+.hexagram--secondary > .hexagram__title {
+  color: var(--secondary);
+  margin-top: 30px;
+  border-top: 2px solid var(--secondary);
+  padding-top: 20px;
+}
+
+.hexagram__glyph {
+  font-size: 64px;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+.hexagram--primary > .hexagram__glyph { color: var(--primary); }
+.hexagram--secondary > .hexagram__glyph { color: var(--secondary); }
+
+.lens {
+  margin: 15px 0;
+  padding: 15px;
+  background: var(--panel);
+  border-left: 4px solid var(--border);
+  border-radius: 4px;
+  color: var(--text);
+}
+.lens__title {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.lens__body {
+  margin: 0;
+}
+
+.lens--traditional { border-left-color: var(--traditional); }
+.lens--traditional .lens__title { color: var(--traditional); }
+.lens--meat { border-left-color: var(--meat); }
+.lens--meat .lens__title { color: var(--meat); }
+.lens--somatic { border-left-color: var(--somatic); }
+.lens--somatic .lens__title { color: var(--somatic); }
+.lens--connection { border-left-color: var(--connection); }
+.lens--connection .lens__title { color: var(--connection); }
+
+.lens--pending .lens__body {
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.drift {
+  margin-top: 20px;
+  padding: 15px;
+  background: var(--drift-bg);
+  border: 2px solid var(--secondary);
+  border-radius: 4px;
+  color: var(--text);
+}
+</style>
+
+<div class="hexagram-oracle">
+  <button type="button" class="hexagram-oracle__roll">Engage Stochastic Roll</button>
+  <div class="hexagram-oracle__result" aria-live="polite">
+    <p><em>Awaiting system input...</em></p>
   </div>
 </div>
 
 <script>
-(function() {
-  const customHexagrams = {
+(function () {
+  const PENDING = "— Pending — lens commentary awaiting generation.";
+  const HEXAGRAM_GLYPH_BASE = 0x4DC0;
+
+  const CURATED = {
     1: {
       name: "The Creative",
       traditional: "Pure yang energy. Initiative, creative force, heaven. This is the undiluted power of forward motion—the seed state before form takes shape. The traditional reading emphasizes leadership, strength, and relentless forward momentum.",
@@ -90,7 +215,7 @@ transformation hexagram.
     }
   };
 
-  const baseDictionary = {
+  const BASE = {
     1: ["The Creative", "Pure yang energy. Initiative, creative force, heaven."],
     2: ["The Receptive", "Pure yin energy. Receptivity, yielding, earth."],
     3: ["Difficulty at the Beginning", "Initial challenges, chaos before order."],
@@ -157,93 +282,103 @@ transformation hexagram.
     64: ["Before Completion", "The final threshold, gathering momentum for the final leap."]
   };
 
-  const fullHexagrams = {};
-  const mmVariations = [
-    "The Broomstick Lock negotiates alignment here. Autonomic Co-Activation requires tuning. Focus on visceral interference patterns to reset the fascia. Approach the 0.19 DFA alpha 1 threshold slowly.",
-    "Hardware dynamics shift under this pattern. Acknowledge structural noise without forcing the zero-drop foundation. Thixotropic fluids need time to adjust. Track telemetry for autonomic balance.",
-    "A complex systemic transition. The body must unlearn rigid mechanical leverage. Induce visceral interference at direction changes. The 0.19 DFA alpha 1 state acts as the attractor point."
-  ];
-  const somVariations = [
-    "The logical interface steps back, prioritizing high-latency processing. The Inner Critic broadcasts status updates as the noise floor fluctuates. Groundedness must be maintained through the transition.",
-    "The liquid state is challenged by explicit cognitive overriding. Acknowledge the logical interface but do not let it drive. Groundedness and tone calibrate based on your ability to sit with the noise.",
-    "High-latency processing metabolizes this specific energy. The Inner Critic's broadcast provides vital diagnostics. Find the liquid state amidst the structural shift."
-  ];
-  const connVariations = [
-    "P2P handshakes depend on your internal stability. The fractal pattern projects this exact state outward. Ensure the node is clean before attempting complex relational co-processing.",
-    "Relational fields mirror the internal friction or flow of this hexagram. Maintain a grounded node. System-to-system communication requires dropping coercive control.",
-    "The systemic resonance of this state deeply affects the P2P handshake. Stabilize the internal architecture before routing outward. The fractal expands from your baseline."
-  ];
-
+  const HEXAGRAMS = {};
   for (let i = 1; i <= 64; i++) {
-    if (customHexagrams[i]) {
-      fullHexagrams[i] = customHexagrams[i];
-    } else {
-      fullHexagrams[i] = {
-        name: baseDictionary[i][0],
-        traditional: `${baseDictionary[i][1]}`,
-        meatMechanic: mmVariations[i % 3],
-        somatic: somVariations[(i + 1) % 3],
-        connection: connVariations[(i + 2) % 3]
-      };
+    HEXAGRAMS[i] = CURATED[i] || {
+      name: BASE[i][0],
+      traditional: BASE[i][1],
+      meatMechanic: PENDING,
+      somatic: PENDING,
+      connection: PENDING
+    };
+  }
+
+  const LENSES = [
+    { key: "traditional",  label: "1. The Traditional Lens",   modifier: "traditional" },
+    { key: "meatMechanic", label: "2. The Meat Mechanic Lens", modifier: "meat" },
+    { key: "somatic",      label: "3. The Somatic Lens",       modifier: "somatic" },
+    { key: "connection",   label: "4. The Connection Lens",    modifier: "connection" }
+  ];
+
+  function roll() {
+    const primary = Math.floor(Math.random() * 64) + 1;
+    let secondary = null;
+    if (Math.random() < 5 / 6) {
+      do {
+        secondary = Math.floor(Math.random() * 64) + 1;
+      } while (secondary === primary);
     }
+    return { primary, secondary };
   }
 
-  function generateHexagram() {
-    const primaryHexagram = Math.floor(Math.random() * 64) + 1;
-    const secondaryRoll = Math.floor(Math.random() * 6) + 1;
-    const hasSecondary = (secondaryRoll >= 2 && secondaryRoll <= 6);
-    const secondaryHexagram = hasSecondary ? Math.floor(Math.random() * 64) + 1 : null;
-    return { primary: primaryHexagram, secondary: secondaryHexagram };
+  function hexagramGlyph(n) {
+    return String.fromCodePoint(HEXAGRAM_GLYPH_BASE + n - 1);
   }
 
-  function displayHexagram(hexagramNumber, hexagramData, isSecondary = false) {
-    // Generate the Unicode hexagram symbol mathematically
-    const hexSymbol = String.fromCodePoint(0x4DC0 + hexagramNumber - 1);
-    
-    const headerColor = isSecondary ? "#cc6600" : "#009900";
-    const headerTitle = isSecondary ? `→ Transforming to: Hexagram ${hexagramNumber} - ${hexagramData.name}` : `Hexagram ${hexagramNumber}: ${hexagramData.name}`;
-    const headerMarkup = isSecondary ? 
-      `<h3 style="color: ${headerColor}; margin-top: 30px; border-top: 2px solid ${headerColor}; padding-top: 20px;">${headerTitle}</h3>` : 
-      `<h2 style="color: ${headerColor}; margin-bottom: 5px;">${headerTitle}</h2>`;
+  function renderHexagram(number, data, isSecondary) {
+    const root = document.createElement("article");
+    root.className = "hexagram hexagram--" + (isSecondary ? "secondary" : "primary");
 
-    return `
-      ${headerMarkup}
-      <div style="font-size: 64px; line-height: 1; margin-bottom: 15px; color: ${headerColor};">${hexSymbol}</div>
+    const title = document.createElement(isSecondary ? "h3" : "h2");
+    title.className = "hexagram__title";
+    title.textContent = isSecondary
+      ? `→ Transforming to: Hexagram ${number} — ${data.name}`
+      : `Hexagram ${number}: ${data.name}`;
+    root.appendChild(title);
 
-      <div style="margin: 15px 0; padding: 15px; background: #fff; border-left: 4px solid #009900; border-radius: 4px;">
-        <h4 style="margin-top: 0; color: #009900; margin-bottom: 5px;">1. The Traditional Lens</h4>
-        <p style="margin-bottom: 0;">${hexagramData.traditional}</p>
-      </div>
+    const glyph = document.createElement("div");
+    glyph.className = "hexagram__glyph";
+    glyph.setAttribute("aria-hidden", "true");
+    glyph.textContent = hexagramGlyph(number);
+    root.appendChild(glyph);
 
-      <div style="margin: 15px 0; padding: 15px; background: #fff; border-left: 4px solid #cc0000; border-radius: 4px;">
-        <h4 style="margin-top: 0; color: #cc0000; margin-bottom: 5px;">2. The Meat Mechanic Lens</h4>
-        <p style="margin-bottom: 0;">${hexagramData.meatMechanic}</p>
-      </div>
+    for (const lens of LENSES) {
+      const value = data[lens.key];
+      const isPending = value === PENDING;
 
-      <div style="margin: 15px 0; padding: 15px; background: #fff; border-left: 4px solid #0066cc; border-radius: 4px;">
-        <h4 style="margin-top: 0; color: #0066cc; margin-bottom: 5px;">3. The Somatic Lens</h4>
-        <p style="margin-bottom: 0;">${hexagramData.somatic}</p>
-      </div>
+      const section = document.createElement("section");
+      section.className = "lens lens--" + lens.modifier + (isPending ? " lens--pending" : "");
 
-      <div style="margin: 15px 0; padding: 15px; background: #fff; border-left: 4px solid #9900cc; border-radius: 4px;">
-        <h4 style="margin-top: 0; color: #9900cc; margin-bottom: 5px;">4. The Connection Lens</h4>
-        <p style="margin-bottom: 0;">${hexagramData.connection}</p>
-      </div>
-    `;
-  }
+      const heading = document.createElement("h4");
+      heading.className = "lens__title";
+      heading.textContent = lens.label;
+      section.appendChild(heading);
 
-  document.getElementById('generateHexagram').addEventListener('click', function() {
-    const result = generateHexagram();
-    let html = displayHexagram(result.primary, fullHexagrams[result.primary], false);
+      const body = document.createElement("p");
+      body.className = "lens__body";
+      body.textContent = value;
+      section.appendChild(body);
 
-    if (result.secondary) {
-      html += displayHexagram(result.secondary, fullHexagrams[result.secondary], true);
-      html += `<div style="margin-top: 20px; padding: 15px; background: #ffffcc; border-radius: 4px; border: 2px solid #cc6600;">
-        <strong>Transformation Drift:</strong> The primary state naturally seeks entropy toward the secondary state. Study the gradient between the two nodes.
-      </div>`;
+      root.appendChild(section);
     }
 
-    document.getElementById('hexagramResult').innerHTML = html;
+    return root;
+  }
+
+  function renderDrift() {
+    const aside = document.createElement("aside");
+    aside.className = "drift";
+    const strong = document.createElement("strong");
+    strong.textContent = "Transformation Drift: ";
+    aside.appendChild(strong);
+    aside.appendChild(document.createTextNode(
+      "The primary state naturally seeks entropy toward the secondary state. Study the gradient between the two nodes."
+    ));
+    return aside;
+  }
+
+  document.querySelectorAll(".hexagram-oracle").forEach((root) => {
+    const button = root.querySelector(".hexagram-oracle__roll");
+    const result = root.querySelector(".hexagram-oracle__result");
+
+    button.addEventListener("click", () => {
+      const { primary, secondary } = roll();
+      result.replaceChildren(renderHexagram(primary, HEXAGRAMS[primary], false));
+      if (secondary) {
+        result.appendChild(renderHexagram(secondary, HEXAGRAMS[secondary], true));
+        result.appendChild(renderDrift());
+      }
+    });
   });
 })();
 </script>
