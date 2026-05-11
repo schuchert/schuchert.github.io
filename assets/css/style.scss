@@ -92,6 +92,31 @@ div#title {
 
 #header {
   border-bottom: unset;
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1.5em;
+
+    li {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 0.9em;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
 
 .searchBar {

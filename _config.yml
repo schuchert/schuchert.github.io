@@ -2,10 +2,10 @@ title: Brett L. Schuchert
 description: Collected works and current thoughts
 twitter_username: schuchert
 theme: jekyll-theme-midnight
-highlight: rogue
+highlight: rouge
 github_username: schuchert
 layout: kramdown
-makrdown: kramdown
+markdown: kramdown
 kramdown:
   parse_block_html: true
 plugins_dir:
@@ -14,7 +14,9 @@ plugins_dir:
   - jekyll-relative-links
   - html-proofer
 baseurl: "/"
-url: "http://schuchert.github.io"
+url: "https://schuchert.github.io"
+google_analytics: UA-122965859-1
+google_site_verification: 1j-H9WhaWm5G7bpQh3pDqRgdlQLGl30wWdIU9Q6nZwY
 repository: schuchert/schuchert.github.io
 github: [metadata]
 exclude: [Gemfile,Gemfile.lock]

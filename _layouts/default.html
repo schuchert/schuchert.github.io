@@ -2,29 +2,23 @@
 <html lang="{{ site.lang | default: "en-US" }}">
 <head>
     <meta charset="utf-8">
-    <meta name="google-site-verification" content="1j-H9WhaWm5G7bpQh3pDqRgdlQLGl30wWdIU9Q6nZwY" />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122965859-1"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <link rel="stylesheet" href="/assets/css/style.css" async>
-    <script src="{{ '/assets/js/jquery-3.3.1.min.js' | relative_url }}" async></script>
-	<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+    {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    {% if page.use_math %}
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+    {% endif %}
 </head>
 
 <body>
 <header id="header">
     <nav>
-        <table>
-           <tr>
-               <td>
-                   <a href="{{ site.url }}">Blog</a>
-               </td>
-               <td>
-                   <a href="{{ site.base_url }}/wikispaces/pages/home">Wikispaces</a>
-               </td>
-           </tr>
-        </table>
+        <ul>
+            <li><a href="{{ '/' | relative_url }}">Blog</a></li>
+            <li><a href="{{ '/wikispaces/pages/home' | relative_url }}">Wikispaces</a></li>
+        </ul>
     </nav>
 </header>
 
@@ -45,14 +39,16 @@
 </div>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122965859-1"></script>
+{% if site.google_analytics %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-122965859-1');
+  gtag('config', '{{ site.google_analytics }}');
 </script>
+{% endif %}
 
 </body>
 </html>
