@@ -12,29 +12,7 @@ tags: [ proactive-prep, somatic work, chaos-engineering, bitwise-ops, i-ching, s
 
 This engine represents a rewrite of the original Paradox Engine, shifting from simple randomization to a recursive
 bitwise-rotation algorithm. It treats the 'Karma' state as a 32-bit register that evolves through Fibonacci-indexed
-rotations and XOR transforms against the I Ching's 6-bit space.
-
-### System Parameters
-
-New Context:
-* The Wisdom Box: The freedom to know what is right or wrong for you, and the ability to choose work that aligns with your values.
-* The Golden Key: The freedom to open new areas for learning and practice—and the ability to close them if they do not fit.
-* The Courage Stick: The freedom to take risks, try new things, and the ability to accept and learn from failure.
-* The Wishing Wand: The freedom to ask for what you want (e.g., in pricing or scope) and the ability to live with not getting it.
-* The Yes/No Medallion: The freedom to say "yes," the freedom to say "no," and the ability to mean what you say.
-* The Mirror: The freedom to see yourself clearly, and the willingness to seek and use feedback.
-* The Heart: The freedom and willingness to put your heart into your work, maintaining passion rather than just going through the motions.
-
-Verbs:
-* Shake 
-* Oscillate 
-* Abide
-* Stabilize 
-* Expand 
-* Liquify
-* Engage 
-* Inhabit 
-* Withdraw
+rotations and XOR transforms against the I Ching's 6-bit space. It additionally maps to the Paradox Engine.
 
 ## The Engine Interface
 
@@ -665,16 +643,14 @@ Verbs:
   };
 
   const VERBS = [
-    "Mu (Null)", "Shake", "Breath", "Abide", "Stabilize", 
-    "Expand", "Coordinate", "Engage", "Inhabit", "Withdraw"
+    "Shake", "Oscillate", "Abide", "Stabilize", "Expand",
+    "Liquify", "Engage", "Inhabit", "Withdraw"
   ];
 
   const CONTEXTS = [
-    "Mu (Null)", "Self", "Engine", "Liquid", "Firmware", 
-    "Context", "Other", "Network", "Transact", "Egregore", 
-    "Xenobiotic", "Terminate"
+    "The Wisdom Box", "The Golden Key", "The Courage Stick", 
+    "The Wishing Wand", "The Yes/No Medallion", "The Mirror", "The Heart"
   ];
-
   const FIB = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
   const HEX_GLYPH_BASE = 0x4DC0;
 
@@ -804,3 +780,26 @@ Verbs:
 *Note: This engine is a stochastic interface for the Somatic OS. Each node represents a systemic transition state. The
 XOR transform ensures that the Karma state and the Hexagram seed are inextricably linked, while the Fibonacci rotation
 introduces a predictable but non-linear hysteresis to the system.*
+
+
+### System Parameters
+
+New Context:
+* The Wisdom Box: The freedom to know what is right or wrong for you, and the ability to choose work that aligns with your values.
+* The Golden Key: The freedom to open new areas for learning and practice—and the ability to close them if they do not fit.
+* The Courage Stick: The freedom to take risks, try new things, and the ability to accept and learn from failure.
+* The Wishing Wand: The freedom to ask for what you want (e.g., in pricing or scope) and the ability to live with not getting it.
+* The Yes/No Medallion: The freedom to say "yes," the freedom to say "no," and the ability to mean what you say.
+* The Mirror: The freedom to see yourself clearly, and the willingness to seek and use feedback.
+* The Heart: The freedom and willingness to put your heart into your work, maintaining passion rather than just going through the motions.
+
+Verbs:
+* Shake
+* Oscillate
+* Abide
+* Stabilize
+* Expand
+* Liquify
+* Engage
+* Inhabit
+* Withdraw
