@@ -651,6 +651,16 @@ rotations and XOR transforms against the I Ching's 6-bit space. It additionally 
     "The Wisdom Box", "The Golden Key", "The Courage Stick", 
     "The Wishing Wand", "The Yes/No Medallion", "The Mirror", "The Heart"
   ];
+
+  const CONTEXT_DEFINITIONS = {
+    "The Wisdom Box": "The freedom to know what is right or wrong for you, and the ability to choose work that aligns with your values.",
+    "The Golden Key": "The freedom to open new areas for learning and practice—and the ability to close them if they do not fit.",
+    "The Courage Stick": "The freedom to take risks, try new things, and the ability to accept and learn from failure.",
+    "The Wishing Wand": "The freedom to ask for what you want (e.g., in pricing or scope) and the ability to live with not getting it.",
+    "The Yes/No Medallion": "The freedom to say \"yes,\" the freedom to say \"no,\" and the ability to mean what you say.",
+    "The Mirror": "The freedom to see yourself clearly, and the willingness to seek and use feedback.",
+    "The Heart": "The freedom and willingness to put your heart into your work, maintaining passion rather than just going through the motions."
+  };
   const FIB = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
   const HEX_GLYPH_BASE = 0x4DC0;
 
@@ -742,6 +752,9 @@ rotations and XOR transforms against the I Ching's 6-bit space. It additionally 
       <div class="mk-node__hex">HEX_${hex}: ${data.name}</div>
       <div class="mk-node__paradox">
         <strong>${verb}</strong> within <strong>${context}</strong>
+        <div style="margin-top: 10px; font-size: 0.9em; font-style: italic; color: #ccc;">
+          ${CONTEXT_DEFINITIONS[context]}
+        </div>
       </div>
       
       <div class="mk-lens-container">
