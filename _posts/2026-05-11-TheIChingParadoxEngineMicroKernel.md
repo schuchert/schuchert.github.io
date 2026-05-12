@@ -20,14 +20,14 @@ Pool: Roll one d12, divide by 4 (1 -4 becomes 1, 5-8 becomes 2, etc.) Roll that 
 | #  | Verb (d10) | #  | Context (d12) |
 |----|------------|----|---------------|
 | 1  | Shake      | 1  | Withdraw      |
-| 2  | Breath     | 2  | Self          |
+| 2  | Oscillate   | 2  | Self          |
 | 3  | Abide      | 3  | Other         |
 | 4  | Stabilize  | 4  | Context       |
 | 5  | Expand     | 5  | Expanding     |
 | 6  | Liquify    | 6  | Balancing     |
 | 7  | Engage     | 7  | Contracting   |
-| 8  | Inhabit    | 8  | Connecting    |
-| 9  | Withdraw   | 9  | Disconnecting |
+| 8  | Inhabit    | 8  | |
+| 9  | Withdraw   | 9  | |
 
 ## Try It Out
 
