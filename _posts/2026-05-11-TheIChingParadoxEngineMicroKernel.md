@@ -183,7 +183,7 @@ rotations and XOR transforms against the I Ching's 6-bit space. It additionally 
   </div>
 
 <button id="mk-engage" class="mk-roll-btn">INIT_STOCHASTIC_PROCEDURE</button>
-
+<button id="mk-reroll-karma" class="mk-roll-btn" style="margin-left: 10px;">RE_ROLL_KARMA_KEEP_HEX</button>
   <div id="mk-results" class="mk-node-chain" style="margin-top: 20px;">
     <!-- Nodes will be injected here -->
   </div>
@@ -666,6 +666,7 @@ rotations and XOR transforms against the I Ching's 6-bit space. It additionally 
 
   let karma = 0;
   let rotIdx = 0;
+  let currentHexSequence = [];
 
   function rotateLeft(val, shift) {
     shift = shift % 32;
@@ -684,6 +685,7 @@ rotations and XOR transforms against the I Ching's 6-bit space. It additionally 
     // 1. Initialize State
     karma = Math.floor(Math.random() * (19999991 - 1818181 + 1)) + 1818181;
     rotIdx = 0;
+    currentHexSequence = [];
     
     const results = document.getElementById('mk-results');
     results.innerHTML = '';
@@ -692,6 +694,22 @@ rotations and XOR transforms against the I Ching's 6-bit space. It additionally 
     document.getElementById('mk-rot-idx').textContent = rotIdx;
 
     generateNodes(1);
+  });
+
+  document.getElementById('mk-reroll-karma').addEventListener('click', function() {
+    if (currentHexSequence.length === 0) return;
+    
+    // 1. Initialize State
+    karma = Math.floor(Math.random() * (19999991 - 1818181 + 1)) + 1818181;
+    rotIdx = 0;
+    
+    const results = document.getElementById('mk-results');
+    results.innerHTML = '';
+    
+    document.getElementById('mk-karma').textContent = formatHex(karma);
+    document.getElementById('mk-rot-idx').textContent = rotIdx;
+
+    replayNodes(0);
   });
 
   function generateNodes(depth) {
@@ -705,6 +723,7 @@ rotations and XOR transforms against the I Ching's 6-bit space. It additionally 
 
     // 2. Roll Hexagram
     const hexVal = Math.floor(Math.random() * 64) + 1;
+    currentHexSequence.push(hexVal);
     
     // 3. Bitwise Transform
     const state = (karma ^ hexVal) >>> 0;
@@ -734,6 +753,32 @@ rotations and XOR transforms against the I Ching's 6-bit space. It additionally 
       // Small delay for visual effect
       setTimeout(() => generateNodes(depth + 1), 100);
     }
+  }
+
+  function replayNodes(index) {
+    if (index >= currentHexSequence.length) return;
+    
+    const depth = index + 1;
+    const hexVal = currentHexSequence[index];
+    
+    // 3. Bitwise Transform
+    const state = (karma ^ hexVal) >>> 0;
+    const verb = VERBS[(state & 0x3F) % VERBS.length];
+    const context = CONTEXTS[((state >>> 6) & 0x3F) % CONTEXTS.length];
+
+    // Render Node
+    renderNode(depth, hexVal, verb, context, state);
+
+    // 4. Fibonacci Hysteresis (Rotate for next step)
+    const shift = FIB[rotIdx % FIB.length];
+    karma = rotateLeft(karma, shift);
+    rotIdx++;
+
+    document.getElementById('mk-karma').textContent = formatHex(karma);
+    document.getElementById('mk-rot-idx').textContent = rotIdx;
+
+    // Next Node
+    setTimeout(() => replayNodes(index + 1), 100);
   }
 
   function renderNode(depth, hex, verb, context, state) {
