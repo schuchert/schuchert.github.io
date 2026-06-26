@@ -23,6 +23,7 @@ Do this for 5 breaths, or 1 minute.
 * Twisting & Humming to Sense
 * [Neck Isometrics]({% post_url 2026-01-19-NeckIsometricsAndWuChi %})
 
+### The Quick Version
 Shaking & humming is good to do:
 
 * **Before** other activities for loosening and hydrating tissues.

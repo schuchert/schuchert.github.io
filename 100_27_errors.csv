@@ -1,0 +1,104 @@
+External Id - Name,External Id - Value,Account - Name,Account - Email Address,Account - Custom Field - Status,Account - Custom Field - Regulatory Training Type
+input/externalId/name,input/externalId/value,input/account/name,input/account/emailAddress,input/account/customFieldValues/Status,input/account/customFieldValues/Regulatory Training Type
+A name identifying the External ID,The value of the identifier provided by the external system,The name of the Account,The email address of the Account,Salesforce Account status: Active or Inactive,Regulatory authorities for an account
+Text,Text,Text,Text (Optional),"Status (Active, Inactive)","Regulatory Training Type (FAA - Part 91, FAA - Part 135, EASA, TC, Other) (Multiple values should be separated by pipes, e.g. 'a|b|c') (Optional)"
+CustomerId,SF-ACCT-00007,ZZ Test Account 0007,account0007@example.com,Active,EASA
+CustomerId,SF-ACCT-00008,ZZ Test Account 0008,account0008@example.com,Active,TC
+CustomerId,SF-ACCT-00009,ZZ Test Account 0009,account0009@example.com,Inactive,Other
+CustomerId,SF-ACCT-00010,ZZ Test Account 0010,account0010@example.com,Active,FAA - Part 91
+CustomerId,SF-ACCT-00011,ZZ Test Account 0011,account0011@example.com,Active,FAA - Part 135
+CustomerId,SF-ACCT-00012,ZZ Test Account 0012,account0012@example.com,Active,EASA
+CustomerId,SF-ACCT-00013,ZZ Test Account 0013,account0013@example.com,Inactive,TC
+CustomerId,SF-ACCT-00014,ZZ Test Account 0014,account0014@example.com,Active,Other
+CustomerId,SF-ACCT-00015,ZZ Test Account 0015,account0015@example.com,Active,FAA - Part 91
+CustomerId,SF-ACCT-00016,ZZ Test Account 0016,account0016@example.com,Active,FAA - Part 135
+CustomerId,SF-ACCT-00017,ZZ Test Account 0017,account0017@example.com,Inactive,EASA
+CustomerId,SF-ACCT-00018,ZZ Test Account 0018,account0018@example.com,Active,TC
+CustomerId,SF-ACCT-00019,ZZ Test Account 0019,account0019@example.com,Active,Other
+CustomerId,SF-ACCT-00020,ZZ Test Account 0020,account0020@example.com,Active,FAA - Part 91
+CustomerId,SF-ACCT-00021,ZZ Test Account 0021,account0021@example.com,Inactive,FAA - Part 135
+CustomerId,SF-ACCT-00022,ZZ Test Account 0022,account0022@example.com,Active,EASA
+CustomerId,SF-ACCT-00023,ZZ Test Account 0023,account0023@example.com,Active,TC
+CustomerId,SF-ACCT-00024,ZZ Test Account 0024,account0024@example.com,Active,Other
+CustomerId,SF-ACCT-00025,ZZ Test Account 0025,account0025@example.com,Inactive,FAA - Part 91
+CustomerId,SF-ACCT-00026,ZZ Test Account 0026,account0026@example.com,Active,FAA - Part 135
+CustomerId,SF-ACCT-00027,ZZ Test Account 0027,account0027@example.com,Active,EASA
+CustomerId,SF-ACCT-00028,ZZ Test Account 0028,account0028@example.com,Active,TC
+CustomerId,SF-ACCT-00029,ZZ Test Account 0029,account0029@example.com,Inactive,Other
+CustomerId,SF-ACCT-00030,ZZ Test Account 0030,account0030@example.com,Active,FAA - Part 91
+CustomerId,SF-ACCT-00031,ZZ Test Account 0031,account0031@example.com,Active,FAA - Part 135
+CustomerId,SF-ACCT-00032,ZZ Test Account 0032,account0032@example.com,Active,EASA
+CustomerId,SF-ACCT-00033,ZZ Test Account 0033,account0033@example.com,Inactive,TC
+CustomerId,SF-ACCT-00034,ZZ Test Account 0034,account0034@example.com,Active,Other
+CustomerId,SF-ACCT-00035,ZZ Test Account 0035,account0035@example.com,Active,FAA - Part 91
+CustomerId,SF-ACCT-00036,ZZ Test Account 0036,account0036@example.com,Active,FAA - Part 135
+CustomerId,SF-ACCT-00037,ZZ Test Account 0037,account0037@example.com,Inactive,EASA
+CustomerId,SF-ACCT-00038,ZZ Test Account 0038,account0038@example.com,Active,TC
+CustomerId,SF-ACCT-00039,ZZ Test Account 0039,account0039@example.com,Active,Other
+CustomerId,SF-ACCT-00040,ZZ Test Account 0040,account0040@example.com,Active,FAA - Part 91
+CustomerId,SF-ACCT-00041,ZZ Test Account 0041,account0041@example.com,Inactive,FAA - Part 135
+CustomerId,SF-ACCT-00042,ZZ Test Account 0042,account0042@example.com,Active,EASA
+CustomerId,SF-ACCT-00043,ZZ Test Account 0043,account0043@example.com,Active,TC
+CustomerId,SF-ACCT-00044,ZZ Test Account 0044,account0044@example.com,Active,Other
+CustomerId,SF-ACCT-00045,ZZ Test Account 0045,account0045@example.com,Inactive,FAA - Part 91
+CustomerId,SF-ACCT-00046,ZZ Test Account 0046,account0046@example.com,Active,FAA - Part 135
+CustomerId,SF-ACCT-00003,ZZ Test Account 0003,account0003@example.com,Active,TC
+CustomerId,SF-ACCT-00004,ZZ Test Account 0004,account0004@example.com,Active,Other
+CustomerId,SF-ACCT-00047,ZZ Test Account 0047,account0047@example.com,Active,EASA
+CustomerId,SF-ACCT-00048,ZZ Test Account 0048,account0048@example.com,Active,TC
+CustomerId,SF-ACCT-00049,ZZ Test Account 0049,account0049@example.com,Inactive,Other
+CustomerId,SF-ACCT-00050,ZZ Test Account 0050,account0050@example.com,Active,FAA - Part 91
+CustomerId,SF-ACCT-00051,ZZ Test Account 0051,account0051@example.com,Active,FAA - Part 135
+CustomerId,SF-ACCT-00052,ZZ Test Account 0052,account0052@example.com,Active,EASA
+CustomerId,SF-ACCT-00053,ZZ Test Account 0053,account0053@example.com,Inactive,TC
+CustomerId,SF-ACCT-00054,ZZ Test Account 0054,account0054@example.com,Active,Other
+CustomerId,SF-ACCT-00055,ZZ Test Account 0055,account0055@example.com,Active,FAA - Part 91
+CustomerId,SF-ACCT-00056,ZZ Test Account 0056,account0056@example.com,Active,FAA - Part 135
+CustomerId,SF-ACCT-00057,ZZ Test Account 0057,account0057@example.com,Inactive,EASA
+CustomerId,SF-ACCT-00058,ZZ Test Account 0058,account0058@example.com,Active,TC
+CustomerId,SF-ACCT-00059,ZZ Test Account 0059,account0059@example.com,Active,Other
+CustomerId,SF-ACCT-00060,ZZ Test Account 0060,account0060@example.com,Active,FAA - Part 91
+CustomerId,SF-ACCT-00061,ZZ Test Account 0061,account0061@example.com,Inactive,FAA - Part 135
+CustomerId,SF-ACCT-00062,ZZ Test Account 0062,account0062@example.com,Active,EASA
+CustomerId,SF-ACCT-00063,ZZ Test Account 0063,account0063@example.com,Active,TC
+CustomerId,SF-ACCT-00064,ZZ Test Account 0064,account0064@example.com,Active,Other
+CustomerId,SF-ACCT-00065,ZZ Test Account 0065,account0065@example.com,Inactive,FAA - Part 91
+CustomerId,SF-ACCT-00066,ZZ Test Account 0066,account0066@example.com,Active,FAA - Part 135
+CustomerId,SF-ACCT-00067,ZZ Test Account 0067,account0067@example.com,Active,EASA
+CustomerId,SF-ACCT-00068,ZZ Test Account 0068,account0068@example.com,Active,TC
+CustomerId,SF-ACCT-00069,ZZ Test Account 0069,account0069@example.com,Inactive,Other
+CustomerId,SF-ACCT-00070,ZZ Test Account 0070,account0070@example.com,Active,FAA - Part 91
+CustomerId,SF-ACCT-00071,ZZ Test Account 0071,account0071@example.com,Active,FAA - Part 135
+CustomerId,SF-ACCT-00072,ZZ Test Account 0072,account0072@example.com,Active,EASA
+CustomerId,SF-ACCT-00073,ZZ Test Account 0073,account0073@example.com,Inactive,TC
+CustomerId,SF-ACCT-00074,ZZ Test Account 0074,account0074@example.com,Active,Other
+CustomerId,SF-ACCT-00075,ZZ Test Account 0075,account0075@example.com,Active,FAA - Part 91
+CustomerId,SF-ACCT-00076,ZZ Test Account 0076,account0076@example.com,Active,FAA - Part 135
+CustomerId,SF-ACCT-00077,ZZ Test Account 0077,account0077@example.com,Inactive,EASA
+CustomerId,SF-ACCT-00078,ZZ Test Account 0078,account0078@example.com,Active,TC
+CustomerId,SF-ACCT-00079,ZZ Test Account 0079,account0079@example.com,Active,Other
+CustomerId,SF-ACCT-00080,ZZ Test Account 0080,account0080@example.com,Active,FAA - Part 91
+CustomerId,SF-ACCT-00081,ZZ Test Account 0081,account0081@example.com,Inactive,FAA - Part 135
+CustomerId,SF-ACCT-00082,ZZ Test Account 0082,account0082@example.com,Active,EASA
+CustomerId,SF-ACCT-00083,ZZ Test Account 0083,account0083@example.com,Active,TC
+CustomerId,SF-ACCT-00084,ZZ Test Account 0084,account0084@example.com,Active,Other
+CustomerId,SF-ACCT-00085,ZZ Test Account 0085,account0085@example.com,Inactive,FAA - Part 91
+CustomerId,SF-ACCT-00086,ZZ Test Account 0086,account0086@example.com,Active,FAA - Part 135
+CustomerId,SF-ACCT-00087,ZZ Test Account 0087,account0087@example.com,Active,EASA
+CustomerId,SF-ACCT-00088,ZZ Test Account 0088,account0088@example.com,Active,TC
+CustomerId,SF-ACCT-00089,ZZ Test Account 0089,account0089@example.com,Inactive,Other
+CustomerId,SF-ACCT-00090,ZZ Test Account 0090,account0090@example.com,Active,FAA - Part 91
+CustomerId,SF-ACCT-00091,ZZ Test Account 0091,account0091@example.com,Active,FAA - Part 135
+CustomerId,SF-ACCT-00092,ZZ Test Account 0092,account0092@example.com,Active,EASA
+CustomerId,SF-ACCT-00093,ZZ Test Account 0093,account0093@example.com,Inactive,TC
+CustomerId,SF-ACCT-00094,ZZ Test Account 0094,account0094@example.com,Active,Other
+CustomerId,SF-ACCT-00095,ZZ Test Account 0095,account0095@example.com,Active,FAA - Part 91
+CustomerId,SF-ACCT-00096,ZZ Test Account 0096,account0096@example.com,Active,FAA - Part 135
+CustomerId,SF-ACCT-00097,ZZ Test Account 0097,account0097@example.com,Inactive,EASA
+CustomerId,SF-ACCT-00098,ZZ Test Account 0098,account0098@example.com,Active,TC
+CustomerId,SF-ACCT-00005,ZZ Test Account 0005,account0005@example.com,Inactive,FAA - Part 91
+CustomerId,SF-ACCT-00006,ZZ Test Account 0006,account0006@example.com,Active,FAA - Part 135
+CustomerId,SF-ACCT-00099,ZZ Test Account 0099,account0099@example.com,Active,Other
+CustomerId,SF-ACCT-00100,ZZ Test Account 0100,account0100@example.com,Active,FAA - Part 91
+CustomerId,SF-ACCT-00001,ZZ Test Account 0001,account0001@example.com,Inactive,FAA - Part 135
+CustomerId,SF-ACCT-00002,ZZ Test Account 0002,account0002@example.com,Active,EASA
