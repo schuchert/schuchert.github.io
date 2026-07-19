@@ -1,3 +1,4 @@
+---
 layout: post
 draft: true
 title: "Home Practices"
