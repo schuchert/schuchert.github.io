@@ -248,3 +248,17 @@ This sequence warms up the entire body while entraining your nervous system thro
 * **How**:
   * Step forward, draw hands together to lift "lotus" up center line to third eye, then expand palms open.
   * Shift weight back (Yin: absorbing incoming force), step up to hold ball, then push forward into Ward Off (Yang: returning force).
+
+---
+
+### [Neck Isometrics]({% link _posts/2026-01-19-NeckIsometricsAndWuChi.md %})
+* Right
+* Left
+* Front
+* Back
+* Side to Side, eye leads, head follows
+* Top to Bottom, eye leads, head follows
+* Clockwise circles, eye leads, head follows
+* Counterclockwise circles, eye leads, head follows
+
+### Final Shaking
