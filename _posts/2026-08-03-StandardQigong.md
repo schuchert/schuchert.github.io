@@ -64,6 +64,9 @@ This sequence warms up the entire body while entraining your nervous system thro
 
 ---
 
+### Circle Walking
+* 
+
 ### Pushing Palms
 * **What**: Symmetrical or directional palm extensions driven by the lower body.
 * **Why**:
