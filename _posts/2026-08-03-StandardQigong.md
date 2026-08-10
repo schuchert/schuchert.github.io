@@ -25,28 +25,30 @@ encourage new neural pathways and myofascial lines of engagement.
 
 ---
 
-### [**Video**](https://youtube.com/shorts/ZRMdqnx8clk?feature=share) Shaking with Exhale Extension (Humming) 
+### [**Video**](https://youtube.com/shorts/ZRMdqnx8clk?feature=share) Shaking with Exhale Extension (Humming)
+
 * **What**: Gentle bouncing in place initiated purely from the feet and knees.
 * **Why**:
     * Pumps the lymphatic system.
-    * Restores autonomic homeostasis by turning down sympathetic dominance and shifting into parasympathetic dominance (
-      marked by increased salivation).
+    * Restores autonomic homeostasis by turning down sympathetic dominance and shifting into parasympathetic dominance
+      (marked by increased salivation).
     * Loosens and rehydrates gelled collagen/fascia through thixotropic shear forces and direction-change interference
       patterns.
-    * Extended humming during exhale increases nasal nitric oxide production, promoting vasodilation, vagal tone, and
-      CO2 tolerance.
+    * Extended humming during exhalation increases nasal nitric oxide production, promoting vasodilation, vagal tone,
+      and CO2 tolerance.
 * **Alignment**:
     * Feet hip-width and parallel.
-    * Knees soft/slightly bent.
+    * Knees soft / slightly bent.
     * Torso upright, arms hanging loosely with light elbow bend.
 * **How**:
     * Bounce gently by bending the knees, letting the internal organs and tissue mass move up and down.
     * Focus on the micro-whiplash forces generated as the body changes direction.
-    * Hum on an extended exhale; inhale through the nose.
+    * Hum on an extended exhalation; inhale through the nose.
 
 ---
 
 ### [**Video**](https://www.youtube.com/shorts/TGDnSPcv0PQ) Wu Chi
+
 * **What**: The neutral, balanced foundation posture of the Tai Chi / Qigong stack.
 * **Why**:
     * Maps baseline structural tension.
@@ -67,7 +69,8 @@ encourage new neural pathways and myofascial lines of engagement.
     * Rewires motor cortex priority toward plantar signaling rather than relying purely on visual cues for balance.
 * **How**:
     * Stand in Wu Chi; sense plantar contact pressure.
-    * Map the **9 Yang points of the foot**: 5 toe pads, big ball, small ball, outer edge, and heel.
+    * Map the **9 Yang points of the foot**: The 5 toe pads, big ball, small ball, outer edge, and heel. Additionally,
+      this anchors the superficial back line, deep front line, and spiral lines at the ground.
     * Engage toes to activate the arch suction cup (the Yin center).
     * Shift weight side to side while keeping hips level; push off the loaded foot to initiate movement.
 
@@ -289,7 +292,8 @@ encourage new neural pathways and myofascial lines of engagement.
 
 ---
 
-### [**Video**](https://youtube.com/shorts/PDtjdK9bP48) [Neck Isometrics]({% link _posts/2026-01-19-NeckIsometricsAndWuChi.md %})
+### [**Video
+**](https://youtube.com/shorts/PDtjdK9bP48) [Neck Isometrics]({% link _posts/2026-01-19-NeckIsometricsAndWuChi.md %})
 
 * Right
 * Left
