@@ -4,14 +4,15 @@ title: "Tai Chi & Bagua Practice Hub"
 permalink: /tai-chi/
 description: "Student reference guide for traditional Tai Chi form and Bagua Palm Changes."
 ---
+{::options parse_block_html="true" /}
 
 <div class="somatic-hero taichi-theme">
-  <p>
-    Welcome! This hub is designed for our <strong>Tai Chi</strong> and <strong>Bagua Circle Walking</strong> students. It contains structural alignment cues, circle walking mechanics, and references for the Dragon Palm Changes.
-  </p>
-  <div class="mobile-tip">
-    📱 <strong>Student Tip:</strong> Save this page for quick access to your training sequences while practicing at home!
-  </div>
+<p>
+Welcome! This hub is designed for our <strong>Tai Chi</strong> and <strong>Bagua Circle Walking</strong> students. It contains structural alignment cues, circle walking mechanics, and references for the Dragon Palm Changes.
+</p>
+<div class="mobile-tip">
+📱 <strong>Student Tip:</strong> Save this page for quick access to your training sequences while practicing at home!
+</div>
 </div>
 
 ---
@@ -56,13 +57,13 @@ These traditional Bagua Palm Changes are used to transition and change direction
 Here are some of my articles diving deeper into the science and mechanics behind Tai Chi, Bagua, and internal power cultivation:
 
 <div class="recent-posts-grid">
-  {% for post in site.posts %}
-    {% if post.tags contains 'taichi' or post.tags contains 'bagua' %}
-      <div class="post-card">
-        <span class="post-card-date">{{ post.date | date: "%B %d, %Y" }}</span>
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p>{{ post.description }}</p>
-      </div>
-    {% endif %}
-  {% endfor %}
+{% for post in site.posts %}
+{% if post.tags contains 'taichi' or post.tags contains 'bagua' %}
+<div class="post-card">
+<span class="post-card-date">{{ post.date | date: "%B %d, %Y" }}</span>
+<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+<p>{{ post.description }}</p>
+</div>
+{% endif %}
+{% endfor %}
 </div>

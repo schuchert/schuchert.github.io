@@ -4,14 +4,15 @@ title: "Science of Stretching (SoS)"
 permalink: /stretching/
 description: "Somatic deep flexibility sequences for joints, hips, and shoulders."
 ---
+{::options parse_block_html="true" /}
 
 <div class="somatic-hero stretching-theme">
-  <p>
-    Welcome! This page hosts resources for our <strong>Science of Stretching</strong> practices. This is a passive-stretching, long-hold discipline designed to release deep connective tissues, happy joints, and balanced hip and shoulder alignment.
-  </p>
-  <div class="mobile-tip">
-    📱 <strong>Home Practice Tip:</strong> Use the interactive timestamp table below to jump directly to any specific pose in our full 1-hour YouTube practice video!
-  </div>
+<p>
+Welcome! This page hosts resources for our <strong>Science of Stretching</strong> practices. This is a passive-stretching, long-hold discipline designed to release deep connective tissues, happy joints, and balanced hip and shoulder alignment.
+</p>
+<div class="mobile-tip">
+📱 <strong>Home Practice Tip:</strong> Use the interactive timestamp table below to jump directly to any specific pose in our full 1-hour YouTube practice video!
+</div>
 </div>
 
 ---
