@@ -4,9 +4,8 @@ title: "Qigong Practice Hub"
 permalink: /qigong/
 description: "A student reference and home practice guide for Qigong flow, balance, and alignment."
 ---
-{::options parse_block_html="true" /}
 
-<div class="somatic-hero">
+<div class="somatic-hero" markdown="0">
 <p>
 Welcome! This page is your curated practice companion. It contains the standard Qigong sequence we cover in class, complete with quick video links to guide your movement.
 </p>
@@ -31,8 +30,7 @@ To get the most out of your Qigong practice, always maintain these three focus a
 
 Perform these movements in order. Click the **Watch Video** link on any movement to open a short video tutorial.
 
-<div class="practice-sequence">
-
+<div class="practice-sequence" markdown="0">
 <div class="sequence-card">
 <div class="seq-header">
 <span class="seq-num">1</span>
@@ -43,7 +41,6 @@ Perform these movements in order. Click the **Watch Video** link on any movement
 <p><strong>Why:</strong> Pumps the lymphatic system, shifts the nervous system to parasympathetic dominance, and loosens gelled connective tissue.</p>
 <p><strong>How:</strong> Keep feet hip-width and parallel. Bounce gently. Let your arms and shoulders hang loose. Hum slowly on your exhale to increase nitric oxide and vagal tone.</p>
 </div>
-
 <div class="sequence-card">
 <div class="seq-header">
 <span class="seq-num">2</span>
@@ -54,7 +51,6 @@ Perform these movements in order. Click the **Watch Video** link on any movement
 <p><strong>Why:</strong> Maps baseline structural tension and trains efficient skeletal stacking.</p>
 <p><strong>How:</strong> Stand with feet hip-width. Soften your knees and let your tailbone sink down. Keep your chest relaxed, chin slightly tucked, and crown of head pressing up.</p>
 </div>
-
 <div class="sequence-card">
 <div class="seq-header">
 <span class="seq-num">3</span>
@@ -65,7 +61,6 @@ Perform these movements in order. Click the **Watch Video** link on any movement
 <p><strong>Why:</strong> Counteracts age-related balance decay and prioritizes plantar sensory signaling in the brain.</p>
 <p><strong>How:</strong> Stand in Wu Chi. Sense the 9 points of contact on your soles. Slowly shift your weight side-to-side without tilting your hips. Push off the loaded foot to shift.</p>
 </div>
-
 <div class="sequence-card">
 <div class="seq-header">
 <span class="seq-num">4</span>
@@ -76,7 +71,6 @@ Perform these movements in order. Click the **Watch Video** link on any movement
 <p><strong>Why:</strong> Calibrates balance in continuous motion and engages spiral lines of myofascial connection.</p>
 <p><strong>How:</strong> Maintain a soft, upright Wu Chi stack. Step smoothly around an imaginary circle, letting your waist turn slightly toward the center.</p>
 </div>
-
 <div class="sequence-card">
 <div class="seq-header">
 <span class="seq-num">5</span>
@@ -87,7 +81,6 @@ Perform these movements in order. Click the **Watch Video** link on any movement
 <p><strong>Why:</strong> Entrains the bottom-up kinetic chain (Feet &rarr; Knees &rarr; Waist &rarr; Hands).</p>
 <p><strong>How:</strong> Hands at solar plexus. Inhale: grip feet, sink hips, and draw hands in. Exhale: push from the feet and extend your palms outward, keeping shoulders down.</p>
 </div>
-
 <div class="sequence-card">
 <div class="seq-header">
 <span class="seq-num">6</span>
@@ -98,7 +91,6 @@ Perform these movements in order. Click the **Watch Video** link on any movement
 <p><strong>Why:</strong> Lengthens the lateral lines and opens the rib cage and thoracic spine.</p>
 <p><strong>How:</strong> Inhale: gather hands at chest. Exhale: press one palm up to the sky and one palm down to the earth, twisting your waist gently toward the upper arm.</p>
 </div>
-
 </div>
 
 ---

@@ -4,9 +4,8 @@ title: "Tai Chi & Bagua Practice Hub"
 permalink: /tai-chi/
 description: "Student reference guide for traditional Tai Chi form and Bagua Palm Changes."
 ---
-{::options parse_block_html="true" /}
 
-<div class="somatic-hero taichi-theme">
+<div class="somatic-hero taichi-theme" markdown="0">
 <p>
 Welcome! This hub is designed for our <strong>Tai Chi</strong> and <strong>Bagua Circle Walking</strong> students. It contains structural alignment cues, circle walking mechanics, and references for the Dragon Palm Changes.
 </p>
