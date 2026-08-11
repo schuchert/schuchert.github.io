@@ -822,3 +822,16 @@ img {
     }
   }
 }
+
+/* --- Spacious Comments Section --- */
+.comments {
+  margin-top: 3.5em !important;
+  border-top: 1px solid #252f31;
+  padding-top: 2.5em;
+
+  iframe {
+    width: 100% !important;
+    min-height: 480px !important; /* Spacious baseline height to prevent tight scrollbars on full screen and iPhone */
+    border: none !important;
+  }
+}
