@@ -68,7 +68,7 @@ ul, li {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap; /* Prevent wrapping */
     max-width: 800px !important;
     margin: 0 auto;
     padding: 0 24px;
@@ -76,13 +76,21 @@ ul, li {
     ul {
       display: flex;
       align-items: center;
-      flex-wrap: wrap;
+      flex-wrap: nowrap; /* Prevent wrapping of menu items */
+      overflow-x: auto; /* Enable touch swipe scrolling */
+      -webkit-overflow-scrolling: touch; /* Momentum scroll for iOS */
       width: 100%;
       list-style: none;
       margin: 0;
-      padding: 0;
+      padding: 4px 0;
+      scrollbar-width: none; /* Hide scrollbar Firefox */
+      
+      &::-webkit-scrollbar {
+        display: none; /* Hide scrollbar Chrome/Safari */
+      }
 
       li {
+        flex: 0 0 auto; /* Prevent items from shrinking */
         margin-right: 12px;
         display: inline-block;
         line-height: normal !important;
@@ -103,6 +111,7 @@ ul, li {
           text-align: center;
           text-transform: none !important; // override uppercase from main repo
           transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+          white-space: nowrap !important; /* Prevent text wrapping inside buttons */
 
           &:hover {
             background: #2a4c44 !important;
@@ -339,7 +348,7 @@ input:checked.toggle ~ div.collapsible-content {
 }
 
 // Pill-shaped Pagination Buttons
-a.prev, a.next, a.blog {
+a.prev, a.next {
   display: inline-block;
   text-align: center;
   background: #1d2c2f !important;
@@ -349,10 +358,11 @@ a.prev, a.next, a.blog {
   font-size: 0.95rem !important;
   font-weight: 500 !important;
   padding: 10px 18px !important;
-  margin: 0 0.5% !important;
+  margin: 0 1% !important;
   border-radius: 30px !important;
-  width: 31.5% !important;
+  width: 48% !important;
   transition: all 0.2s ease !important;
+  white-space: nowrap !important;
 
   &:hover:enabled, &:hover {
     color: #ffffff !important;
@@ -414,13 +424,24 @@ div.content {
 
 // Draft stamp
 .draft {
-  background-image: url({% link /assets/images/draft-160133_640.png %});
-  background-repeat: repeat;
-  background-size: contain;
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url({% link /assets/images/draft-160133_640.png %});
+    background-repeat: repeat;
+    background-size: contain;
+    opacity: 0.12; /* Subtle watermark opacity */
+    pointer-events: none;
+    z-index: -1; /* Render behind content */
+  }
 }
 
-.draft:hover {
-  background-image: none !important;
+.draft:hover::before {
+  opacity: 0 !important; /* Fully hide on hover */
 }
 
 // CC License Centering

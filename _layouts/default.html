@@ -27,14 +27,6 @@
 </header>
 
 <div class="wrapper{%if page.draft %} draft{% endif %}">
-    <section>
-        <div id="title">
-            <p>
-                <img src="/assets/images/gargoyle.jpeg" alt="gargoyle image" style="padding-right: .5em;width:2.5em;height:2.5em;float:left"/>
-                {{ site.description | default: site.github.project_tagline }}
-            </p>
-        </div>
-    </section>
    {{ content }}
 </div>
 
