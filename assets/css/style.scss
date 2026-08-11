@@ -831,7 +831,7 @@ img {
 
   iframe {
     width: 100% !important;
-    min-height: 480px !important; /* Spacious baseline height to prevent tight scrollbars on full screen and iPhone */
+    min-height: 350px !important; /* Spacious snug height to fit empty form and footer without clipping or scrollbars across all devices; expands dynamically as comments grow */
     border: none !important;
   }
 }
