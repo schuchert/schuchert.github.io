@@ -444,6 +444,29 @@ div.content {
   opacity: 0 !important; /* Fully hide on hover */
 }
 
+.draft-row {
+  opacity: 0.65;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.draft-badge {
+  background: #c33333 !important;
+  color: #ffffff !important;
+  font-size: 0.7rem !important;
+  font-weight: bold !important;
+  padding: 2px 8px !important;
+  border-radius: 12px !important;
+  margin-left: 8px !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+  text-shadow: none !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2) !important;
+}
+
 // CC License Centering
 .license {
   text-align: center;
