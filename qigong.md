@@ -5,32 +5,10 @@ permalink: /qigong/
 description: "A student reference and home practice guide for Qigong flow, balance, and alignment."
 ---
 
-<div class="somatic-hero" markdown="0">
-<p>
-Welcome! This page is your curated practice companion. It contains the standard Qigong sequence we cover in class, complete with quick video links to guide your movement.
-</p>
-<div class="mobile-tip">
-📱 <strong>Student Tip:</strong> Save or bookmark this page on your phone for easy access during your home practice sessions!
-</div>
-</div>
+## 🔄 A Standard Practice Sequence
 
----
-
-## 🧘‍♂️ Core Practice Principles
-
-To get the most out of your Qigong practice, always maintain these three focus areas:
-
-1. **Rooting (Yin):** Feel the contact points of your feet. Let weight transfer naturally and draw up energy from the
-   ground.
-2. **Alignment (Stacking):** Relax your chest, sink your sacrum, and let the back third of your crown press up to align
-   your spine.
-3. **Softness:** Move with minimal effort. Qigong is about ease and energy cultivation, not strain.
-
----
-
-## 🔄 The Standard Practice Sequence
-
-Perform these movements in order. Click the **Watch Video** link on any movement to open a short video tutorial.
+Each of these links into a live-recorded class session. Select the first for the whole sequence, or select one
+to start there. 
 
 <div class="practice-sequence" markdown="0">
 
@@ -310,3 +288,15 @@ immediately, sit down, and breathe slowly (5 belly-breaths per minute) until you
 General discomfort during fascial loading can occur, but sharp pain requires immediate disengagement. Never use the
 specific muscle group you are currently stretching to pull yourself out of a deep stretch; bend the knees, re-root the
 base, and use your leg/hip stack to return to neutral.
+
+--- 
+
+## 🧘‍♂️ Core Practice Principles
+
+To get the most out of your Qigong practice, always maintain these three focus areas:
+
+1. **Rooting (Yin):** Feel the contact points of your feet. Let weight transfer naturally and draw up energy from the
+   ground.
+2. **Alignment (Stacking):** Relax your chest, sink your sacrum, and let the back third of your crown press up to align
+   your spine.
+3. **Softness:** Move with minimal effort. Qigong is about ease and energy cultivation, not strain.
