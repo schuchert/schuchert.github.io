@@ -1,9 +1,7 @@
 ---
-layout:
-  page
+layout: page
 title: "Qigong Practice Hub"
-permalink:
-  /qigong/
+permalink: /qigong/
 description: "A student reference and home practice guide for Qigong flow, balance, and alignment."
 ---
 
@@ -32,8 +30,7 @@ To get the most out of your Qigong practice, always maintain these three focus a
 
 ## 🔄 The Standard Practice Sequence
 
-Perform these movements in order. Click the **Watch Video** link on any movement to open a short video
-tutorial.
+Perform these movements in order. Click the **Watch Video** link on any movement to open a short video tutorial.
 
 <div class="practice-sequence" markdown="0">
 
@@ -217,7 +214,7 @@ tutorial.
 <div class="seq-header">
 <span class="seq-num">17</span>
 <h3>Draw a Bow to Brace the Tiger</h3>
-<a href="https://www.youtube.com/embed/cbGyaPfSYOU?start=1862&autoplay=1&rel=0" target="_blank" rel="noopener" class="video-badge">��� Watch Video</a>
+<a href="https://www.youtube.com/embed/cbGyaPfSYOU?start=1862&autoplay=1&rel=0" target="_blank" rel="noopener" class="video-badge">▶ Watch Video</a>
 </div>
 <p><strong>What:</strong> Archer posture pulling an elastic string while squeezing scapulae across multi-plane vectors.</p>
 <p><strong>Why:</strong> Retracts shoulder girdle, stretches pectorals, and engages upper-body cross-lines.</p>
@@ -307,9 +304,9 @@ tutorial.
 
 ### 🔔 Cautions & Safety
 
-Practice with awareness; your body is unique. If you feel dizzy, light-headed, out of breath, or any "
-stabby" pain, stop immediately, sit down, and breathe slowly (5 belly-breaths per minute) until you recover.
+Practice with awareness; your body is unique. If you feel dizzy, light-headed, out of breath, or any "stabby" pain, stop
+immediately, sit down, and breathe slowly (5 belly-breaths per minute) until you recover.
 
-General discomfort during fascial loading can occur, but sharp pain requires immediate disengagement. Never use
-the specific muscle group you are currently stretching to pull yourself out of a deep stretch; bend the knees, re-root
-the base, and use your leg/hip stack to return to neutral.
+General discomfort during fascial loading can occur, but sharp pain requires immediate disengagement. Never use the
+specific muscle group you are currently stretching to pull yourself out of a deep stretch; bend the knees, re-root the
+base, and use your leg/hip stack to return to neutral.
