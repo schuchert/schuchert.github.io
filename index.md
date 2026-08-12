@@ -32,8 +32,13 @@ Select a portal below to access curated sequences, homework guides, and video re
 <p>Targeted deep flexibility routines focusing on happy joints, hips, shoulders, and long-hold release.</p>
 <a href="/stretching/" class="btn">Enter Stretching &rarr;</a>
 </div>
+<div class="portal-card">
+<div class="portal-card-icon">📚</div>
+<h3>Key Terms and Body Parts</h3>
+<p>terms I often use when training</p>
+<a href="/key-terms/" class="btn">Enter Terminology &rarr;</a>
 </div>
-
+</div>
 ---
 
 ## 🎥 YouTube Practice Channel
