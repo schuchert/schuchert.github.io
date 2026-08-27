@@ -60,7 +60,7 @@ I write about somatic calibration, metabolic health, intentional habits, and per
 {% for post in site.posts limit:3 %}
 <div class="post-card {% if post.draft %}draft{% endif %}">
 <span class="post-card-date">{{ post.date | date: "%B %d, %Y" }}</span>
-<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+<h3><a href="{{ post.url | relative_url }}">{{ post.title }}{% if post.draft %}<span class="draft-badge">Draft</span>{% endif %}</a></h3>
 <p>{{ post.description }}</p>
 </div>
 {% endfor %}
