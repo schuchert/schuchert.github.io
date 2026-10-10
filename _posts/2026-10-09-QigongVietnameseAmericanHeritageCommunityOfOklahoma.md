@@ -7,6 +7,22 @@ category: qigong
 tags: [ qigong, health ]
 ---
 
+## Notes
+* Stop if it does not feel right. If needed:
+  * take a seat,
+  * put your dominant hand on your belly,
+  * Take 5 big belly breaths, 5 seconds in, 5 seconds out
+* Slow, intentional movement seems rewarded, focus on the feeling over the form
+* Move slowly, breathe gently, expand your belly
+* Feel free to use props for balance
+* Stop at any time
+
+## The One Practice
+If you only take one practice from everything we did, this is the one I recommend:
+*  [**Shaking with Exhale Extension (Humming)**](https://youtube.com/shorts/ZRMdqnx8clk?feature=share)
+
+## [Video from Practice](https://youtu.be/KpLFAqNhGac)
+
 ## Outline
 *  [**Shaking with Exhale Extension (Humming)**](https://youtube.com/shorts/ZRMdqnx8clk?feature=share) 
 *  [**Wu Chi**](https://www.youtube.com/shorts/TGDnSPcv0PQ) 
