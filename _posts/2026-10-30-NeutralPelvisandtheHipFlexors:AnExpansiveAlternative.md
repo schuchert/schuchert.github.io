@@ -2,7 +2,7 @@
 layout: post
 draft: true
 title: "Neutral Pelvis and the Hip Flexors: An Expansive Alternative"
-description: "Shifting your pelvic cue from posterior compression ("bum to heels") to anterior expansion changes the entire feel of a neutral pelvis. Here is how to unlock the shortened tissues required to make that shift, and why it takes the load off your lower back."
+description: "Shifting your pelvic cue from posterior compression ('bum to heels') to anterior expansion changes the entire feel of a neutral pelvis. Here is how to unlock the shortened tissues required to make that shift, and why it takes the load off your lower back."
 category: qigong
 tags: [ qigong, health ]
 ---
