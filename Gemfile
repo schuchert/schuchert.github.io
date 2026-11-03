@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
-gem 'github-pages'
-gem 'jekyll-theme'
-gem "wdm", "~> 0.1.1" if (RbConfig::CONFIG['host_os'] =~ /mswin|mingw|cygwin/)
-gem "nokogiri", ">= 1.18.9"
+
+gem 'github-pages', group: :jekyll_plugins
+gem 'webrick'
+gem 'nokogiri', '>= 1.18.9'
+
+# gem 'minima' # Replace with your specific theme, or delete if using custom layouts
