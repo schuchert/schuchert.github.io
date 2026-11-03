@@ -25,9 +25,9 @@ front if the tissue is glued shut.
 > hand on your belly, press your belly into your hand as you inhale, and let it recede as you exhale. Maintain 5 breaths
 > per minute (6-second inhale / 6-second exhale) until stabilized.
 
-What follows is one global warm-up and five passive, long-hold stretches that rebuild compliance in your feet, pelvis,
-hip flexors, and thighs. I have linked videos for each detailing specific safety progressions. Here is how they sequence
-to neutralize your pelvis through expansion rather than compression:
+What follows is one global warm-up and six passive, long-hold stretches that rebuild compliance in your feet, pelvis,
+hip flexors, lumbar spine, and thighs. I have linked videos for each detailing specific safety progressions. Here is how
+they sequence to neutralize your pelvis through expansion rather than compression:
 
 0. **Humming & Shaking** – A foundational, full-body warmup that loosens the entire myofascial network above the feet.
    Gentle, rhythmic shaking combined with humming down-regulates the nervous system, driving the body toward
@@ -47,10 +47,10 @@ to neutralize your pelvis through expansion rather than compression:
    Frog is traditionally used for the adductors (groin), this modified approach directly targets the deep hip flexors
    and the mechanical capacity to "sit back" into a squat without lumbar rounding.
 4. **Hero Pose** – A staged progression for the deepest anterior tissues. If you cannot sit on your heels, start with a
-   pillow. As tissue compliance improves, spread your feet until your hips reach the ground. Only when the hips are
-   firmly grounded should you begin leaning back—first to locked arms, then to the elbows. The strict requirement is
-   zero compression in the lower back. (It took me over 3 years to get my shoulders to the ground, requiring the
-   preceding stretches to make it geometrically possible).
+   pillow. As tissue compliance improves, spread your feet until your hips reach the ground. Only when your bum is
+   firmly grounded should you begin leaning back. Lean back in stages, first to locked arms, then to the elbows. The
+   strict requirement is zero compression in the lower back. (It took me over 3 years to get my shoulders to the ground,
+   requiring the preceding stretches to make it geometrically possible).
 5. **Twister Pose** – An asymmetrical rotation to target and decompress the lower back. Cross your right leg over your
    left, place your left hand on the outside of your right knee, and twist your torso to the left. Working through this
    rotation on both sides directly addresses the lateral and rotational restrictions anchored around your lumbar spine.
