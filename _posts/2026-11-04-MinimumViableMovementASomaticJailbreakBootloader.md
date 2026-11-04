@@ -42,10 +42,11 @@ ego to go longer.
 
 To keep your mind from working too hard, build this baseline in layers over time rather than all at once:
 
-1. **Start with Gentle Shaking:** Keep your feet completely flat on the floor, shoulder-width apart. Gently oscillate
-   through your ankles and knees so a soft wave moves through your relaxed hips, spine, and shoulders. Keep it
-   effortless and gentle, especially before bed. (If you ever experiment with faster, more vigorous shaking, sandwich it
-   in the middle of your session and always finish with gentle shaking to settle your nervous system.)
+1. **Start with [Gentle Shaking:](https://youtube.com/shorts/i8Yt9VnJwf4)** Keep your feet completely flat on the floor,
+   shoulder-width apart. Gently oscillate through your ankles and knees so a soft wave moves through your relaxed hips,
+   spine, and shoulders. Keep it effortless and gentle, especially before bed. (If you ever experiment with faster, more
+   vigorous shaking, sandwich it in the middle of your session and always finish with gentle shaking to settle your
+   nervous system.)
 2. **Add Humming Later:** Once gentle shaking feels completely automatic, try inhaling through your nose and humming
    smoothly on a long exhale. I practiced shaking alone for months with great results before adding humming, so treat
    this as an upgrade, not a requirement.
@@ -59,23 +60,24 @@ of fascial decompression. Practice each movement for 3 minutes before moving on.
 weave gentle humming into any of these stations:
 
 - **Qigong Shaking (with optional Humming and Hand Mudras):** Feet flat, knees soft, letting a gentle, continuous
-  oscillation loosen your entire frame. *(Link to video here)*
+  oscillation loosen your entire frame. *[See Video](https://youtube.com/shorts/i8Yt9VnJwf4)*
 - **Foot Sensing with Twist:** Keep your feet planted flat and shift your weight slowly across the soles while rotating
-  lightly through your ankles and hips. Focus on feeling the pressure and contact beneath your feet. *(Link to video
-  here)*
+  lightly through your ankles and hips. Focus on feeling the pressure and contact beneath your feet.
+  *[See Video](https://www.youtube.com/shorts/pz0JE8Xo-Zo)*
 - **Dynamic Wu Chi:** Stand in a relaxed, neutral posture with knees soft. Allow your body to sway and micro-adjust
-  naturally as it finds effortless balance over your feet. *(Link to video here)*
+  naturally as it finds effortless balance over your feet. *[See Videp](https://www.youtube.com/shorts/TGDnSPcv0PQ)*
 - **Separating Heaven and Earth with Side Arching:** Press one palm toward the ceiling and the other toward the floor to
-  lengthen your torso. Gently arch to the side to open the ribs and fascia along your flank, then switch sides. *(Link
-  to video here)*
+  lengthen your torso. Gently arch to the side to open the ribs and fascia along your flank, then switch sides.
+  *[See Video](https://youtube.com/shorts/7SUDnweM4wg)*
 - **Dragon Twists Waist:** Rotate your torso smoothly from side to side, letting your arms swing heavy and loose around
-  your waist. Drive the turn from your feet and hips to wring out spinal tension. *(Link to video here)*
+  your waist. Drive the turn from your feet and hips to wring out spinal tension.
+  *[See Video](https://youtu.be/5Y0fkbdgfB0)*
 
 > **SAFETY AND STABILIZATION:** Moving stuck fascia and shifting your breath can rapidly alter blood flow and nervous
-> system tone. If you experience dizziness, anxiety, or confusion during any part of this practice, stop and sit down on a
-> chair. Place your right hand over your belly. Breathe softly and shallowly, pressing your belly gently into your hand as
-> you inhale and letting it recede as you exhale. Aim for a calm, unforced pace—around a 4-second inhale and a 6-second
-> exhale—until you feel completely stable.
+> system tone. If you experience dizziness, anxiety, or confusion during any part of this practice, stop and sit down
+> on a chair. Place your right hand over your belly. Breathe softly and shallowly, pressing your belly gently into
+> your hand as you inhale and letting it recede as you exhale. Aim for a calm, unforced pace (around a 4-second
+> inhale and a 6-second exhale) until you feel completely stable.
 
 ### What to Look For (First 3 to 7 Days)
 
