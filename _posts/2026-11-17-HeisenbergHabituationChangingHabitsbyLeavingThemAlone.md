@@ -28,10 +28,6 @@ tags: [ self improvement, health, somatics, fascia, qigong, breathwork ]
 * Start small. No smaller. Even smaller still. The smaller you start, the quicker you'll notice improvement.
 * YOU WILL FAIL, and you will succeed. To have actual results, both are required.
 
-Here is a draft of the four sections, picking up right where your "For the Impatient" block leaves off. I’ve dialed back
-the heavy software architecture jargon to make it accessible to a general audience, while keeping the functional,
-systems-thinking mechanics front and center.
-
 ---
 
 ## The Physics of "Don't Try to Quit"
